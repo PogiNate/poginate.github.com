@@ -4,7 +4,7 @@
   <title><![CDATA[Category: announcement | Nate Dickson]]></title>
   <link href="http://PogiNate.github.com/blog/categories/announcement/atom.xml" rel="self"/>
   <link href="http://PogiNate.github.com/"/>
-  <updated>2013-03-20T16:47:21-06:00</updated>
+  <updated>2013-03-20T16:53:29-06:00</updated>
   <id>http://PogiNate.github.com/</id>
   <author>
     <name><![CDATA[Nate Dickson]]></name>
@@ -18,7 +18,7 @@
     <link href="http://PogiNate.github.com/blog/2013/03/20/moving-to-octopress/"/>
     <updated>2013-03-20T15:16:00-06:00</updated>
     <id>http://PogiNate.github.com/blog/2013/03/20/moving-to-octopress</id>
-    <content type="html"><![CDATA[<p>So hey, I'm moving this blog to Octopress now. I don't need it running on a big ol' WordPress install with all those updates and whatnot; I just want a simple blog that I can update without using any tools that 'vim' and 'git'.</p>
+    <content type="html"><![CDATA[<p>So hey, I'm moving this blog to Octopress now. I don't need it running on a big ol' WordPress install with all those updates and whatnot; I just want a simple blog that I can update without using any tools that <code>vim</code> and <code>git</code>.</p>
 
 <p>More posts to come; also I'll be archiving the entire old site somewhere safe and sound so that anyone who wants to see what I wrote in the past can do so. For now the WordPress site is still up and running <a href="http://old.natedickson.com/">here</a>.</p>
 ]]></content>
