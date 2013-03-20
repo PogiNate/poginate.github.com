@@ -1,3 +1,6 @@
 [submodule ".themes/blanket"]
 	path = .themes/blanket
 	url = https://github.com/octopress-themes/blanket.git
+[submodule ".themes/callback-cockles"]
+	path = .themes/callback-cockles
+	url = https://github.com/octopress-themes/callback-cockles.git
