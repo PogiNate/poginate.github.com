@@ -5,7 +5,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Nate Dickson</title>
+  <title>Exploring the Old Ways - Nate Dickson</title>
   <meta name="author" content="Nate Dickson">
 
   
@@ -20,7 +20,7 @@
   <link rel="shortcut icon" href="favicon.ico" >
 
   
-  <link rel="canonical" href="http://PogiNate.github.com/">
+  <link rel="canonical" href="http://PogiNate.github.com/blog/2013/03/21/exploring-the-old-ways/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -68,15 +68,12 @@
   <div id="body"  >
     <div id="main">
       <div id="content">
-        <div class="blog-index">
+        <div>
+<article class="hentry" role="article">
   
-  
-  
-    <article>
-      
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2013/03/21/exploring-the-old-ways/">Exploring the Old Ways</a></h1>
+      <h1 class="entry-title">Exploring the Old Ways</h1>
     
     
       <p class="meta">
@@ -99,7 +96,7 @@
   </header>
 
 
-  <div class="entry-content"><p>It all started when I decided that I wanted to try shaving with a brush and soap instead of canned shaving cream. It seemed possible that there was some advantage to be had here.</p>
+<div class="entry-content"><p>It all started when I decided that I wanted to try shaving with a brush and soap instead of canned shaving cream. It seemed possible that there was some advantage to be had here.</p>
 
 <p>And maybe someday I&#8217;ll get into the wonders of shaving like a real man. It takes more time, it requires a few more seconds every morning, and there&#8217;s a little learning curve involved. But for now that&#8217;s not the point. The point is it got me thinking; what other good ideas am I missing out on because something newer has come along; something that isn&#8217;t necessarily better?</p>
 
@@ -117,70 +114,16 @@
 
 <p>So that&#8217;s all. I&#8217;m not suggesting that non-vim users are idiots, or that there is only one right way to edit text. In fact, I&#8217;m currently writing this in <a href="http://multimarkdown.com">MultiMarkdown Composer</a>. And while I&#8217;m still slow at a lot of things, but working in vim has made me think about how I work and what paradigms I&#8217;ve taken for granted.</p>
 </div>
-  
-  
 
 
-    </article>
-  
-  
-    <article>
+  <footer>
+    <p class="meta">
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/03/21/tmux-and-octopress/">Tmux and Octopress</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
   
 
+<span class="byline author vcard">Posted by <span class="fn">Nate Dickson</span></span>
 
-<time datetime="2013-03-21T05:22:00-06:00" pubdate data-updated="true">Mar 21<span>st</span>, 2013</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Naturally, the first thing I did after getting Octopress up, running, and actually <em>deployed</em> to a real live server was set up a writing workflow that will make it easy to post to this blog. And by &#8220;easy&#8221;, I of course mean &#8220;weird and convoluted, but in a way that makes sense to me&#8221;. What else would I mean?</p>
-
-<p>The first ingredient in my workflow is <a href="http://tmux.sourceforge.net/">tmux</a>. If you haven&#8217;t played with it yet you&#8217;ll find that  it&#8217;s a fast and easy way to access your project from multiple angles. You&#8217;ll have one terminal window open and in that one window you can be editing a file, keeping an eye on <code>top</code> and running your build tasks all at once, while a second tab has your development server running in it. I discovered tmux using Brian Hogan&#8217;s <a href="http://pragprog.com/book/bhtmux/tmux">amazing book</a> and haven&#8217;t looked back.</p>
-
-<p>The second part of the recipe here is <a href="https://github.com/aziz/tmuxinator">tmuxinator</a>, a nice little ruby app that lets you set up tmux layouts in <code>YAML</code> instead of writing the commands out as actual tmux commands, like so:</p>
-
-<div><script src='https://gist.github.com/5212311.js'></script>
-<noscript><pre><code></code></pre></noscript></div>
-
-
-<p>You can see I have <code>rake preview</code> and <code>top</code> running on a &#8220;background&#8221; tab, so I can preview the site, and <code>vim</code> running on the first tab with a couple of regular old <code>zsh</code> panes at the project root and at the <code>_posts</code> directory, so I can issue other commands to the system and use Marked.app to preview my posts, etc. etc.</p>
-
-<p>Obviously I haven&#8217;t been using this particular setup for all that long yet, but it&#8217;s got a lot of promise. I&#8217;m pleased with how it&#8217;s turning out.</p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/03/20/moving-to-octopress/">Moving to Octopress</a></h1>
-    
-    
-      <p class="meta">
-        
 
 
 
@@ -192,29 +135,46 @@
   
 
 
-<time datetime="2013-03-20T15:16:00-06:00" pubdate data-updated="true">Mar 20<span>th</span>, 2013</time>
-        
-      </p>
+<time datetime="2013-03-21T17:36:00-06:00" pubdate data-updated="true">Mar 21<span>st</span>, 2013</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/thoughts/'>thoughts</a>, <a class='category' href='/blog/categories/vim/'>vim</a>
+  
+</span>
+
+
+    </p>
     
-  </header>
-
-
-  <div class="entry-content"><p>So hey, I&#8217;m moving this blog to Octopress now. I don&#8217;t need it running on a big ol&#8217; WordPress install with all those updates and whatnot; I just want a simple blog that I can update without using any tools more complex than <code>vim</code> and <code>git</code>.</p>
-
-<p>More posts to come; also I&#8217;ll be archiving the entire old site somewhere safe and sound so that anyone who wants to see what I wrote in the past can do so. For now the WordPress site is still up and running <a href="http://old.natedickson.com/">here</a>.</p>
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://PogiNate.github.com/blog/2013/03/21/exploring-the-old-ways/" data-via="poginate" data-counturl="http://PogiNate.github.com/blog/2013/03/21/exploring-the-old-ways/" >Tweet</a>
+  
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
 </div>
-  
-  
 
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2013/03/21/tmux-and-octopress/" title="Previous Post: tmux and Octopress">&laquo; tmux and Octopress</a>
+      
+      
+    </p>
+  </footer>
+</article>
 
-    </article>
-  
-  <div class="pagination">
-    
-    <a href="/blog/archives">Blog Archives</a>
-    
-  </div>
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </div>
+  </section>
+
+</div>
+
 <aside class="sidebar">
   
     <section>
@@ -239,7 +199,7 @@
 <section>
   <h1>GitHub Repos</h1>
   <ul id="gh_repos">
-    <li class="loading">Status updating&#8230;</li>
+    <li class="loading">Status updating...</li>
   </ul>
   
   <a href="https://github.com/PogiNate">@PogiNate</a> on GitHub
@@ -272,6 +232,7 @@
   
 </aside>
 
+
       </div>
     </div>
     <footer role="contentinfo"><p>
@@ -286,7 +247,10 @@
       var disqus_shortname = 'natedickson';
       
         
-        var disqus_script = 'count.js';
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://PogiNate.github.com/blog/2013/03/21/exploring-the-old-ways/';
+        var disqus_url = 'http://PogiNate.github.com/blog/2013/03/21/exploring-the-old-ways/';
+        var disqus_script = 'embed.js';
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;

@@ -4,7 +4,7 @@
   <title><![CDATA[Nate Dickson]]></title>
   <link href="http://PogiNate.github.com/atom.xml" rel="self"/>
   <link href="http://PogiNate.github.com/"/>
-  <updated>2013-03-21T10:27:34-06:00</updated>
+  <updated>2013-03-21T15:34:30-06:00</updated>
   <id>http://PogiNate.github.com/</id>
   <author>
     <name><![CDATA[Nate Dickson]]></name>
@@ -12,6 +12,31 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Exploring the Old Ways]]></title>
+    <link href="http://PogiNate.github.com/blog/2013/03/21/exploring-the-old-ways/"/>
+    <updated>2013-03-21T17:36:00-06:00</updated>
+    <id>http://PogiNate.github.com/blog/2013/03/21/exploring-the-old-ways</id>
+    <content type="html"><![CDATA[<p>It all started when I decided that I wanted to try shaving with a brush and soap instead of canned shaving cream. It seemed possible that there was some advantage to be had here.</p>
+
+<p>And maybe someday I&#8217;ll get into the wonders of shaving like a real man. It takes more time, it requires a few more seconds every morning, and there&#8217;s a little learning curve involved. But for now that&#8217;s not the point. The point is it got me thinking; what other good ideas am I missing out on because something newer has come along; something that isn&#8217;t necessarily better?</p>
+
+<p>This is a hard concept. &#8221;<a href="www.youtube.com/watch?v=RsLdLKT9Vvs">New is always better</a>&#8221; <em>sounds</em> true, especially in technology fields. We often make the assumption that something new is built to improve on something old, and therefore the only direction to move is forward. But slowly, little by little, I realized that sometimes the improvements that have been made weren&#8217;t meant to make things better for <em>me</em>, but to make them better for the manufacturer, or the distributor, or whoever. (Especially in the case of shaving cream vs. shaving soap, but again, not getting into that right now.)</p>
+
+<p>Or maybe sometimes it&#8217;s worth it to put in the extra effort to make an older product work, because there are reasons that it&#8217;s still around. Maybe tradition counts for something.</p>
+
+<p>So, not to belabor this point too much, I started using vim.</p>
+
+<h2>The Old is New Again</h2>
+
+<p>Don&#8217;t get me wrong, I still love <a href="http://sublimetext.com">Sublime Text</a>. But I decided that it&#8217;s time to learn how to edit from the command line and stop being afraid of the text editor that comes free with every <em>nix machine ever. And like anyone will tell you, learning vim has been an uphill climb. Sublime Text&#8217;s &#8220;vintage&#8221; mode has helped, because I still have all the features that make me love Sublime, and I can drop into Insert Mode and pretend I&#8217;m not using a vi-style editor at all when I get discouraged and just want to get some work done, but I&#8217;m learning how to use vim the way it was meant to be used. And I&#8217;m starting to see why all the open source graybeards look down on everyone else. Because they&#8217;re pompous and arrogant. I mean, we already knew that. But </em>also* because doing things the vim way gives you some definite flexibility that you don&#8217;t have with most modern programs.</p>
+
+<p>A big part of that is because when vi was written you really did want to make every keystroke count, and you really did have to do everything from the keyboard. So the people who thought about it really <em>really</em> thought about it, and set up some standards that made the most of that era. And when the mouse came along we forgot most of that, because learning how to click on menus is simple and anyone can do it. But you&#8217;ve lost some of the grace that was implicit in the old ways of doing things.</p>
+
+<p>So that&#8217;s all. I&#8217;m not suggesting that non-vim users are idiots, or that there is only one right way to edit text. In fact, I&#8217;m currently writing this in <a href="http://multimarkdown.com">MultiMarkdown Composer</a>. And while I&#8217;m still slow at a lot of things, but working in vim has made me think about how I work and what paradigms I&#8217;ve taken for granted.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[tmux and Octopress]]></title>
