@@ -4,7 +4,7 @@
   <title><![CDATA[Category: nerd fun | Nate Dickson]]></title>
   <link href="http://PogiNate.github.com/blog/categories/nerd-fun/atom.xml" rel="self"/>
   <link href="http://PogiNate.github.com/"/>
-  <updated>2013-03-21T09:56:11-06:00</updated>
+  <updated>2013-03-21T10:27:34-06:00</updated>
   <id>http://PogiNate.github.com/</id>
   <author>
     <name><![CDATA[Nate Dickson]]></name>
@@ -28,7 +28,7 @@
 <noscript><pre><code></code></pre></noscript></div>
 </p>
 
-<p>You can see I have <code>rake generate</code> and <code>top</code> running on a "background" tab, so I can preview the site, and <code>vim</code> running on the first tab with a couple of regular old <code>zsh</code> panes at the project root and at the <code>_posts</code> directory, so I can issue other commands to the system and use Marked.app to preview my posts, etc. etc.</p>
+<p>You can see I have <code>rake preview</code> and <code>top</code> running on a "background" tab, so I can preview the site, and <code>vim</code> running on the first tab with a couple of regular old <code>zsh</code> panes at the project root and at the <code>_posts</code> directory, so I can issue other commands to the system and use Marked.app to preview my posts, etc. etc.</p>
 
 <p>Obviously I haven't been using this particular setup for all that long yet, but it's got a lot of promise. I'm pleased with how it's turning out.</p>
 ]]></content>
