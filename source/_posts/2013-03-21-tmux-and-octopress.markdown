@@ -14,6 +14,6 @@ The second part of the recipe here is [tmuxinator](https://github.com/aziz/tmuxi
 
 {% gist 5212311 %}
 
-You can see I have `rake generate` and `top` running on a "background" tab, so I can preview the site, and `vim` running on the first tab with a couple of regular old `zsh` panes at the project root and at the `_posts` directory, so I can issue other commands to the system and use Marked.app to preview my posts, etc. etc.  
+You can see I have `rake preview` and `top` running on a "background" tab, so I can preview the site, and `vim` running on the first tab with a couple of regular old `zsh` panes at the project root and at the `_posts` directory, so I can issue other commands to the system and use Marked.app to preview my posts, etc. etc.  
 
 Obviously I haven't been using this particular setup for all that long yet, but it's got a lot of promise. I'm pleased with how it's turning out.
