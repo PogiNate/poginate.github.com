@@ -5,13 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Blog Archive - Nate Dickson</title>
+  <title>tmux and Octopress - Nate Dickson</title>
   <meta name="author" content="Nate Dickson">
 
   
-  <meta name="description" content="Blog Archive 2013 tmux and Octopress
-Mar 21 2013 posted in CLI, nerd fun, writing Moving to Octopress
-Mar 20 2013 posted in announcement Recent &hellip;">
+  <meta name="description" content="Naturally, the first thing I did after getting Octopress up, running, and actually deployed to a real live server was set up a writing workflow that &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -20,7 +18,7 @@ Mar 20 2013 posted in announcement Recent &hellip;">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://PogiNate.github.com/blog/archives/">
+  <link rel="canonical" href="http://PogiNate.github.com/blog/2013/03/21/tmux-and-octopress/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -69,49 +67,98 @@ Mar 20 2013 posted in announcement Recent &hellip;">
     <div id="main">
       <div id="content">
         <div>
-<article role="article">
+<article class="hentry" role="article">
   
   <header>
-    <h1 class="entry-title">Blog Archive</h1>
+    
+      <h1 class="entry-title">Tmux and Octopress</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-03-21T05:22:00-06:00" pubdate data-updated="true">Mar 21<span>st</span>, 2013</time>
+        
+      </p>
     
   </header>
-  
-  <div id="blog-archives">
 
 
+<div class="entry-content"><p>Naturally, the first thing I did after getting Octopress up, running, and actually <em>deployed</em> to a real live server was set up a writing workflow that will make it easy to post to this blog. And by &#8220;easy&#8221;, I of course mean &#8220;weird and convoluted, but in a way that makes sense to me&#8221;. What else would I mean?</p>
 
-  
-  <h2>2013</h2>
+<p>The first ingredient in my workflow is <a href="http://tmux.sourceforge.net/">tmux</a>. If you haven&#8217;t played with it yet you&#8217;ll find that  it&#8217;s a fast and easy way to access your project from multiple angles. You&#8217;ll have one terminal window open and in that one window you can be editing a file, keeping an eye on <code>top</code> and running your build tasks all at once, while a second tab has your development server running in it. I discovered tmux using Brian Hogan&#8217;s <a href="http://pragprog.com/book/bhtmux/tmux">amazing book</a> and haven&#8217;t looked back.</p>
 
-<article>
-  
-<h1><a href="/blog/2013/03/21/tmux-and-octopress/">tmux and Octopress</a></h1>
-<time datetime="2013-03-21T05:22:00-06:00" pubdate><span class='month'>Mar</span> <span class='day'>21</span> <span class='year'>2013</span></time>
+<p>The second part of the recipe here is <a href="https://github.com/aziz/tmuxinator">tmuxinator</a>, a nice little ruby app that lets you set up tmux layouts in <code>YAML</code> instead of writing the commands out as actual tmux commands, like so:</p>
 
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/cli/'>CLI</a>, <a class='category' href='/blog/categories/nerd-fun/'>nerd fun</a>, <a class='category' href='/blog/categories/writing/'>writing</a></span>
-</footer>
+<div><script src='https://gist.github.com/5212311.js'></script>
+<noscript><pre><code></code></pre></noscript></div>
 
 
-</article>
+<p>You can see I have <code>rake generate</code> and <code>top</code> running on a &#8220;background&#8221; tab, so I can preview the site, and <code>vim</code> running on the first tab with a couple of regular old <code>zsh</code> panes at the project root and at the <code>_posts</code> directory, so I can issue other commands to the system and use Marked.app to preview my posts, etc. etc.</p>
 
-
-
-<article>
-  
-<h1><a href="/blog/2013/03/20/moving-to-octopress/">Moving to Octopress</a></h1>
-<time datetime="2013-03-20T15:16:00-06:00" pubdate><span class='month'>Mar</span> <span class='day'>20</span> <span class='year'>2013</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/announcement/'>announcement</a></span>
-</footer>
-
-
-</article>
-
+<p>Obviously I haven&#8217;t been using this particular setup for all that long yet, but it&#8217;s got a lot of promise. I&#8217;m pleased with how it&#8217;s turning out.</p>
 </div>
 
+
+  <footer>
+    <p class="meta">
+      
   
+
+<span class="byline author vcard">Posted by <span class="fn">Nate Dickson</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-03-21T05:22:00-06:00" pubdate data-updated="true">Mar 21<span>st</span>, 2013</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/cli/'>CLI</a>, <a class='category' href='/blog/categories/nerd-fun/'>nerd fun</a>, <a class='category' href='/blog/categories/writing/'>writing</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://PogiNate.github.com/blog/2013/03/21/tmux-and-octopress/" data-via="poginate" data-counturl="http://PogiNate.github.com/blog/2013/03/21/tmux-and-octopress/" >Tweet</a>
+  
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2013/03/20/moving-to-octopress/" title="Previous Post: Moving to Octopress">&laquo; Moving to Octopress</a>
+      
+      
+    </p>
+  </footer>
 </article>
 
 </div>
