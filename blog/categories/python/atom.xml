@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: python | Nate Dickson]]></title>
+  <link href="http://PogiNate.github.com/blog/categories/python/atom.xml" rel="self"/>
+  <link href="http://PogiNate.github.com/"/>
+  <updated>2013-03-22T09:27:53-06:00</updated>
+  <id>http://PogiNate.github.com/</id>
+  <author>
+    <name><![CDATA[Nate Dickson]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Vines Through the Garden Wall]]></title>
+    <link href="http://PogiNate.github.com/blog/2013/03/22/vines-through-the-garden-wall/"/>
+    <updated>2013-03-22T09:23:00-06:00</updated>
+    <id>http://PogiNate.github.com/blog/2013/03/22/vines-through-the-garden-wall</id>
+    <content type="html"><![CDATA[<p>Apple lives a strange double life. They've always had a strange love/hate relationship with developers: they want great 3rd party apps, but they want everything to be <em>just right</em>, and if you don't agree with their vision of <em>just right</em> then you're plain wrong.</p>
+
+<p>And over time we've seen that weird divide get weirder on OSX. On the surface you've got Gatekeeper, designed to keep the weeds out of the walled garden, but fire up the terminal, install <a href="http://mxcl.github.com/homebrew/">Homebrew</a> and suddenly you've got the whole world of open source software all over your nice shiny Mac, with not a peep out of Gatekeeper. and frankly I think that's fine. If people don't want to worry about their computer and just want to install things from the Mac App Store then let them live that way. But for those of us who kind of like all the wild plants inside the walled garden let us install whatever we want.</p>
+
+<p>Unfortunately iOS doesn't get the same freedom. <strong>All</strong> apps are tightly sandboxed, and absolutely not allowed to talk to one another. You keep your code to yourself and pretend you don't know anybody else exists. The Walled Garden is walled all the way up and down.</p>
+
+<p>Except…there is one crack.</p>
+
+<p>Some blessed engineer decided that it would be good if apps could talk to one another, at least rudimentarily. Using the <a href="http://handleopenurl.com/">Open Url Scheme</a> you can pass commands and strings back and forth between apps. It's a surprisingly open, beautifully object-oriented method of dealing with a common problem. As long as the receiving app knows how to handle the commands sent by the calling app it handles it and you've got a vine through the wall.</p>
+
+<p>A few beautiful wild plants have sprung up using this method of communication to enhance your entire workflow. <a href="http://agiletortoise.com/drafts">Drafts</a>, and it's ultra-literate sibling <a href="http://agiletortoise.com/terminology/">Terminology</a> use it, to great effect. Drafts let you create text and pass it just about <em>anywhere</em> to use however you want. Dropbox and Evernote both respond to url schemes to allow you to create new notes.</p>
+
+<p>But even more amazing is <a href="http://omz-software.com/pythonista/">Pythonista</a>. Somehow omz software managed to get the entire python 2.7 runtime into iOS, and you can create workflows that send data into and out of your python scripts, again using url schemes. For example, I have a bookmarklet in Safari that works like this:</p>
+
+<p><code>javascript
+javascript:window.location='pythonista://my_script?action=run&amp;argv='+encodeURIComponent(location.href)
+</code>
+When I find a page that I want to pass into my script (the functionality of which is beyond the script of this article, and is <em>at the same time</em> incredibly dull) I just hit that bookmarklet and a few seconds later Pythonista has modified the text and passed it on to Drafts, which in turn can send it on to Dropbox. Suddenly the garden walls don't seem as impenetrable.</p>
+]]></content>
+  </entry>
+  
+</feed>
