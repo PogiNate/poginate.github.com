@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: writing | Nate Dickson]]></title>
+  <title><![CDATA[Category: Writing | Nate Dickson]]></title>
   <link href="http://PogiNate.github.com/blog/categories/writing/atom.xml" rel="self"/>
   <link href="http://PogiNate.github.com/"/>
-  <updated>2013-04-02T15:44:24-06:00</updated>
+  <updated>2013-04-04T15:49:57-06:00</updated>
   <id>http://PogiNate.github.com/</id>
   <author>
     <name><![CDATA[Nate Dickson]]></name>
@@ -14,65 +14,23 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Scapple: Letting Your Mind Wander]]></title>
-    <link href="http://PogiNate.github.com/blog/2013/04/02/scapple-letting-your-mind-wander/"/>
-    <updated>2013-04-02T11:32:00-06:00</updated>
-    <id>http://PogiNate.github.com/blog/2013/04/02/scapple-letting-your-mind-wander</id>
-    <content type="html"><![CDATA[<p><a href="http://www.literatureandlatte.com/forum/viewforum.php?f=42&amp;sid=2665c0358883722ee7431c87c46199a2">Scapple</a> is a still-in-beta project from <a href="http://literatureandlatte.com">Literature &amp; Latte</a>, the amazing developers who brought the blessed <a href="http://www.literatureandlatte.com/scrivener.php">Scrivener</a> into the world.</p>
+    <title type="html"><![CDATA[Ulysses III: A Huge Leap Forward]]></title>
+    <link href="http://PogiNate.github.com/blog/2013/04/04/ulysses-iii-a-huge-leap-forward/"/>
+    <updated>2013-04-04T15:45:00-06:00</updated>
+    <id>http://PogiNate.github.com/blog/2013/04/04/ulysses-iii-a-huge-leap-forward</id>
+    <content type="html"><![CDATA[<h1>Ulysses</h1>
 
-<p>I've enthused about Scrivener <a href="http://www.favoritethingever.com/2010/10/scrivener/">before</a>, so I'll refrain for now. But the folks at L&amp;L have an amazing focus on writing and the tools of the trade, and have given us one more tool to make the whole process easier.</p>
+<p>I'll admit it, I've had a sick love/hate relationship with <a href="http://www.ulyssesapp.com/">Ulysses</a> for years. I first heard of it by way of <a href="http://www.literatureandlatte.com/scrivener.php">Scrivener</a>, my beloved freeform creative writing app. And the Ulysses of then just was not a thing of beauty. The interface had a lot of holdovers from early- or pre-OSX days, and was pretty cluttered (which is quite a statement, given <a href="http://www.literatureandlatte.com/gfx/ScrivShots/write_structure_revise.jpg">Scrivener's interface</a>. I love Scrivener, but it's clearly a <em>tool</em>…look, I'm off topic again.) and unfriendly. I could see some of the power that was inherent in the product, but it just wasn't for me.</p>
 
-<p>Scrivener is a great tool for the actual <em>writing</em> part of writing. You can layout the sections you <strong>want</strong> to write, get a general idea of the shape of the document you're putting together, and then fill in the blanks as the mood moves you to write a specific section or chapter or however you've split up your text. But Scriv isn't quite as great at the brainstorming part. All your notes have to be in folders or Drafts or anywhere <em>but</em> drafts or whatever, and you don't quite feel as free to just throw things out there. That's where Scapple comes in.</p>
+<p>Well, A few days ago Ulysses III released a brand new version, and they <strong>nailed</strong> it. They took the bold step of abandoning everything they'd done before, threw out the interface entirely, and started over. They took a look at what the OSX world is doing now, in terms of interface, and did that. A very finder-like sidebar gives you access to all your text, organized based on where it lives. (iCloud, on your mac, or, if you have the <a href="http://daedalusapp.com/">Daedalus app</a> for iOS, in your Daedalus iCloud folder) Inside each folder you have your texts, (called "sheets", as in "sheets of paper") all of which are auto-saved at all times, so you don't have to worry about hitting <code>⌘S</code> all the time. It's a surprisingly slick and easy way to just sit down and <em>write</em> without worrying about filenames or sync options of any such things. You just start writing and worry about organization later, once you've got something out there.</p>
 
-<p>Scapple is a brainstorming app, if you have to give it a name. It's not quite a mind mapping app, because it doesn't follow "the rules" of mind mapping. Your notes can be thrown willy-nilly onto the sheet, with our without any relation to any other note anywhere. As you scribble down ideas you can link them all up as the linkages become obvious, letting the pattern of what you're thinking emerge organically.</p>
+<h2>The Cons</h2>
 
-<p>In addition, all the little bells and whistles you want are there, not cluttering up the plain paper aesthetics of the app, but available if you want them. In true OSX style most of them can be accessed via a free-floating inspector window, and with just a few steps you can color or style individual notes (or groups of notes, for that matter.) No meaning is imposed on anything, so you can use link styles, colors and text sizes to mean whatever you want them to mean.</p>
+<p>It's not all peaches and light, of course. The developers have pointed out that this is a 1.0 release, even if it <em>is</em> called Ulysses III. The app stores its files in <code>.ulysses</code> format, which isn't interoperable with tools like Marked, which means its a little harder to get previews of your text post-Markdown-rendering. (It's still quite possible, but not quite easy). It doesn't natively handle <a href="http://fletcherpenney.net/multimarkdown/">MultiMarkdown</a>, but it exports multimarkdown-compatible footnotes. I'm guessing that the <code>.ulysses</code> file format is a bundle that wraps up all the images and keywords and notes and whatnot, but it does make interoperability with other apps a little harder.</p>
 
-<p>In general this is a tool that is extremely adept at getting out of your way and letting you think, then popping back into view when you want to tinker a little bit. I found that after throwing a few notes on there about a writing project I wanted to line a few things up to show that they're equal, if not connected. This was exactly as easy as you would expect: I command-clicked the notes I wanted to line up, right clicked, and there was the align menu. No extra steps, no fuss.</p>
+<p>But this is a minor gripe, and isn't a flaw so much as a design decision that was clearly made with forethought. They decided that Ulysses was written as a creation app. You can share later, but create your text <em>first</em>.</p>
 
-<p>To sum up, this is a great little app that can be a major addition to any creative professional's workflow. I strongly recommend checking it out. The final retail version should be out soonish, but the beta is free through the end of April. Give it a try.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Originally About Scrivener but Turned into Something Else]]></title>
-    <link href="http://PogiNate.github.com/blog/2013/03/25/originally-about-scrivener-but-turned-into-something-else/"/>
-    <updated>2013-03-25T12:09:00-06:00</updated>
-    <id>http://PogiNate.github.com/blog/2013/03/25/originally-about-scrivener-but-turned-into-something-else</id>
-    <content type="html"><![CDATA[<p>I have been a huge fan of <a href="http://www.literatureandlatte.com/scrivener.php">Scrivener</a> for years. I love the freedom it gives me to organize a story however I want it, to color code, label, sort, search and tag my text.</p>
-
-<p>But all of this, of course, can actually <em>hamper</em> productivity if you start letting it run your workflow. You can spend so much time going through your manuscript updating keywords that you forget to actually do any writing. This trap is especially easy to fall into if you, like me, suffer from a serious mental condition called <em>"Self-inflicted Terminal Unjustified Paranoia of Invisible Detractors"</em>, or <strong>STUPID</strong> for short.</p>
-
-<p>STUPID is a condition where you believe that someone, somewhere is looking over your shoulder and judging what you're doing to be of no worth, that someone is picking apart your workflow and finds it erratic and inefficient, or that someone will take a look at how you are using  your tool of choice and pick all your decisions apart.</p>
-
-<p>If left untreated, STUPID can cause you to dry up, stop being creative, and spend excessive amounts of time worrying about productivity instead of actually <em>being</em> productive.</p>
-
-<p>STUPID is rampant in people who consider themselves internet denizens; people like bloggers, authors, and creative professionals. But STUPID is older than the internet, and has been affecting similar personality types for years. Early warning signs for the onset of STUPID include dithering around with todo list software, pomodoro spreadsheets, and other such things that are meant to help you be more productive. In its advanced stages the victim may need to be given a management style job.</p>
-
-<p>Once a case of STUPID is self diagnosed (and it can only be <em>self</em>-diagnosed; external diagnoses are worthless. ) the treatment is fortunately inexpensive. In mild cases most practitioners recommend a quiet walk followed by some time spent in a free write scenario, where the victim is forced to <em>just keep producing</em> without listening to their internal critic. A standard therapeutic session should last for at least half an hour. This treatment should be continued for life, as it has also been found to be an effective preventative.</p>
-
-<p>Very little of this has to do with Scrivener, of course. I meant to write an article about using Scrivener to actually do productive work, but I got sidetracked thinking about how to use it more productively.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[tmux and Octopress]]></title>
-    <link href="http://PogiNate.github.com/blog/2013/03/21/tmux-and-octopress/"/>
-    <updated>2013-03-21T05:22:00-06:00</updated>
-    <id>http://PogiNate.github.com/blog/2013/03/21/tmux-and-octopress</id>
-    <content type="html"><![CDATA[<p>Naturally, the first thing I did after getting Octopress up, running, and actually <em>deployed</em> to a real live server was set up a writing workflow that will make it easy to post to this blog. And by "easy", I of course mean "weird and convoluted, but in a way that makes sense to me". What else would I mean?</p>
-
-<p>The first ingredient in my workflow is <a href="http://tmux.sourceforge.net/">tmux</a>. If you haven't played with it yet you'll find that  it's a fast and easy way to access your project from multiple angles. You'll have one terminal window open and in that one window you can be editing a file, keeping an eye on <code>top</code> and running your build tasks all at once, while a second tab has your development server running in it. I discovered tmux using Brian Hogan's <a href="http://pragprog.com/book/bhtmux/tmux">amazing book</a> and haven't looked back.</p>
-
-<p>The second part of the recipe here is <a href="https://github.com/aziz/tmuxinator">tmuxinator</a>, a nice little ruby app that lets you set up tmux layouts in <code>YAML</code> instead of writing the commands out as actual tmux commands, like so:</p>
-
-<p><div><script src='https://gist.github.com/5212311.js'></script>
-<noscript><pre><code></code></pre></noscript></div>
-</p>
-
-<p>You can see I have <code>rake preview</code> and <code>top</code> running on a "background" tab, so I can preview the site, and <code>vim</code> running on the first tab with a couple of regular old <code>zsh</code> panes at the project root and at the <code>_posts</code> directory, so I can issue other commands to the system and use Marked.app to preview my posts, etc. etc.</p>
-
-<p>Obviously I haven't been using this particular setup for all that long yet, but it's got a lot of promise. I'm pleased with how it's turning out.</p>
+<p>All in all, I'm deeply impressed with the level of polish and attention that went into the latest version, and I'd recommend you pick it up.</p>
 ]]></content>
   </entry>
   
