@@ -6,7 +6,6 @@ comments: true
 categories: [Tools, Writing, Review]
 ---
 
-# Ulysses
 
 I'll admit it, I've had a sick love/hate relationship with [Ulysses][1] for years. I first heard of it by way of [Scrivener][2], my beloved freeform creative writing app. And the Ulysses of then just was not a thing of beauty. The interface had a lot of holdovers from early- or pre-OSX days, and was pretty cluttered (which is quite a statement, given [Scrivener's interface][3]. I love Scrivener, but it's clearly a *tool*…look, I'm off topic again.) and unfriendly. I could see some of the power that was inherent in the product, but it just wasn't for me.
 
