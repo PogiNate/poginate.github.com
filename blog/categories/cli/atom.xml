@@ -4,7 +4,7 @@
   <title><![CDATA[Category: CLI | Nate Dickson]]></title>
   <link href="http://PogiNate.github.com/blog/categories/cli/atom.xml" rel="self"/>
   <link href="http://PogiNate.github.com/"/>
-  <updated>2013-04-05T16:19:23-06:00</updated>
+  <updated>2013-04-09T10:08:52-06:00</updated>
   <id>http://PogiNate.github.com/</id>
   <author>
     <name><![CDATA[Nate Dickson]]></name>
@@ -18,9 +18,9 @@
     <link href="http://PogiNate.github.com/blog/2013/03/21/tmux-and-octopress/"/>
     <updated>2013-03-21T05:22:00-06:00</updated>
     <id>http://PogiNate.github.com/blog/2013/03/21/tmux-and-octopress</id>
-    <content type="html"><![CDATA[<p>Naturally, the first thing I did after getting Octopress up, running, and actually <em>deployed</em> to a real live server was set up a writing workflow that will make it easy to post to this blog. And by "easy", I of course mean "weird and convoluted, but in a way that makes sense to me". What else would I mean?</p>
+    <content type="html"><![CDATA[<p>Naturally, the first thing I did after getting Octopress up, running, and actually <em>deployed</em> to a real live server was set up a writing workflow that will make it easy to post to this blog. And by “easy”, I of course mean “weird and convoluted, but in a way that makes sense to me”. What else would I mean?</p>
 
-<p>The first ingredient in my workflow is <a href="http://tmux.sourceforge.net/">tmux</a>. If you haven't played with it yet you'll find that  it's a fast and easy way to access your project from multiple angles. You'll have one terminal window open and in that one window you can be editing a file, keeping an eye on <code>top</code> and running your build tasks all at once, while a second tab has your development server running in it. I discovered tmux using Brian Hogan's <a href="http://pragprog.com/book/bhtmux/tmux">amazing book</a> and haven't looked back.</p>
+<p>The first ingredient in my workflow is <a href="http://tmux.sourceforge.net/">tmux</a>. If you haven’t played with it yet you’ll find that  it’s a fast and easy way to access your project from multiple angles. You’ll have one terminal window open and in that one window you can be editing a file, keeping an eye on <code>top</code> and running your build tasks all at once, while a second tab has your development server running in it. I discovered tmux using Brian Hogan’s <a href="http://pragprog.com/book/bhtmux/tmux">amazing book</a> and haven’t looked back. </p>
 
 <p>The second part of the recipe here is <a href="https://github.com/aziz/tmuxinator">tmuxinator</a>, a nice little ruby app that lets you set up tmux layouts in <code>YAML</code> instead of writing the commands out as actual tmux commands, like so:</p>
 
@@ -28,9 +28,9 @@
 <noscript><pre><code></code></pre></noscript></div>
 </p>
 
-<p>You can see I have <code>rake preview</code> and <code>top</code> running on a "background" tab, so I can preview the site, and <code>vim</code> running on the first tab with a couple of regular old <code>zsh</code> panes at the project root and at the <code>_posts</code> directory, so I can issue other commands to the system and use Marked.app to preview my posts, etc. etc.</p>
+<p>You can see I have <code>rake preview</code> and <code>top</code> running on a “background” tab, so I can preview the site, and <code>vim</code> running on the first tab with a couple of regular old <code>zsh</code> panes at the project root and at the <code>_posts</code> directory, so I can issue other commands to the system and use Marked.app to preview my posts, etc. etc.  </p>
 
-<p>Obviously I haven't been using this particular setup for all that long yet, but it's got a lot of promise. I'm pleased with how it's turning out.</p>
+<p>Obviously I haven’t been using this particular setup for all that long yet, but it’s got a lot of promise. I’m pleased with how it’s turning out.</p>
 ]]></content>
   </entry>
   

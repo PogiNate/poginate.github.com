@@ -9,7 +9,7 @@
   <meta name="author" content="Nate Dickson">
 
   
-  <meta name="description" content="I&#8217;ll admit it, I&#8217;ve had a sick love/hate relationship with Ulysses for years. I first heard of it by way of Scrivener, my beloved &hellip;">
+  <meta name="description" content="So, my big concern in moving over to Octopress was the lack of MultiMarkdown compatibility. Specifically the lack of footnotes. I think in footnotes &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -76,6 +76,78 @@
       
   <header>
     
+      <h1 class="entry-title"><a href="/blog/2013/04/09/mostly-multimarkdown-blogging-in-octopress/">(Mostly) MultiMarkdown Blogging in Octopress</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-04-09T09:55:00-06:00" pubdate data-updated="true">Apr 9<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>So, my big concern in moving over to <a href="http://octopress.org/">Octopress</a> was the lack of MultiMarkdown compatibility. Specifically the lack of footnotes. I <em>think</em> in footnotes a lot of the time<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>. </p>
+
+<p>So it was a definite problem to go to something limited to vanilla markdown. I did a few million hours of web searching to find a way to use MultiMarkdown as my renderer, but for some reason Jekyll is surprisingly resistant to the idea, so I gave up.</p>
+
+<p>For a while. I’m not good at actually giving up. I had made my peace with using non-footnoted code for blogging and had moved on, until I noticed that <a href="http://brettterpstra.com/">Brett Terpstra</a>, who documented his own move to Jekyll based blogging a few months ago, had footnotes aplenty on his blog<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup>. So I asked him how he was pulling that off.</p>
+
+<p>Here’s his answer, in it’s entirety:</p>
+
+<blockquote>
+  <p>I just use Kramdown as my processor. Works way better than Maruku or Rdiscount for me.
+-Brett</p>
+</blockquote>
+
+<p>That’s it, folks. I made a single change to my <code>_config.yml</code> file:</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span>kramdown now </span></figcaption>
+ <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+</pre></td><td class="code"><pre><code class="yaml"><span class="line"><span class="l-Scalar-Plain">markdown</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">kramdown</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div>
+
+<p>Bingo! Footnotes<sup id="fnref:3"><a href="#fn:3" rel="footnote">3</a></sup> now work and you get to jump around a lot more when you read my blog.</p>
+
+<p>So that’s it really. If you’ve been looking for a way to use MultiMarkdown features in  your Octopress blogging the problem is really much simpler than you thought. Direct your thanks to Brett.</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>All the other MultiMarkdown features are amazingly useful as well, but footnotes are just integral to my writing.<a href="#fnref:1" rel="reference">&#8617;</a></p>
+    </li>
+    <li id="fn:2">
+      <p>I also knew that he’s a big fan of MultiMarkdown, seeing as he’s the creator of <a href="http://brettterpstra.com/2012/02/28/nvalt-2-2-public-beta/">nvALT</a>, <a href="http://markedapp.com/">Marked</a>, and apparently <a href="http://multimarkdown.com/faq/icon">worked</a> with Fletcher T. Penny on the icon for <a href="http://multimarkdown.com">MultiMarkdown Composer</a>.<a href="#fnref:2" rel="reference">&#8617;</a></p>
+    </li>
+    <li id="fn:3">
+      <p>And a lot of other very nice features.<a href="#fnref:3" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
       <h1 class="entry-title"><a href="/blog/2013/04/04/ulysses-iii-a-huge-leap-forward/">Ulysses III: A Huge Leap Forward</a></h1>
     
     
@@ -99,17 +171,17 @@
   </header>
 
 
-  <div class="entry-content"><p>I&#8217;ll admit it, I&#8217;ve had a sick love/hate relationship with <a href="http://www.ulyssesapp.com/">Ulysses</a> for years. I first heard of it by way of <a href="http://www.literatureandlatte.com/scrivener.php">Scrivener</a>, my beloved freeform creative writing app. And the Ulysses of then just was not a thing of beauty. The interface had a lot of holdovers from early- or pre-OSX days, and was pretty cluttered (which is quite a statement, given <a href="http://www.literatureandlatte.com/gfx/ScrivShots/write_structure_revise.jpg">Scrivener&#8217;s interface</a>. I love Scrivener, but it&#8217;s clearly a <em>tool</em>…look, I&#8217;m off topic again.) and unfriendly. I could see some of the power that was inherent in the product, but it just wasn&#8217;t for me.</p>
+  <div class="entry-content"><p>I’ll admit it, I’ve had a sick love/hate relationship with <a href="http://www.ulyssesapp.com/">Ulysses</a> for years. I first heard of it by way of <a href="http://www.literatureandlatte.com/scrivener.php">Scrivener</a>, my beloved freeform creative writing app. And the Ulysses of then just was not a thing of beauty. The interface had a lot of holdovers from early- or pre-OSX days, and was pretty cluttered (which is quite a statement, given <a href="http://www.literatureandlatte.com/gfx/ScrivShots/write_structure_revise.jpg">Scrivener’s interface</a>. I love Scrivener, but it’s clearly a <em>tool</em>…look, I’m off topic again.) and unfriendly. I could see some of the power that was inherent in the product, but it just wasn’t for me.</p>
 
-<p>Well, A few days ago Ulysses III released a brand new version, and they <strong>nailed</strong> it. They took the bold step of abandoning everything they&#8217;d done before, threw out the interface entirely, and started over. They took a look at what the OSX world is doing now, in terms of interface, and did that. A very finder-like sidebar gives you access to all your text, organized based on where it lives. (iCloud, on your mac, or, if you have the <a href="http://daedalusapp.com/">Daedalus app</a> for iOS, in your Daedalus iCloud folder) Inside each folder you have your texts, (called &#8220;sheets&#8221;, as in &#8220;sheets of paper&#8221;) all of which are auto-saved at all times, so you don&#8217;t have to worry about hitting <code>⌘S</code> all the time. It&#8217;s a surprisingly slick and easy way to just sit down and <em>write</em> without worrying about filenames or sync options of any such things. You just start writing and worry about organization later, once you&#8217;ve got something out there.</p>
+<p>Well, A few days ago Ulysses III released a brand new version, and they <strong>nailed</strong> it. They took the bold step of abandoning everything they’d done before, threw out the interface entirely, and started over. They took a look at what the OSX world is doing now, in terms of interface, and did that. A very finder-like sidebar gives you access to all your text, organized based on where it lives. (iCloud, on your mac, or, if you have the <a href="http://daedalusapp.com/">Daedalus app</a> for iOS, in your Daedalus iCloud folder) Inside each folder you have your texts, (called “sheets”, as in “sheets of paper”) all of which are auto-saved at all times, so you don’t have to worry about hitting <code>⌘S</code> all the time. It’s a surprisingly slick and easy way to just sit down and <em>write</em> without worrying about filenames or sync options of any such things. You just start writing and worry about organization later, once you’ve got something out there. </p>
 
-<h2>The Cons</h2>
+<h2 id="the-cons">The Cons</h2>
+<p>It’s not all peaches and light, of course. The developers have pointed out that this is a 1.0 release, even if it <em>is</em> called Ulysses III. The app stores its files in <code>.ulysses</code> format, which isn’t interoperable with tools like Marked, which means its a little harder to get previews of your text post-Markdown-rendering. (It’s still quite possible, but not quite easy). It doesn’t natively handle <a href="http://fletcherpenney.net/multimarkdown/">MultiMarkdown</a>, but it exports multimarkdown-compatible footnotes. I’m guessing that the <code>.ulysses</code> file format is a bundle that wraps up all the images and keywords and notes and whatnot, but it does make interoperability with other apps a little harder. </p>
 
-<p>It&#8217;s not all peaches and light, of course. The developers have pointed out that this is a 1.0 release, even if it <em>is</em> called Ulysses III. The app stores its files in <code>.ulysses</code> format, which isn&#8217;t interoperable with tools like Marked, which means its a little harder to get previews of your text post-Markdown-rendering. (It&#8217;s still quite possible, but not quite easy). It doesn&#8217;t natively handle <a href="http://fletcherpenney.net/multimarkdown/">MultiMarkdown</a>, but it exports multimarkdown-compatible footnotes. I&#8217;m guessing that the <code>.ulysses</code> file format is a bundle that wraps up all the images and keywords and notes and whatnot, but it does make interoperability with other apps a little harder.</p>
+<p>But this is a minor gripe, and isn’t a flaw so much as a design decision that was clearly made with forethought. They decided that Ulysses was written as a creation app. You can share later, but create your text <em>first</em>. </p>
 
-<p>But this is a minor gripe, and isn&#8217;t a flaw so much as a design decision that was clearly made with forethought. They decided that Ulysses was written as a creation app. You can share later, but create your text <em>first</em>.</p>
+<p>All in all, I’m deeply impressed with the level of polish and attention that went into the latest version, and I’d recommend you pick it up.</p>
 
-<p>All in all, I&#8217;m deeply impressed with the level of polish and attention that went into the latest version, and I&#8217;d recommend you pick it up.</p>
 </div>
   
   
@@ -147,17 +219,18 @@
 
   <div class="entry-content"><p><a href="http://www.literatureandlatte.com/forum/viewforum.php?f=42&amp;sid=2665c0358883722ee7431c87c46199a2">Scapple</a> is a still-in-beta project from <a href="http://literatureandlatte.com">Literature &amp; Latte</a>, the amazing developers who brought the blessed <a href="http://www.literatureandlatte.com/scrivener.php">Scrivener</a> into the world.</p>
 
-<p>I&#8217;ve enthused about Scrivener <a href="http://www.favoritethingever.com/2010/10/scrivener/">before</a>, so I&#8217;ll refrain for now. But the folks at L&amp;L have an amazing focus on writing and the tools of the trade, and have given us one more tool to make the whole process easier.</p>
+<p>I’ve enthused about Scrivener <a href="http://www.favoritethingever.com/2010/10/scrivener/">before</a>, so I’ll refrain for now. But the folks at L&amp;L have an amazing focus on writing and the tools of the trade, and have given us one more tool to make the whole process easier. </p>
 
-<p>Scrivener is a great tool for the actual <em>writing</em> part of writing. You can layout the sections you <strong>want</strong> to write, get a general idea of the shape of the document you&#8217;re putting together, and then fill in the blanks as the mood moves you to write a specific section or chapter or however you&#8217;ve split up your text. But Scriv isn&#8217;t quite as great at the brainstorming part. All your notes have to be in folders or Drafts or anywhere <em>but</em> drafts or whatever, and you don&#8217;t quite feel as free to just throw things out there. That&#8217;s where Scapple comes in.</p>
+<p>Scrivener is a great tool for the actual <em>writing</em> part of writing. You can layout the sections you <strong>want</strong> to write, get a general idea of the shape of the document you’re putting together, and then fill in the blanks as the mood moves you to write a specific section or chapter or however you’ve split up your text. But Scriv isn’t quite as great at the brainstorming part. All your notes have to be in folders or Drafts or anywhere <em>but</em> drafts or whatever, and you don’t quite feel as free to just throw things out there. That’s where Scapple comes in.</p>
 
-<p>Scapple is a brainstorming app, if you have to give it a name. It&#8217;s not quite a mind mapping app, because it doesn&#8217;t follow &#8220;the rules&#8221; of mind mapping. Your notes can be thrown willy-nilly onto the sheet, with our without any relation to any other note anywhere. As you scribble down ideas you can link them all up as the linkages become obvious, letting the pattern of what you&#8217;re thinking emerge organically.</p>
+<p>Scapple is a brainstorming app, if you have to give it a name. It’s not quite a mind mapping app, because it doesn’t follow “the rules” of mind mapping. Your notes can be thrown willy-nilly onto the sheet, with our without any relation to any other note anywhere. As you scribble down ideas you can link them all up as the linkages become obvious, letting the pattern of what you’re thinking emerge organically. </p>
 
-<p>In addition, all the little bells and whistles you want are there, not cluttering up the plain paper aesthetics of the app, but available if you want them. In true OSX style most of them can be accessed via a free-floating inspector window, and with just a few steps you can color or style individual notes (or groups of notes, for that matter.) No meaning is imposed on anything, so you can use link styles, colors and text sizes to mean whatever you want them to mean.</p>
+<p>In addition, all the little bells and whistles you want are there, not cluttering up the plain paper aesthetics of the app, but available if you want them. In true OSX style most of them can be accessed via a free-floating inspector window, and with just a few steps you can color or style individual notes (or groups of notes, for that matter.) No meaning is imposed on anything, so you can use link styles, colors and text sizes to mean whatever you want them to mean. </p>
 
-<p>In general this is a tool that is extremely adept at getting out of your way and letting you think, then popping back into view when you want to tinker a little bit. I found that after throwing a few notes on there about a writing project I wanted to line a few things up to show that they&#8217;re equal, if not connected. This was exactly as easy as you would expect: I command-clicked the notes I wanted to line up, right clicked, and there was the align menu. No extra steps, no fuss.</p>
+<p>In general this is a tool that is extremely adept at getting out of your way and letting you think, then popping back into view when you want to tinker a little bit. I found that after throwing a few notes on there about a writing project I wanted to line a few things up to show that they’re equal, if not connected. This was exactly as easy as you would expect: I command-clicked the notes I wanted to line up, right clicked, and there was the align menu. No extra steps, no fuss. </p>
 
-<p>To sum up, this is a great little app that can be a major addition to any creative professional&#8217;s workflow. I strongly recommend checking it out. The final retail version should be out soonish, but the beta is free through the end of April. Give it a try.</p>
+<p>To sum up, this is a great little app that can be a major addition to any creative professional’s workflow. I strongly recommend checking it out. The final retail version should be out soonish, but the beta is free through the end of April. Give it a try.</p>
+
 </div>
   
   
@@ -193,21 +266,22 @@
   </header>
 
 
-  <div class="entry-content"><p>Every so often I come across something that just <em>works</em>, and it makes me happy and I feel like all this tech crap we all do on a daily basis is actually worth it.</p>
+  <div class="entry-content"><p>Every so often I come across something that just <em>works</em>, and it makes me happy and I feel like all this tech crap we all do on a daily basis is actually worth it. </p>
 
-<p>Even better, sometimes I come across something that was rough around the edges <a href="http://crazyapplenews.com/2009/07/friday-ifaq-plex/">last time I tried it</a>, but now I discover that it&#8217;s clean, refined, and super useful. I&#8217;m happy to report that this is one of those times. I&#8217;ve recently come back to <a href="http://www.plexapp.com/">Plex</a> after a few years of ignoring it, and it works amazingly.</p>
+<p>Even better, sometimes I come across something that was rough around the edges <a href="http://crazyapplenews.com/2009/07/friday-ifaq-plex/">last time I tried it</a>, but now I discover that it’s clean, refined, and super useful. I’m happy to report that this is one of those times. I’ve recently come back to <a href="http://www.plexapp.com/">Plex</a> after a few years of ignoring it, and it works amazingly. </p>
 
-<p>For those of you who don&#8217;t know, the <strong>Plex</strong> moniker actually refers to a myriad of products that work together. The cornerstone of the lineup is <strong>Plex Server</strong>, which resides on whatever computer is (or computers are) storing all of your recorded movies/television shows/audio files/etc. As you would expect, it serves up your media to any of your Plex Clients, which are available on iOS, Android, Windows, Mac, Linux, etc. etc. The clients are pretty great at finding a server on the local network (or on the local box, if you&#8217;re running your client and server on the same machine), but Plex has a better trick up it&#8217;s sleeve.</p>
+<p>For those of you who don’t know, the <strong>Plex</strong> moniker actually refers to a myriad of products that work together. The cornerstone of the lineup is <strong>Plex Server</strong>, which resides on whatever computer is (or computers are) storing all of your recorded movies/television shows/audio files/etc. As you would expect, it serves up your media to any of your Plex Clients, which are available on iOS, Android, Windows, Mac, Linux, etc. etc. The clients are pretty great at finding a server on the local network (or on the local box, if you’re running your client and server on the same machine), but Plex has a better trick up it’s sleeve.</p>
 
-<p>If you choose to set up a <strong><a href="https://my.plexapp.com/queue">MyPlex</a></strong> account it acts as a middle man for helping your servers and clients find each other anywhere on the internet. Basically, if you sign in to MyPlex from all your servers and all your clients it will take care of all your connectivity and you&#8217;re golden.</p>
+<p>If you choose to set up a <strong><a href="https://my.plexapp.com/queue">MyPlex</a></strong> account it acts as a middle man for helping your servers and clients find each other anywhere on the internet. Basically, if you sign in to MyPlex from all your servers and all your clients it will take care of all your connectivity and you’re golden.</p>
 
-<p>But there are still times and places that don&#8217;t work so well. My day job has a very restrictive firewall on their network, which blocks pretty much every port other than 80 and 443. So even with MyPlex&#8217;s magic, I can&#8217;t connect to my home servers to stream things on my lunch breaks. Now what?</p>
+<p>But there are still times and places that don’t work so well. My day job has a very restrictive firewall on their network, which blocks pretty much every port other than 80 and 443. So even with MyPlex’s magic, I can’t connect to my home servers to stream things on my lunch breaks. Now what?</p>
 
-<p>Well, now you purchase a <strong>PlexPass</strong> and get access to their sync feature. Most of the Plex software is free or fairly cheap (the server and desktop clients are free, the iOS and Android clients are $5). PlexPass is a bit more ($30/year) but it gives you access features that aren&#8217;t yet available for free, including beta versions of the clients. Anyway, back to syncing.</p>
+<p>Well, now you purchase a <strong>PlexPass</strong> and get access to their sync feature. Most of the Plex software is free or fairly cheap (the server and desktop clients are free, the iOS and Android clients are $5). PlexPass is a bit more ($30/year) but it gives you access features that aren’t yet available for free, including beta versions of the clients. Anyway, back to syncing.</p>
 
-<p><strong>Plex Sync</strong> is not creatively named, but it&#8217;s <em>awesome</em>. When your device is able to connect to your server tell it what media you want to have synced. If you choose a TV series you can tell it &#8220;keep the next <code>X</code> unwatched episodes on my device&#8221; and it&#8217;ll have your server transcode those episodes into a format your device understands and ship them on over. When you watch one (if you&#8217;re still connected) it&#8217;ll prep a new one while you&#8217;re watching and keep you up to date. If you&#8217;re actually disconnected then the episodes you&#8217;ve synced are all your Plex client will show.</p>
+<p><strong>Plex Sync</strong> is not creatively named, but it’s <em>awesome</em>. When your device is able to connect to your server tell it what media you want to have synced. If you choose a TV series you can tell it “keep the next <code>X</code> unwatched episodes on my device” and it’ll have your server transcode those episodes into a format your device understands and ship them on over. When you watch one (if you’re still connected) it’ll prep a new one while you’re watching and keep you up to date. If you’re actually disconnected then the episodes you’ve synced are all your Plex client will show.</p>
 
-<p>All the usual awesomeness you&#8217;d expect from an app like this is built in as well. The iOS client app acts as a remote for any other client connected to your server. If you are a big fan of XBMC then your XBMC installation can read Plex files and the two work together perfectly. If you have a Roku player you&#8217;re also taken care of. Plex and Roku work just great together.</p>
+<p>All the usual awesomeness you’d expect from an app like this is built in as well. The iOS client app acts as a remote for any other client connected to your server. If you are a big fan of XBMC then your XBMC installation can read Plex files and the two work together perfectly. If you have a Roku player you’re also taken care of. Plex and Roku work just great together. </p>
+
 </div>
   
   
@@ -245,17 +319,18 @@
 
   <div class="entry-content"><p>I have been a huge fan of <a href="http://www.literatureandlatte.com/scrivener.php">Scrivener</a> for years. I love the freedom it gives me to organize a story however I want it, to color code, label, sort, search and tag my text.</p>
 
-<p>But all of this, of course, can actually <em>hamper</em> productivity if you start letting it run your workflow. You can spend so much time going through your manuscript updating keywords that you forget to actually do any writing. This trap is especially easy to fall into if you, like me, suffer from a serious mental condition called <em>&#8220;Self-inflicted Terminal Unjustified Paranoia of Invisible Detractors&#8221;</em>, or <strong>STUPID</strong> for short.</p>
+<p>But all of this, of course, can actually <em>hamper</em> productivity if you start letting it run your workflow. You can spend so much time going through your manuscript updating keywords that you forget to actually do any writing. This trap is especially easy to fall into if you, like me, suffer from a serious mental condition called <em>“Self-inflicted Terminal Unjustified Paranoia of Invisible Detractors”</em>, or <strong>STUPID</strong> for short.</p>
 
-<p>STUPID is a condition where you believe that someone, somewhere is looking over your shoulder and judging what you&#8217;re doing to be of no worth, that someone is picking apart your workflow and finds it erratic and inefficient, or that someone will take a look at how you are using  your tool of choice and pick all your decisions apart.</p>
+<p>STUPID is a condition where you believe that someone, somewhere is looking over your shoulder and judging what you’re doing to be of no worth, that someone is picking apart your workflow and finds it erratic and inefficient, or that someone will take a look at how you are using  your tool of choice and pick all your decisions apart. </p>
 
 <p>If left untreated, STUPID can cause you to dry up, stop being creative, and spend excessive amounts of time worrying about productivity instead of actually <em>being</em> productive.</p>
 
-<p>STUPID is rampant in people who consider themselves internet denizens; people like bloggers, authors, and creative professionals. But STUPID is older than the internet, and has been affecting similar personality types for years. Early warning signs for the onset of STUPID include dithering around with todo list software, pomodoro spreadsheets, and other such things that are meant to help you be more productive. In its advanced stages the victim may need to be given a management style job.</p>
+<p>STUPID is rampant in people who consider themselves internet denizens; people like bloggers, authors, and creative professionals. But STUPID is older than the internet, and has been affecting similar personality types for years. Early warning signs for the onset of STUPID include dithering around with todo list software, pomodoro spreadsheets, and other such things that are meant to help you be more productive. In its advanced stages the victim may need to be given a management style job. </p>
 
-<p>Once a case of STUPID is self diagnosed (and it can only be <em>self</em>-diagnosed; external diagnoses are worthless. ) the treatment is fortunately inexpensive. In mild cases most practitioners recommend a quiet walk followed by some time spent in a free write scenario, where the victim is forced to <em>just keep producing</em> without listening to their internal critic. A standard therapeutic session should last for at least half an hour. This treatment should be continued for life, as it has also been found to be an effective preventative.</p>
+<p>Once a case of STUPID is self diagnosed (and it can only be <em>self</em>-diagnosed; external diagnoses are worthless. ) the treatment is fortunately inexpensive. In mild cases most practitioners recommend a quiet walk followed by some time spent in a free write scenario, where the victim is forced to <em>just keep producing</em> without listening to their internal critic. A standard therapeutic session should last for at least half an hour. This treatment should be continued for life, as it has also been found to be an effective preventative. </p>
 
-<p>Very little of this has to do with Scrivener, of course. I meant to write an article about using Scrivener to actually do productive work, but I got sidetracked thinking about how to use it more productively.</p>
+<p>Very little of this has to do with Scrivener, of course. I meant to write an article about using Scrivener to actually do productive work, but I got sidetracked thinking about how to use it more productively. </p>
+
 </div>
   
   
@@ -291,26 +366,25 @@
   </header>
 
 
-  <div class="entry-content"><p>Apple lives a strange double life. They&#8217;ve always had a strange love/hate relationship with developers: they want great 3rd party apps, but they want everything to be <em>just right</em>, and if you don&#8217;t agree with their vision of <em>just right</em> then you&#8217;re plain wrong.</p>
+  <div class="entry-content"><p>Apple lives a strange double life. They’ve always had a strange love/hate relationship with developers: they want great 3rd party apps, but they want everything to be <em>just right</em>, and if you don’t agree with their vision of <em>just right</em> then you’re plain wrong.</p>
 
-<p>And over time we&#8217;ve seen that weird divide get weirder on OSX. On the surface you&#8217;ve got Gatekeeper, designed to keep the weeds out of the walled garden, but fire up the terminal, install <a href="http://mxcl.github.com/homebrew/">Homebrew</a> and suddenly you&#8217;ve got the whole world of open source software all over your nice shiny Mac, with not a peep out of Gatekeeper. and frankly I think that&#8217;s fine. If people don&#8217;t want to worry about their computer and just want to install things from the Mac App Store then let them live that way. But for those of us who kind of like all the wild plants inside the walled garden let us install whatever we want.</p>
+<p>And over time we’ve seen that weird divide get weirder on OSX. On the surface you’ve got Gatekeeper, designed to keep the weeds out of the walled garden, but fire up the terminal, install <a href="http://mxcl.github.com/homebrew/">Homebrew</a> and suddenly you’ve got the whole world of open source software all over your nice shiny Mac, with not a peep out of Gatekeeper. and frankly I think that’s fine. If people don’t want to worry about their computer and just want to install things from the Mac App Store then let them live that way. But for those of us who kind of like all the wild plants inside the walled garden let us install whatever we want.</p>
 
-<p>Unfortunately iOS doesn&#8217;t get the same freedom. <strong>All</strong> apps are tightly sandboxed, and absolutely not allowed to talk to one another. You keep your code to yourself and pretend you don&#8217;t know anybody else exists. The Walled Garden is walled all the way up and down.</p>
+<p>Unfortunately iOS doesn’t get the same freedom. <strong>All</strong> apps are tightly sandboxed, and absolutely not allowed to talk to one another. You keep your code to yourself and pretend you don’t know anybody else exists. The Walled Garden is walled all the way up and down.</p>
 
 <p>Except…there is one crack.</p>
 
-<p>Some blessed engineer decided that it would be good if apps could talk to one another, at least rudimentarily. Using the <a href="http://handleopenurl.com/">Open Url Scheme</a> you can pass commands and strings back and forth between apps. It&#8217;s a surprisingly open, beautifully object-oriented method of dealing with a common problem. As long as the receiving app knows how to handle the commands sent by the calling app it handles it and you&#8217;ve got a vine through the wall.</p>
+<p>Some blessed engineer decided that it would be good if apps could talk to one another, at least rudimentarily. Using the <a href="http://handleopenurl.com/">Open Url Scheme</a> you can pass commands and strings back and forth between apps. It’s a surprisingly open, beautifully object-oriented method of dealing with a common problem. As long as the receiving app knows how to handle the commands sent by the calling app it handles it and you’ve got a vine through the wall.</p>
 
-<p>A few beautiful wild plants have sprung up using this method of communication to enhance your entire workflow. <a href="http://agiletortoise.com/drafts">Drafts</a>, and it&#8217;s ultra-literate sibling <a href="http://agiletortoise.com/terminology/">Terminology</a> use it, to great effect. Drafts let you create text and pass it just about <em>anywhere</em> to use however you want. Dropbox and Evernote both respond to url schemes to allow you to create new notes.</p>
+<p>A few beautiful wild plants have sprung up using this method of communication to enhance your entire workflow. <a href="http://agiletortoise.com/drafts">Drafts</a>, and it’s ultra-literate sibling <a href="http://agiletortoise.com/terminology/">Terminology</a> use it, to great effect. Drafts let you create text and pass it just about <em>anywhere</em> to use however you want. Dropbox and Evernote both respond to url schemes to allow you to create new notes. </p>
 
 <p>But even more amazing is <a href="http://omz-software.com/pythonista/">Pythonista</a>. Somehow omz software managed to get the entire python 2.7 runtime into iOS, and you can create workflows that send data into and out of your python scripts, again using url schemes. For example, I have a bookmarklet in Safari that works like this:</p>
 
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="nx">javascript</span><span class="o">:</span><span class="nb">window</span><span class="p">.</span><span class="nx">location</span><span class="o">=</span><span class="s1">&#39;pythonista://my_script?action=run&amp;argv=&#39;</span><span class="o">+</span><span class="nb">encodeURIComponent</span><span class="p">(</span><span class="nx">location</span><span class="p">.</span><span class="nx">href</span><span class="p">)</span>
-</span></code></pre></td></tr></table></div></figure>
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+</pre></td><td class="code"><pre><code class="javascript"><span class="line"><span class="nx">javascript</span><span class="o">:</span><span class="nb">window</span><span class="p">.</span><span class="nx">location</span><span class="o">=</span><span class="s1">&#39;pythonista://my_script?action=run&amp;argv=&#39;</span><span class="o">+</span><span class="nb">encodeURIComponent</span><span class="p">(</span><span class="nx">location</span><span class="p">.</span><span class="nx">href</span><span class="p">)</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div>
+<p>When I find a page that I want to pass into my script (the functionality of which is beyond the script of this article, and is <em>at the same time</em> incredibly dull) I just hit that bookmarklet and a few seconds later Pythonista has modified the text and passed it on to Drafts, which in turn can send it on to Dropbox. Suddenly the garden walls don’t seem as impenetrable. </p>
 
-
-<p>When I find a page that I want to pass into my script (the functionality of which is beyond the script of this article, and is <em>at the same time</em> incredibly dull) I just hit that bookmarklet and a few seconds later Pythonista has modified the text and passed it on to Drafts, which in turn can send it on to Dropbox. Suddenly the garden walls don&#8217;t seem as impenetrable.</p>
 </div>
   
   
@@ -348,21 +422,22 @@
 
   <div class="entry-content"><p>It all started when I decided that I wanted to try shaving with a brush and soap instead of canned shaving cream. It seemed possible that there was some advantage to be had here.</p>
 
-<p>And maybe someday I&#8217;ll get into the wonders of shaving like a real man. It takes more time, it requires a few more seconds every morning, and there&#8217;s a little learning curve involved. But for now that&#8217;s not the point. The point is it got me thinking; what other good ideas am I missing out on because something newer has come along; something that isn&#8217;t necessarily better?</p>
+<p>And maybe someday I’ll get into the wonders of shaving like a real man. It takes more time, it requires a few more seconds every morning, and there’s a little learning curve involved. But for now that’s not the point. The point is it got me thinking; what other good ideas am I missing out on because something newer has come along; something that isn’t necessarily better? </p>
 
-<p>This is a hard concept. &#8221;<a href="www.youtube.com/watch?v=RsLdLKT9Vvs">New is always better</a>&#8221; <em>sounds</em> true, especially in technology fields. We often make the assumption that something new is built to improve on something old, and therefore the only direction to move is forward. But slowly, little by little, I realized that sometimes the improvements that have been made weren&#8217;t meant to make things better for <em>me</em>, but to make them better for the manufacturer, or the distributor, or whoever. (Especially in the case of shaving cream vs. shaving soap, but again, not getting into that right now.)</p>
+<p>This is a hard concept. “<a href="www.youtube.com/watch?v=RsLdLKT9Vvs">New is always better</a>” <em>sounds</em> true, especially in technology fields. We often make the assumption that something new is built to improve on something old, and therefore the only direction to move is forward. But slowly, little by little, I realized that sometimes the improvements that have been made weren’t meant to make things better for <em>me</em>, but to make them better for the manufacturer, or the distributor, or whoever. (Especially in the case of shaving cream vs. shaving soap, but again, not getting into that right now.)</p>
 
-<p>Or maybe sometimes it&#8217;s worth it to put in the extra effort to make an older product work, because there are reasons that it&#8217;s still around. Maybe tradition counts for something.</p>
+<p>Or maybe sometimes it’s worth it to put in the extra effort to make an older product work, because there are reasons that it’s still around. Maybe tradition counts for something. </p>
 
-<p>So, not to belabor this point too much, I started using vim.</p>
+<p>So, not to belabor this point too much, I started using vim. </p>
 
-<h2>The Old is New Again</h2>
+<h2 id="the-old-is-new-again">The Old is New Again</h2>
 
-<p>Don&#8217;t get me wrong, I still love <a href="http://sublimetext.com">Sublime Text</a>. But I decided that it&#8217;s time to learn how to edit from the command line and stop being afraid of the text editor that comes free with every <em>nix machine ever. And like anyone will tell you, learning vim has been an uphill climb. Sublime Text&#8217;s &#8220;vintage&#8221; mode has helped, because I still have all the features that make me love Sublime, and I can drop into Insert Mode and pretend I&#8217;m not using a vi-style editor at all when I get discouraged and just want to get some work done, but I&#8217;m learning how to use vim the way it was meant to be used. And I&#8217;m starting to see why all the open source graybeards look down on everyone else. Because they&#8217;re pompous and arrogant. I mean, we already knew that. But </em>also* because doing things the vim way gives you some definite flexibility that you don&#8217;t have with most modern programs.</p>
+<p>Don’t get me wrong, I still love <a href="http://sublimetext.com">Sublime Text</a>. But I decided that it’s time to learn how to edit from the command line and stop being afraid of the text editor that comes free with every <em>nix machine ever. And like anyone will tell you, learning vim has been an uphill climb. Sublime Text’s “vintage” mode has helped, because I still have all the features that make me love Sublime, and I can drop into Insert Mode and pretend I’m not using a vi-style editor at all when I get discouraged and just want to get some work done, but I’m learning how to use vim the way it was meant to be used. And I’m starting to see why all the open source graybeards look down on everyone else. Because they’re pompous and arrogant. I mean, we already knew that. But *also</em> because doing things the vim way gives you some definite flexibility that you don’t have with most modern programs. </p>
 
-<p>A big part of that is because when vi was written you really did want to make every keystroke count, and you really did have to do everything from the keyboard. So the people who thought about it really <em>really</em> thought about it, and set up some standards that made the most of that era. And when the mouse came along we forgot most of that, because learning how to click on menus is simple and anyone can do it. But you&#8217;ve lost some of the grace that was implicit in the old ways of doing things.</p>
+<p>A big part of that is because when vi was written you really did want to make every keystroke count, and you really did have to do everything from the keyboard. So the people who thought about it really <em>really</em> thought about it, and set up some standards that made the most of that era. And when the mouse came along we forgot most of that, because learning how to click on menus is simple and anyone can do it. But you’ve lost some of the grace that was implicit in the old ways of doing things.</p>
 
-<p>So that&#8217;s all. I&#8217;m not suggesting that non-vim users are idiots, or that there is only one right way to edit text. In fact, I&#8217;m currently writing this in <a href="http://multimarkdown.com">MultiMarkdown Composer</a>. And while I&#8217;m still slow at a lot of things, but working in vim has made me think about how I work and what paradigms I&#8217;ve taken for granted.</p>
+<p>So that’s all. I’m not suggesting that non-vim users are idiots, or that there is only one right way to edit text. In fact, I’m currently writing this in <a href="http://multimarkdown.com">MultiMarkdown Composer</a>. And while I’m still slow at a lot of things, but working in vim has made me think about how I work and what paradigms I’ve taken for granted.</p>
+
 </div>
   
   
@@ -398,19 +473,18 @@
   </header>
 
 
-  <div class="entry-content"><p>Naturally, the first thing I did after getting Octopress up, running, and actually <em>deployed</em> to a real live server was set up a writing workflow that will make it easy to post to this blog. And by &#8220;easy&#8221;, I of course mean &#8220;weird and convoluted, but in a way that makes sense to me&#8221;. What else would I mean?</p>
+  <div class="entry-content"><p>Naturally, the first thing I did after getting Octopress up, running, and actually <em>deployed</em> to a real live server was set up a writing workflow that will make it easy to post to this blog. And by “easy”, I of course mean “weird and convoluted, but in a way that makes sense to me”. What else would I mean?</p>
 
-<p>The first ingredient in my workflow is <a href="http://tmux.sourceforge.net/">tmux</a>. If you haven&#8217;t played with it yet you&#8217;ll find that  it&#8217;s a fast and easy way to access your project from multiple angles. You&#8217;ll have one terminal window open and in that one window you can be editing a file, keeping an eye on <code>top</code> and running your build tasks all at once, while a second tab has your development server running in it. I discovered tmux using Brian Hogan&#8217;s <a href="http://pragprog.com/book/bhtmux/tmux">amazing book</a> and haven&#8217;t looked back.</p>
+<p>The first ingredient in my workflow is <a href="http://tmux.sourceforge.net/">tmux</a>. If you haven’t played with it yet you’ll find that  it’s a fast and easy way to access your project from multiple angles. You’ll have one terminal window open and in that one window you can be editing a file, keeping an eye on <code>top</code> and running your build tasks all at once, while a second tab has your development server running in it. I discovered tmux using Brian Hogan’s <a href="http://pragprog.com/book/bhtmux/tmux">amazing book</a> and haven’t looked back. </p>
 
 <p>The second part of the recipe here is <a href="https://github.com/aziz/tmuxinator">tmuxinator</a>, a nice little ruby app that lets you set up tmux layouts in <code>YAML</code> instead of writing the commands out as actual tmux commands, like so:</p>
 
-<div><script src='https://gist.github.com/5212311.js'></script>
-<noscript><pre><code></code></pre></noscript></div>
+<div><script src="https://gist.github.com/5212311.js"></script>
+<noscript><pre><code /></pre></noscript></div>
 
+<p>You can see I have <code>rake preview</code> and <code>top</code> running on a “background” tab, so I can preview the site, and <code>vim</code> running on the first tab with a couple of regular old <code>zsh</code> panes at the project root and at the <code>_posts</code> directory, so I can issue other commands to the system and use Marked.app to preview my posts, etc. etc.  </p>
 
-<p>You can see I have <code>rake preview</code> and <code>top</code> running on a &#8220;background&#8221; tab, so I can preview the site, and <code>vim</code> running on the first tab with a couple of regular old <code>zsh</code> panes at the project root and at the <code>_posts</code> directory, so I can issue other commands to the system and use Marked.app to preview my posts, etc. etc.</p>
-
-<p>Obviously I haven&#8217;t been using this particular setup for all that long yet, but it&#8217;s got a lot of promise. I&#8217;m pleased with how it&#8217;s turning out.</p>
+<p>Obviously I haven’t been using this particular setup for all that long yet, but it’s got a lot of promise. I’m pleased with how it’s turning out.</p>
 </div>
   
   
@@ -446,9 +520,9 @@
   </header>
 
 
-  <div class="entry-content"><p>So hey, I&#8217;m moving this blog to Octopress now. I don&#8217;t need it running on a big ol&#8217; WordPress install with all those updates and whatnot; I just want a simple blog that I can update without using any tools more complex than <code>vim</code> and <code>git</code>.</p>
+  <div class="entry-content"><p>So hey, I’m moving this blog to Octopress now. I don’t need it running on a big ol’ WordPress install with all those updates and whatnot; I just want a simple blog that I can update without using any tools more complex than <code>vim</code> and <code>git</code>. </p>
 
-<p>More posts to come; also I&#8217;ll be archiving the entire old site somewhere safe and sound so that anyone who wants to see what I wrote in the past can do so. For now the WordPress site is still up and running <a href="http://old.natedickson.com/">here</a>.</p>
+<p>More posts to come; also I’ll be archiving the entire old site somewhere safe and sound so that anyone who wants to see what I wrote in the past can do so. For now the WordPress site is still up and running <a href="http://old.natedickson.com/">here</a>.  </p>
 </div>
   
   
@@ -469,6 +543,10 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2013/04/09/mostly-multimarkdown-blogging-in-octopress/">(Mostly) MultiMarkdown Blogging in Octopress</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2013/04/04/ulysses-iii-a-huge-leap-forward/">Ulysses III: A Huge Leap Forward</a>
       </li>
     
@@ -482,10 +560,6 @@
     
       <li class="post">
         <a href="/blog/2013/03/25/originally-about-scrivener-but-turned-into-something-else/">Originally About Scrivener but Turned into Something Else</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2013/03/22/vines-through-the-garden-wall/">Vines Through the Garden Wall</a>
       </li>
     
   </ul>

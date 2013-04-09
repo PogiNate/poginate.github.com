@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Blogging | Nate Dickson]]></title>
+  <link href="http://PogiNate.github.com/blog/categories/blogging/atom.xml" rel="self"/>
+  <link href="http://PogiNate.github.com/"/>
+  <updated>2013-04-09T10:08:52-06:00</updated>
+  <id>http://PogiNate.github.com/</id>
+  <author>
+    <name><![CDATA[Nate Dickson]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[(Mostly) MultiMarkdown Blogging in Octopress]]></title>
+    <link href="http://PogiNate.github.com/blog/2013/04/09/mostly-multimarkdown-blogging-in-octopress/"/>
+    <updated>2013-04-09T09:55:00-06:00</updated>
+    <id>http://PogiNate.github.com/blog/2013/04/09/mostly-multimarkdown-blogging-in-octopress</id>
+    <content type="html"><![CDATA[<p>So, my big concern in moving over to <a href="http://octopress.org/">Octopress</a> was the lack of MultiMarkdown compatibility. Specifically the lack of footnotes. I <em>think</em> in footnotes a lot of the time<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>. </p>
+
+<p>So it was a definite problem to go to something limited to vanilla markdown. I did a few million hours of web searching to find a way to use MultiMarkdown as my renderer, but for some reason Jekyll is surprisingly resistant to the idea, so I gave up.</p>
+
+<p>For a while. I’m not good at actually giving up. I had made my peace with using non-footnoted code for blogging and had moved on, until I noticed that <a href="http://brettterpstra.com/">Brett Terpstra</a>, who documented his own move to Jekyll based blogging a few months ago, had footnotes aplenty on his blog<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup>. So I asked him how he was pulling that off.</p>
+
+<p>Here’s his answer, in it’s entirety:</p>
+
+<blockquote>
+  <p>I just use Kramdown as my processor. Works way better than Maruku or Rdiscount for me.
+-Brett</p>
+</blockquote>
+
+<p>That’s it, folks. I made a single change to my <code>_config.yml</code> file:</p>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>kramdown now </span></figcaption>
+ <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='yaml'><span class='line'><span class="l-Scalar-Plain">markdown</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">kramdown</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<p>Bingo! Footnotes<sup id="fnref:3"><a href="#fn:3" rel="footnote">3</a></sup> now work and you get to jump around a lot more when you read my blog.</p>
+
+<p>So that’s it really. If you’ve been looking for a way to use MultiMarkdown features in  your Octopress blogging the problem is really much simpler than you thought. Direct your thanks to Brett.</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>All the other MultiMarkdown features are amazingly useful as well, but footnotes are just integral to my writing.<a href="#fnref:1" rel="reference">&#8617;</a></p>
+    </li>
+    <li id="fn:2">
+      <p>I also knew that he’s a big fan of MultiMarkdown, seeing as he’s the creator of <a href="http://brettterpstra.com/2012/02/28/nvalt-2-2-public-beta/">nvALT</a>, <a href="http://markedapp.com/">Marked</a>, and apparently <a href="http://multimarkdown.com/faq/icon">worked</a> with Fletcher T. Penny on the icon for <a href="http://multimarkdown.com">MultiMarkdown Composer</a>.<a href="#fnref:2" rel="reference">&#8617;</a></p>
+    </li>
+    <li id="fn:3">
+      <p>And a lot of other very nice features.<a href="#fnref:3" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+]]></content>
+  </entry>
+  
+</feed>

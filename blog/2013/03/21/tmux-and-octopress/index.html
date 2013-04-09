@@ -96,19 +96,18 @@
   </header>
 
 
-<div class="entry-content"><p>Naturally, the first thing I did after getting Octopress up, running, and actually <em>deployed</em> to a real live server was set up a writing workflow that will make it easy to post to this blog. And by &#8220;easy&#8221;, I of course mean &#8220;weird and convoluted, but in a way that makes sense to me&#8221;. What else would I mean?</p>
+<div class="entry-content"><p>Naturally, the first thing I did after getting Octopress up, running, and actually <em>deployed</em> to a real live server was set up a writing workflow that will make it easy to post to this blog. And by “easy”, I of course mean “weird and convoluted, but in a way that makes sense to me”. What else would I mean?</p>
 
-<p>The first ingredient in my workflow is <a href="http://tmux.sourceforge.net/">tmux</a>. If you haven&#8217;t played with it yet you&#8217;ll find that  it&#8217;s a fast and easy way to access your project from multiple angles. You&#8217;ll have one terminal window open and in that one window you can be editing a file, keeping an eye on <code>top</code> and running your build tasks all at once, while a second tab has your development server running in it. I discovered tmux using Brian Hogan&#8217;s <a href="http://pragprog.com/book/bhtmux/tmux">amazing book</a> and haven&#8217;t looked back.</p>
+<p>The first ingredient in my workflow is <a href="http://tmux.sourceforge.net/">tmux</a>. If you haven’t played with it yet you’ll find that  it’s a fast and easy way to access your project from multiple angles. You’ll have one terminal window open and in that one window you can be editing a file, keeping an eye on <code>top</code> and running your build tasks all at once, while a second tab has your development server running in it. I discovered tmux using Brian Hogan’s <a href="http://pragprog.com/book/bhtmux/tmux">amazing book</a> and haven’t looked back. </p>
 
 <p>The second part of the recipe here is <a href="https://github.com/aziz/tmuxinator">tmuxinator</a>, a nice little ruby app that lets you set up tmux layouts in <code>YAML</code> instead of writing the commands out as actual tmux commands, like so:</p>
 
-<div><script src='https://gist.github.com/5212311.js'></script>
-<noscript><pre><code></code></pre></noscript></div>
+<div><script src="https://gist.github.com/5212311.js"></script>
+<noscript><pre><code /></pre></noscript></div>
 
+<p>You can see I have <code>rake preview</code> and <code>top</code> running on a “background” tab, so I can preview the site, and <code>vim</code> running on the first tab with a couple of regular old <code>zsh</code> panes at the project root and at the <code>_posts</code> directory, so I can issue other commands to the system and use Marked.app to preview my posts, etc. etc.  </p>
 
-<p>You can see I have <code>rake preview</code> and <code>top</code> running on a &#8220;background&#8221; tab, so I can preview the site, and <code>vim</code> running on the first tab with a couple of regular old <code>zsh</code> panes at the project root and at the <code>_posts</code> directory, so I can issue other commands to the system and use Marked.app to preview my posts, etc. etc.</p>
-
-<p>Obviously I haven&#8217;t been using this particular setup for all that long yet, but it&#8217;s got a lot of promise. I&#8217;m pleased with how it&#8217;s turning out.</p>
+<p>Obviously I haven’t been using this particular setup for all that long yet, but it’s got a lot of promise. I’m pleased with how it’s turning out.</p>
 </div>
 
 
@@ -180,6 +179,10 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2013/04/09/mostly-multimarkdown-blogging-in-octopress/">(Mostly) MultiMarkdown Blogging in Octopress</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2013/04/04/ulysses-iii-a-huge-leap-forward/">Ulysses III: A Huge Leap Forward</a>
       </li>
     
@@ -193,10 +196,6 @@
     
       <li class="post">
         <a href="/blog/2013/03/25/originally-about-scrivener-but-turned-into-something-else/">Originally About Scrivener but Turned into Something Else</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2013/03/22/vines-through-the-garden-wall/">Vines Through the Garden Wall</a>
       </li>
     
   </ul>
