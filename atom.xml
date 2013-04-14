@@ -4,7 +4,7 @@
   <title><![CDATA[Nate Dickson]]></title>
   <link href="http://PogiNate.github.com/atom.xml" rel="self"/>
   <link href="http://PogiNate.github.com/"/>
-  <updated>2013-04-12T11:38:28-06:00</updated>
+  <updated>2013-04-14T10:50:04-06:00</updated>
   <id>http://PogiNate.github.com/</id>
   <author>
     <name><![CDATA[Nate Dickson]]></name>
@@ -12,6 +12,42 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Pocket: Why I Stopped Reading Websites]]></title>
+    <link href="http://PogiNate.github.com/blog/2013/04/14/pocket-why-i-stopped-reading-websites/"/>
+    <updated>2013-04-14T10:42:00-06:00</updated>
+    <id>http://PogiNate.github.com/blog/2013/04/14/pocket-why-i-stopped-reading-websites</id>
+    <content type="html"><![CDATA[<p>Ever since I discovered RSS I’ve had an aversion to reading news stories in someone else’s web page. With the passing of google reader now a fact of life, we’ve got to find other ways to satisfy the need to feed.</p>
+
+<p>Fortunately Read it Later happened. I wasn’t there for the early days; indeed, I discovered this fabulous little tool after it changed its name to <a href="http://getpocket.com/">Pocket</a>, but I still love it, and here’s why: It lets me manage my time better. </p>
+
+<p>Let’s say I’m working on a few feature at work, and I (inevitably) discover an article that is fascinating, well written, not-quite-on-topic, and 2000 words long. I’m not going to bookmark it, bookmarks are too permanent and too ignored to be useful<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>. Usually I would just read the article right there, then try to rebuild the context I had been in. These days I press a little button, wait for the popup that says “Page saved!” and go back to my real research. Then, some time when I’m <a href="http://mike-garcia.com/?p=466">not doing anything specific</a> I can go back to that article and read it all. </p>
+
+<p>This has a lot of nice side affects. My <a href="http://www.pomodorotechnique.com/">Pomodoros</a> are preserved, my focus is maintained, and the part of my brain that is endlessly curious is satisfied that it’s not being ignored.</p>
+
+<p><span class="pullquote-right" data-pullquote="No offense, but I probably hate your web site.">
+Another benefit is that <em>your</em> content is now styled <em>my</em> way. No offense, but I probably hate your web site. It probably has ads and  call outs to reasons why you’re cool and probably doesn’t look so hot on  my phone<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup>.  Pocket lets me restyle all of that, and thus I intereact with your core message far more than I would have if I had to put up with your design decisions. <a href="http://alistapart.com">A List Apart</a> has an <a href="http://alistapart.com/column/the-future-is-unevenly-superdistributed" title="The Future is Unevenly Superdistributed">excellent article</a> on this topic, with the following insight that gave me pause:
+</span>
+&gt; …digital content continues to find novel new ways to wander away from its various points of origin. Tools that give users ever more control over formatting, timeshifting, and sharing will continue to proliferate. </p>
+
+<p>The fact is that I discovered this article in RSS and read it in Pocket was an interesting testament to the author’s thesis<sup id="fnref:3"><a href="#fn:3" rel="footnote">3</a></sup>.</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>Although pinboard is changing that for me; an article on pinboard is forthcoming. Probably.<a href="#fnref:1" rel="reference">&#8617;</a></p>
+    </li>
+    <li id="fn:2">
+      <p>Don’t feel bad; my site is pretty ugly as well. So hit the pocket button on this page, and I promise not to be offended. <a href="#fnref:2" rel="reference">&#8617;</a></p>
+    </li>
+    <li id="fn:3">
+      <p>Also, I really hate A List Apart’s new design. But they’re <a href="http://alistapart.com/article/what-we-learned-in-2012">okay with that</a>.<a href="#fnref:3" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Introducing A.K.A.: The Alias Manager]]></title>
