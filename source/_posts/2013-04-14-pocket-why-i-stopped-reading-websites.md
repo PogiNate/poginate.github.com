@@ -17,6 +17,7 @@ This has a lot of nice side affects. My [Pomodoros][3] are preserved, my focus i
 {% pullquote %}
 Another benefit is that *your* content is now styled *my* way. {" No offense, but I probably hate your web site. "} It probably has ads and  call outs to reasons why you're cool and probably doesn't look so hot on  my phone[^2].  Pocket lets me restyle all of that, and thus I intereact with your core message far more than I would have if I had to put up with your design decisions. [A List Apart][4] has an [excellent article][5] on this topic, with the following insight that gave me pause:
 {% endpullquote %}
+
 > ...digital content continues to find novel new ways to wander away from its various points of origin. Tools that give users ever more control over formatting, timeshifting, and sharing will continue to proliferate. 
 
 The fact is that I discovered this article in RSS and read it in Pocket was an interesting testament to the author's thesis[^3].
