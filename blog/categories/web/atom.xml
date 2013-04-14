@@ -4,7 +4,7 @@
   <title><![CDATA[Category: web | Nate Dickson]]></title>
   <link href="http://PogiNate.github.com/blog/categories/web/atom.xml" rel="self"/>
   <link href="http://PogiNate.github.com/"/>
-  <updated>2013-04-14T10:50:04-06:00</updated>
+  <updated>2013-04-14T11:03:13-06:00</updated>
   <id>http://PogiNate.github.com/</id>
   <author>
     <name><![CDATA[Nate Dickson]]></name>
@@ -26,8 +26,11 @@
 
 <p>This has a lot of nice side affects. My <a href="http://www.pomodorotechnique.com/">Pomodoros</a> are preserved, my focus is maintained, and the part of my brain that is endlessly curious is satisfied that it’s not being ignored.</p>
 
-<p>Surround your pullquote like this {" text to be quoted "}
-&gt; …digital content continues to find novel new ways to wander away from its various points of origin. Tools that give users ever more control over formatting, timeshifting, and sharing will continue to proliferate. </p>
+<p>Surround your pullquote like this {" text to be quoted "}</p>
+
+<blockquote>
+  <p>…digital content continues to find novel new ways to wander away from its various points of origin. Tools that give users ever more control over formatting, timeshifting, and sharing will continue to proliferate. </p>
+</blockquote>
 
 <p>The fact is that I discovered this article in RSS and read it in Pocket was an interesting testament to the author’s thesis<sup id="fnref:3"><a href="#fn:3" rel="footnote">3</a></sup>.</p>
 
