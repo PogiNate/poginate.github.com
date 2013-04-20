@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: personal | Nate Dickson]]></title>
+  <link href="http://PogiNate.github.com/blog/categories/personal/atom.xml" rel="self"/>
+  <link href="http://PogiNate.github.com/"/>
+  <updated>2013-04-20T11:15:55-06:00</updated>
+  <id>http://PogiNate.github.com/</id>
+  <author>
+    <name><![CDATA[Nate Dickson]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Thoughts on Introversion]]></title>
+    <link href="http://PogiNate.github.com/blog/2013/04/20/thoughts-on-introversion/"/>
+    <updated>2013-04-20T11:04:00-06:00</updated>
+    <id>http://PogiNate.github.com/blog/2013/04/20/thoughts-on-introversion</id>
+    <content type="html"><![CDATA[<p>I’ve never been a fan of cities. New York and Los Angeles hold no fascination for me. Rome is historically interesting, but I wouldn’t ever want to actually <em>go</em> there. I’d rather spend some time in the Italian countryside somewhere, out of the way of the crowds and slowly learning Italian.</p>
+
+<p>Or I could spend my time in suburban Utah. The hills don’t stay as green, and we have a lot of snow and cold and suchlike to deal with, but on the other hand I don’t have to learn Italian. </p>
+
+<p>But cities spread, and they spread around those of us who moved here specifically to <em>avoid</em> them. It doesn’t seem fair. The biggest challenge facing us introverts is accepting the fact that we’re connected to all those other people all over the place; you know, the ones we’re being introverted from. Extroverts like us, because they like <em>everybody</em>, a fact we can’t quite make ourselves believe. But for them people are as necessary<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> as solitude is for us; they seek out people the way we seek out quiet places. </p>
+
+<p>So cities spread, communities form. In our more rational moments we introverts can accept that community and civilization are important, we just don’t want them around <em>here</em>.</p>
+
+<p>Then there are the even more conflicted introverts; the ones who need the city support system to provide them with quiet little coffee houses and public transportation and eclectic bookstores. Forever taunting themselves with the crowds of happy people that don’t include them, knowing (because all introverts are amazingly, painfully self-aware) that the crowds <em>probably</em> aren’t judging them, that the only thing stopping the introvert from packing up his journal and latte and finding happiness in the company of other people is his own blasted self.</p>
+
+<p>And there are those of us (like me) who enjoy time with people, but still need to make a quiet retreat into our own little world, where our thoughts are the only ones around and we can start to decompress, unwind, and come up with other metaphors for releasing stress after being stressed out in a fun (but tension causing) social setting. </p>
+
+<p>Surround your pullquote like this {" text to be quoted "}</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>I hate that word; I can never spell it correctly.<a href="#fnref:1" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+]]></content>
+  </entry>
+  
+</feed>
