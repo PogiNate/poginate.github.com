@@ -14,7 +14,7 @@ But cities spread, and they spread around those of us who moved here specificall
 
 So cities spread, communities form. In our more rational moments we introverts can accept that community and civilization are important, we just don't want them around *here*.
 
-Then there are the even more conflicted introverts; the ones who need the city support system to provide them with quiet little coffee houses and public transportation and eclectic bookstores. Forever taunting themselves with the crowds of happy people that don't include them, knowing (because all introverts are amazingly, painfully self-aware) that the crowds *probably* aren't judging them, that the only thing stopping the introvert from packing up his journal and latte and finding happiness in the company of other people is his own blasted self.
+Then there are the even more conflicted introverts; the ones who need the city support system to provide them with quiet little coffee houses and public transportation and eclectic bookstores. Forever taunting themselves with the crowds of happy people that don't include them, knowing (because all introverts are amazingly, painfully self-aware[^2]) that the crowds *probably* aren't judging them, that the only thing stopping the introvert from packing up his journal and latte and finding happiness in the company of other people is his own blasted self.
 
 
 And there are those of us (like me) who enjoy time with people, but still need to make a quiet retreat into our own little world, where our thoughts are the only ones around and we can start to decompress, unwind, and come up with other metaphors for releasing stress after being stressed out in a fun (but tension causing) social setting. 
@@ -25,3 +25,4 @@ People often talk about having an "introvert battery" or an "extrovert battery",
 
 
 [^1]:   I hate that word; I can never spell it correctly.
+[^2]:   I realize I'm making a bunch of sweeping generalizations here; if you disagree feel free to kindly tell me why I'm wrong. Or just realize that I'm talking about myself here. 
