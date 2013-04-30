@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: cli | Nate Dickson]]></title>
-  <link href="http://PogiNate.github.com/blog/categories/cli/atom.xml" rel="self"/>
+  <title><![CDATA[Category: tmux | Nate Dickson]]></title>
+  <link href="http://PogiNate.github.com/blog/categories/tmux/atom.xml" rel="self"/>
   <link href="http://PogiNate.github.com/"/>
   <updated>2013-04-30T12:34:25-06:00</updated>
   <id>http://PogiNate.github.com/</id>

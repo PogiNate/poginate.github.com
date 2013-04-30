@@ -1,0 +1,368 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Battery Status in tmux - Nate Dickson</title>
+  <meta name="author" content="Nate Dickson">
+
+  
+  <meta name="description" content="While I usually work plugged into power and a monitor and all that good stuff, there are times where my MacBook Pro and I need to go off the grid for &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="shortcut icon" href="favicon.ico" >
+
+  
+  <link rel="canonical" href="http://PogiNate.github.com/blog/2013/04/30/battery-status-in-tmux/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="Nate Dickson" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=Arvo:400,400italic,700,700italic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=Merienda:700" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body>
+  <div id="navigation">
+    <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:PogiNate.github.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  </div>
+  <header role="banner"><hgroup>
+  <h1><a href="/">Nate Dickson</a></h1>
+  
+    <h2>What I think.</h2>
+  
+</hgroup>
+
+</header>
+  <div id="body"  >
+    <div id="main">
+      <div id="content">
+        <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Battery Status in Tmux</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-04-30T10:25:00-06:00" pubdate data-updated="true">Apr 30<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>While I usually work plugged into power and a monitor and all that good stuff, there are times where my MacBook Pro and I need to go off the grid for a while. During those times I’ve found that it’s easiest to have a terminal window fullscreen and do everything via the command line. That way I don’t really need a mouse at all and I can keep my hands on the keyboard doing whatever it is I’m doing that day. If I need any of my GUI apps <a href="http://www.alfredapp.com/">Alfred</a> is always right there to help me out, again, without using the trackpad. </p>
+
+<p><span class="pullquote-right" data-pullquote="let&#8217;s be honest: This entire project came about simply because I wanted to add some graphics to tmux.">
+The one <sup id="fnref:minor"><a href="#fn:minor" rel="footnote">1</a></sup> problem is that when an app is full screen you can’t see your battery percentage, and it’s possible to actually run yourself out of power without really knowing how close you are. Okay, I admit that it’s a minor problem, and highly unlikely. So let’s be honest: This entire project came about simply because I wanted to add some graphics to tmux. Ever since I learned you can use <a href="https://en.wikipedia.org/wiki/Apple_Color_Emoji">Apple’s Color Emoji</a> set in terminal windows I’ve been looking for even a semi-useful way to do so. 
+</span></p>
+
+<p>What inspired me was a little section at the end of <a href="http://pragprog.com/book/bhtmux/tmux">Brian Hogan’s tmux book</a> about adding battery status to your status bar at the bottom of tmux windows. He links to <a href="https://raw.github.com/richoH/dotfiles/master/bin/battery">a script</a> that works cross platform, but that’s not really what I wanted. As Steve Jobs once said, if you’re working cross platform, you’re not getting the most out of your specific platform<sup id="fnref:kinda"><a href="#fn:kinda" rel="footnote">2</a></sup>. So I decided to write my own script.</p>
+
+<p>doing a little bit of searching revealed this lovely command that appears to be OSX specific:</p>
+
+<pre><code>pmset -g batt
+</code></pre>
+
+<p>running this will give you a result like this:</p>
+
+<pre><code>Currently drawing from 'Battery Power'
+  -InternalBattery-0     100%; discharging; 6:44 remaining
+</code></pre>
+
+<p>As you can see, this string is just begging to be pulled apart via regular expressions. So that’s exactly what I did. The first line is super easy to parse; there are only two possible strings (as near as I can tell) that go between the single quotes: </p>
+
+<ul>
+  <li>Battery Power</li>
+  <li>AC Power</li>
+</ul>
+
+<p>So grabbing that string gives us a simple way to know where our energy is coming from. I didn’t want to just <em>say</em> “Battery” or “AC”, though, so I’m using the emoji for battery and lightning respectively<sup id="fnref:plug"><a href="#fn:plug" rel="footnote">3</a></sup>.</p>
+
+<p>On the second line there are three things we want to know: how charged the battery is, if it’s charging or discharging (or charged) and how long until it’s done doing what it’s doing. I decided to represent the charge level of the battery using five stars, because that fits nicely and a 5-star system makes sense to people. I didn’t even need emoji for full or hollow stars, they’re part of UTF-8, so that was even easier. After a little thought I decided (for now) not to represent the charging/discharging/charged state specifically. I’m still capturing it, I’m just not displaying it.</p>
+
+<p>So a few minutes of ruby hacking later and I have a script that gets me all the info I need and displays it using pretty pictures. Now all I need to do is get it into tmux. Fortunately that was also very simple. This line: </p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span>Display Battery Info </span><a href="https://raw.github.com/PogiNate/dots/master/home/.tmux.conf">Link to file on Github </a></figcaption> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+</pre></td><td class="code"><pre><code class="bash"><span class="line"><span class="nb">set</span> -g status-right <span class="s2">&quot;#[fg=colour155]#(pmset -g batt | ~/bin/battinfo.rb) | #[fg=colour45]%d %b %R&quot;</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div>
+
+<p>runs the <code>pmset</code> command and my script and gives me a nice green row of stars and a cyan-ish date, like so:</p>
+
+<p><img src="assets/images/charged.png" title="Charged tmux status bar" /></p>
+
+<p>And like so:</p>
+
+<p><img src="assets/images/battery.png" title="Battery power tmux status bar" /></p>
+
+<p>It shows one star empty the moment the battery level falls below 100%, because of math, but I’m fine with that.</p>
+
+<p>So: about an hour’s worth of work for something that will technically save me no time at all, ever. According to<a href="http://xkcd.com/1205/"> XKCD’s chart</a>, it wasn’t worth the time, but I’m still perfectly happy with it. I’m considering updating the script to be more tmux-specific, perhaps even coloring the output based on the charging state, but for now this is good and isn’t terribly distracting.</p>
+
+<p>Anyway, the battinfo.rb script is below, my <code>.tmux.conf</code> file is on github with all <a href="https://github.com/PogiNate/dots">my other dot files</a>.</p>
+
+<div><script src="https://gist.github.com/5490603.js"></script>
+<noscript><pre><code /></pre></noscript></div>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:minor">
+      <p>very <em>very</em> minor<a href="#fnref:minor" rel="reference">&#8617;</a></p>
+    </li>
+    <li id="fn:kinda">
+      <p>or <a href="http://www.apple.com/hotnews/thoughts-on-flash/">words to that effect</a>: “The third party may not adopt enhancements from one platform unless they are available on all of their supported platforms. Hence developers only have access to the lowest common denominator set of features.”<a href="#fnref:kinda" rel="reference">&#8617;</a></p>
+    </li>
+    <li id="fn:plug">
+      <p>There is an emoji power plug symbol, but it doesn’t show up well on a black background.<a href="#fnref:plug" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Nate Dickson</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-04-30T10:25:00-06:00" pubdate data-updated="true">Apr 30<span>th</span>, 2013</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/cli/'>cli</a>, <a class='category' href='/blog/categories/ruby/'>ruby</a>, <a class='category' href='/blog/categories/tmux/'>tmux</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://PogiNate.github.com/blog/2013/04/30/battery-status-in-tmux/" data-via="poginate" data-counturl="http://PogiNate.github.com/blog/2013/04/30/battery-status-in-tmux/" >Tweet</a>
+  
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2013/04/20/thoughts-on-introversion/" title="Previous Post: Thoughts on Introversion">&laquo; Thoughts on Introversion</a>
+      
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2013/04/30/battery-status-in-tmux/">Battery Status in tmux</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/04/20/thoughts-on-introversion/">Thoughts on Introversion</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/04/14/pocket-why-i-stopped-reading-websites/">Pocket: Why I Stopped Reading Websites</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/04/12/introducing-a-dot-k-a-dot-the-alias-manager/">Introducing A.K.A.: The Alias Manager</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/04/09/mostly-multimarkdown-blogging-in-octopress/">(Mostly) MultiMarkdown Blogging in Octopress</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/PogiNate">@PogiNate</a> on GitHub
+  
+  <script type="text/javascript">
+    $.domReady(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'PogiNate',
+            count: 3,
+            skip_forks: false,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+<section>
+  <h1>My Pinboard</h1>
+  <ul id="pinboard_linkroll">Fetching linkroll...</ul>
+  <p><a href="http://pinboard.in/u:PogiNate">My Pinboard Bookmarks &raquo;</a></p>
+</section>
+<script type="text/javascript">
+  var linkroll = 'pinboard_linkroll'; //id target for pinboard list
+  var pinboard_user = "PogiNate"; //id target for pinboard list
+  var pinboard_count = 3; //id target for pinboard list
+  (function(){
+    var pinboardInit = document.createElement('script');
+    pinboardInit.type = 'text/javascript';
+    pinboardInit.async = true;
+    pinboardInit.src = '/javascripts/pinboard.js';
+    document.getElementsByTagName('head')[0].appendChild(pinboardInit);
+  })();
+</script>
+
+
+
+
+  
+</aside>
+
+
+      </div>
+    </div>
+    <footer role="contentinfo"><p>
+  Copyright &copy; 2013 - Nate Dickson -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a>. Design by <a href="http://octopressthemes.com">Octopress Themes</a></span>
+</p>
+
+</footer>
+    
+
+<script type="text/javascript">
+      var disqus_shortname = 'natedickson';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://PogiNate.github.com/blog/2013/04/30/battery-status-in-tmux/';
+        var disqus_url = 'http://PogiNate.github.com/blog/2013/04/30/battery-status-in-tmux/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+  </div>
+</body>
+</html>
