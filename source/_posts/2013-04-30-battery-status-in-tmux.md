@@ -39,11 +39,11 @@ set -g status-right "#[fg=colour155]#(pmset -g batt | ~/bin/battinfo.rb) | #[fg=
 {%endcodeblock%}
 runs the `pmset` command and my script and gives me a nice green row of stars and a cyan-ish date, like so:
 
-{% img assets/images/charged.png Charged tmux status bar %}
+{% img /assets/images/charged.png Charged tmux status bar %}
 
 And like so:
 
-{% img assets/images/battery.png Battery power tmux status bar %}
+{% img /assets/images/battery.png Battery power tmux status bar %}
 
 It shows one star empty the moment the battery level falls below 100%, because of math, but I'm fine with that.
 
