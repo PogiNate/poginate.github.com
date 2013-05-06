@@ -3,7 +3,7 @@ layout: post
 title: "tmux and Octopress"
 date: 2013-03-21 5:22
 comments: true
-categories: [writing, nerd fun, CLI] 
+categories: [writing, nerd fun, cli, tmux] 
 ---
 
 Naturally, the first thing I did after getting Octopress up, running, and actually *deployed* to a real live server was set up a writing workflow that will make it easy to post to this blog. And by "easy", I of course mean "weird and convoluted, but in a way that makes sense to me". What else would I mean?

@@ -3,7 +3,7 @@ layout: post
 title: "Introducing A.K.A.: The Alias Manager"
 date: 2013-04-12 11:33
 comments: true
-categories: ['dotfiles','software','self-promotion']
+categories: ['dotfiles','software','self-promotion', cli, ruby]
 ---
 
 One of the joys of moving from a Windows machine at work to OSX is that I'm back to having access to the unix command line. The downside, of course, long commands that I [usually get wrong][1]. 
