@@ -9,7 +9,7 @@
   <meta name="author" content="Nate Dickson">
 
   
-  <meta name="description" content="It all started when I decided that I wanted to try shaving with a brush and soap instead of canned shaving cream. It seemed possible that there was &hellip;">
+  <meta name="description" content="Apple lives a strange double life. They’ve always had a strange love/hate relationship with developers: they want great 3rd party apps, but they want &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -70,6 +70,60 @@
       <div id="content">
         <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2013/03/22/vines-through-the-garden-wall/">Vines Through the Garden Wall</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-03-22T09:23:00-06:00" pubdate data-updated="true">Mar 22<span>nd</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Apple lives a strange double life. They’ve always had a strange love/hate relationship with developers: they want great 3rd party apps, but they want everything to be <em>just right</em>, and if you don’t agree with their vision of <em>just right</em> then you’re plain wrong.</p>
+
+<p>And over time we’ve seen that weird divide get weirder on OSX. On the surface you’ve got Gatekeeper, designed to keep the weeds out of the walled garden, but fire up the terminal, install <a href="http://mxcl.github.com/homebrew/">Homebrew</a> and suddenly you’ve got the whole world of open source software all over your nice shiny Mac, with not a peep out of Gatekeeper. and frankly I think that’s fine. If people don’t want to worry about their computer and just want to install things from the Mac App Store then let them live that way. But for those of us who kind of like all the wild plants inside the walled garden let us install whatever we want.</p>
+
+<p>Unfortunately iOS doesn’t get the same freedom. <strong>All</strong> apps are tightly sandboxed, and absolutely not allowed to talk to one another. You keep your code to yourself and pretend you don’t know anybody else exists. The Walled Garden is walled all the way up and down.</p>
+
+<p>Except…there is one crack.</p>
+
+<p>Some blessed engineer decided that it would be good if apps could talk to one another, at least rudimentarily. Using the <a href="http://handleopenurl.com/">Open Url Scheme</a> you can pass commands and strings back and forth between apps. It’s a surprisingly open, beautifully object-oriented method of dealing with a common problem. As long as the receiving app knows how to handle the commands sent by the calling app it handles it and you’ve got a vine through the wall.</p>
+
+<p>A few beautiful wild plants have sprung up using this method of communication to enhance your entire workflow. <a href="http://agiletortoise.com/drafts">Drafts</a>, and it’s ultra-literate sibling <a href="http://agiletortoise.com/terminology/">Terminology</a> use it, to great effect. Drafts let you create text and pass it just about <em>anywhere</em> to use however you want. Dropbox and Evernote both respond to url schemes to allow you to create new notes. </p>
+
+<p>But even more amazing is <a href="http://omz-software.com/pythonista/">Pythonista</a>. Somehow omz software managed to get the entire python 2.7 runtime into iOS, and you can create workflows that send data into and out of your python scripts, again using url schemes. For example, I have a bookmarklet in Safari that works like this:</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+</pre></td><td class="code"><pre><code class="javascript"><span class="line"><span class="nx">javascript</span><span class="o">:</span><span class="nb">window</span><span class="p">.</span><span class="nx">location</span><span class="o">=</span><span class="s1">&#39;pythonista://my_script?action=run&amp;argv=&#39;</span><span class="o">+</span><span class="nb">encodeURIComponent</span><span class="p">(</span><span class="nx">location</span><span class="p">.</span><span class="nx">href</span><span class="p">)</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div>
+<p>When I find a page that I want to pass into my script (the functionality of which is beyond the script of this article, and is <em>at the same time</em> incredibly dull) I just hit that bookmarklet and a few seconds later Pythonista has modified the text and passed it on to Drafts, which in turn can send it on to Dropbox. Suddenly the garden walls don’t seem as impenetrable. </p>
+
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -224,6 +278,10 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2013/05/06/buy-quality/">Buy Quality</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2013/04/30/battery-status-in-tmux/">Battery Status in tmux</a>
       </li>
     
@@ -237,10 +295,6 @@
     
       <li class="post">
         <a href="/blog/2013/04/12/introducing-a-dot-k-a-dot-the-alias-manager/">Introducing A.K.A.: The Alias Manager</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2013/04/09/mostly-multimarkdown-blogging-in-octopress/">(Mostly) MultiMarkdown Blogging in Octopress</a>
       </li>
     
   </ul>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: life | Nate Dickson]]></title>
+  <link href="http://PogiNate.github.com/blog/categories/life/atom.xml" rel="self"/>
+  <link href="http://PogiNate.github.com/"/>
+  <updated>2013-05-06T13:08:55-06:00</updated>
+  <id>http://PogiNate.github.com/</id>
+  <author>
+    <name><![CDATA[Nate Dickson]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Buy Quality]]></title>
+    <link href="http://PogiNate.github.com/blog/2013/05/06/buy-quality/"/>
+    <updated>2013-05-06T12:54:00-06:00</updated>
+    <id>http://PogiNate.github.com/blog/2013/05/06/buy-quality</id>
+    <content type="html"><![CDATA[<p>I have a <a href="http://www.timbuk2.com/tb2/">Timbuk2</a> bag that I purchased six years ago, when I got my first MacBook. Even though I only had a 13” <a href="http://en.wikipedia.org/wiki/File:MacBook.jpg">black plastic MacBook</a> at the time, I got the 15” messenger bag because I figured the odds were pretty good that <em>someday</em> I would have a 15” MacBook Pro. </p>
+
+<p>Surround your pullquote like this {" text to be quoted "} </p>
+
+<p>So, not a big post, or a deep important mystery of life this time around, sorry. Not even a cool new tech toy to play with. My only real point is that if you do some research and find something worth investing in<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup> you will be rewarded for it. </p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>In fact, it cost more than the second-hand MacBook it was purchased to carry<a href="#fnref:1" rel="reference">&#8617;</a></p>
+    </li>
+    <li id="fn:2">
+      <p>Time or money; learning vim has been a huge investment of time for me, not so much on the financial side.<a href="#fnref:2" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+]]></content>
+  </entry>
+  
+</feed>
