@@ -4,7 +4,7 @@
   <title><![CDATA[Category: self-promotion | Nate Dickson]]></title>
   <link href="http://PogiNate.github.com/blog/categories/self-promotion/atom.xml" rel="self"/>
   <link href="http://PogiNate.github.com/"/>
-  <updated>2013-05-20T15:41:22-06:00</updated>
+  <updated>2013-05-22T13:03:20-06:00</updated>
   <id>http://PogiNate.github.com/</id>
   <author>
     <name><![CDATA[Nate Dickson]]></name>
@@ -12,6 +12,23 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Introducing Painless Vim]]></title>
+    <link href="http://PogiNate.github.com/blog/2013/05/22/introducing-painless-vim/"/>
+    <updated>2013-05-22T12:47:00-06:00</updated>
+    <id>http://PogiNate.github.com/blog/2013/05/22/introducing-painless-vim</id>
+    <content type="html"><![CDATA[<p><img class="left" src="/images/painless_cover.png" title="Painless Vim Cover" >
+I’m excited to announce the availability of <em>Painless Vim</em>, my new (indeed, still in progress) book on the ever powerful vim editor! While the book is still in progress, you can pick up a copy at <a href="https://leanpub.com/painless_vim">Leanpub</a> right now and make suggestions to help guide the development of this book. I’m very impressed by the Leanpub system, allowing authors to write their books out in the open and get feedback along the way. </p>
+
+<h2 id="why-another-vim-tutorial">Why Another Vim Tutorial?</h2>
+
+<p>I started thinking about writing this book when I realized I <a href="http://yehudakatz.com/2010/07/29/everyone-who-tried-to-convince-me-to-use-vim-was-wrong/">wasn’t the only developer</a> who has tried to use vim and was put off by the vast majority of vim training available. Vim is really very developer friendly, but a lot of the teaching resources for vim are anything but. My goal is to take the best of what I have picked up in my journey to vim and present it in a way that helps other people get over the initial hurdle and into the good parts of the editor.</p>
+
+<p>I’ll be writing quite a bit about the development process of the book and the workflow involved. Watch this space!</p>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Introducing A.K.A.: The Alias Manager]]></title>
