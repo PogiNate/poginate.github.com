@@ -1,0 +1,368 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>From Scrivener to Leanpub in One Step - Nate Dickson</title>
+  <meta name="author" content="Nate Dickson">
+
+  
+  <meta name="description" content="I’m working on Painless Vim in Scrivener, because I love its organizational capabilities 1 …or have I mentioned my love of Scrivener before? (yes) &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="shortcut icon" href="favicon.ico" >
+
+  
+  <link rel="canonical" href="http://PogiNate.github.com/blog/2013/05/30/from-scrivener-to-leanpub-in-one-step/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="Nate Dickson" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=Arvo:400,400italic,700,700italic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=Merienda:700" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body>
+  <div id="navigation">
+    <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:PogiNate.github.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  </div>
+  <header role="banner"><hgroup>
+  <h1><a href="/">Nate Dickson</a></h1>
+  
+    <h2>What I think.</h2>
+  
+</hgroup>
+
+</header>
+  <div id="body"  >
+    <div id="main">
+      <div id="content">
+        <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">From Scrivener to Leanpub in One Step</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-05-30T00:46:00-06:00" pubdate data-updated="true">May 30<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>I’m working on <em><a href="https://leanpub.com/painless_vim">Painless Vim</a></em> in <a href="www.literatureandlatte.com/scrivener.php">Scrivener</a>, because I love its organizational capabilities <sup id="fnref:2"><a href="#fn:2" rel="footnote">1</a></sup> …or have I mentioned my love of Scrivener before? (yes)</p>
+
+<p>The problem arises when I want to push my text to <a href="https://leanpub.com">Leanpub</a>. Scrivener has two very good ways to get your text out of Scriv into the world: you can <em>export</em> each text as a file, or you can <em>compile</em> it into a single document ready to send off to a printer. They’ve both got their pros and cons, but to really understand them we need a brief detour into how publishing on Leanpub works:</p>
+
+<h3 id="brief-detour-into-how-publishing-on-leanpub-works">Brief Detour Into How Publishing on Leanpub Works</h3>
+
+<p>to publish your text on Leanpub you put all your chapters or whatever into individual <code>.txt</code> files, which you put into a special Dropbox folder called something like <code>~/Dropbox/name_of_book/manuscript/</code>. then you include a file called <code>Book.txt</code> to tell Leanpub what order the text files should be in when the book is put together. You can also create a <code>Sample.txt</code> file that tells Leanpub which text files to put into a free sample that potential buyers can download, and  a <code>Preview.txt</code> file that lets you just render a specific part of the book to make sure the formatting looks the way you want it. Okay, that’s your brief tutorial on Leanpub.</p>
+
+<p>So, back to getting text out of Scrivener into this folder.</p>
+
+<p>The compile option seems like a great choice at first: it creates a single text file made up of all the text in your document, formatted however you like, and once you’ve created your compile settings it’s a single click operation. </p>
+
+<p>The problem is with the Sample and Preview options. Since your text is all in a single file you can’t pick and choose individual parts of the text to give away for free. You could have two separate compile settings, but that seems very labor intensive.</p>
+
+<p>So, the “export” option is the way to go, right? Every text section in your Scrivener project is exported as a single text file, just like Leanpub wants, you can create <code>Sample.txt</code> and <code>Preview.txt</code> files and everything is good. </p>
+
+<p>Well, one problem. Let’s say  you’ve got your book laid out in Folders instead of as just a list of text files in Scrivener. When it exports your book it creates the full file structure:</p>
+
+<pre><code>Painless Vim
+| 
++- Part I
+|	|
+|	+- Chapter 1.txt
+|	+- Chapter2.txt
++- Part II
+	|
+	+- Chapter 3.txt	 
+</code></pre>
+
+<p>And so forth. You get the picture. This is a problem because Leanpub doesn’t do subfolders; you need all the files to be in the root of the <code>manuscript/</code> directory. So, after doing an export from Scrivener I needed a way to flatten out the file system.</p>
+
+<h3 id="enter-automator">Enter Automator</h3>
+
+<p>Here’s the fun part. I could have written a ruby script to go through the exported file and copy all the <code>.txt</code> files to the <code>manuscript</code> folder. But that would have taken <em>minutes</em>. Like, <em>dozens</em> of them. So I decided to once again let Automator have a crack at it.</p>
+
+<p>And it was <strong>easy</strong>. Automator has gotten a lot more useful since last I played with it<sup id="fnref:1"><a href="#fn:1" rel="footnote">2</a></sup>, with things like variables and other things you’d expect from a real scripting environment. What’s more, I was able to set up my workflow as a “folder action”, watching the <code>~/Documents/Painless/</code> folder which I created specifically for this purpose. Now I just tell Scrivener to export into that directory and Automator takes it from there. </p>
+
+<p>The Automator workflow I set up is dead simple:</p>
+
+<ol>
+  <li>Save the name of whatever just appeared in <code>Painless</code> in a variable called <code>New Folder</code> <sup id="fnref:names"><a href="#fn:names" rel="footnote">3</a></sup> .</li>
+  <li>Get everything in the new folder, recursively</li>
+  <li>Filter that list by file extension (in this case, we only want .txt files)</li>
+  <li>Copy all those text files to <code>~/Dropbox/painless_vim/manuscript/</code>, overwriting any existing files.</li>
+  <li>Delete whatever is stored in <code>incoming</code>. </li>
+</ol>
+
+<p>And there you have it. The last step is just to make the export from Scrivener one step shorter, because it doesn’t have to ask if you want to overwrite your last export.</p>
+
+<p>There are a lot of advantages to this setup. I can now export a single text file or folder instead of the entire project, and just that file will get overwritten. For single file exports this is nearly instantaneous, opposed to the <em>three whole seconds</em> it takes to export my entire project.  I  can also have <em>all</em> my files, including my <code>Book.txt, Sample.txt</code> and <code>Preview.txt</code> managed in Scrivener, which I couldn’t do if I were doing the Compile option. </p>
+
+<p>Over all I’m very pleased with this workflow. It’s taken one of the pain points out of writing <em>Painless Vim</em>. </p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:2">
+      <p>Okay, I know it seems odd that I’m writing a book called <em>Painless Vim</em> and here I am admitting that I’m using a completely different editor to write it. What’s the deal here? The deal is that it’s really easy to copy and paste text around between editors (especially using Hog Bay’s <a href="http://www.hogbaysoftware.com/products/quickcursor">QuickCursor</a>, but that’s an entirely different footnote), and while I do most of the actual writing in vim, I keep the text files in Scrivener for reasons that will be expounded upon in a future blog post.<a href="#fnref:2" rel="reference">&#8617;</a></p>
+    </li>
+    <li id="fn:1">
+      <p>at least four years ago<a href="#fnref:1" rel="reference">&#8617;</a></p>
+    </li>
+    <li id="fn:names">
+      <p>Let’s not make fun of bad variable names here, Thank you so much.<a href="#fnref:names" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Nate Dickson</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-05-30T00:46:00-06:00" pubdate data-updated="true">May 30<span>th</span>, 2013</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/painless-vim/'>Painless Vim</a>, <a class='category' href='/blog/categories/automator/'>automator</a>, <a class='category' href='/blog/categories/scrivener/'>scrivener</a>, <a class='category' href='/blog/categories/writing/'>writing</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://PogiNate.github.com/blog/2013/05/30/from-scrivener-to-leanpub-in-one-step/" data-via="poginate" data-counturl="http://PogiNate.github.com/blog/2013/05/30/from-scrivener-to-leanpub-in-one-step/" >Tweet</a>
+  
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2013/05/22/introducing-painless-vim/" title="Previous Post: Introducing Painless Vim">&laquo; Introducing Painless Vim</a>
+      
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2013/05/30/from-scrivener-to-leanpub-in-one-step/">From Scrivener to Leanpub in One Step</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/05/22/introducing-painless-vim/">Introducing Painless Vim</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/05/20/terrible-time-travel-concept-for-a-cheesy-sci-fi-movie/">Terrible Time Travel Concept for a Cheesy Sci-fi Movie</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/05/10/from-the-desk-of-captain-obvious-tmuxinator-vs-scripted-configurations/">From The Desk of Captain Obvious: Tmuxinator vs. Scripted configurations</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/05/06/buy-quality/">Buy Quality</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/PogiNate">@PogiNate</a> on GitHub
+  
+  <script type="text/javascript">
+    $.domReady(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'PogiNate',
+            count: 3,
+            skip_forks: false,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+<section>
+  <h1>My Pinboard</h1>
+  <ul id="pinboard_linkroll">Fetching linkroll...</ul>
+  <p><a href="http://pinboard.in/u:PogiNate">My Pinboard Bookmarks &raquo;</a></p>
+</section>
+<script type="text/javascript">
+  var linkroll = 'pinboard_linkroll'; //id target for pinboard list
+  var pinboard_user = "PogiNate"; //id target for pinboard list
+  var pinboard_count = 3; //id target for pinboard list
+  (function(){
+    var pinboardInit = document.createElement('script');
+    pinboardInit.type = 'text/javascript';
+    pinboardInit.async = true;
+    pinboardInit.src = '/javascripts/pinboard.js';
+    document.getElementsByTagName('head')[0].appendChild(pinboardInit);
+  })();
+</script>
+
+
+
+
+  
+</aside>
+
+
+      </div>
+    </div>
+    <footer role="contentinfo"><p>
+  Copyright &copy; 2013 - Nate Dickson -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a>. Design by <a href="http://octopressthemes.com">Octopress Themes</a></span>
+</p>
+
+</footer>
+    
+
+<script type="text/javascript">
+      var disqus_shortname = 'natedickson';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://PogiNate.github.com/blog/2013/05/30/from-scrivener-to-leanpub-in-one-step/';
+        var disqus_url = 'http://PogiNate.github.com/blog/2013/05/30/from-scrivener-to-leanpub-in-one-step/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+  </div>
+</body>
+</html>
