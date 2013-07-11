@@ -9,7 +9,7 @@
   <meta name="author" content="Nate Dickson">
 
   
-  <meta name="description" content="I’m working on Painless Vim in Scrivener, because I love its organizational capabilities 1 …or have I mentioned my love of Scrivener before? (yes) &hellip;">
+  <meta name="description" content="So, I recently put a coupon up on Twitter and App.net offering ten people the opportunity to get a free copy of my book Painless Vim, which is still &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -70,6 +70,62 @@
       <div id="content">
         <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2013/07/11/free-books/">Free Books!</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-07-11T09:11:00-06:00" pubdate data-updated="true">Jul 11<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>So, I recently put a coupon up on <a href="https://twitter.com/poginate">Twitter</a> and <a href="https://alpha.app.net/poginate">App.net</a> offering ten people the opportunity to get a free copy of my book <em><a href="https://leanpub.com/painless_vim">Painless Vim</a></em>, which is still very much in <strong>alpha</strong>. But I figured attracting a few extra readers couldn’t do anything but help. </p>
+
+<p>And in next to no time all ten free copies were gone, which is awesome. I’m not so much about the money on this one, I’m just enjoying writing it and really want to see it published and hopefully help a few people. </p>
+
+<p>Anyway, it occurred to me that I hadn’t offered free copies to any of my faithful blog followers! So, here’s the deal: here’s another coupon code, also good for the first 10, nah, let’s say 20 people, but the condition is that I <em>really</em> would like any feedback you have about the book, even in this early state. Okay, ready? Here’s the skinny:</p>
+
+<ol>
+  <li>Go to <a href="https://leanpub.com/painless_vim">https://leanpub.com/painless_vim</a></li>
+  <li>buy the book using the coupon code <strong>Blog20</strong>. <sup id="fnref:paymor"><a href="#fn:paymor" rel="footnote">1</a></sup></li>
+  <li>Give me some awesome and useful feedback on the book either through the Leanpub site, as a comment on this site. Or ping me on <a href="https://twitter.com/poginate">Twitter</a>/<a href="https://alpha.app.net/poginate">App.net</a> with the hashtag #PainlessVim. However you get the feedback to me I will definitely take it into consideration and use it to improve the book.</li>
+</ol>
+
+<hr />
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:paymor">
+      <p>And if you <em>want</em> to pay more than nothing I won’t stop you! Seriously! I’d be fine with it!<a href="#fnref:paymor" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -658,78 +714,6 @@ Another benefit is that <em>your</em> content is now styled <em>my</em> way. No 
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/04/09/mostly-multimarkdown-blogging-in-octopress/">(Mostly) MultiMarkdown Blogging in Octopress</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-04-09T09:55:00-06:00" pubdate data-updated="true">Apr 9<span>th</span>, 2013</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>So, my big concern in moving over to <a href="http://octopress.org/">Octopress</a> was the lack of MultiMarkdown compatibility. Specifically the lack of footnotes. I <em>think</em> in footnotes a lot of the time<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>. </p>
-
-<p>So it was a definite problem to go to something limited to vanilla markdown. I did a few million hours of web searching to find a way to use MultiMarkdown as my renderer, but for some reason Jekyll is surprisingly resistant to the idea, so I gave up.</p>
-
-<p>For a while. I’m not good at actually giving up. I had made my peace with using non-footnoted code for blogging and had moved on, until I noticed that <a href="http://brettterpstra.com/">Brett Terpstra</a>, who documented his own move to Jekyll based blogging a few months ago, had footnotes aplenty on his blog<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup>. So I asked him how he was pulling that off.</p>
-
-<p>Here’s his answer, in it’s entirety:</p>
-
-<blockquote>
-  <p>I just use Kramdown as my processor. Works way better than Maruku or Rdiscount for me.
--Brett</p>
-</blockquote>
-
-<p>That’s it, folks. I made a single change to my <code>_config.yml</code> file:</p>
-
-<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span>kramdown now </span></figcaption>
- <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
-</pre></td><td class="code"><pre><code class="yaml"><span class="line"><span class="l-Scalar-Plain">markdown</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">kramdown</span>
-</span></code></pre></td></tr></table></div></figure></notextile></div>
-
-<p>Bingo! Footnotes<sup id="fnref:3"><a href="#fn:3" rel="footnote">3</a></sup> now work and you get to jump around a lot more when you read my blog.</p>
-
-<p>So that’s it really. If you’ve been looking for a way to use MultiMarkdown features in  your Octopress blogging the problem is really much simpler than you thought. Direct your thanks to Brett.</p>
-
-<div class="footnotes">
-  <ol>
-    <li id="fn:1">
-      <p>All the other MultiMarkdown features are amazingly useful as well, but footnotes are just integral to my writing.<a href="#fnref:1" rel="reference">&#8617;</a></p>
-    </li>
-    <li id="fn:2">
-      <p>I also knew that he’s a big fan of MultiMarkdown, seeing as he’s the creator of <a href="http://brettterpstra.com/2012/02/28/nvalt-2-2-public-beta/">nvALT</a>, <a href="http://markedapp.com/">Marked</a>, and apparently <a href="http://multimarkdown.com/faq/icon">worked</a> with Fletcher T. Penny on the icon for <a href="http://multimarkdown.com">MultiMarkdown Composer</a>.<a href="#fnref:2" rel="reference">&#8617;</a></p>
-    </li>
-    <li id="fn:3">
-      <p>And a lot of other very nice features.<a href="#fnref:3" rel="reference">&#8617;</a></p>
-    </li>
-  </ol>
-</div>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/2/">&larr; Older</a>
@@ -745,6 +729,10 @@ Another benefit is that <em>your</em> content is now styled <em>my</em> way. No 
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2013/07/11/free-books/">Free Books!</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2013/05/30/from-scrivener-to-leanpub-in-one-step/">From Scrivener to Leanpub in One Step</a>
       </li>
     
@@ -758,10 +746,6 @@ Another benefit is that <em>your</em> content is now styled <em>my</em> way. No 
     
       <li class="post">
         <a href="/blog/2013/05/10/from-the-desk-of-captain-obvious-tmuxinator-vs-scripted-configurations/">From The Desk of Captain Obvious: Tmuxinator vs. Scripted configurations</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2013/05/06/buy-quality/">Buy Quality</a>
       </li>
     
   </ul>

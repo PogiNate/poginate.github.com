@@ -4,7 +4,7 @@
   <title><![CDATA[Category: vim | Nate Dickson]]></title>
   <link href="http://PogiNate.github.com/blog/categories/vim/atom.xml" rel="self"/>
   <link href="http://PogiNate.github.com/"/>
-  <updated>2013-05-30T00:55:15-06:00</updated>
+  <updated>2013-07-11T09:31:31-06:00</updated>
   <id>http://PogiNate.github.com/</id>
   <author>
     <name><![CDATA[Nate Dickson]]></name>
@@ -12,6 +12,35 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Free Books!]]></title>
+    <link href="http://PogiNate.github.com/blog/2013/07/11/free-books/"/>
+    <updated>2013-07-11T09:11:00-06:00</updated>
+    <id>http://PogiNate.github.com/blog/2013/07/11/free-books</id>
+    <content type="html"><![CDATA[<p>So, I recently put a coupon up on <a href="https://twitter.com/poginate">Twitter</a> and <a href="https://alpha.app.net/poginate">App.net</a> offering ten people the opportunity to get a free copy of my book <em><a href="https://leanpub.com/painless_vim">Painless Vim</a></em>, which is still very much in <strong>alpha</strong>. But I figured attracting a few extra readers couldn’t do anything but help. </p>
+
+<p>And in next to no time all ten free copies were gone, which is awesome. I’m not so much about the money on this one, I’m just enjoying writing it and really want to see it published and hopefully help a few people. </p>
+
+<p>Anyway, it occurred to me that I hadn’t offered free copies to any of my faithful blog followers! So, here’s the deal: here’s another coupon code, also good for the first 10, nah, let’s say 20 people, but the condition is that I <em>really</em> would like any feedback you have about the book, even in this early state. Okay, ready? Here’s the skinny:</p>
+
+<ol>
+  <li>Go to <a href="https://leanpub.com/painless_vim">https://leanpub.com/painless_vim</a></li>
+  <li>buy the book using the coupon code <strong>Blog20</strong>. <sup id="fnref:paymor"><a href="#fn:paymor" rel="footnote">1</a></sup></li>
+  <li>Give me some awesome and useful feedback on the book either through the Leanpub site, as a comment on this site. Or ping me on <a href="https://twitter.com/poginate">Twitter</a>/<a href="https://alpha.app.net/poginate">App.net</a> with the hashtag #PainlessVim. However you get the feedback to me I will definitely take it into consideration and use it to improve the book.</li>
+</ol>
+
+<hr />
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:paymor">
+      <p>And if you <em>want</em> to pay more than nothing I won’t stop you! Seriously! I’d be fine with it!<a href="#fnref:paymor" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Exploring the Old Ways]]></title>
