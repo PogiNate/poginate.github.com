@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: paranoia | Nate Dickson]]></title>
+  <link href="http://PogiNate.github.com/blog/categories/paranoia/atom.xml" rel="self"/>
+  <link href="http://PogiNate.github.com/"/>
+  <updated>2013-07-30T09:55:26-06:00</updated>
+  <id>http://PogiNate.github.com/</id>
+  <author>
+    <name><![CDATA[Nate Dickson]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Leaving Google]]></title>
+    <link href="http://PogiNate.github.com/blog/2013/07/30/leaving-google/"/>
+    <updated>2013-07-30T08:40:00-06:00</updated>
+    <id>http://PogiNate.github.com/blog/2013/07/30/leaving-google</id>
+    <content type="html"><![CDATA[<p>Edward Snowden basically only verified what we had all already feared: The government is getting information about all of us behind our backs. The problem is that all this time Google has been promising that they’re doing a nice, open, transparent operation, letting us all know what they’re being asked for and what they’re actually giving, and now…well, I have a hard time believing them. </p>
+
+<p>But it’s more than that. The old wisdom about eggs and numbers of baskets used to store them rings very true these days. Regardless of government requests<sup id="fnref:no_hide"><a href="#fn:no_hide" rel="footnote">1</a></sup>, regardless of anything else, I’ve gradually become uncomfortable letting google moderate all aspects of my online life. </p>
+
+<p>So I’m trying to move away from services that I’ve been using for  years. And the sad fact is that the alternatives just <em>aren’t</em> as good as the Google offerings. There’s no getting around it. But here’s what I’m using in my attempt at going Google-free:</p>
+
+<h2 id="firefox">Firefox</h2>
+
+<p>Back to the fox. Firefox was once a shining star of the future of the web and now it’s kind of like Safari: At least it’s not Internet Explorer. But it has plugins like AdBlock Plus <sup id="fnref:block_comments"><a href="#fn:block_comments" rel="footnote">2</a></sup> and <a href="http://www.abine.com/how-donottrackme-works/">Do Not Track Me</a>, both of which make it easier to keep anybody from following me around on the internet. Again, if they want to know where I go all day every day they can just <em>ask</em> me (or look at my <a href="https://pinboard.in/u:PogiNate">Pinboard</a>), but I’d like them to have the decency to ask.</p>
+
+<h2 id="duckduckgo">DuckDuckGo</h2>
+
+<p><a href="https://duckduckgo.com/">DDG</a> is a great search engine for people who don’t want to be tracked. It stores exactly <em>nothing</em> about you, meaning your searches aren’t tailored or customized based on your past search history. They have a great summary of <a href="http://donttrack.us/">why this is a good thing</a> linked to their home page.</p>
+
+<p>The downside is that, well, you’re not getting customized results, which means that sometimes you have to dig a few pages down to get the content you really want. But the results are quite good and getting better daily. </p>
+
+<h2 id="gmail">Gmail…</h2>
+
+<p>This is the one that’s going to be difficult. Gmail is the king of free email, bar none. To get anywhere close to the feature set that gmail provides is going to require paying for email, and if I’m going to do that I’d like to pay for really <em>really</em> secure email. So I’m still looking for a good replacement. </p>
+
+<p>At first I was put off by the really small quotas most email providers give you. I mean, Gmail is up to 15GB free! A lot of them charge you for anything over 1GB! <strong>GASP!!</strong></p>
+
+<p>But then I looked at my actual usage. I’ve had my gmail account for around 7 years, and I’ve used about .56GB. Yep. Half a gig.<sup id="fnref:inboxZero"><a href="#fn:inboxZero" rel="footnote">3</a></sup> So I’m probably okay on that front. Based on that I’m looking at a few options:</p>
+
+<p>-<strong><a href="http://lavabit.com/index.html">Lavabit</a></strong> is an email provider who values security, security, security. For $8 a year you get 1GB of storage <sup id="fnref:upgrade"><a href="#fn:upgrade" rel="footnote">4</a></sup> and <a href="http://lavabit.com/secure.html">totally encrypted email</a>. The price is good, and as I’ve said, I think I can swing a single gigabyte. 
+- <strong><a href="https://www.hushmail.com/services/hushmail/features/">Hushmail</a></strong> Gives you PGP signed email…if you are sending to people who know how to open PGP encrypted email. They charge $34.99/year for 1GB of storage, but if you want to use a desktop email client via POP/IMAP you will have to go up to $49.98/year for some reason. 
+- <strong><a href="https://www.fastmail.fm/signup/personal.html">FastMail</a></strong> is owned by <a href="http://www.opera.com/">Opera</a> and is somewhere between Lavabit and Hushmail: it’s $19.95/year for 1GB, no mention of encryption on the server, but fully secure communication between client and server, and no (known) agreement with the NSA. </p>
+
+<h2 id="duckduckgo-xmpp">DuckDuckGo XMPP</h2>
+
+<p>Apparently Google is ending support for the XMPP protocol for Gtalk, which makes it a much less useful chat system. Which is a shame, because a lot of my coworkers use it almost exclusively. </p>
+
+<p>But DuckDuckGo is there for you in this arena as well. They provide <a href="https://dukgo.com/blog/xmpp-services-at-duckduckgo">an XMPP server </a>that is much less Stalker-ish than GTalk, and also isn’t being deprecated in favor of closed protocols.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>Google has done a good job of making themselves incredibly useful, and they make some very good apps. In the end it’s a question of how much you’re willing to give them in exchange for those services. I’d still like to believe that Google hasn’t totally abandoned their “Don’t Be Evil” mantra, but it’s still a good idea to check out the competition.  </p>
+
+<hr />
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:no_hide">
+      <p>I really don’t have anything to hide. If the NSA wants to steal my dominos pizza coupons they’re welcome to them. But I would like them to <em>ask</em> first.<a href="#fnref:no_hide" rel="reference">&#8617;</a></p>
+    </li>
+    <li id="fn:block_comments">
+      <p>Which I mostly use to hide comment sections on web pages.<a href="#fnref:block_comments" rel="reference">&#8617;</a></p>
+    </li>
+    <li id="fn:inboxZero">
+      <p>Inbox Zero, yo. <a href="#fnref:inboxZero" rel="reference">&#8617;</a></p>
+    </li>
+    <li id="fn:upgrade">
+      <p>Upgradable to 8GB for $16/year<a href="#fnref:upgrade" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+]]></content>
+  </entry>
+  
+</feed>
