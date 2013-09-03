@@ -4,7 +4,7 @@
   <title><![CDATA[Nate Dickson]]></title>
   <link href="http://PogiNate.github.com/atom.xml" rel="self"/>
   <link href="http://PogiNate.github.com/"/>
-  <updated>2013-07-30T09:55:26-06:00</updated>
+  <updated>2013-09-03T15:31:01-06:00</updated>
   <id>http://PogiNate.github.com/</id>
   <author>
     <name><![CDATA[Nate Dickson]]></name>
@@ -12,6 +12,28 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[The Case for Board Games on Tablets]]></title>
+    <link href="http://PogiNate.github.com/blog/2013/09/03/the-case-for-board-games-on-tablets/"/>
+    <updated>2013-09-03T08:45:00-06:00</updated>
+    <id>http://PogiNate.github.com/blog/2013/09/03/the-case-for-board-games-on-tablets</id>
+    <content type="html"><![CDATA[<p>My wife and I love board games. So it’s only natural that our kids will love them as well. And that’s <em>awesome</em>. But since all of our kids are under nine years old playing games with them can be a bit of a headache, because they don’t really have a sense of how losing one tiny little piece can ruin a sixty dollar game, and pieces are really small and easily lost. </p>
+
+<p>Enter the iPad. I bought the tablet version of SmallWorld back when I had a 1st Gen iPad, and while it’s fun, at the time my wife and I only used it to pass time when we were waiting for a table at a restauraunt or whatever. Since then I have also picked up Ticket to Ride and Forbidden Island, and my kids and I spent most of this weekend playing all three games over and over and <em>over</em> again, as kids are wont to do. </p>
+
+<p>And it was a pretty amazing experience. I still love my “real” board games, for a number of reasons: the artwork is bigger, you get a tactile sense of what you’re doing, the experience is more immersive, and you can see the board from more than two feet away, etc. etc. </p>
+
+<p>But when you’re playing with a passel of excitable kiddos there’s a lot to be said for keeping the iPad firmly in my hands as they all take their turns, get excited by the (usually quite minimal) resulting animations, and go dance around the room for a while. When the game is over I just close the cover and the game is packed up, no cleanup required. </p>
+
+<p>A quick note about animations: If you’re doing a straight up port of your board game don’t try to make it a full-on video game. Take a look at <em>Ticket to Ride</em> by Days of Wonder and stick to that level: make your graphics and chrome beautiful, but let’s keep it a board game.</p>
+
+<p>The other advantage is price. Since all I’m getting is a pile o’ bytes I don’t have to pay for a bunch of die cut custom printed cardboard pieces, which usually translates into around a 75% savings or better. The companies usually have a lot of high-quality assets all ready for the games, since you can and should use the same art for the digital and analog versions, so the R&amp;D costs are apparently low enough to make it worth doing. </p>
+
+<p>Of course, in my situation this generally means I’m buying a game 1.25 times instead of 2 times, but hey, it’s still a savings. </p>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Leaving Google]]></title>
@@ -660,26 +682,6 @@ Another benefit is that <em>your</em> content is now styled <em>my</em> way. No 
 
 <p>So that’s all. I’m not suggesting that non-vim users are idiots, or that there is only one right way to edit text. In fact, I’m currently writing this in <a href="http://multimarkdown.com">MultiMarkdown Composer</a>. And while I’m still slow at a lot of things, but working in vim has made me think about how I work and what paradigms I’ve taken for granted.</p>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[tmux and Octopress]]></title>
-    <link href="http://PogiNate.github.com/blog/2013/03/21/tmux-and-octopress/"/>
-    <updated>2013-03-21T05:22:00-06:00</updated>
-    <id>http://PogiNate.github.com/blog/2013/03/21/tmux-and-octopress</id>
-    <content type="html"><![CDATA[<p>Naturally, the first thing I did after getting Octopress up, running, and actually <em>deployed</em> to a real live server was set up a writing workflow that will make it easy to post to this blog. And by “easy”, I of course mean “weird and convoluted, but in a way that makes sense to me”. What else would I mean?</p>
-
-<p>The first ingredient in my workflow is <a href="http://tmux.sourceforge.net/">tmux</a>. If you haven’t played with it yet you’ll find that  it’s a fast and easy way to access your project from multiple angles. You’ll have one terminal window open and in that one window you can be editing a file, keeping an eye on <code>top</code> and running your build tasks all at once, while a second tab has your development server running in it. I discovered tmux using Brian Hogan’s <a href="http://pragprog.com/book/bhtmux/tmux">amazing book</a> and haven’t looked back. </p>
-
-<p>The second part of the recipe here is <a href="https://github.com/aziz/tmuxinator">tmuxinator</a>, a nice little ruby app that lets you set up tmux layouts in <code>YAML</code> instead of writing the commands out as actual tmux commands, like so:</p>
-
-<div><script src="https://gist.github.com/5212311.js"></script>
-<noscript><pre><code /></pre></noscript></div>
-
-<p>You can see I have <code>rake preview</code> and <code>top</code> running on a “background” tab, so I can preview the site, and <code>vim</code> running on the first tab with a couple of regular old <code>zsh</code> panes at the project root and at the <code>_posts</code> directory, so I can issue other commands to the system and use Marked.app to preview my posts, etc. etc.  </p>
-
-<p>Obviously I haven’t been using this particular setup for all that long yet, but it’s got a lot of promise. I’m pleased with how it’s turning out.</p>
 ]]></content>
   </entry>
   
