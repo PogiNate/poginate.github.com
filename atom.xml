@@ -4,7 +4,7 @@
   <title><![CDATA[Nate Dickson]]></title>
   <link href="http://PogiNate.github.com/atom.xml" rel="self"/>
   <link href="http://PogiNate.github.com/"/>
-  <updated>2013-09-03T15:31:01-06:00</updated>
+  <updated>2013-09-12T10:11:53-06:00</updated>
   <id>http://PogiNate.github.com/</id>
   <author>
     <name><![CDATA[Nate Dickson]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Small World on the iPad Updated!]]></title>
+    <link href="http://PogiNate.github.com/blog/2013/09/12/small-world-on-the-ipad-updated/"/>
+    <updated>2013-09-12T10:04:00-06:00</updated>
+    <id>http://PogiNate.github.com/blog/2013/09/12/small-world-on-the-ipad-updated</id>
+    <content type="html"><![CDATA[<p><img class="right" src="http://PogiNate.github.com/assets/images/SW2-icon.jpg" title="&#34;Small World 2 App Icon&#34;" alt="&#34;Small World 2 App Icon&#34;" />
+Just a quick post to happily note that <a href="http://www.daysofwonder.com">Days of Wonder</a> has finally updated their <a href="http://itunes.apple.com/us/app/small-world-for-ipad/id364165557?mt=8">Small World app</a> on the iPad. Small World was the first game I bought on the original iPad, and it&rsquo;s been sadly neglected for a quite a while. </p>
+
+<p>But it&rsquo;s back in business now! It&rsquo;s beautifully, fully retina, has new content (available through an in app purchase), and now lets you play with up to five people via pass &amp; play, or you can have the one on one experience that you&rsquo;re used to from the original version. I&rsquo;ve always loved Days Of Wonder&rsquo;s games, and they continue to do a great job bringing them to the iPad. Thanks guys!</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[The Case for Board Games on Tablets]]></title>
@@ -655,32 +667,6 @@ Another benefit is that <em>your</em> content is now styled <em>my</em> way. No 
 </pre></td><td class="code"><pre><code class="javascript"><span class="line"><span class="nx">javascript</span><span class="o">:</span><span class="nb">window</span><span class="p">.</span><span class="nx">location</span><span class="o">=</span><span class="s1">&#39;pythonista://my_script?action=run&amp;argv=&#39;</span><span class="o">+</span><span class="nb">encodeURIComponent</span><span class="p">(</span><span class="nx">location</span><span class="p">.</span><span class="nx">href</span><span class="p">)</span>
 </span></code></pre></td></tr></table></div></figure></notextile></div>
 <p>When I find a page that I want to pass into my script (the functionality of which is beyond the script of this article, and is <em>at the same time</em> incredibly dull) I just hit that bookmarklet and a few seconds later Pythonista has modified the text and passed it on to Drafts, which in turn can send it on to Dropbox. Suddenly the garden walls don’t seem as impenetrable. </p>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Exploring the Old Ways]]></title>
-    <link href="http://PogiNate.github.com/blog/2013/03/21/exploring-the-old-ways/"/>
-    <updated>2013-03-21T17:36:00-06:00</updated>
-    <id>http://PogiNate.github.com/blog/2013/03/21/exploring-the-old-ways</id>
-    <content type="html"><![CDATA[<p>It all started when I decided that I wanted to try shaving with a brush and soap instead of canned shaving cream. It seemed possible that there was some advantage to be had here.</p>
-
-<p>And maybe someday I’ll get into the wonders of shaving like a real man. It takes more time, it requires a few more seconds every morning, and there’s a little learning curve involved. But for now that’s not the point. The point is it got me thinking; what other good ideas am I missing out on because something newer has come along; something that isn’t necessarily better? </p>
-
-<p>This is a hard concept. “<a href="www.youtube.com/watch?v=RsLdLKT9Vvs">New is always better</a>” <em>sounds</em> true, especially in technology fields. We often make the assumption that something new is built to improve on something old, and therefore the only direction to move is forward. But slowly, little by little, I realized that sometimes the improvements that have been made weren’t meant to make things better for <em>me</em>, but to make them better for the manufacturer, or the distributor, or whoever. (Especially in the case of shaving cream vs. shaving soap, but again, not getting into that right now.)</p>
-
-<p>Or maybe sometimes it’s worth it to put in the extra effort to make an older product work, because there are reasons that it’s still around. Maybe tradition counts for something. </p>
-
-<p>So, not to belabor this point too much, I started using vim. </p>
-
-<h2 id="the-old-is-new-again">The Old is New Again</h2>
-
-<p>Don’t get me wrong, I still love <a href="http://sublimetext.com">Sublime Text</a>. But I decided that it’s time to learn how to edit from the command line and stop being afraid of the text editor that comes free with every <em>nix machine ever. And like anyone will tell you, learning vim has been an uphill climb. Sublime Text’s “vintage” mode has helped, because I still have all the features that make me love Sublime, and I can drop into Insert Mode and pretend I’m not using a vi-style editor at all when I get discouraged and just want to get some work done, but I’m learning how to use vim the way it was meant to be used. And I’m starting to see why all the open source graybeards look down on everyone else. Because they’re pompous and arrogant. I mean, we already knew that. But *also</em> because doing things the vim way gives you some definite flexibility that you don’t have with most modern programs. </p>
-
-<p>A big part of that is because when vi was written you really did want to make every keystroke count, and you really did have to do everything from the keyboard. So the people who thought about it really <em>really</em> thought about it, and set up some standards that made the most of that era. And when the mouse came along we forgot most of that, because learning how to click on menus is simple and anyone can do it. But you’ve lost some of the grace that was implicit in the old ways of doing things.</p>
-
-<p>So that’s all. I’m not suggesting that non-vim users are idiots, or that there is only one right way to edit text. In fact, I’m currently writing this in <a href="http://multimarkdown.com">MultiMarkdown Composer</a>. And while I’m still slow at a lot of things, but working in vim has made me think about how I work and what paradigms I’ve taken for granted.</p>
 
 ]]></content>
   </entry>
