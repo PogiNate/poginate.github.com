@@ -4,7 +4,7 @@
   <title><![CDATA[Nate Dickson]]></title>
   <link href="http://PogiNate.github.com/atom.xml" rel="self"/>
   <link href="http://PogiNate.github.com/"/>
-  <updated>2013-09-17T10:09:11-06:00</updated>
+  <updated>2013-10-31T11:52:19-06:00</updated>
   <id>http://PogiNate.github.com/</id>
   <author>
     <name><![CDATA[Nate Dickson]]></name>
@@ -12,6 +12,40 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[My NaNoWriMo Cover for This Year]]></title>
+    <link href="http://PogiNate.github.com/blog/2013/10/31/my-nanowrimo-cover-for-this-year/"/>
+    <updated>2013-10-31T11:34:00-06:00</updated>
+    <id>http://PogiNate.github.com/blog/2013/10/31/my-nanowrimo-cover-for-this-year</id>
+    <content type="html"><![CDATA[<p><img class="left" src="http://PogiNate.github.com/assets/images/pacifica_cover.jpg" width="250" title="Pacifica Cover" />
+This is a super-short post to show off what I&rsquo;m going to be working on for <a href="http://nanowrimo.org">NaNoWriMo</a> this year. </p>
+
+<p>I know that <em><a href="https://leanpub.com/painless_vim/">Painless Vim</a></em> isn&rsquo;t finished yet, although it&rsquo;s very close, and basically all I&rsquo;m doing is a little bit of cleanup and formatting. If you&rsquo;ve been waiting with baited breath for <em>Painless Vim</em> to be finished fear not! I will still be working on the Little Vim Book that Could during the month of November. In fact, my goal is to have it completely finished. By December 1st, even while I&rsquo;m &ldquo;winning&rdquo; NaNoWriMo for the sixth straight year. </p>
+
+<p>In previous years I&rsquo;ve been doing graduate level classes, having babies<sup id="fnref:babies"><a href="#fn:babies" rel="footnote">1</a></sup>, and changing jobs during NaNoWriMo, and I&rsquo;ve always found time to make it work. What&rsquo;s more, the impetus it gives me tends to help me get more done in the rest of my life as well. The saying about giving work to busy people still holds true. If I turn myself into a busy person I tend to be more capable overall. Until I freak out and melt down, of course. So I guess there&rsquo;s still something to be said for balance. </p>
+
+<h2 id="more-about-pacifica">More About Pacifica</h2>
+
+<p>Which is all very nice, but you may possibly be interested in the book cover I&rsquo;m showing off here. You&rsquo;ve got questions, no doubt. Questions like &ldquo;What&rsquo;s it about?&rdquo; &ldquo;Who designed your cover?&rdquo; &ldquo;Would you be willing to let me redesign your cover, because it&rsquo;s pretty bad?&rdquo; </p>
+
+<p>The answers are &ldquo;I&rsquo;ll tell you in a minute&rdquo;, &ldquo;I did in about two hours using Pixelmator&rdquo;, and &ldquo;Yes&rdquo; in that order. I like playing with Pixelmator, but I&rsquo;m not super great with it, and if there&rsquo;s a graphic designer out there who wants to take a second pass at this I&rsquo;d be happy to let you. </p>
+
+<p>The book is my first foray into cyberpunk. It&rsquo;s a near-future look at what&rsquo;s its like to be on the losing side of a war for independence, and how to keep your pride even when you&rsquo;ve got nothing left to be proud of. </p>
+
+<p>If I remember (and have time) I&rsquo;ll probably post excerpts through the month. Wether or not I actually develop <em>Pacifica</em> after November remains to be seen, but if I&rsquo;ve learned anything from five successful NaNo&rsquo;s its that even writing an ultimately wasted story isn&rsquo;t wasted effort. I&rsquo;ve learned something from every book I&rsquo;ve written.</p>
+
+<hr />
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:babies">
+      <p>Well, not me <em>personally</em>. <a href="#fnref:babies" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Using nvALT as a Personal Wiki]]></title>
@@ -648,28 +682,6 @@ Another benefit is that <em>your</em> content is now styled <em>my</em> way. No 
 <p><strong>Plex Sync</strong> is not creatively named, but it’s <em>awesome</em>. When your device is able to connect to your server tell it what media you want to have synced. If you choose a TV series you can tell it “keep the next <code>X</code> unwatched episodes on my device” and it’ll have your server transcode those episodes into a format your device understands and ship them on over. When you watch one (if you’re still connected) it’ll prep a new one while you’re watching and keep you up to date. If you’re actually disconnected then the episodes you’ve synced are all your Plex client will show.</p>
 
 <p>All the usual awesomeness you’d expect from an app like this is built in as well. The iOS client app acts as a remote for any other client connected to your server. If you are a big fan of XBMC then your XBMC installation can read Plex files and the two work together perfectly. If you have a Roku player you’re also taken care of. Plex and Roku work just great together. </p>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Originally About Scrivener but Turned into Something Else]]></title>
-    <link href="http://PogiNate.github.com/blog/2013/03/25/originally-about-scrivener-but-turned-into-something-else/"/>
-    <updated>2013-03-25T12:09:00-06:00</updated>
-    <id>http://PogiNate.github.com/blog/2013/03/25/originally-about-scrivener-but-turned-into-something-else</id>
-    <content type="html"><![CDATA[<p>I have been a huge fan of <a href="http://www.literatureandlatte.com/scrivener.php">Scrivener</a> for years. I love the freedom it gives me to organize a story however I want it, to color code, label, sort, search and tag my text.</p>
-
-<p>But all of this, of course, can actually <em>hamper</em> productivity if you start letting it run your workflow. You can spend so much time going through your manuscript updating keywords that you forget to actually do any writing. This trap is especially easy to fall into if you, like me, suffer from a serious mental condition called <em>“Self-inflicted Terminal Unjustified Paranoia of Invisible Detractors”</em>, or <strong>STUPID</strong> for short.</p>
-
-<p>STUPID is a condition where you believe that someone, somewhere is looking over your shoulder and judging what you’re doing to be of no worth, that someone is picking apart your workflow and finds it erratic and inefficient, or that someone will take a look at how you are using  your tool of choice and pick all your decisions apart. </p>
-
-<p>If left untreated, STUPID can cause you to dry up, stop being creative, and spend excessive amounts of time worrying about productivity instead of actually <em>being</em> productive.</p>
-
-<p>STUPID is rampant in people who consider themselves internet denizens; people like bloggers, authors, and creative professionals. But STUPID is older than the internet, and has been affecting similar personality types for years. Early warning signs for the onset of STUPID include dithering around with todo list software, pomodoro spreadsheets, and other such things that are meant to help you be more productive. In its advanced stages the victim may need to be given a management style job. </p>
-
-<p>Once a case of STUPID is self diagnosed (and it can only be <em>self</em>-diagnosed; external diagnoses are worthless. ) the treatment is fortunately inexpensive. In mild cases most practitioners recommend a quiet walk followed by some time spent in a free write scenario, where the victim is forced to <em>just keep producing</em> without listening to their internal critic. A standard therapeutic session should last for at least half an hour. This treatment should be continued for life, as it has also been found to be an effective preventative. </p>
-
-<p>Very little of this has to do with Scrivener, of course. I meant to write an article about using Scrivener to actually do productive work, but I got sidetracked thinking about how to use it more productively. </p>
 
 ]]></content>
   </entry>
