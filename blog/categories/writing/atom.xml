@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Writing | Nate Dickson]]></title>
   <link href="http://PogiNate.github.com/blog/categories/writing/atom.xml" rel="self"/>
   <link href="http://PogiNate.github.com/"/>
-  <updated>2013-12-01T08:04:16-07:00</updated>
+  <updated>2013-12-05T11:56:06-07:00</updated>
   <id>http://PogiNate.github.com/</id>
   <author>
     <name><![CDATA[Nate Dickson]]></name>
@@ -12,6 +12,38 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Not During, But Due To NaNoWriMo]]></title>
+    <link href="http://PogiNate.github.com/blog/2013/12/05/not-during-but-due-to-nanowrimo/"/>
+    <updated>2013-12-05T10:20:00-07:00</updated>
+    <id>http://PogiNate.github.com/blog/2013/12/05/not-during-but-due-to-nanowrimo</id>
+    <content type="html"><![CDATA[<p>This year marks my sixth year participating in <a href="http://nanowrimo.org/">NaNoWriMo</a>, and I’ve started wondering if there was really a <em>point</em> to writing a “novel” in a single month. Especially since I haven’t really developed any of them beyond the rough draft I wrote in November. </p>
+
+<p><img class="right" src="/images/nano_win.png" title="“National Novel Writing Month Winner” “National Novel Writing Month Winner”" > So, I “won” again this year, writing a book that I have absolutely no desire to pursue further. Which has made me wonder if I’m doing it wrong or if I need to maybe just give up on NaNoWriMo because it’s not helping me grow as a “real” writer. But then I realized something.</p>
+
+<p>I never would have written <em><a href="https://leanpub.com/painless_vim">Painless Vim</a></em> if I hadn’t been taking part of NaNoWriMo every year. <em>Painless Vim</em> isn’t a novel, it’s not a wild flight of fancy that I pounded out in a month.<sup id="fnref:supposed"><a href="#fn:supposed" rel="footnote">1</a></sup>  But there are a lot of things I learned from NaNoWriMo that made it possible for me to write <em>Painless Vim</em>. Some of the most important are: </p>
+
+<ol>
+  <li>Write every day. This is the first and only secret of writing, of course. </li>
+  <li>Write your first draft like nobody is going to read it, because nobody <em>is</em> going to read it. You’ll revise it into something better. </li>
+  <li>Write for yourself. There are others out there who are in the same place as you, and they’ll appreciate what you’ve written. </li>
+  <li>Use Scrivener. <a href="http://www.favoritethingever.com/2010/10/scrivener/">I absolutely <em>love</em> Scrivener</a>, and six years of NaNo’ing has made it as comfortable as a well-worn pair of blue jeans for me. If I get up the energy I’ll write a post about how my Scrivener workflow looks one of these days. </li>
+</ol>
+
+<p>Now, I’m not saying that I’m the world’s best author. But I wrote a book and put it out there where people can buy it, which is something that never would have happened if it hadn’t been for National Novel Writing Month. And that’s enough to keep me coming back year after year.</p>
+
+<hr />
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:supposed">
+      <p>It’s a tutorial book that was only <em>supposed</em> to take a month and has so far taken me about six.<a href="#fnref:supposed" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Excerpt from Pacifica]]></title>

@@ -4,7 +4,7 @@
   <title><![CDATA[Nate Dickson]]></title>
   <link href="http://PogiNate.github.com/atom.xml" rel="self"/>
   <link href="http://PogiNate.github.com/"/>
-  <updated>2013-12-01T08:04:16-07:00</updated>
+  <updated>2013-12-05T11:56:06-07:00</updated>
   <id>http://PogiNate.github.com/</id>
   <author>
     <name><![CDATA[Nate Dickson]]></name>
@@ -12,6 +12,38 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Not During, But Due To NaNoWriMo]]></title>
+    <link href="http://PogiNate.github.com/blog/2013/12/05/not-during-but-due-to-nanowrimo/"/>
+    <updated>2013-12-05T10:20:00-07:00</updated>
+    <id>http://PogiNate.github.com/blog/2013/12/05/not-during-but-due-to-nanowrimo</id>
+    <content type="html"><![CDATA[<p>This year marks my sixth year participating in <a href="http://nanowrimo.org/">NaNoWriMo</a>, and I’ve started wondering if there was really a <em>point</em> to writing a “novel” in a single month. Especially since I haven’t really developed any of them beyond the rough draft I wrote in November. </p>
+
+<p><img class="right" src="http://PogiNate.github.com/images/nano_win.png" title="National Novel Writing Month Winner" alt="National Novel Writing Month Winner" /> So, I “won” again this year, writing a book that I have absolutely no desire to pursue further. Which has made me wonder if I’m doing it wrong or if I need to maybe just give up on NaNoWriMo because it’s not helping me grow as a “real” writer. But then I realized something.</p>
+
+<p>I never would have written <em><a href="https://leanpub.com/painless_vim">Painless Vim</a></em> if I hadn’t been taking part of NaNoWriMo every year. <em>Painless Vim</em> isn’t a novel, it’s not a wild flight of fancy that I pounded out in a month.<sup id="fnref:supposed"><a href="#fn:supposed" rel="footnote">1</a></sup>  But there are a lot of things I learned from NaNoWriMo that made it possible for me to write <em>Painless Vim</em>. Some of the most important are: </p>
+
+<ol>
+  <li>Write every day. This is the first and only secret of writing, of course. </li>
+  <li>Write your first draft like nobody is going to read it, because nobody <em>is</em> going to read it. You’ll revise it into something better. </li>
+  <li>Write for yourself. There are others out there who are in the same place as you, and they’ll appreciate what you’ve written. </li>
+  <li>Use Scrivener. <a href="http://www.favoritethingever.com/2010/10/scrivener/">I absolutely <em>love</em> Scrivener</a>, and six years of NaNo’ing has made it as comfortable as a well-worn pair of blue jeans for me. If I get up the energy I’ll write a post about how my Scrivener workflow looks one of these days. </li>
+</ol>
+
+<p>Now, I’m not saying that I’m the world’s best author. But I wrote a book and put it out there where people can buy it, which is something that never would have happened if it hadn’t been for National Novel Writing Month. And that’s enough to keep me coming back year after year.</p>
+
+<hr />
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:supposed">
+      <p>It’s a tutorial book that was only <em>supposed</em> to take a month and has so far taken me about six.<a href="#fnref:supposed" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Excerpt from Pacifica]]></title>
@@ -666,25 +698,6 @@ Another benefit is that <em>your</em> content is now styled <em>my</em> way. No 
     </li>
   </ol>
 </div>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Ulysses III: A Huge Leap Forward]]></title>
-    <link href="http://PogiNate.github.com/blog/2013/04/04/ulysses-iii-a-huge-leap-forward/"/>
-    <updated>2013-04-04T15:45:00-06:00</updated>
-    <id>http://PogiNate.github.com/blog/2013/04/04/ulysses-iii-a-huge-leap-forward</id>
-    <content type="html"><![CDATA[<p>I’ll admit it, I’ve had a sick love/hate relationship with <a href="http://www.ulyssesapp.com/">Ulysses</a> for years. I first heard of it by way of <a href="http://www.literatureandlatte.com/scrivener.php">Scrivener</a>, my beloved freeform creative writing app. And the Ulysses of then just was not a thing of beauty. The interface had a lot of holdovers from early- or pre-OSX days, and was pretty cluttered (which is quite a statement, given <a href="http://www.literatureandlatte.com/gfx/ScrivShots/write_structure_revise.jpg">Scrivener’s interface</a>. I love Scrivener, but it’s clearly a <em>tool</em>…look, I’m off topic again.) and unfriendly. I could see some of the power that was inherent in the product, but it just wasn’t for me.</p>
-
-<p>Well, A few days ago Ulysses III released a brand new version, and they <strong>nailed</strong> it. They took the bold step of abandoning everything they’d done before, threw out the interface entirely, and started over. They took a look at what the OSX world is doing now, in terms of interface, and did that. A very finder-like sidebar gives you access to all your text, organized based on where it lives. (iCloud, on your mac, or, if you have the <a href="http://daedalusapp.com/">Daedalus app</a> for iOS, in your Daedalus iCloud folder) Inside each folder you have your texts, (called “sheets”, as in “sheets of paper”) all of which are auto-saved at all times, so you don’t have to worry about hitting <code>⌘S</code> all the time. It’s a surprisingly slick and easy way to just sit down and <em>write</em> without worrying about filenames or sync options of any such things. You just start writing and worry about organization later, once you’ve got something out there. </p>
-
-<h2 id="the-cons">The Cons</h2>
-<p>It’s not all peaches and light, of course. The developers have pointed out that this is a 1.0 release, even if it <em>is</em> called Ulysses III. The app stores its files in <code>.ulysses</code> format, which isn’t interoperable with tools like Marked, which means its a little harder to get previews of your text post-Markdown-rendering. (It’s still quite possible, but not quite easy). It doesn’t natively handle <a href="http://fletcherpenney.net/multimarkdown/">MultiMarkdown</a>, but it exports multimarkdown-compatible footnotes. I’m guessing that the <code>.ulysses</code> file format is a bundle that wraps up all the images and keywords and notes and whatnot, but it does make interoperability with other apps a little harder. </p>
-
-<p>But this is a minor gripe, and isn’t a flaw so much as a design decision that was clearly made with forethought. They decided that Ulysses was written as a creation app. You can share later, but create your text <em>first</em>. </p>
-
-<p>All in all, I’m deeply impressed with the level of polish and attention that went into the latest version, and I’d recommend you pick it up.</p>
-
 ]]></content>
   </entry>
   
