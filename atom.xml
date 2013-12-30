@@ -4,7 +4,7 @@
   <title><![CDATA[Nate Dickson]]></title>
   <link href="http://PogiNate.github.com/atom.xml" rel="self"/>
   <link href="http://PogiNate.github.com/"/>
-  <updated>2013-12-05T11:56:06-07:00</updated>
+  <updated>2013-12-30T08:20:47-07:00</updated>
   <id>http://PogiNate.github.com/</id>
   <author>
     <name><![CDATA[Nate Dickson]]></name>
@@ -12,6 +12,49 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Fluency]]></title>
+    <link href="http://PogiNate.github.com/blog/2013/12/30/fluency/"/>
+    <updated>2013-12-30T08:12:00-07:00</updated>
+    <id>http://PogiNate.github.com/blog/2013/12/30/fluency</id>
+    <content type="html"><![CDATA[<p>In 1998 I served an <a href="http://mormon.org/values/missionary-work">LDS Mission</a> to the Philippines. Those of you who are familiar with how LDS missionaries operate know the drill: you spend ten weeks learning the language in a classroom setting and then you get sent out with a more experienced missionary to try it on your own. And anyone who has ever tried to speak a language they’ve only heard in a classroom setting knows what comes next: you spend a lot of time staring at people who speak a language you thought you were pretty good at, and you have no idea what they’re saying. </p>
+
+<p>So I set myself some goals. I wanted to laugh at a Tagalog joke, because I actually understood it. I wanted to get my accent to be less terrible<sup id="fnref:accent"><a href="#fn:accent" rel="footnote">1</a></sup>, and I wanted to actually think in Tagalog. These were little stepping stones I set for myself, goals I was trying to reach to show that I was actually gaining some actual fluency in the language. </p>
+
+<p><span class="pullquote-right" data-pullquote="&#8220;Kaya ko ito!&#8221;">
+And then, one night a few months after I landed in Manila I had a thought, just three words that came to me as I was walking across the town square: “Kaya ko ito!” That was it. In English<sup id="fnref:sorta"><a href="#fn:sorta" rel="footnote">2</a></sup> it’s “I can do this”.  But that’s not the point. The point was that I had the thought <em>in Tagalog</em> instead of having it in English and translating it. I had a long way to go, but it was clear that something was happening, and I was learning something. Since then that thought has come back to me from time to time when I’m trying to do something difficult. I’ll start in one something, bang my head against the wall for a while, and all of a sudden there will be a moment of clarity, a brief glimpse of the summit after the first day’s climb, and the words “Kaya ko ito” will come back into my head. I can do this.
+</span></p>
+
+<p>One of those difficult things has been learning vim. While I’ve been teaching myself to use it<sup id="fnref:painlessplug"><a href="#fn:painlessplug" rel="footnote">3</a></sup> I’ve had a lot of moments where it just seemed too hard, too useless, and I had to set myself some goals. They were simpler goals, things like “don’t lose half a file and have to restore it from my git backups again today”, and then more useful goals, like “actually use the search and replace engine,” followed shortly by “actually use vim’s regex engine without the <code>very magic</code> flag”. Litte steps to show that I was making progress. </p>
+
+<p>And one day, just a little while ago, I had a simple task ahead of me: remove the last three arguments from a function declaration. Without really thinking about it I got my cursor inside the parentheses and since my cursor was just before the closing paren I typed</p>
+
+<pre><code>d3F,
+</code></pre>
+
+<p>And that was it. In English<sup id="fnref:kinda"><a href="#fn:kinda" rel="footnote">4</a></sup> it’s “delete back through the third comma before the cursor”. But that’s not the point. The point is that I just <em>did</em> it, without looking at a cheat sheet, without using help, without standing there for two minutes trying to figure out how to do what I knew I wanted to do. It was the “Kaya kong ito” moment all over again. I know I’ve still got a lot of vim to learn, but it’s clear that something is happening, and I’m learning something.</p>
+
+<hr />
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:accent">
+      <p>According a couple of people who knew me early in my mission I was attempting to speak Tagalog with a British accent. Given the fact that I grew up in Boise, Idaho I can only imagine how terrible that sounded.<a href="#fnref:accent" rel="reference">&#8617;</a></p>
+    </li>
+    <li id="fn:sorta">
+      <p>More or less. It’s not grammatically perfect, but it’s close enough that people would have understood what I meant.<a href="#fnref:sorta" rel="reference">&#8617;</a></p>
+    </li>
+    <li id="fn:painlessplug">
+      <p>and <a href="http://leanpub.com/painless_vim">writing a book</a> about using vim.<a href="#fnref:painlessplug" rel="reference">&#8617;</a></p>
+    </li>
+    <li id="fn:kinda">
+      <p>More or less. I’m sure there’s a better way to do this, and probably a better way to explain it, but it’s close enough that vim understood what I meant.<a href="#fnref:kinda" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Not During, But Due To NaNoWriMo]]></title>
@@ -653,51 +696,6 @@ Another benefit is that <em>your</em> content is now styled <em>my</em> way. No 
 
 <p>In the event that you actually decide to use this feel free to put suggestions or feature requests or comments either on this page’s comment line or on the <a href="https://github.com/PogiNate/A.K.A.">github page</a>. </p>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[(Mostly) MultiMarkdown Blogging in Octopress]]></title>
-    <link href="http://PogiNate.github.com/blog/2013/04/09/mostly-multimarkdown-blogging-in-octopress/"/>
-    <updated>2013-04-09T09:55:00-06:00</updated>
-    <id>http://PogiNate.github.com/blog/2013/04/09/mostly-multimarkdown-blogging-in-octopress</id>
-    <content type="html"><![CDATA[<p>So, my big concern in moving over to <a href="http://octopress.org/">Octopress</a> was the lack of MultiMarkdown compatibility. Specifically the lack of footnotes. I <em>think</em> in footnotes a lot of the time<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>. </p>
-
-<p>So it was a definite problem to go to something limited to vanilla markdown. I did a few million hours of web searching to find a way to use MultiMarkdown as my renderer, but for some reason Jekyll is surprisingly resistant to the idea, so I gave up.</p>
-
-<p>For a while. I’m not good at actually giving up. I had made my peace with using non-footnoted code for blogging and had moved on, until I noticed that <a href="http://brettterpstra.com/">Brett Terpstra</a>, who documented his own move to Jekyll based blogging a few months ago, had footnotes aplenty on his blog<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup>. So I asked him how he was pulling that off.</p>
-
-<p>Here’s his answer, in it’s entirety:</p>
-
-<blockquote>
-  <p>I just use Kramdown as my processor. Works way better than Maruku or Rdiscount for me.
--Brett</p>
-</blockquote>
-
-<p>That’s it, folks. I made a single change to my <code>_config.yml</code> file:</p>
-
-<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span>kramdown now </span></figcaption>
- <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
-</pre></td><td class="code"><pre><code class="yaml"><span class="line"><span class="l-Scalar-Plain">markdown</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">kramdown</span>
-</span></code></pre></td></tr></table></div></figure></notextile></div>
-
-<p>Bingo! Footnotes<sup id="fnref:3"><a href="#fn:3" rel="footnote">3</a></sup> now work and you get to jump around a lot more when you read my blog.</p>
-
-<p>So that’s it really. If you’ve been looking for a way to use MultiMarkdown features in  your Octopress blogging the problem is really much simpler than you thought. Direct your thanks to Brett.</p>
-
-<div class="footnotes">
-  <ol>
-    <li id="fn:1">
-      <p>All the other MultiMarkdown features are amazingly useful as well, but footnotes are just integral to my writing.<a href="#fnref:1" rel="reference">&#8617;</a></p>
-    </li>
-    <li id="fn:2">
-      <p>I also knew that he’s a big fan of MultiMarkdown, seeing as he’s the creator of <a href="http://brettterpstra.com/2012/02/28/nvalt-2-2-public-beta/">nvALT</a>, <a href="http://markedapp.com/">Marked</a>, and apparently <a href="http://multimarkdown.com/faq/icon">worked</a> with Fletcher T. Penny on the icon for <a href="http://multimarkdown.com">MultiMarkdown Composer</a>.<a href="#fnref:2" rel="reference">&#8617;</a></p>
-    </li>
-    <li id="fn:3">
-      <p>And a lot of other very nice features.<a href="#fnref:3" rel="reference">&#8617;</a></p>
-    </li>
-  </ol>
-</div>
 ]]></content>
   </entry>
   
