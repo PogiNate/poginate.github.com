@@ -9,7 +9,7 @@
   <meta name="author" content="Nate Dickson">
 
   
-  <meta name="description" content="So, I recently put a coupon up on Twitter and App.net offering ten people the opportunity to get a free copy of my book Painless Vim, which is still &hellip;">
+  <meta name="description" content="Working on Painless Vim has been an education for me, and not just about vim. I&rsquo;ve been working on developing a writing/editing loop that is &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -70,6 +70,61 @@
       <div id="content">
         <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2013/07/17/using-slicereader-to-be-a-better-writer/">Using Slicereader to Be a Better Writer</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-07-17T15:02:00-06:00" pubdate data-updated="true">Jul 17<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><img class="right" src="/assets/images/Slicereader.jpg" title="&#34;The Slicereader Icon&#34;" alt="&#34;The Slicereader Icon&#34;" />
+Working on <a href="http://leanpub.com/painless_vim">Painless Vim</a> has been an education for me, and not just about vim. I&rsquo;ve  been working on developing a writing/editing loop that is more sustainable than <a href="http://nanowrimo.org">NaNoWriMo</a>&rsquo;s joyous abandon, so that I&rsquo;ll actually do some editing. While I enjoy working quickly and just getting things out there in front of people, there&rsquo;s a problem with that model: not only am I terrible typist, I also write some terrible first drafts.</p>
+
+<p><a href="http://www.amazon.com/gp/product/0385480016/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0385480016&amp;linkCode=as2&amp;tag=httpnatedicco-20">Anne Lamott</a> would say that&rsquo;s okay; and I agree with her. But the problem is that I&rsquo;m also <em>really bad</em> at revising. Part of my problem is that I&rsquo;m a very good speed reader, which really just means that I&rsquo;m good at skimming over what I consider to be fluff and finding what I consider to be the point of the text in front of me. Good for getting through things quickly, bad for finding mistakes in my own text. </p>
+
+<p>So I needed a way to force myself to slow down and actually look at the words. Not surprisingly it was <a href="http://brettterpstra.com/2013/06/30/mac-app-review-slicereader/">Brett Terpstra</a> that clued me into this simple little &ldquo;one thing well&rdquo; app. With <a href="http://mthr.me/slicereader/">Slicereader</a> I just paste whatever chapter I&rsquo;m working on into the app, and it converts all of my Markdown into nicely formatted text<sup id="fnref:mostly"><a href="#fn:mostly" rel="footnote">1</a></sup> and only shows me one paragraph at a time. Meaning I have to actually <em>read</em> that paragraph all by itself. Meaning I have to view it as a single entity, without resting on what came before or after it. Meaning I end up editing <em>every</em> paragraph instantly and repeatedly, reloading the text and seeing how my new changes stand up. </p>
+
+<p>Slicereader is almost disturbingly focused on what it sets out to do: there are no fancy options to twiddle, no settings, no font pickers. You can choose daytime or nighttime mode. But when I need some  help focusing on my editing, having all those choices taken from me is definitely a good thing.</p>
+
+<p>And yes, I&rsquo;ve run this article through Slicereader as well. </p>
+
+<hr />
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:mostly">
+      <p>Mostly. It only handles Gruber markdown, meaning no footnotes, etc.<a href="#fnref:mostly" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -667,53 +722,6 @@ Another benefit is that <em>your</em> content is now styled <em>my</em> way. No 
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/04/12/introducing-a-dot-k-a-dot-the-alias-manager/">Introducing A.K.A.: The Alias Manager</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-04-12T11:33:00-06:00" pubdate data-updated="true">Apr 12<span>th</span>, 2013</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>One of the joys of moving from a Windows machine at work to OSX is that I’m back to having access to the unix command line. The downside, of course, long commands that I <a href="http://xkcd.com/1168/">usually get wrong</a>. </p>
-
-<p>Which is why I spent some time a few weeks ago creating <a href="http://natedickson.com/A.K.A./">A.K.A.</a> Simply put, A.K.A. is a simple way to manage all the aliases that you usually put into your shell of choice’s startup file without editing your dot files by hand or cluttering up your profile when you could be cluttering up a completely separate file. </p>
-
-<p>Now all you have to do is add <code>source ~/.alias</code> and use this script to keep everything nice and organized.</p>
-
-<p>Again, it’s a simple difference; If you know what aliases are you probably aren’t afraid of editing dot files, but <code>aka</code> removes the friction of pulling up your favorite editor, finding where all your aliases are, saving, etc. Everything is a single command issued right at the prompt, all the saving and moving around is handled for you. The result is that I have far <strong>more</strong> aliases, and far more <strong>useful</strong> aliases, because I can add them or change them without breaking my flow. If I realize that I hate typing <code>git status</code> I just run <code>aka -a gs "git status"</code> and now I’ve got a much shorter version of that command. The downside, of course, is that I get intensely frustrated using anyone else’s computer where <code>gs</code> doesn’t work. But I can cope with that.</p>
-
-<p>My favorite (slightly under-documented) command is <code>aka -L</code>, which outputs a nicely formatted list of all your aliases and what they do when you run them. It’s a simple thing, but I like it.</p>
-
-<p>In the event that you actually decide to use this feel free to put suggestions or feature requests or comments either on this page’s comment line or on the <a href="https://github.com/PogiNate/A.K.A.">github page</a>. </p>
-
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/3/">&larr; Older</a>
@@ -731,6 +739,10 @@ Another benefit is that <em>your</em> content is now styled <em>my</em> way. No 
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2014/01/13/trusting-voodoopad/">Trusting VoodooPad</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2013/12/30/fluency/">Fluency</a>
       </li>
     
@@ -744,10 +756,6 @@ Another benefit is that <em>your</em> content is now styled <em>my</em> way. No 
     
       <li class="post">
         <a href="/blog/2013/11/11/writing-with-my-head-in-the-sand/">Writing With My Head In The Sand</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2013/10/31/my-nanowrimo-cover-for-this-year/">My NaNoWriMo Cover for This Year</a>
       </li>
     
   </ul>
@@ -810,7 +818,7 @@ Another benefit is that <em>your</em> content is now styled <em>my</em> way. No 
       </div>
     </div>
     <footer role="contentinfo"><p>
-  Copyright &copy; 2013 - Nate Dickson -
+  Copyright &copy; 2014 - Nate Dickson -
   <span class="credit">Powered by <a href="http://octopress.org">Octopress</a>. Design by <a href="http://octopressthemes.com">Octopress Themes</a></span>
 </p>
 
