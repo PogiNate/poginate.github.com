@@ -1,0 +1,51 @@
+---
+layout: post
+title: "Why Oyster Books Isn't For Me"
+date: 2014-03-03 09:00
+comments: true
+categories: [reading, writing]
+---
+
+...yet. 
+
+Last Saturday I opened an account. The next day I closed it.
+
+On the surface [Oyster Books](https://www.oysterbooks.com/) looks like a great thing: pay $10 every month and get access to a growing library of books. This, you would think, is basically playing right to my wheelhouse. I love books, I love reading, and I love eBooks on my mobile devices. 
+
+But it's not for me. Why is that?
+
+I mean, $9.95 isn't bad; it's kinda-sorta the same price as Netflix, and I read far more than I watch in a given month. I could easily read four or five books every month and it would probably be a good thing, right?
+
+Except...
+
+Except what *kind* of books are on the service? I have a hard enough time finding books I consider "worth reading" on iBooks or Kindle. Anything that is older than the digital age and not über mainstream tends to get forgotten. Anything that has slipped into the public domain is spammed out on the store, thousands of copies, most of them terrible OCR transfers that were never read or reviewed before being shoved onto the store to make a few bucks. 
+
+And from what I've seen Oyster hasn't really drawn a different crowd. They have a number of recent best sellers, but a much shallower back bench than the other services, once you remove the [Project Gutenburg](http://www.gutenberg.org/wiki/Main_Page) rips that everyone has. Oyster has a single Bill Bryson book, the other services have most of his catalog. I could keep going, but the odds are my numbers will all be wrong in a day or two. The *point* is that I spent a few hours searching Oyster's catalog for things I really *wanted* to read and came up with a single book.
+
+But "worth reading" can be a dangerous phrase, and it's one that doesn't really sound like *me* to me. I have spent my life reading just about everything I come across. I'm an author myself, and I should therefore want to stoke the fires of my own literary career by pulling in the best of everyone else's, right?
+
+Well, yeah. But my time is limited. I work eight hours a day and spend six hours trying to build and maintain a relationship with my wife and kiddos. I squeeze in exercise, games and writing around the edges of this by sleeping between five and seven hours a night. So if I'm going to read a book it needs to be worth the precious minutes I give it. And here's where a lesson I learned years ago comes back into play.
+
+When I was a teenager I got hired by Bookstar, a small bookstore that was a subsidiary of Barnes and Noble. Shortly after I started at Bookstar we moved into a full-fledged Barnes and Noble superstore. It was a flagship store for the region, and was bigger than any two libraries I had ever visited in my young life. During the early days I would walk through the store in sheer wonder, feeling the immensity of the world's wisdom, collected around me. I was in heaven. I was surrounded by all that was best and brightest in the world of words.
+
+Except...I wasn't. The world's greatest books *were* in there; we had the entire Loeb Classical Library, both Greek and Latin; the works of Proust and cummings Chesterton and Wodehouse and Feynman and Hawking and Picasso and Miles Davis (in our music department, of course) and the upcoming geniuses as well. But they were thin on the ground compared to the romance novels, serial mysteries, spin-off sci-fi, brainless self-help books[^disclaimer]...all the books that look very impressive until you realize that they weren't written to increase the sum total of human knowledge, they were written to increase the publisher's bottom line. For every masterpiece that was turned out because the author had a story that *must be told* there were thirty books that were trying to capitalize on the latest blockbuster. 
+
+[^disclaimer]: There are many excellent mystery novels and good sci-fi and good self-help books, I know. But for every good one there are two dozen mindless filler titles that were written by committee. 
+
+And I read them. As an employee I was allowed to check books out from the shelves with the understanding that if I bent it I bought it[^noBend]. I picked things up joyfully from just about every shelf and read and read and read...and realized that a lot of what I read wasn't making my life better. I wasn't any happier, I wasn't any smarter or any more connected to my fellow human beings. I was just...older. But reading is addictive; even if you're not in love with the book you're reading you can still enjoy the experience. So I kept just reading anything, working my way through series after series of 300-page fantasy titles that had all the intelligence of a sitcom, but slower, or through 1,100 page epics that were anything but.
+
+[^noBend]: Never a problem for me or most of my coworkers. By and large booksellers are a self-selected group made up of people who would gnaw their own arm off rather than dog-ear a page to mark their place. 
+
+Finally I told myself that my time was worth more, and I needed to read things that were "worth reading". I got myself a list of "great books" and started into it. Some resonated with me, some didn't. Some were amazing and some had aged poorly enough that I couldn't really follow them and lost interest. I still picked up light fantasy titles now and again, but I was determined to change.
+
+So now I generally only read things that I feel have a real point or enough artistry to be worth the time. I say generally, but it's easy to relapse. I fully recognize that some of my favorite books in recent years are entirely devoid of anything resembling substance or style. And that's where I get back around to why I probably shouldn't sign (back) up for Oyster, at least not yet:
+
+I would start reading crap again. 
+
+If I was paying ten bucks for a service I would make sure I was getting "my money's worth" out of the service by ploughing through at least two or three books each month. And I would *love* it. But I don't think it would be good for me. 
+
+Instead, I'll just set aside $10 a month for new books. Buying one every a month is about right, and gives me time to catch up on my huge library at home. 
+
+
+
+
