@@ -4,7 +4,7 @@
   <title><![CDATA[Nate Dickson]]></title>
   <link href="http://PogiNate.github.com/atom.xml" rel="self"/>
   <link href="http://PogiNate.github.com/"/>
-  <updated>2014-03-03T09:31:32-07:00</updated>
+  <updated>2014-03-07T10:08:40-07:00</updated>
   <id>http://PogiNate.github.com/</id>
   <author>
     <name><![CDATA[Nate Dickson]]></name>
@@ -12,6 +12,62 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Writing With the Alphasmart NEO]]></title>
+    <link href="http://PogiNate.github.com/blog/2014/03/07/writing-with-the-alphasmart-neo/"/>
+    <updated>2014-03-07T09:55:00-07:00</updated>
+    <id>http://PogiNate.github.com/blog/2014/03/07/writing-with-the-alphasmart-neo</id>
+    <content type="html"><![CDATA[<p><img class="right" src="http://PogiNate.github.com/assets/images/NEO.jpg" width="400" height="400" title="The Alphasmart Neo in its natural habitat" />
+A thing I once thought would never happen has happened twice: I have been paid for something I wrote by people who actually ponied up their own hard-earned cash to buy <a href="https://leanpub.com/painless_vim">a thing I wrote</a>. I can’t even tell you how awesome that is. If you are one of those people I thank you from the bottom of my heart. </p>
+
+<p>But that’s not what this article is about. This article is about what I did with the second royalty check I got from Leanpub a few days ago:</p>
+
+<p>I bought an Alphasmart NEO. </p>
+
+<p>I first became aware of the existence of these little wonders when I was reading Chris Baty’s<sup id="fnref:whoIsChris"><a href="#fn:whoIsChris" rel="footnote">1</a></sup> book “No Plot? No Problem!”. Says he:</p>
+
+<blockquote>
+  <p>Some NaNoWriMo participants swear by an affordable machine called an Alphasmart (www.alphasmart.com). This is a battery-powered, word-processing device that looks like a cross between a laptop and a children’s Speak &amp; Spell. The miniscule screen only displays four lines of text or so at a time, which can be helpful in warding off obsessive editing. The keyboard is large and comfortable, and you can work for up to twenty-six hours on a few AA batteries.</p>
+</blockquote>
+
+<p>– Baty, Chris (2010-07-01). No Plot? No Problem!: A Low-Stress, High-Velocity Guide to Writing a Novel in 30 Days (p. 74). Chronicle Books LLC. Kindle Edition. </p>
+
+<p>“Yes. This is a right thing. This is genius,” I muttered quietly to myself. Here was something that embodied the ideal of “one thing well”. A concept that I’ve always loved, all the more because I’m so terribly bad at sticking to one thing for any length of time. </p>
+
+<p>When I first read this the NEO2 was still a current concern, priced around $200, which was out of my price range, or rather outside of the budget I could concieveably justify on a writing toy. So I shelved the idea of owning one for a while and went on with my life.</p>
+
+<p>And wrote <a href="https://leanpub.com/painless_vim">Painless Vim</a>. And got paid for it, twice now. Not a lot, mind you<sup id="fnref:yet"><a href="#fn:yet" rel="footnote">2</a></sup>, but actual cash money. Which means I have a little money to spend on writing toys. But when I went back to the Alphasmart website I discovered that the Neo’s time had come to a close.</p>
+
+<p>The NEO is no longer being manufactured. The company has shut down that arm of their business, and all that’s left is second-hand models that schools are getting rid of, as near as I can tell. But that’s a blessing for someone like me, because the price on a second-hand model on eBay is usually in the $40-$60 range. After a few hours of looking at all the different models that Alphasmart had ever made, comparing them and learning far more about them than I had previously thought possible I found one at the right price and a deal was struck. </p>
+
+<h2 id="about-the-neo">About the NEO</h2>
+
+<p>The NEO is a device that was designed to fulfill a very specific role: it is for <em>writing</em>. It is not for web surfing, it doesn’t have a browser or even a network interface. It’s not for games, it’s got a very simple display that can show you around six lines of text at a time. It’s not for reading email. It is only for <em>writing</em>. </p>
+
+<p>Being designed for the classroom has other advantages. Alphasmart products are legendarily rugged, built to withstand grade school students long enough to justify the school board’s expenditure on them. They are an instant-on device, because there’s no real OS to load up. Turn it on, write. They are the most energy conscious devices ever: Several owners claim they will run for <em>seven hundred hours</em> on a fresh set of 3 AA batteries. So far I’ve used my device for about 20 hours and I’m at around 98% battery, so that sounds surprisingly accurate. </p>
+
+<p>Granted, the NEO is not a machine with great specs. For starters, it has 512K of RAM, which is charming. My Macbook Pro has roughly 33,000 times that much. But that 512K is enough to hold about 200 pages of text, split out over 8 files. When all you’re doing is writing you don’t need a lot of storage space. Text is small. </p>
+
+<p>Equally charming is the NEO-computer interface: plug the NEO in via USB and the computer will recognize it as a keyboard. So you open Word or Scrivener or your favorite text program on your computer, put the cursor where you want the text and press “send” on the NEO. Suddenly the computer thinks the NEO is a keyboard where someone is typing at around 200 words per minute. </p>
+
+<p>And that is the <em>whole point</em> of the device. It’s focused, so it can do it’s “one thing” well. It’s rugged, so it can go camping. It’s inexpensive, so if it turns out that taking it camping was a bad idea you can replace it without too much heartache. And did I mention that it’s a very <em>focused</em> device? When you are writing on a NEO you can’t be sneaking peeks at your email, or twitter or anything else. All you can do is write. It’s the perfect middle step between a paper notebook and a MacBook.</p>
+
+<p>It also imparts a strange and wonderful sense of detachment from the writing grind. Everything you write disappears off the top of the screen in a matter of moments, leaving you with just your most recent thought and maybe the conclusion of the one before it. More than once I have written for an hour or less, and felt like I got a little bit done, plugged the NEO into my computer and watched as thousands of words pour out across the page. Turns out it’s easier to be productive when you’re not worrying about your productivity. </p>
+
+<hr />
+<div class="footnotes">
+  <ol>
+    <li id="fn:whoIsChris">
+      <p>For those of you who don’t know, Christ Baty is the man who started <a href="http://nanowrimo.org">NaNoWriMo</a>. <a href="#fnref:whoIsChris" rel="reference">&#8617;</a></p>
+    </li>
+    <li id="fn:yet">
+      <p>yet. But here’s hoping!<a href="#fnref:yet" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Why Oyster Books Isn't For Me]]></title>
@@ -728,40 +784,6 @@ The one <sup id="fnref:minor"><a href="#fn:minor" rel="footnote">1</a></sup> pro
     </li>
     <li id="fn:plug">
       <p>There is an emoji power plug symbol, but it doesn’t show up well on a black background.<a href="#fnref:plug" rel="reference">&#8617;</a></p>
-    </li>
-  </ol>
-</div>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Thoughts on Introversion]]></title>
-    <link href="http://PogiNate.github.com/blog/2013/04/20/thoughts-on-introversion/"/>
-    <updated>2013-04-20T11:04:00-06:00</updated>
-    <id>http://PogiNate.github.com/blog/2013/04/20/thoughts-on-introversion</id>
-    <content type="html"><![CDATA[<p>I’ve never been a fan of cities. New York and Los Angeles hold no fascination for me. Rome is historically interesting, but I wouldn’t ever want to actually <em>go</em> there. I’d rather spend some time in the Italian countryside somewhere, out of the way of the crowds and slowly learning Italian.</p>
-
-<p>Or I could spend my time in suburban Utah. The hills don’t stay as green, and we have a lot of snow and cold and suchlike to deal with, but on the other hand I don’t have to learn Italian. </p>
-
-<p>But cities spread, and they spread around those of us who moved here specifically to <em>avoid</em> them. It doesn’t seem fair. The biggest challenge facing us introverts is accepting the fact that we’re connected to all those other people all over the place; you know, the ones we’re being introverted from. Extroverts like us, because they like <em>everybody</em>, a fact we can’t quite make ourselves believe. But for them people are as necessary<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> as solitude is for us; they seek out people the way we seek out quiet places. </p>
-
-<p>So cities spread, communities form. In our more rational moments we introverts can accept that community and civilization are important, we just don’t want them around <em>here</em>.</p>
-
-<p>Then there are the even more conflicted introverts; the ones who need the city support system to provide them with quiet little coffee houses and public transportation and eclectic bookstores. Forever taunting themselves with the crowds of happy people that don’t include them, knowing (because all introverts are amazingly, painfully self-aware<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup>) that the crowds <em>probably</em> aren’t judging them, that the only thing stopping the introvert from packing up his journal and latte and finding happiness in the company of other people is his own blasted self.</p>
-
-<p>And there are those of us (like me) who enjoy time with people, but still need to make a quiet retreat into our own little world, where our thoughts are the only ones around and we can start to decompress, unwind, and come up with other metaphors for releasing stress after being stressed out in a fun (but tension causing) social setting. </p>
-
-<p><span class="pullquote-right" data-pullquote="… which is part of why I&#8217;m a blogger instead of a city councilor. Or whatever it is more extroverted people do.">
-People often talk about having an “introvert battery” or an “extrovert battery”, recharging by being with others or recharging by being alone. I think we probably all have both, but for some people one person a week charges their extrovert battery more than enough, and for others the introvert battery gets all the charge it needs when they spend a few hours asleep. I need a pretty solid dose of both social time and quiet time, but probably just a little more quiet time … which is part of why I’m a blogger instead of a city councilor. Or whatever it is more extroverted people do. 
-</span></p>
-
-<div class="footnotes">
-  <ol>
-    <li id="fn:1">
-      <p>I hate that word; I can never spell it correctly.<a href="#fnref:1" rel="reference">&#8617;</a></p>
-    </li>
-    <li id="fn:2">
-      <p>I realize I’m making a bunch of sweeping generalizations here; if you disagree feel free to kindly tell me why I’m wrong. Or just realize that I’m talking about myself here. <a href="#fnref:2" rel="reference">&#8617;</a></p>
     </li>
   </ol>
 </div>
