@@ -4,7 +4,7 @@
   <title><![CDATA[Nate Dickson]]></title>
   <link href="http://PogiNate.github.com/atom.xml" rel="self"/>
   <link href="http://PogiNate.github.com/"/>
-  <updated>2014-03-07T10:08:40-07:00</updated>
+  <updated>2014-05-02T11:42:40-06:00</updated>
   <id>http://PogiNate.github.com/</id>
   <author>
     <name><![CDATA[Nate Dickson]]></name>
@@ -753,7 +753,7 @@ The one <sup id="fnref:minor"><a href="#fn:minor" rel="footnote">1</a></sup> pro
 
 <p>So a few minutes of ruby hacking later and I have a script that gets me all the info I need and displays it using pretty pictures. Now all I need to do is get it into tmux. Fortunately that was also very simple. This line: </p>
 
-<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span>Display Battery Info </span><a href="https://raw.github.com/PogiNate/dots/master/home/.tmux.conf">Link to file on Github </a></figcaption> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span>Display Battery Info</span><a href="https://raw.github.com/PogiNate/dots/master/home/.tmux.conf">Link to file on Github </a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
 </pre></td><td class="code"><pre><code class="bash"><span class="line"><span class="nb">set</span> -g status-right <span class="s2">&quot;#[fg=colour155]#(pmset -g batt | ~/bin/battinfo.rb) | #[fg=colour45]%d %b %R&quot;</span>
 </span></code></pre></td></tr></table></div></figure></notextile></div>
 
