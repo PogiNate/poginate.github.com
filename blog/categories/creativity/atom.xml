@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: creativity | Nate Dickson]]></title>
-  <link href="http://PogiNate.github.com/blog/categories/creativity/atom.xml" rel="self"/>
-  <link href="http://PogiNate.github.com/"/>
-  <updated>2014-05-02T11:42:40-06:00</updated>
-  <id>http://PogiNate.github.com/</id>
+  <link href="http://natedickson.com/blog/categories/creativity/atom.xml" rel="self"/>
+  <link href="http://natedickson.com/"/>
+  <updated>2014-05-02T14:20:41-06:00</updated>
+  <id>http://natedickson.com/</id>
   <author>
     <name><![CDATA[Nate Dickson]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Scapple: Letting Your Mind Wander]]></title>
-    <link href="http://PogiNate.github.com/blog/2013/04/02/scapple-letting-your-mind-wander/"/>
+    <link href="http://natedickson.com/blog/2013/04/02/scapple-letting-your-mind-wander/"/>
     <updated>2013-04-02T11:32:00-06:00</updated>
-    <id>http://PogiNate.github.com/blog/2013/04/02/scapple-letting-your-mind-wander</id>
+    <id>http://natedickson.com/blog/2013/04/02/scapple-letting-your-mind-wander</id>
     <content type="html"><![CDATA[<p><a href="http://www.literatureandlatte.com/forum/viewforum.php?f=42&amp;sid=2665c0358883722ee7431c87c46199a2">Scapple</a> is a still-in-beta project from <a href="http://literatureandlatte.com">Literature &amp; Latte</a>, the amazing developers who brought the blessed <a href="http://www.literatureandlatte.com/scrivener.php">Scrivener</a> into the world.</p>
 
 <p>I’ve enthused about Scrivener <a href="http://www.favoritethingever.com/2010/10/scrivener/">before</a>, so I’ll refrain for now. But the folks at L&amp;L have an amazing focus on writing and the tools of the trade, and have given us one more tool to make the whole process easier. </p>

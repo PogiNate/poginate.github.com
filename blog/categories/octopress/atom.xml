@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Octopress | Nate Dickson]]></title>
-  <link href="http://PogiNate.github.com/blog/categories/octopress/atom.xml" rel="self"/>
-  <link href="http://PogiNate.github.com/"/>
-  <updated>2014-05-02T11:42:40-06:00</updated>
-  <id>http://PogiNate.github.com/</id>
+  <link href="http://natedickson.com/blog/categories/octopress/atom.xml" rel="self"/>
+  <link href="http://natedickson.com/"/>
+  <updated>2014-05-02T14:20:41-06:00</updated>
+  <id>http://natedickson.com/</id>
   <author>
     <name><![CDATA[Nate Dickson]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[(Mostly) MultiMarkdown Blogging in Octopress]]></title>
-    <link href="http://PogiNate.github.com/blog/2013/04/09/mostly-multimarkdown-blogging-in-octopress/"/>
+    <link href="http://natedickson.com/blog/2013/04/09/mostly-multimarkdown-blogging-in-octopress/"/>
     <updated>2013-04-09T09:55:00-06:00</updated>
-    <id>http://PogiNate.github.com/blog/2013/04/09/mostly-multimarkdown-blogging-in-octopress</id>
+    <id>http://natedickson.com/blog/2013/04/09/mostly-multimarkdown-blogging-in-octopress</id>
     <content type="html"><![CDATA[<p>So, my big concern in moving over to <a href="http://octopress.org/">Octopress</a> was the lack of MultiMarkdown compatibility. Specifically the lack of footnotes. I <em>think</em> in footnotes a lot of the time<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>. </p>
 
 <p>So it was a definite problem to go to something limited to vanilla markdown. I did a few million hours of web searching to find a way to use MultiMarkdown as my renderer, but for some reason Jekyll is surprisingly resistant to the idea, so I gave up.</p>

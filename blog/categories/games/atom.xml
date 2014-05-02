@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: games | Nate Dickson]]></title>
-  <link href="http://PogiNate.github.com/blog/categories/games/atom.xml" rel="self"/>
-  <link href="http://PogiNate.github.com/"/>
-  <updated>2014-05-02T11:42:40-06:00</updated>
-  <id>http://PogiNate.github.com/</id>
+  <link href="http://natedickson.com/blog/categories/games/atom.xml" rel="self"/>
+  <link href="http://natedickson.com/"/>
+  <updated>2014-05-02T14:20:41-06:00</updated>
+  <id>http://natedickson.com/</id>
   <author>
     <name><![CDATA[Nate Dickson]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Small World on the iPad Updated!]]></title>
-    <link href="http://PogiNate.github.com/blog/2013/09/12/small-world-on-the-ipad-updated/"/>
+    <link href="http://natedickson.com/blog/2013/09/12/small-world-on-the-ipad-updated/"/>
     <updated>2013-09-12T10:04:00-06:00</updated>
-    <id>http://PogiNate.github.com/blog/2013/09/12/small-world-on-the-ipad-updated</id>
+    <id>http://natedickson.com/blog/2013/09/12/small-world-on-the-ipad-updated</id>
     <content type="html"><![CDATA[<p><img class="right" src="/assets/images/SW2-icon.jpg" title="“Small World 2 App Icon”" >
 Just a quick post to happily note that <a href="http://www.daysofwonder.com">Days of Wonder</a> has finally updated their <a href="http://itunes.apple.com/us/app/small-world-for-ipad/id364165557?mt=8">Small World app</a> on the iPad. Small World was the first game I bought on the original iPad, and it’s been sadly neglected for a quite a while. </p>
 

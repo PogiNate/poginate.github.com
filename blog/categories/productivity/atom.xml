@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: productivity | Nate Dickson]]></title>
-  <link href="http://PogiNate.github.com/blog/categories/productivity/atom.xml" rel="self"/>
-  <link href="http://PogiNate.github.com/"/>
-  <updated>2014-05-02T11:42:40-06:00</updated>
-  <id>http://PogiNate.github.com/</id>
+  <link href="http://natedickson.com/blog/categories/productivity/atom.xml" rel="self"/>
+  <link href="http://natedickson.com/"/>
+  <updated>2014-05-02T14:20:41-06:00</updated>
+  <id>http://natedickson.com/</id>
   <author>
     <name><![CDATA[Nate Dickson]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Originally About Scrivener but Turned into Something Else]]></title>
-    <link href="http://PogiNate.github.com/blog/2013/03/25/originally-about-scrivener-but-turned-into-something-else/"/>
+    <link href="http://natedickson.com/blog/2013/03/25/originally-about-scrivener-but-turned-into-something-else/"/>
     <updated>2013-03-25T12:09:00-06:00</updated>
-    <id>http://PogiNate.github.com/blog/2013/03/25/originally-about-scrivener-but-turned-into-something-else</id>
+    <id>http://natedickson.com/blog/2013/03/25/originally-about-scrivener-but-turned-into-something-else</id>
     <content type="html"><![CDATA[<p>I have been a huge fan of <a href="http://www.literatureandlatte.com/scrivener.php">Scrivener</a> for years. I love the freedom it gives me to organize a story however I want it, to color code, label, sort, search and tag my text.</p>
 
 <p>But all of this, of course, can actually <em>hamper</em> productivity if you start letting it run your workflow. You can spend so much time going through your manuscript updating keywords that you forget to actually do any writing. This trap is especially easy to fall into if you, like me, suffer from a serious mental condition called <em>“Self-inflicted Terminal Unjustified Paranoia of Invisible Detractors”</em>, or <strong>STUPID</strong> for short.</p>

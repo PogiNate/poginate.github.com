@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: iOS | Nate Dickson]]></title>
-  <link href="http://PogiNate.github.com/blog/categories/ios/atom.xml" rel="self"/>
-  <link href="http://PogiNate.github.com/"/>
-  <updated>2014-05-02T11:42:40-06:00</updated>
-  <id>http://PogiNate.github.com/</id>
+  <link href="http://natedickson.com/blog/categories/ios/atom.xml" rel="self"/>
+  <link href="http://natedickson.com/"/>
+  <updated>2014-05-02T14:20:41-06:00</updated>
+  <id>http://natedickson.com/</id>
   <author>
     <name><![CDATA[Nate Dickson]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Vines Through the Garden Wall]]></title>
-    <link href="http://PogiNate.github.com/blog/2013/03/22/vines-through-the-garden-wall/"/>
+    <link href="http://natedickson.com/blog/2013/03/22/vines-through-the-garden-wall/"/>
     <updated>2013-03-22T09:23:00-06:00</updated>
-    <id>http://PogiNate.github.com/blog/2013/03/22/vines-through-the-garden-wall</id>
+    <id>http://natedickson.com/blog/2013/03/22/vines-through-the-garden-wall</id>
     <content type="html"><![CDATA[<p>Apple lives a strange double life. They’ve always had a strange love/hate relationship with developers: they want great 3rd party apps, but they want everything to be <em>just right</em>, and if you don’t agree with their vision of <em>just right</em> then you’re plain wrong.</p>
 
 <p>And over time we’ve seen that weird divide get weirder on OSX. On the surface you’ve got Gatekeeper, designed to keep the weeds out of the walled garden, but fire up the terminal, install <a href="http://mxcl.github.com/homebrew/">Homebrew</a> and suddenly you’ve got the whole world of open source software all over your nice shiny Mac, with not a peep out of Gatekeeper. and frankly I think that’s fine. If people don’t want to worry about their computer and just want to install things from the Mac App Store then let them live that way. But for those of us who kind of like all the wild plants inside the walled garden let us install whatever we want.</p>

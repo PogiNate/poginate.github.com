@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: evil | Nate Dickson]]></title>
-  <link href="http://PogiNate.github.com/blog/categories/evil/atom.xml" rel="self"/>
-  <link href="http://PogiNate.github.com/"/>
-  <updated>2014-05-02T11:42:40-06:00</updated>
-  <id>http://PogiNate.github.com/</id>
+  <link href="http://natedickson.com/blog/categories/evil/atom.xml" rel="self"/>
+  <link href="http://natedickson.com/"/>
+  <updated>2014-05-02T14:20:41-06:00</updated>
+  <id>http://natedickson.com/</id>
   <author>
     <name><![CDATA[Nate Dickson]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Leaving Google]]></title>
-    <link href="http://PogiNate.github.com/blog/2013/07/30/leaving-google/"/>
+    <link href="http://natedickson.com/blog/2013/07/30/leaving-google/"/>
     <updated>2013-07-30T08:40:00-06:00</updated>
-    <id>http://PogiNate.github.com/blog/2013/07/30/leaving-google</id>
+    <id>http://natedickson.com/blog/2013/07/30/leaving-google</id>
     <content type="html"><![CDATA[<p>Edward Snowden basically only verified what we had all already feared: The government is getting information about all of us behind our backs. The problem is that all this time Google has been promising that they’re doing a nice, open, transparent operation, letting us all know what they’re being asked for and what they’re actually giving, and now…well, I have a hard time believing them. </p>
 
 <p>But it’s more than that. The old wisdom about eggs and numbers of baskets used to store them rings very true these days. Regardless of government requests<sup id="fnref:no_hide"><a href="#fn:no_hide" rel="footnote">1</a></sup>, regardless of anything else, I’ve gradually become uncomfortable letting google moderate all aspects of my online life. </p>

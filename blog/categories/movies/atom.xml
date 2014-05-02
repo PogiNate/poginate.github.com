@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: movies | Nate Dickson]]></title>
-  <link href="http://PogiNate.github.com/blog/categories/movies/atom.xml" rel="self"/>
-  <link href="http://PogiNate.github.com/"/>
-  <updated>2014-05-02T11:42:40-06:00</updated>
-  <id>http://PogiNate.github.com/</id>
+  <link href="http://natedickson.com/blog/categories/movies/atom.xml" rel="self"/>
+  <link href="http://natedickson.com/"/>
+  <updated>2014-05-02T14:20:41-06:00</updated>
+  <id>http://natedickson.com/</id>
   <author>
     <name><![CDATA[Nate Dickson]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Terrible Time Travel Concept for a Cheesy Sci-fi Movie]]></title>
-    <link href="http://PogiNate.github.com/blog/2013/05/20/terrible-time-travel-concept-for-a-cheesy-sci-fi-movie/"/>
+    <link href="http://natedickson.com/blog/2013/05/20/terrible-time-travel-concept-for-a-cheesy-sci-fi-movie/"/>
     <updated>2013-05-20T15:35:00-06:00</updated>
-    <id>http://PogiNate.github.com/blog/2013/05/20/terrible-time-travel-concept-for-a-cheesy-sci-fi-movie</id>
+    <id>http://natedickson.com/blog/2013/05/20/terrible-time-travel-concept-for-a-cheesy-sci-fi-movie</id>
     <content type="html"><![CDATA[<p><strong>NOTE</strong>: I’m presenting this as a <em>movie plot</em>, not <em>actual science</em>. I’m a programmer, not a physicist. I’m fully aware that I have no idea how physics works and that everything below is probably complete nonsense. Which is why it would be perfect for Hollywood. Okay, carry on. </p>
 
 <p>So, here’s the premise: Light moves at, well, light speed. The closer you get to moving at light speed, the slower subjective time moves. Which means that for light, time doesn’t move <em>at all</em>. Which is probably part of why it’s both photons (particles) and light waves (energy); if there’s no time there is no significant difference between the two.<sup id="fnref:relax"><a href="#fn:relax" rel="footnote">1</a></sup></p>

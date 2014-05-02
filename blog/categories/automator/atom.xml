@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: automator | Nate Dickson]]></title>
-  <link href="http://PogiNate.github.com/blog/categories/automator/atom.xml" rel="self"/>
-  <link href="http://PogiNate.github.com/"/>
-  <updated>2014-05-02T11:42:40-06:00</updated>
-  <id>http://PogiNate.github.com/</id>
+  <link href="http://natedickson.com/blog/categories/automator/atom.xml" rel="self"/>
+  <link href="http://natedickson.com/"/>
+  <updated>2014-05-02T14:20:41-06:00</updated>
+  <id>http://natedickson.com/</id>
   <author>
     <name><![CDATA[Nate Dickson]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[From Scrivener to Leanpub in One Step]]></title>
-    <link href="http://PogiNate.github.com/blog/2013/05/30/from-scrivener-to-leanpub-in-one-step/"/>
+    <link href="http://natedickson.com/blog/2013/05/30/from-scrivener-to-leanpub-in-one-step/"/>
     <updated>2013-05-30T00:46:00-06:00</updated>
-    <id>http://PogiNate.github.com/blog/2013/05/30/from-scrivener-to-leanpub-in-one-step</id>
+    <id>http://natedickson.com/blog/2013/05/30/from-scrivener-to-leanpub-in-one-step</id>
     <content type="html"><![CDATA[<p>I’m working on <em><a href="https://leanpub.com/painless_vim">Painless Vim</a></em> in <a href="www.literatureandlatte.com/scrivener.php">Scrivener</a>, because I love its organizational capabilities <sup id="fnref:2"><a href="#fn:2" rel="footnote">1</a></sup> …or have I mentioned my love of Scrivener before? (yes)</p>
 
 <p>The problem arises when I want to push my text to <a href="https://leanpub.com">Leanpub</a>. Scrivener has two very good ways to get your text out of Scriv into the world: you can <em>export</em> each text as a file, or you can <em>compile</em> it into a single document ready to send off to a printer. They’ve both got their pros and cons, but to really understand them we need a brief detour into how publishing on Leanpub works:</p>

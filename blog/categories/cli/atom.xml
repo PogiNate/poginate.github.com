@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: cli | Nate Dickson]]></title>
-  <link href="http://PogiNate.github.com/blog/categories/cli/atom.xml" rel="self"/>
-  <link href="http://PogiNate.github.com/"/>
-  <updated>2014-05-02T11:42:40-06:00</updated>
-  <id>http://PogiNate.github.com/</id>
+  <link href="http://natedickson.com/blog/categories/cli/atom.xml" rel="self"/>
+  <link href="http://natedickson.com/"/>
+  <updated>2014-05-02T14:20:41-06:00</updated>
+  <id>http://natedickson.com/</id>
   <author>
     <name><![CDATA[Nate Dickson]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[From The Desk of Captain Obvious: Tmuxinator vs. Scripted configurations]]></title>
-    <link href="http://PogiNate.github.com/blog/2013/05/10/from-the-desk-of-captain-obvious-tmuxinator-vs-scripted-configurations/"/>
+    <link href="http://natedickson.com/blog/2013/05/10/from-the-desk-of-captain-obvious-tmuxinator-vs-scripted-configurations/"/>
     <updated>2013-05-10T10:38:00-06:00</updated>
-    <id>http://PogiNate.github.com/blog/2013/05/10/from-the-desk-of-captain-obvious-tmuxinator-vs-scripted-configurations</id>
+    <id>http://natedickson.com/blog/2013/05/10/from-the-desk-of-captain-obvious-tmuxinator-vs-scripted-configurations</id>
     <content type="html"><![CDATA[<p>I’ve been using <a href="https://github.com/aziz/tmuxinator">Tmuxinator</a> for a while now to put together tmux sessions that I can run quickly and easily from the command line. I’ve even set up an <a href="http://natedickson.com/blog/2013/04/12/introducing-a-dot-k-a-dot-the-alias-manager/">AKA</a> shortcut, abbreviating <code>tmuxinator</code> to <code>tor</code>, making it much easier to create new scripted sessions. But recently I discovered an odd thing when I detached from a session created by tmuxinator: they don’t show up in my list of sessions when I run <code>tmux ls</code>. </p>
 
 <p>So I played with it a bit more. I could run <code>tor config1</code> and get a session laid out according to configuration 1. I’d then detach and create a session by hand, and do the following:</p>
@@ -47,9 +47,9 @@ bar: 1 windows (created Thu May 9 07:35:02) [160x39]
   
   <entry>
     <title type="html"><![CDATA[Battery Status in tmux]]></title>
-    <link href="http://PogiNate.github.com/blog/2013/04/30/battery-status-in-tmux/"/>
+    <link href="http://natedickson.com/blog/2013/04/30/battery-status-in-tmux/"/>
     <updated>2013-04-30T10:25:00-06:00</updated>
-    <id>http://PogiNate.github.com/blog/2013/04/30/battery-status-in-tmux</id>
+    <id>http://natedickson.com/blog/2013/04/30/battery-status-in-tmux</id>
     <content type="html"><![CDATA[<p>While I usually work plugged into power and a monitor and all that good stuff, there are times where my MacBook Pro and I need to go off the grid for a while. During those times I’ve found that it’s easiest to have a terminal window fullscreen and do everything via the command line. That way I don’t really need a mouse at all and I can keep my hands on the keyboard doing whatever it is I’m doing that day. If I need any of my GUI apps <a href="http://www.alfredapp.com/">Alfred</a> is always right there to help me out, again, without using the trackpad. </p>
 
 <p>Surround your pullquote like this {" text to be quoted "}</p>
@@ -119,9 +119,9 @@ runs the <code>pmset</code> command and my script and gives me a nice green row 
   
   <entry>
     <title type="html"><![CDATA[Introducing A.K.A.: The Alias Manager]]></title>
-    <link href="http://PogiNate.github.com/blog/2013/04/12/introducing-a-dot-k-a-dot-the-alias-manager/"/>
+    <link href="http://natedickson.com/blog/2013/04/12/introducing-a-dot-k-a-dot-the-alias-manager/"/>
     <updated>2013-04-12T11:33:00-06:00</updated>
-    <id>http://PogiNate.github.com/blog/2013/04/12/introducing-a-dot-k-a-dot-the-alias-manager</id>
+    <id>http://natedickson.com/blog/2013/04/12/introducing-a-dot-k-a-dot-the-alias-manager</id>
     <content type="html"><![CDATA[<p>One of the joys of moving from a Windows machine at work to OSX is that I’m back to having access to the unix command line. The downside, of course, long commands that I <a href="http://xkcd.com/1168/">usually get wrong</a>. </p>
 
 <p>Which is why I spent some time a few weeks ago creating <a href="http://natedickson.com/A.K.A./">A.K.A.</a> Simply put, A.K.A. is a simple way to manage all the aliases that you usually put into your shell of choice’s startup file without editing your dot files by hand or cluttering up your profile when you could be cluttering up a completely separate file. </p>
@@ -139,9 +139,9 @@ runs the <code>pmset</code> command and my script and gives me a nice green row 
   
   <entry>
     <title type="html"><![CDATA[tmux and Octopress]]></title>
-    <link href="http://PogiNate.github.com/blog/2013/03/21/tmux-and-octopress/"/>
+    <link href="http://natedickson.com/blog/2013/03/21/tmux-and-octopress/"/>
     <updated>2013-03-21T05:22:00-06:00</updated>
-    <id>http://PogiNate.github.com/blog/2013/03/21/tmux-and-octopress</id>
+    <id>http://natedickson.com/blog/2013/03/21/tmux-and-octopress</id>
     <content type="html"><![CDATA[<p>Naturally, the first thing I did after getting Octopress up, running, and actually <em>deployed</em> to a real live server was set up a writing workflow that will make it easy to post to this blog. And by “easy”, I of course mean “weird and convoluted, but in a way that makes sense to me”. What else would I mean?</p>
 
 <p>The first ingredient in my workflow is <a href="http://tmux.sourceforge.net/">tmux</a>. If you haven’t played with it yet you’ll find that  it’s a fast and easy way to access your project from multiple angles. You’ll have one terminal window open and in that one window you can be editing a file, keeping an eye on <code>top</code> and running your build tasks all at once, while a second tab has your development server running in it. I discovered tmux using Brian Hogan’s <a href="http://pragprog.com/book/bhtmux/tmux">amazing book</a> and haven’t looked back. </p>

@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: ruby | Nate Dickson]]></title>
-  <link href="http://PogiNate.github.com/blog/categories/ruby/atom.xml" rel="self"/>
-  <link href="http://PogiNate.github.com/"/>
-  <updated>2014-05-02T11:42:40-06:00</updated>
-  <id>http://PogiNate.github.com/</id>
+  <link href="http://natedickson.com/blog/categories/ruby/atom.xml" rel="self"/>
+  <link href="http://natedickson.com/"/>
+  <updated>2014-05-02T14:20:41-06:00</updated>
+  <id>http://natedickson.com/</id>
   <author>
     <name><![CDATA[Nate Dickson]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Battery Status in tmux]]></title>
-    <link href="http://PogiNate.github.com/blog/2013/04/30/battery-status-in-tmux/"/>
+    <link href="http://natedickson.com/blog/2013/04/30/battery-status-in-tmux/"/>
     <updated>2013-04-30T10:25:00-06:00</updated>
-    <id>http://PogiNate.github.com/blog/2013/04/30/battery-status-in-tmux</id>
+    <id>http://natedickson.com/blog/2013/04/30/battery-status-in-tmux</id>
     <content type="html"><![CDATA[<p>While I usually work plugged into power and a monitor and all that good stuff, there are times where my MacBook Pro and I need to go off the grid for a while. During those times I’ve found that it’s easiest to have a terminal window fullscreen and do everything via the command line. That way I don’t really need a mouse at all and I can keep my hands on the keyboard doing whatever it is I’m doing that day. If I need any of my GUI apps <a href="http://www.alfredapp.com/">Alfred</a> is always right there to help me out, again, without using the trackpad. </p>
 
 <p>Surround your pullquote like this {" text to be quoted "}</p>
@@ -87,9 +87,9 @@ runs the <code>pmset</code> command and my script and gives me a nice green row 
   
   <entry>
     <title type="html"><![CDATA[Introducing A.K.A.: The Alias Manager]]></title>
-    <link href="http://PogiNate.github.com/blog/2013/04/12/introducing-a-dot-k-a-dot-the-alias-manager/"/>
+    <link href="http://natedickson.com/blog/2013/04/12/introducing-a-dot-k-a-dot-the-alias-manager/"/>
     <updated>2013-04-12T11:33:00-06:00</updated>
-    <id>http://PogiNate.github.com/blog/2013/04/12/introducing-a-dot-k-a-dot-the-alias-manager</id>
+    <id>http://natedickson.com/blog/2013/04/12/introducing-a-dot-k-a-dot-the-alias-manager</id>
     <content type="html"><![CDATA[<p>One of the joys of moving from a Windows machine at work to OSX is that I’m back to having access to the unix command line. The downside, of course, long commands that I <a href="http://xkcd.com/1168/">usually get wrong</a>. </p>
 
 <p>Which is why I spent some time a few weeks ago creating <a href="http://natedickson.com/A.K.A./">A.K.A.</a> Simply put, A.K.A. is a simple way to manage all the aliases that you usually put into your shell of choice’s startup file without editing your dot files by hand or cluttering up your profile when you could be cluttering up a completely separate file. </p>

@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Nate Dickson]]></title>
-  <link href="http://PogiNate.github.com/atom.xml" rel="self"/>
-  <link href="http://PogiNate.github.com/"/>
-  <updated>2014-05-02T11:42:40-06:00</updated>
-  <id>http://PogiNate.github.com/</id>
+  <link href="http://natedickson.com/atom.xml" rel="self"/>
+  <link href="http://natedickson.com/"/>
+  <updated>2014-05-02T14:20:41-06:00</updated>
+  <id>http://natedickson.com/</id>
   <author>
     <name><![CDATA[Nate Dickson]]></name>
     
@@ -15,10 +15,10 @@
   
   <entry>
     <title type="html"><![CDATA[Writing With the Alphasmart NEO]]></title>
-    <link href="http://PogiNate.github.com/blog/2014/03/07/writing-with-the-alphasmart-neo/"/>
+    <link href="http://natedickson.com/blog/2014/03/07/writing-with-the-alphasmart-neo/"/>
     <updated>2014-03-07T09:55:00-07:00</updated>
-    <id>http://PogiNate.github.com/blog/2014/03/07/writing-with-the-alphasmart-neo</id>
-    <content type="html"><![CDATA[<p><img class="right" src="http://PogiNate.github.com/assets/images/NEO.jpg" width="400" height="400" title="The Alphasmart Neo in its natural habitat" />
+    <id>http://natedickson.com/blog/2014/03/07/writing-with-the-alphasmart-neo</id>
+    <content type="html"><![CDATA[<p><img class="right" src="http://natedickson.com/assets/images/NEO.jpg" width="400" height="400" title="The Alphasmart Neo in its natural habitat" />
 A thing I once thought would never happen has happened twice: I have been paid for something I wrote by people who actually ponied up their own hard-earned cash to buy <a href="https://leanpub.com/painless_vim">a thing I wrote</a>. I can’t even tell you how awesome that is. If you are one of those people I thank you from the bottom of my heart. </p>
 
 <p>But that’s not what this article is about. This article is about what I did with the second royalty check I got from Leanpub a few days ago:</p>
@@ -71,9 +71,9 @@ A thing I once thought would never happen has happened twice: I have been paid f
   
   <entry>
     <title type="html"><![CDATA[Why Oyster Books Isn't For Me]]></title>
-    <link href="http://PogiNate.github.com/blog/2014/03/03/why-oyster-books-isnt-for-me/"/>
+    <link href="http://natedickson.com/blog/2014/03/03/why-oyster-books-isnt-for-me/"/>
     <updated>2014-03-03T09:00:00-07:00</updated>
-    <id>http://PogiNate.github.com/blog/2014/03/03/why-oyster-books-isnt-for-me</id>
+    <id>http://natedickson.com/blog/2014/03/03/why-oyster-books-isnt-for-me</id>
     <content type="html"><![CDATA[<p>…yet. </p>
 
 <p>Last Saturday I opened an account. The next day I closed it.</p>
@@ -125,10 +125,10 @@ A thing I once thought would never happen has happened twice: I have been paid f
   
   <entry>
     <title type="html"><![CDATA[Trusting VoodooPad]]></title>
-    <link href="http://PogiNate.github.com/blog/2014/01/13/trusting-voodoopad/"/>
+    <link href="http://natedickson.com/blog/2014/01/13/trusting-voodoopad/"/>
     <updated>2014-01-13T11:15:00-07:00</updated>
-    <id>http://PogiNate.github.com/blog/2014/01/13/trusting-voodoopad</id>
-    <content type="html"><![CDATA[<p><img class="right" src="http://PogiNate.github.com/assets/images/vp_icon.png" title="VoodooPad Icon" alt="The VoodooPad Icon" />
+    <id>http://natedickson.com/blog/2014/01/13/trusting-voodoopad</id>
+    <content type="html"><![CDATA[<p><img class="right" src="http://natedickson.com/assets/images/vp_icon.png" title="VoodooPad Icon" alt="The VoodooPad Icon" />
 I’ve <a href="http://www.favoritethingever.com/2010/10/scrivener/">mentioned before</a> that I go through three phases as I get used to a new program: <em>Inquiry</em>, <em>Inquisition</em> and <em>Investment</em>:</p>
 
 <blockquote>
@@ -199,9 +199,9 @@ I’ve <a href="http://www.favoritethingever.com/2010/10/scrivener/">mentioned b
   
   <entry>
     <title type="html"><![CDATA[Fluency]]></title>
-    <link href="http://PogiNate.github.com/blog/2013/12/30/fluency/"/>
+    <link href="http://natedickson.com/blog/2013/12/30/fluency/"/>
     <updated>2013-12-30T08:12:00-07:00</updated>
-    <id>http://PogiNate.github.com/blog/2013/12/30/fluency</id>
+    <id>http://natedickson.com/blog/2013/12/30/fluency</id>
     <content type="html"><![CDATA[<p>In 1998 I served an <a href="http://mormon.org/values/missionary-work">LDS Mission</a> to the Philippines. Those of you who are familiar with how LDS missionaries operate know the drill: you spend ten weeks learning the language in a classroom setting and then you get sent out with a more experienced missionary to try it on your own. And anyone who has ever tried to speak a language they’ve only heard in a classroom setting knows what comes next: you spend a lot of time staring at people who speak a language you thought you were pretty good at, and you have no idea what they’re saying. </p>
 
 <p>So I set myself some goals. I wanted to laugh at a Tagalog joke, because I actually understood it. I wanted to get my accent to be less terrible<sup id="fnref:accent"><a href="#fn:accent" rel="footnote">1</a></sup>, and I wanted to actually think in Tagalog. These were little stepping stones I set for myself, goals I was trying to reach to show that I was actually gaining some actual fluency in the language. </p>
@@ -242,12 +242,12 @@ And then, one night a few months after I landed in Manila I had a thought, just 
   
   <entry>
     <title type="html"><![CDATA[Not During, But Due To NaNoWriMo]]></title>
-    <link href="http://PogiNate.github.com/blog/2013/12/05/not-during-but-due-to-nanowrimo/"/>
+    <link href="http://natedickson.com/blog/2013/12/05/not-during-but-due-to-nanowrimo/"/>
     <updated>2013-12-05T10:20:00-07:00</updated>
-    <id>http://PogiNate.github.com/blog/2013/12/05/not-during-but-due-to-nanowrimo</id>
+    <id>http://natedickson.com/blog/2013/12/05/not-during-but-due-to-nanowrimo</id>
     <content type="html"><![CDATA[<p>This year marks my sixth year participating in <a href="http://nanowrimo.org/">NaNoWriMo</a>, and I’ve started wondering if there was really a <em>point</em> to writing a “novel” in a single month. Especially since I haven’t really developed any of them beyond the rough draft I wrote in November. </p>
 
-<p><img class="right" src="http://PogiNate.github.com/images/nano_win.png" title="National Novel Writing Month Winner" alt="National Novel Writing Month Winner" /> So, I “won” again this year, writing a book that I have absolutely no desire to pursue further. Which has made me wonder if I’m doing it wrong or if I need to maybe just give up on NaNoWriMo because it’s not helping me grow as a “real” writer. But then I realized something.</p>
+<p><img class="right" src="http://natedickson.com/images/nano_win.png" title="National Novel Writing Month Winner" alt="National Novel Writing Month Winner" /> So, I “won” again this year, writing a book that I have absolutely no desire to pursue further. Which has made me wonder if I’m doing it wrong or if I need to maybe just give up on NaNoWriMo because it’s not helping me grow as a “real” writer. But then I realized something.</p>
 
 <p>I never would have written <em><a href="https://leanpub.com/painless_vim">Painless Vim</a></em> if I hadn’t been taking part of NaNoWriMo every year. <em>Painless Vim</em> isn’t a novel, it’s not a wild flight of fancy that I pounded out in a month.<sup id="fnref:supposed"><a href="#fn:supposed" rel="footnote">1</a></sup>  But there are a lot of things I learned from NaNoWriMo that made it possible for me to write <em>Painless Vim</em>. Some of the most important are: </p>
 
@@ -274,9 +274,9 @@ And then, one night a few months after I landed in Manila I had a thought, just 
   
   <entry>
     <title type="html"><![CDATA[Excerpt from Pacifica]]></title>
-    <link href="http://PogiNate.github.com/blog/2013/12/01/excerpt-from-pacifica/"/>
+    <link href="http://natedickson.com/blog/2013/12/01/excerpt-from-pacifica/"/>
     <updated>2013-12-01T07:59:00-07:00</updated>
-    <id>http://PogiNate.github.com/blog/2013/12/01/excerpt-from-pacifica</id>
+    <id>http://natedickson.com/blog/2013/12/01/excerpt-from-pacifica</id>
     <content type="html"><![CDATA[<p>This is the best study of my main character, the one that I think most accurately captures who she thinks she is. </p>
 
 <hr />
@@ -297,9 +297,9 @@ And then, one night a few months after I landed in Manila I had a thought, just 
   
   <entry>
     <title type="html"><![CDATA[Writing With My Head In The Sand]]></title>
-    <link href="http://PogiNate.github.com/blog/2013/11/11/writing-with-my-head-in-the-sand/"/>
+    <link href="http://natedickson.com/blog/2013/11/11/writing-with-my-head-in-the-sand/"/>
     <updated>2013-11-11T15:09:00-07:00</updated>
-    <id>http://PogiNate.github.com/blog/2013/11/11/writing-with-my-head-in-the-sand</id>
+    <id>http://natedickson.com/blog/2013/11/11/writing-with-my-head-in-the-sand</id>
     <content type="html"><![CDATA[<p>There’s a saying about marriage that you should find a spouse with your eyes wide open and stay with a spouse with your eyes half shut.<sup id="fnref:source"><a href="#fn:source" rel="footnote">1</a></sup> I’ve found this to be helpful advice about more than just marriage; when I buy a new computer I spend months reading reviews and write ups on the all the components involved and scouring the world for the best prices. Once I buy my components I all but block those sites on my browser; I don’t <em>want</em> to know that a brand new video card came out the same day my suddenly obsolete one arrives at my door. I just want to be happy with what I bought.</p>
 
 <p>And, in an odd way it’s turning out to be true about writing <em><a href="http://leanpub.com/painless_vim">Painless Vim</a></em>. There are two books and a few websites that I used quite a bit while I was starting to learn vim, they are somehow on my “okay” list. But any site or book I haven’t read yet is now <em>the enemy</em>, because I’m afraid they’re all better than the book I’m writing and I’ll have to die now. There are (at least) <a href="https://leanpub.com/VimLikeAPro">two</a> <a href="https://leanpub.com/learnvimscriptthehardway">other</a> vim books already on Leanpub.com; I can’t look at them too directly lest I discover the only thing my book has that the don’t is a whimsical cover. </p>
@@ -322,10 +322,10 @@ And then, one night a few months after I landed in Manila I had a thought, just 
   
   <entry>
     <title type="html"><![CDATA[My NaNoWriMo Cover for This Year]]></title>
-    <link href="http://PogiNate.github.com/blog/2013/10/31/my-nanowrimo-cover-for-this-year/"/>
+    <link href="http://natedickson.com/blog/2013/10/31/my-nanowrimo-cover-for-this-year/"/>
     <updated>2013-10-31T11:34:00-06:00</updated>
-    <id>http://PogiNate.github.com/blog/2013/10/31/my-nanowrimo-cover-for-this-year</id>
-    <content type="html"><![CDATA[<p><img class="left" src="http://PogiNate.github.com/assets/images/pacifica_cover.jpg" width="250" title="Pacifica Cover" />
+    <id>http://natedickson.com/blog/2013/10/31/my-nanowrimo-cover-for-this-year</id>
+    <content type="html"><![CDATA[<p><img class="left" src="http://natedickson.com/assets/images/pacifica_cover.jpg" width="250" title="Pacifica Cover" />
 This is a super-short post to show off what I&rsquo;m going to be working on for <a href="http://nanowrimo.org">NaNoWriMo</a> this year. </p>
 
 <p>I know that <em><a href="https://leanpub.com/painless_vim/">Painless Vim</a></em> isn&rsquo;t finished yet, although it&rsquo;s very close, and basically all I&rsquo;m doing is a little bit of cleanup and formatting. If you&rsquo;ve been waiting with baited breath for <em>Painless Vim</em> to be finished fear not! I will still be working on the Little Vim Book that Could during the month of November. In fact, my goal is to have it completely finished. By December 1st, even while I&rsquo;m &ldquo;winning&rdquo; NaNoWriMo for the sixth straight year. </p>
@@ -356,10 +356,10 @@ This is a super-short post to show off what I&rsquo;m going to be working on for
   
   <entry>
     <title type="html"><![CDATA[Using nvALT as a Personal Wiki]]></title>
-    <link href="http://PogiNate.github.com/blog/2013/09/17/using-nvalt-as-a-personal-wiki/"/>
+    <link href="http://natedickson.com/blog/2013/09/17/using-nvalt-as-a-personal-wiki/"/>
     <updated>2013-09-17T06:37:00-06:00</updated>
-    <id>http://PogiNate.github.com/blog/2013/09/17/using-nvalt-as-a-personal-wiki</id>
-    <content type="html"><![CDATA[<p><img class="right" src="http://PogiNate.github.com/assets/images/nvALT.png" title="nvALT icon" />
+    <id>http://natedickson.com/blog/2013/09/17/using-nvalt-as-a-personal-wiki</id>
+    <content type="html"><![CDATA[<p><img class="right" src="http://natedickson.com/assets/images/nvALT.png" title="nvALT icon" />
 One of the best things about <a href="http://brettterpstra.com/projects/nvalt/">nvALT</a> is that it gives you a lot of tools you can use with little to no friction. You can use tags, or not, you can store your files in dropbox as individual markdown files, or you can keep them all in a single database<sup id="fnref:database"><a href="#fn:database" rel="footnote">1</a></sup>. It&rsquo;s all up to you. It&rsquo;s very liberal about how you use its powers.</p>
 
 <p>Which means I missed one.</p>
@@ -386,10 +386,10 @@ One of the best things about <a href="http://brettterpstra.com/projects/nvalt/">
   
   <entry>
     <title type="html"><![CDATA[Small World on the iPad Updated!]]></title>
-    <link href="http://PogiNate.github.com/blog/2013/09/12/small-world-on-the-ipad-updated/"/>
+    <link href="http://natedickson.com/blog/2013/09/12/small-world-on-the-ipad-updated/"/>
     <updated>2013-09-12T10:04:00-06:00</updated>
-    <id>http://PogiNate.github.com/blog/2013/09/12/small-world-on-the-ipad-updated</id>
-    <content type="html"><![CDATA[<p><img class="right" src="http://PogiNate.github.com/assets/images/SW2-icon.jpg" title="&#34;Small World 2 App Icon&#34;" alt="&#34;Small World 2 App Icon&#34;" />
+    <id>http://natedickson.com/blog/2013/09/12/small-world-on-the-ipad-updated</id>
+    <content type="html"><![CDATA[<p><img class="right" src="http://natedickson.com/assets/images/SW2-icon.jpg" title="&#34;Small World 2 App Icon&#34;" alt="&#34;Small World 2 App Icon&#34;" />
 Just a quick post to happily note that <a href="http://www.daysofwonder.com">Days of Wonder</a> has finally updated their <a href="http://itunes.apple.com/us/app/small-world-for-ipad/id364165557?mt=8">Small World app</a> on the iPad. Small World was the first game I bought on the original iPad, and it&rsquo;s been sadly neglected for a quite a while. </p>
 
 <p>But it&rsquo;s back in business now! It&rsquo;s beautifully, fully retina, has new content (available through an in app purchase), and now lets you play with up to five people via pass &amp; play, or you can have the one on one experience that you&rsquo;re used to from the original version. I&rsquo;ve always loved Days Of Wonder&rsquo;s games, and they continue to do a great job bringing them to the iPad. Thanks guys!</p>
@@ -398,9 +398,9 @@ Just a quick post to happily note that <a href="http://www.daysofwonder.com">Day
   
   <entry>
     <title type="html"><![CDATA[The Case for Board Games on Tablets]]></title>
-    <link href="http://PogiNate.github.com/blog/2013/09/03/the-case-for-board-games-on-tablets/"/>
+    <link href="http://natedickson.com/blog/2013/09/03/the-case-for-board-games-on-tablets/"/>
     <updated>2013-09-03T08:45:00-06:00</updated>
-    <id>http://PogiNate.github.com/blog/2013/09/03/the-case-for-board-games-on-tablets</id>
+    <id>http://natedickson.com/blog/2013/09/03/the-case-for-board-games-on-tablets</id>
     <content type="html"><![CDATA[<p>My wife and I love board games. So it’s only natural that our kids will love them as well. And that’s <em>awesome</em>. But since all of our kids are under nine years old playing games with them can be a bit of a headache, because they don’t really have a sense of how losing one tiny little piece can ruin a sixty dollar game, and pieces are really small and easily lost. </p>
 
 <p>Enter the iPad. I bought the tablet version of SmallWorld back when I had a 1st Gen iPad, and while it’s fun, at the time my wife and I only used it to pass time when we were waiting for a table at a restauraunt or whatever. Since then I have also picked up Ticket to Ride and Forbidden Island, and my kids and I spent most of this weekend playing all three games over and over and <em>over</em> again, as kids are wont to do. </p>
@@ -420,9 +420,9 @@ Just a quick post to happily note that <a href="http://www.daysofwonder.com">Day
   
   <entry>
     <title type="html"><![CDATA[Leaving Google]]></title>
-    <link href="http://PogiNate.github.com/blog/2013/07/30/leaving-google/"/>
+    <link href="http://natedickson.com/blog/2013/07/30/leaving-google/"/>
     <updated>2013-07-30T08:40:00-06:00</updated>
-    <id>http://PogiNate.github.com/blog/2013/07/30/leaving-google</id>
+    <id>http://natedickson.com/blog/2013/07/30/leaving-google</id>
     <content type="html"><![CDATA[<p>Edward Snowden basically only verified what we had all already feared: The government is getting information about all of us behind our backs. The problem is that all this time Google has been promising that they’re doing a nice, open, transparent operation, letting us all know what they’re being asked for and what they’re actually giving, and now…well, I have a hard time believing them. </p>
 
 <p>But it’s more than that. The old wisdom about eggs and numbers of baskets used to store them rings very true these days. Regardless of government requests<sup id="fnref:no_hide"><a href="#fn:no_hide" rel="footnote">1</a></sup>, regardless of anything else, I’ve gradually become uncomfortable letting google moderate all aspects of my online life. </p>
@@ -484,10 +484,10 @@ Just a quick post to happily note that <a href="http://www.daysofwonder.com">Day
   
   <entry>
     <title type="html"><![CDATA[Using Slicereader to be a Better Writer]]></title>
-    <link href="http://PogiNate.github.com/blog/2013/07/17/using-slicereader-to-be-a-better-writer/"/>
+    <link href="http://natedickson.com/blog/2013/07/17/using-slicereader-to-be-a-better-writer/"/>
     <updated>2013-07-17T15:02:00-06:00</updated>
-    <id>http://PogiNate.github.com/blog/2013/07/17/using-slicereader-to-be-a-better-writer</id>
-    <content type="html"><![CDATA[<p><img class="right" src="http://PogiNate.github.com/assets/images/Slicereader.jpg" title="&#34;The Slicereader Icon&#34;" alt="&#34;The Slicereader Icon&#34;" />
+    <id>http://natedickson.com/blog/2013/07/17/using-slicereader-to-be-a-better-writer</id>
+    <content type="html"><![CDATA[<p><img class="right" src="http://natedickson.com/assets/images/Slicereader.jpg" title="&#34;The Slicereader Icon&#34;" alt="&#34;The Slicereader Icon&#34;" />
 Working on <a href="http://leanpub.com/painless_vim">Painless Vim</a> has been an education for me, and not just about vim. I&rsquo;ve  been working on developing a writing/editing loop that is more sustainable than <a href="http://nanowrimo.org">NaNoWriMo</a>&rsquo;s joyous abandon, so that I&rsquo;ll actually do some editing. While I enjoy working quickly and just getting things out there in front of people, there&rsquo;s a problem with that model: not only am I terrible typist, I also write some terrible first drafts.</p>
 
 <p><a href="http://www.amazon.com/gp/product/0385480016/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0385480016&amp;linkCode=as2&amp;tag=httpnatedicco-20">Anne Lamott</a> would say that&rsquo;s okay; and I agree with her. But the problem is that I&rsquo;m also <em>really bad</em> at revising. Part of my problem is that I&rsquo;m a very good speed reader, which really just means that I&rsquo;m good at skimming over what I consider to be fluff and finding what I consider to be the point of the text in front of me. Good for getting through things quickly, bad for finding mistakes in my own text. </p>
@@ -512,9 +512,9 @@ Working on <a href="http://leanpub.com/painless_vim">Painless Vim</a> has been a
   
   <entry>
     <title type="html"><![CDATA[Free Books!]]></title>
-    <link href="http://PogiNate.github.com/blog/2013/07/11/free-books/"/>
+    <link href="http://natedickson.com/blog/2013/07/11/free-books/"/>
     <updated>2013-07-11T09:11:00-06:00</updated>
-    <id>http://PogiNate.github.com/blog/2013/07/11/free-books</id>
+    <id>http://natedickson.com/blog/2013/07/11/free-books</id>
     <content type="html"><![CDATA[<p>So, I recently put a coupon up on <a href="https://twitter.com/poginate">Twitter</a> and <a href="https://alpha.app.net/poginate">App.net</a> offering ten people the opportunity to get a free copy of my book <em><a href="https://leanpub.com/painless_vim">Painless Vim</a></em>, which is still very much in <strong>alpha</strong>. But I figured attracting a few extra readers couldn’t do anything but help. </p>
 
 <p>And in next to no time all ten free copies were gone, which is awesome. I’m not so much about the money on this one, I’m just enjoying writing it and really want to see it published and hopefully help a few people. </p>
@@ -541,9 +541,9 @@ Working on <a href="http://leanpub.com/painless_vim">Painless Vim</a> has been a
   
   <entry>
     <title type="html"><![CDATA[From Scrivener to Leanpub in One Step]]></title>
-    <link href="http://PogiNate.github.com/blog/2013/05/30/from-scrivener-to-leanpub-in-one-step/"/>
+    <link href="http://natedickson.com/blog/2013/05/30/from-scrivener-to-leanpub-in-one-step/"/>
     <updated>2013-05-30T00:46:00-06:00</updated>
-    <id>http://PogiNate.github.com/blog/2013/05/30/from-scrivener-to-leanpub-in-one-step</id>
+    <id>http://natedickson.com/blog/2013/05/30/from-scrivener-to-leanpub-in-one-step</id>
     <content type="html"><![CDATA[<p>I’m working on <em><a href="https://leanpub.com/painless_vim">Painless Vim</a></em> in <a href="www.literatureandlatte.com/scrivener.php">Scrivener</a>, because I love its organizational capabilities <sup id="fnref:2"><a href="#fn:2" rel="footnote">1</a></sup> …or have I mentioned my love of Scrivener before? (yes)</p>
 
 <p>The problem arises when I want to push my text to <a href="https://leanpub.com">Leanpub</a>. Scrivener has two very good ways to get your text out of Scriv into the world: you can <em>export</em> each text as a file, or you can <em>compile</em> it into a single document ready to send off to a printer. They’ve both got their pros and cons, but to really understand them we need a brief detour into how publishing on Leanpub works:</p>
@@ -615,10 +615,10 @@ Working on <a href="http://leanpub.com/painless_vim">Painless Vim</a> has been a
   
   <entry>
     <title type="html"><![CDATA[Introducing Painless Vim]]></title>
-    <link href="http://PogiNate.github.com/blog/2013/05/22/introducing-painless-vim/"/>
+    <link href="http://natedickson.com/blog/2013/05/22/introducing-painless-vim/"/>
     <updated>2013-05-22T12:47:00-06:00</updated>
-    <id>http://PogiNate.github.com/blog/2013/05/22/introducing-painless-vim</id>
-    <content type="html"><![CDATA[<p><img class="left" src="http://PogiNate.github.com/images/painless_cover.png" title="Painless Vim Cover" />
+    <id>http://natedickson.com/blog/2013/05/22/introducing-painless-vim</id>
+    <content type="html"><![CDATA[<p><img class="left" src="http://natedickson.com/images/painless_cover.png" title="Painless Vim Cover" />
 I&rsquo;m excited to announce the availability of <em>Painless Vim</em>, my new (indeed, still in progress) book on the ever powerful vim editor! While the book is still in progress, you can pick up a copy at <a href="https://leanpub.com/painless_vim">Leanpub</a> right now and make suggestions to help guide the development of this book. I&rsquo;m very impressed by the Leanpub system, allowing authors to write their books out in the open and get feedback along the way. </p>
 
 <h2 id="why-another-vim-tutorial">Why Another Vim Tutorial?</h2>
@@ -632,9 +632,9 @@ I&rsquo;m excited to announce the availability of <em>Painless Vim</em>, my new 
   
   <entry>
     <title type="html"><![CDATA[Terrible Time Travel Concept for a Cheesy Sci-fi Movie]]></title>
-    <link href="http://PogiNate.github.com/blog/2013/05/20/terrible-time-travel-concept-for-a-cheesy-sci-fi-movie/"/>
+    <link href="http://natedickson.com/blog/2013/05/20/terrible-time-travel-concept-for-a-cheesy-sci-fi-movie/"/>
     <updated>2013-05-20T15:35:00-06:00</updated>
-    <id>http://PogiNate.github.com/blog/2013/05/20/terrible-time-travel-concept-for-a-cheesy-sci-fi-movie</id>
+    <id>http://natedickson.com/blog/2013/05/20/terrible-time-travel-concept-for-a-cheesy-sci-fi-movie</id>
     <content type="html"><![CDATA[<p><strong>NOTE</strong>: I’m presenting this as a <em>movie plot</em>, not <em>actual science</em>. I’m a programmer, not a physicist. I’m fully aware that I have no idea how physics works and that everything below is probably complete nonsense. Which is why it would be perfect for Hollywood. Okay, carry on. </p>
 
 <p>So, here’s the premise: Light moves at, well, light speed. The closer you get to moving at light speed, the slower subjective time moves. Which means that for light, time doesn’t move <em>at all</em>. Which is probably part of why it’s both photons (particles) and light waves (energy); if there’s no time there is no significant difference between the two.<sup id="fnref:relax"><a href="#fn:relax" rel="footnote">1</a></sup></p>
@@ -660,9 +660,9 @@ I&rsquo;m excited to announce the availability of <em>Painless Vim</em>, my new 
   
   <entry>
     <title type="html"><![CDATA[From The Desk of Captain Obvious: Tmuxinator vs. Scripted configurations]]></title>
-    <link href="http://PogiNate.github.com/blog/2013/05/10/from-the-desk-of-captain-obvious-tmuxinator-vs-scripted-configurations/"/>
+    <link href="http://natedickson.com/blog/2013/05/10/from-the-desk-of-captain-obvious-tmuxinator-vs-scripted-configurations/"/>
     <updated>2013-05-10T10:38:00-06:00</updated>
-    <id>http://PogiNate.github.com/blog/2013/05/10/from-the-desk-of-captain-obvious-tmuxinator-vs-scripted-configurations</id>
+    <id>http://natedickson.com/blog/2013/05/10/from-the-desk-of-captain-obvious-tmuxinator-vs-scripted-configurations</id>
     <content type="html"><![CDATA[<p>I’ve been using <a href="https://github.com/aziz/tmuxinator">Tmuxinator</a> for a while now to put together tmux sessions that I can run quickly and easily from the command line. I’ve even set up an <a href="http://natedickson.com/blog/2013/04/12/introducing-a-dot-k-a-dot-the-alias-manager/">AKA</a> shortcut, abbreviating <code>tmuxinator</code> to <code>tor</code>, making it much easier to create new scripted sessions. But recently I discovered an odd thing when I detached from a session created by tmuxinator: they don’t show up in my list of sessions when I run <code>tmux ls</code>. </p>
 
 <p>So I played with it a bit more. I could run <code>tor config1</code> and get a session laid out according to configuration 1. I’d then detach and create a session by hand, and do the following:</p>
@@ -692,9 +692,9 @@ bar: 1 windows (created Thu May 9 07:35:02) [160x39]
   
   <entry>
     <title type="html"><![CDATA[Buy Quality]]></title>
-    <link href="http://PogiNate.github.com/blog/2013/05/06/buy-quality/"/>
+    <link href="http://natedickson.com/blog/2013/05/06/buy-quality/"/>
     <updated>2013-05-06T12:54:00-06:00</updated>
-    <id>http://PogiNate.github.com/blog/2013/05/06/buy-quality</id>
+    <id>http://natedickson.com/blog/2013/05/06/buy-quality</id>
     <content type="html"><![CDATA[<p>I have a <a href="http://www.timbuk2.com/tb2/">Timbuk2</a> bag that I purchased six years ago, when I got my first MacBook. Even though I only had a 13” <a href="http://en.wikipedia.org/wiki/File:MacBook.jpg">black plastic MacBook</a> at the time, I got the 15” messenger bag because I figured the odds were pretty good that <em>someday</em> I would have a 15” MacBook Pro. </p>
 
 <p><span class="pullquote-right" data-pullquote="But other than a bit of dirt the bag still looks pretty much as good as it did when I bought it."> 
@@ -718,9 +718,9 @@ The 13” MacBook is gone, one 15” MBP has come and gone and a new one now liv
   
   <entry>
     <title type="html"><![CDATA[Battery Status in tmux]]></title>
-    <link href="http://PogiNate.github.com/blog/2013/04/30/battery-status-in-tmux/"/>
+    <link href="http://natedickson.com/blog/2013/04/30/battery-status-in-tmux/"/>
     <updated>2013-04-30T10:25:00-06:00</updated>
-    <id>http://PogiNate.github.com/blog/2013/04/30/battery-status-in-tmux</id>
+    <id>http://natedickson.com/blog/2013/04/30/battery-status-in-tmux</id>
     <content type="html"><![CDATA[<p>While I usually work plugged into power and a monitor and all that good stuff, there are times where my MacBook Pro and I need to go off the grid for a while. During those times I’ve found that it’s easiest to have a terminal window fullscreen and do everything via the command line. That way I don’t really need a mouse at all and I can keep my hands on the keyboard doing whatever it is I’m doing that day. If I need any of my GUI apps <a href="http://www.alfredapp.com/">Alfred</a> is always right there to help me out, again, without using the trackpad. </p>
 
 <p><span class="pullquote-right" data-pullquote="let&#8217;s be honest: This entire project came about simply because I wanted to add some graphics to tmux.">
@@ -759,11 +759,11 @@ The one <sup id="fnref:minor"><a href="#fn:minor" rel="footnote">1</a></sup> pro
 
 <p>runs the <code>pmset</code> command and my script and gives me a nice green row of stars and a cyan-ish date, like so:</p>
 
-<p><img src="http://PogiNate.github.com/assets/images/charged.png" title="Charged tmux status bar" /></p>
+<p><img src="http://natedickson.com/assets/images/charged.png" title="Charged tmux status bar" /></p>
 
 <p>And like so:</p>
 
-<p><img src="http://PogiNate.github.com/assets/images/battery.png" title="Battery power tmux status bar" /></p>
+<p><img src="http://natedickson.com/assets/images/battery.png" title="Battery power tmux status bar" /></p>
 
 <p>It shows one star empty the moment the battery level falls below 100%, because of math, but I’m fine with that.</p>
 

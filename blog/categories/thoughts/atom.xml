@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: thoughts | Nate Dickson]]></title>
-  <link href="http://PogiNate.github.com/blog/categories/thoughts/atom.xml" rel="self"/>
-  <link href="http://PogiNate.github.com/"/>
-  <updated>2014-05-02T11:42:40-06:00</updated>
-  <id>http://PogiNate.github.com/</id>
+  <link href="http://natedickson.com/blog/categories/thoughts/atom.xml" rel="self"/>
+  <link href="http://natedickson.com/"/>
+  <updated>2014-05-02T14:20:41-06:00</updated>
+  <id>http://natedickson.com/</id>
   <author>
     <name><![CDATA[Nate Dickson]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Exploring the Old Ways]]></title>
-    <link href="http://PogiNate.github.com/blog/2013/03/21/exploring-the-old-ways/"/>
+    <link href="http://natedickson.com/blog/2013/03/21/exploring-the-old-ways/"/>
     <updated>2013-03-21T17:36:00-06:00</updated>
-    <id>http://PogiNate.github.com/blog/2013/03/21/exploring-the-old-ways</id>
+    <id>http://natedickson.com/blog/2013/03/21/exploring-the-old-ways</id>
     <content type="html"><![CDATA[<p>It all started when I decided that I wanted to try shaving with a brush and soap instead of canned shaving cream. It seemed possible that there was some advantage to be had here.</p>
 
 <p>And maybe someday I’ll get into the wonders of shaving like a real man. It takes more time, it requires a few more seconds every morning, and there’s a little learning curve involved. But for now that’s not the point. The point is it got me thinking; what other good ideas am I missing out on because something newer has come along; something that isn’t necessarily better? </p>

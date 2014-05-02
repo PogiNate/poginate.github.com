@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: book | Nate Dickson]]></title>
-  <link href="http://PogiNate.github.com/blog/categories/book/atom.xml" rel="self"/>
-  <link href="http://PogiNate.github.com/"/>
-  <updated>2014-05-02T11:42:40-06:00</updated>
-  <id>http://PogiNate.github.com/</id>
+  <link href="http://natedickson.com/blog/categories/book/atom.xml" rel="self"/>
+  <link href="http://natedickson.com/"/>
+  <updated>2014-05-02T14:20:41-06:00</updated>
+  <id>http://natedickson.com/</id>
   <author>
     <name><![CDATA[Nate Dickson]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Introducing Painless Vim]]></title>
-    <link href="http://PogiNate.github.com/blog/2013/05/22/introducing-painless-vim/"/>
+    <link href="http://natedickson.com/blog/2013/05/22/introducing-painless-vim/"/>
     <updated>2013-05-22T12:47:00-06:00</updated>
-    <id>http://PogiNate.github.com/blog/2013/05/22/introducing-painless-vim</id>
+    <id>http://natedickson.com/blog/2013/05/22/introducing-painless-vim</id>
     <content type="html"><![CDATA[<p><img class="left" src="/images/painless_cover.png" title="Painless Vim Cover" >
 I’m excited to announce the availability of <em>Painless Vim</em>, my new (indeed, still in progress) book on the ever powerful vim editor! While the book is still in progress, you can pick up a copy at <a href="https://leanpub.com/painless_vim">Leanpub</a> right now and make suggestions to help guide the development of this book. I’m very impressed by the Leanpub system, allowing authors to write their books out in the open and get feedback along the way. </p>
 

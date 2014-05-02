@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: nvALT | Nate Dickson]]></title>
-  <link href="http://PogiNate.github.com/blog/categories/nvalt/atom.xml" rel="self"/>
-  <link href="http://PogiNate.github.com/"/>
-  <updated>2014-05-02T11:42:40-06:00</updated>
-  <id>http://PogiNate.github.com/</id>
+  <link href="http://natedickson.com/blog/categories/nvalt/atom.xml" rel="self"/>
+  <link href="http://natedickson.com/"/>
+  <updated>2014-05-02T14:20:41-06:00</updated>
+  <id>http://natedickson.com/</id>
   <author>
     <name><![CDATA[Nate Dickson]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Using nvALT as a Personal Wiki]]></title>
-    <link href="http://PogiNate.github.com/blog/2013/09/17/using-nvalt-as-a-personal-wiki/"/>
+    <link href="http://natedickson.com/blog/2013/09/17/using-nvalt-as-a-personal-wiki/"/>
     <updated>2013-09-17T06:37:00-06:00</updated>
-    <id>http://PogiNate.github.com/blog/2013/09/17/using-nvalt-as-a-personal-wiki</id>
+    <id>http://natedickson.com/blog/2013/09/17/using-nvalt-as-a-personal-wiki</id>
     <content type="html"><![CDATA[<p><img class="right" src="/assets/images/nvALT.png" title="nvALT icon" >
 One of the best things about <a href="http://brettterpstra.com/projects/nvalt/">nvALT</a> is that it gives you a lot of tools you can use with little to no friction. You can use tags, or not, you can store your files in dropbox as individual markdown files, or you can keep them all in a single database<sup id="fnref:database"><a href="#fn:database" rel="footnote">1</a></sup>. It’s all up to you. It’s very liberal about how you use its powers.</p>
 

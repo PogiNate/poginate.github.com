@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: services | Nate Dickson]]></title>
-  <link href="http://PogiNate.github.com/blog/categories/services/atom.xml" rel="self"/>
-  <link href="http://PogiNate.github.com/"/>
-  <updated>2014-05-02T11:42:40-06:00</updated>
-  <id>http://PogiNate.github.com/</id>
+  <link href="http://natedickson.com/blog/categories/services/atom.xml" rel="self"/>
+  <link href="http://natedickson.com/"/>
+  <updated>2014-05-02T14:20:41-06:00</updated>
+  <id>http://natedickson.com/</id>
   <author>
     <name><![CDATA[Nate Dickson]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Pocket: Why I Stopped Reading Websites]]></title>
-    <link href="http://PogiNate.github.com/blog/2013/04/14/pocket-why-i-stopped-reading-websites/"/>
+    <link href="http://natedickson.com/blog/2013/04/14/pocket-why-i-stopped-reading-websites/"/>
     <updated>2013-04-14T10:42:00-06:00</updated>
-    <id>http://PogiNate.github.com/blog/2013/04/14/pocket-why-i-stopped-reading-websites</id>
+    <id>http://natedickson.com/blog/2013/04/14/pocket-why-i-stopped-reading-websites</id>
     <content type="html"><![CDATA[<p>Ever since I discovered RSS I’ve had an aversion to reading news stories in someone else’s web page. With the passing of google reader now a fact of life, we’ve got to find other ways to satisfy the need to feed.</p>
 
 <p>Fortunately Read it Later happened. I wasn’t there for the early days; indeed, I discovered this fabulous little tool after it changed its name to <a href="http://getpocket.com/">Pocket</a>, but I still love it, and here’s why: It lets me manage my time better. </p>

@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: tech | Nate Dickson]]></title>
-  <link href="http://PogiNate.github.com/blog/categories/tech/atom.xml" rel="self"/>
-  <link href="http://PogiNate.github.com/"/>
-  <updated>2014-05-02T11:42:40-06:00</updated>
-  <id>http://PogiNate.github.com/</id>
+  <link href="http://natedickson.com/blog/categories/tech/atom.xml" rel="self"/>
+  <link href="http://natedickson.com/"/>
+  <updated>2014-05-02T14:20:41-06:00</updated>
+  <id>http://natedickson.com/</id>
   <author>
     <name><![CDATA[Nate Dickson]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Writing With the Alphasmart NEO]]></title>
-    <link href="http://PogiNate.github.com/blog/2014/03/07/writing-with-the-alphasmart-neo/"/>
+    <link href="http://natedickson.com/blog/2014/03/07/writing-with-the-alphasmart-neo/"/>
     <updated>2014-03-07T09:55:00-07:00</updated>
-    <id>http://PogiNate.github.com/blog/2014/03/07/writing-with-the-alphasmart-neo</id>
+    <id>http://natedickson.com/blog/2014/03/07/writing-with-the-alphasmart-neo</id>
     <content type="html"><![CDATA[<p><img class="right" src="/assets/images/NEO.jpg" width="400" height="400" title="The Alphasmart Neo in its natural habitat" >
 A thing I once thought would never happen has happened twice: I have been paid for something I wrote by people who actually ponied up their own hard-earned cash to buy <a href="https://leanpub.com/painless_vim">a thing I wrote</a>. I can’t even tell you how awesome that is. If you are one of those people I thank you from the bottom of my heart. </p>
 

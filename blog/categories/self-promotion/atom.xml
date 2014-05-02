@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: self-promotion | Nate Dickson]]></title>
-  <link href="http://PogiNate.github.com/blog/categories/self-promotion/atom.xml" rel="self"/>
-  <link href="http://PogiNate.github.com/"/>
-  <updated>2014-05-02T11:42:40-06:00</updated>
-  <id>http://PogiNate.github.com/</id>
+  <link href="http://natedickson.com/blog/categories/self-promotion/atom.xml" rel="self"/>
+  <link href="http://natedickson.com/"/>
+  <updated>2014-05-02T14:20:41-06:00</updated>
+  <id>http://natedickson.com/</id>
   <author>
     <name><![CDATA[Nate Dickson]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Free Books!]]></title>
-    <link href="http://PogiNate.github.com/blog/2013/07/11/free-books/"/>
+    <link href="http://natedickson.com/blog/2013/07/11/free-books/"/>
     <updated>2013-07-11T09:11:00-06:00</updated>
-    <id>http://PogiNate.github.com/blog/2013/07/11/free-books</id>
+    <id>http://natedickson.com/blog/2013/07/11/free-books</id>
     <content type="html"><![CDATA[<p>So, I recently put a coupon up on <a href="https://twitter.com/poginate">Twitter</a> and <a href="https://alpha.app.net/poginate">App.net</a> offering ten people the opportunity to get a free copy of my book <em><a href="https://leanpub.com/painless_vim">Painless Vim</a></em>, which is still very much in <strong>alpha</strong>. But I figured attracting a few extra readers couldn’t do anything but help. </p>
 
 <p>And in next to no time all ten free copies were gone, which is awesome. I’m not so much about the money on this one, I’m just enjoying writing it and really want to see it published and hopefully help a few people. </p>
@@ -44,9 +44,9 @@
   
   <entry>
     <title type="html"><![CDATA[Introducing Painless Vim]]></title>
-    <link href="http://PogiNate.github.com/blog/2013/05/22/introducing-painless-vim/"/>
+    <link href="http://natedickson.com/blog/2013/05/22/introducing-painless-vim/"/>
     <updated>2013-05-22T12:47:00-06:00</updated>
-    <id>http://PogiNate.github.com/blog/2013/05/22/introducing-painless-vim</id>
+    <id>http://natedickson.com/blog/2013/05/22/introducing-painless-vim</id>
     <content type="html"><![CDATA[<p><img class="left" src="/images/painless_cover.png" title="Painless Vim Cover" >
 I’m excited to announce the availability of <em>Painless Vim</em>, my new (indeed, still in progress) book on the ever powerful vim editor! While the book is still in progress, you can pick up a copy at <a href="https://leanpub.com/painless_vim">Leanpub</a> right now and make suggestions to help guide the development of this book. I’m very impressed by the Leanpub system, allowing authors to write their books out in the open and get feedback along the way. </p>
 
@@ -61,9 +61,9 @@ I’m excited to announce the availability of <em>Painless Vim</em>, my new (ind
   
   <entry>
     <title type="html"><![CDATA[Introducing A.K.A.: The Alias Manager]]></title>
-    <link href="http://PogiNate.github.com/blog/2013/04/12/introducing-a-dot-k-a-dot-the-alias-manager/"/>
+    <link href="http://natedickson.com/blog/2013/04/12/introducing-a-dot-k-a-dot-the-alias-manager/"/>
     <updated>2013-04-12T11:33:00-06:00</updated>
-    <id>http://PogiNate.github.com/blog/2013/04/12/introducing-a-dot-k-a-dot-the-alias-manager</id>
+    <id>http://natedickson.com/blog/2013/04/12/introducing-a-dot-k-a-dot-the-alias-manager</id>
     <content type="html"><![CDATA[<p>One of the joys of moving from a Windows machine at work to OSX is that I’m back to having access to the unix command line. The downside, of course, long commands that I <a href="http://xkcd.com/1168/">usually get wrong</a>. </p>
 
 <p>Which is why I spent some time a few weeks ago creating <a href="http://natedickson.com/A.K.A./">A.K.A.</a> Simply put, A.K.A. is a simple way to manage all the aliases that you usually put into your shell of choice’s startup file without editing your dot files by hand or cluttering up your profile when you could be cluttering up a completely separate file. </p>

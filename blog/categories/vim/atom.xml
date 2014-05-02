@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: vim | Nate Dickson]]></title>
-  <link href="http://PogiNate.github.com/blog/categories/vim/atom.xml" rel="self"/>
-  <link href="http://PogiNate.github.com/"/>
-  <updated>2014-05-02T11:42:40-06:00</updated>
-  <id>http://PogiNate.github.com/</id>
+  <link href="http://natedickson.com/blog/categories/vim/atom.xml" rel="self"/>
+  <link href="http://natedickson.com/"/>
+  <updated>2014-05-02T14:20:41-06:00</updated>
+  <id>http://natedickson.com/</id>
   <author>
     <name><![CDATA[Nate Dickson]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Fluency]]></title>
-    <link href="http://PogiNate.github.com/blog/2013/12/30/fluency/"/>
+    <link href="http://natedickson.com/blog/2013/12/30/fluency/"/>
     <updated>2013-12-30T08:12:00-07:00</updated>
-    <id>http://PogiNate.github.com/blog/2013/12/30/fluency</id>
+    <id>http://natedickson.com/blog/2013/12/30/fluency</id>
     <content type="html"><![CDATA[<p>In 1998 I served an <a href="http://mormon.org/values/missionary-work">LDS Mission</a> to the Philippines. Those of you who are familiar with how LDS missionaries operate know the drill: you spend ten weeks learning the language in a classroom setting and then you get sent out with a more experienced missionary to try it on your own. And anyone who has ever tried to speak a language they’ve only heard in a classroom setting knows what comes next: you spend a lot of time staring at people who speak a language you thought you were pretty good at, and you have no idea what they’re saying. </p>
 
 <p>So I set myself some goals. I wanted to laugh at a Tagalog joke, because I actually understood it. I wanted to get my accent to be less terrible<sup id="fnref:accent"><a href="#fn:accent" rel="footnote">1</a></sup>, and I wanted to actually think in Tagalog. These were little stepping stones I set for myself, goals I was trying to reach to show that I was actually gaining some actual fluency in the language. </p>
@@ -56,9 +56,9 @@
   
   <entry>
     <title type="html"><![CDATA[Free Books!]]></title>
-    <link href="http://PogiNate.github.com/blog/2013/07/11/free-books/"/>
+    <link href="http://natedickson.com/blog/2013/07/11/free-books/"/>
     <updated>2013-07-11T09:11:00-06:00</updated>
-    <id>http://PogiNate.github.com/blog/2013/07/11/free-books</id>
+    <id>http://natedickson.com/blog/2013/07/11/free-books</id>
     <content type="html"><![CDATA[<p>So, I recently put a coupon up on <a href="https://twitter.com/poginate">Twitter</a> and <a href="https://alpha.app.net/poginate">App.net</a> offering ten people the opportunity to get a free copy of my book <em><a href="https://leanpub.com/painless_vim">Painless Vim</a></em>, which is still very much in <strong>alpha</strong>. But I figured attracting a few extra readers couldn’t do anything but help. </p>
 
 <p>And in next to no time all ten free copies were gone, which is awesome. I’m not so much about the money on this one, I’m just enjoying writing it and really want to see it published and hopefully help a few people. </p>
@@ -85,9 +85,9 @@
   
   <entry>
     <title type="html"><![CDATA[Exploring the Old Ways]]></title>
-    <link href="http://PogiNate.github.com/blog/2013/03/21/exploring-the-old-ways/"/>
+    <link href="http://natedickson.com/blog/2013/03/21/exploring-the-old-ways/"/>
     <updated>2013-03-21T17:36:00-06:00</updated>
-    <id>http://PogiNate.github.com/blog/2013/03/21/exploring-the-old-ways</id>
+    <id>http://natedickson.com/blog/2013/03/21/exploring-the-old-ways</id>
     <content type="html"><![CDATA[<p>It all started when I decided that I wanted to try shaving with a brush and soap instead of canned shaving cream. It seemed possible that there was some advantage to be had here.</p>
 
 <p>And maybe someday I’ll get into the wonders of shaving like a real man. It takes more time, it requires a few more seconds every morning, and there’s a little learning curve involved. But for now that’s not the point. The point is it got me thinking; what other good ideas am I missing out on because something newer has come along; something that isn’t necessarily better? </p>

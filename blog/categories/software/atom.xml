@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: software | Nate Dickson]]></title>
-  <link href="http://PogiNate.github.com/blog/categories/software/atom.xml" rel="self"/>
-  <link href="http://PogiNate.github.com/"/>
-  <updated>2014-05-02T11:42:40-06:00</updated>
-  <id>http://PogiNate.github.com/</id>
+  <link href="http://natedickson.com/blog/categories/software/atom.xml" rel="self"/>
+  <link href="http://natedickson.com/"/>
+  <updated>2014-05-02T14:20:41-06:00</updated>
+  <id>http://natedickson.com/</id>
   <author>
     <name><![CDATA[Nate Dickson]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Trusting VoodooPad]]></title>
-    <link href="http://PogiNate.github.com/blog/2014/01/13/trusting-voodoopad/"/>
+    <link href="http://natedickson.com/blog/2014/01/13/trusting-voodoopad/"/>
     <updated>2014-01-13T11:15:00-07:00</updated>
-    <id>http://PogiNate.github.com/blog/2014/01/13/trusting-voodoopad</id>
+    <id>http://natedickson.com/blog/2014/01/13/trusting-voodoopad</id>
     <content type="html"><![CDATA[<p><img class="right" src="/assets/images/vp_icon.png" title="‘VoodooPad Icon’ ‘The VoodooPad Icon’" >
 I’ve <a href="http://www.favoritethingever.com/2010/10/scrivener/">mentioned before</a> that I go through three phases as I get used to a new program: <em>Inquiry</em>, <em>Inquisition</em> and <em>Investment</em>:</p>
 
@@ -89,9 +89,9 @@ I’ve <a href="http://www.favoritethingever.com/2010/10/scrivener/">mentioned b
   
   <entry>
     <title type="html"><![CDATA[Introducing A.K.A.: The Alias Manager]]></title>
-    <link href="http://PogiNate.github.com/blog/2013/04/12/introducing-a-dot-k-a-dot-the-alias-manager/"/>
+    <link href="http://natedickson.com/blog/2013/04/12/introducing-a-dot-k-a-dot-the-alias-manager/"/>
     <updated>2013-04-12T11:33:00-06:00</updated>
-    <id>http://PogiNate.github.com/blog/2013/04/12/introducing-a-dot-k-a-dot-the-alias-manager</id>
+    <id>http://natedickson.com/blog/2013/04/12/introducing-a-dot-k-a-dot-the-alias-manager</id>
     <content type="html"><![CDATA[<p>One of the joys of moving from a Windows machine at work to OSX is that I’m back to having access to the unix command line. The downside, of course, long commands that I <a href="http://xkcd.com/1168/">usually get wrong</a>. </p>
 
 <p>Which is why I spent some time a few weeks ago creating <a href="http://natedickson.com/A.K.A./">A.K.A.</a> Simply put, A.K.A. is a simple way to manage all the aliases that you usually put into your shell of choice’s startup file without editing your dot files by hand or cluttering up your profile when you could be cluttering up a completely separate file. </p>
@@ -109,9 +109,9 @@ I’ve <a href="http://www.favoritethingever.com/2010/10/scrivener/">mentioned b
   
   <entry>
     <title type="html"><![CDATA[PLEX Five Years Later]]></title>
-    <link href="http://PogiNate.github.com/blog/2013/03/29/plex-five-years-later/"/>
+    <link href="http://natedickson.com/blog/2013/03/29/plex-five-years-later/"/>
     <updated>2013-03-29T14:55:00-06:00</updated>
-    <id>http://PogiNate.github.com/blog/2013/03/29/plex-five-years-later</id>
+    <id>http://natedickson.com/blog/2013/03/29/plex-five-years-later</id>
     <content type="html"><![CDATA[<p>Every so often I come across something that just <em>works</em>, and it makes me happy and I feel like all this tech crap we all do on a daily basis is actually worth it. </p>
 
 <p>Even better, sometimes I come across something that was rough around the edges <a href="http://crazyapplenews.com/2009/07/friday-ifaq-plex/">last time I tried it</a>, but now I discover that it’s clean, refined, and super useful. I’m happy to report that this is one of those times. I’ve recently come back to <a href="http://www.plexapp.com/">Plex</a> after a few years of ignoring it, and it works amazingly. </p>

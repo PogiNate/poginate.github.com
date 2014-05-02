@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: painless vim | Nate Dickson]]></title>
-  <link href="http://PogiNate.github.com/blog/categories/painless-vim/atom.xml" rel="self"/>
-  <link href="http://PogiNate.github.com/"/>
-  <updated>2014-05-02T11:42:40-06:00</updated>
-  <id>http://PogiNate.github.com/</id>
+  <link href="http://natedickson.com/blog/categories/painless-vim/atom.xml" rel="self"/>
+  <link href="http://natedickson.com/"/>
+  <updated>2014-05-02T14:20:41-06:00</updated>
+  <id>http://natedickson.com/</id>
   <author>
     <name><![CDATA[Nate Dickson]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Fluency]]></title>
-    <link href="http://PogiNate.github.com/blog/2013/12/30/fluency/"/>
+    <link href="http://natedickson.com/blog/2013/12/30/fluency/"/>
     <updated>2013-12-30T08:12:00-07:00</updated>
-    <id>http://PogiNate.github.com/blog/2013/12/30/fluency</id>
+    <id>http://natedickson.com/blog/2013/12/30/fluency</id>
     <content type="html"><![CDATA[<p>In 1998 I served an <a href="http://mormon.org/values/missionary-work">LDS Mission</a> to the Philippines. Those of you who are familiar with how LDS missionaries operate know the drill: you spend ten weeks learning the language in a classroom setting and then you get sent out with a more experienced missionary to try it on your own. And anyone who has ever tried to speak a language they’ve only heard in a classroom setting knows what comes next: you spend a lot of time staring at people who speak a language you thought you were pretty good at, and you have no idea what they’re saying. </p>
 
 <p>So I set myself some goals. I wanted to laugh at a Tagalog joke, because I actually understood it. I wanted to get my accent to be less terrible<sup id="fnref:accent"><a href="#fn:accent" rel="footnote">1</a></sup>, and I wanted to actually think in Tagalog. These were little stepping stones I set for myself, goals I was trying to reach to show that I was actually gaining some actual fluency in the language. </p>
@@ -56,9 +56,9 @@
   
   <entry>
     <title type="html"><![CDATA[Writing With My Head In The Sand]]></title>
-    <link href="http://PogiNate.github.com/blog/2013/11/11/writing-with-my-head-in-the-sand/"/>
+    <link href="http://natedickson.com/blog/2013/11/11/writing-with-my-head-in-the-sand/"/>
     <updated>2013-11-11T15:09:00-07:00</updated>
-    <id>http://PogiNate.github.com/blog/2013/11/11/writing-with-my-head-in-the-sand</id>
+    <id>http://natedickson.com/blog/2013/11/11/writing-with-my-head-in-the-sand</id>
     <content type="html"><![CDATA[<p>There’s a saying about marriage that you should find a spouse with your eyes wide open and stay with a spouse with your eyes half shut.<sup id="fnref:source"><a href="#fn:source" rel="footnote">1</a></sup> I’ve found this to be helpful advice about more than just marriage; when I buy a new computer I spend months reading reviews and write ups on the all the components involved and scouring the world for the best prices. Once I buy my components I all but block those sites on my browser; I don’t <em>want</em> to know that a brand new video card came out the same day my suddenly obsolete one arrives at my door. I just want to be happy with what I bought.</p>
 
 <p>And, in an odd way it’s turning out to be true about writing <em><a href="http://leanpub.com/painless_vim">Painless Vim</a></em>. There are two books and a few websites that I used quite a bit while I was starting to learn vim, they are somehow on my “okay” list. But any site or book I haven’t read yet is now <em>the enemy</em>, because I’m afraid they’re all better than the book I’m writing and I’ll have to die now. There are (at least) <a href="https://leanpub.com/VimLikeAPro">two</a> <a href="https://leanpub.com/learnvimscriptthehardway">other</a> vim books already on Leanpub.com; I can’t look at them too directly lest I discover the only thing my book has that the don’t is a whimsical cover. </p>
@@ -81,9 +81,9 @@
   
   <entry>
     <title type="html"><![CDATA[Free Books!]]></title>
-    <link href="http://PogiNate.github.com/blog/2013/07/11/free-books/"/>
+    <link href="http://natedickson.com/blog/2013/07/11/free-books/"/>
     <updated>2013-07-11T09:11:00-06:00</updated>
-    <id>http://PogiNate.github.com/blog/2013/07/11/free-books</id>
+    <id>http://natedickson.com/blog/2013/07/11/free-books</id>
     <content type="html"><![CDATA[<p>So, I recently put a coupon up on <a href="https://twitter.com/poginate">Twitter</a> and <a href="https://alpha.app.net/poginate">App.net</a> offering ten people the opportunity to get a free copy of my book <em><a href="https://leanpub.com/painless_vim">Painless Vim</a></em>, which is still very much in <strong>alpha</strong>. But I figured attracting a few extra readers couldn’t do anything but help. </p>
 
 <p>And in next to no time all ten free copies were gone, which is awesome. I’m not so much about the money on this one, I’m just enjoying writing it and really want to see it published and hopefully help a few people. </p>

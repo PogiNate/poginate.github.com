@@ -1,159 +1,153 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://PogiNate.github.com/blog/2013/03/20/moving-to-octopress/</loc>
+        <loc>http://natedickson.com/blog/2013/03/20/moving-to-octopress/</loc>
         <lastmod>2014-05-02T10:55:48-06:00</lastmod>
     </url>
     <url>
-        <loc>http://PogiNate.github.com/blog/2013/03/21/tmux-and-octopress/</loc>
+        <loc>http://natedickson.com/blog/2013/03/21/tmux-and-octopress/</loc>
         <lastmod>2014-05-02T10:55:48-06:00</lastmod>
     </url>
     <url>
-        <loc>http://PogiNate.github.com/blog/2013/03/21/exploring-the-old-ways/</loc>
+        <loc>http://natedickson.com/blog/2013/03/21/exploring-the-old-ways/</loc>
         <lastmod>2014-05-02T10:55:48-06:00</lastmod>
     </url>
     <url>
-        <loc>http://PogiNate.github.com/blog/2013/03/22/vines-through-the-garden-wall/</loc>
+        <loc>http://natedickson.com/blog/2013/03/22/vines-through-the-garden-wall/</loc>
         <lastmod>2014-05-02T10:55:48-06:00</lastmod>
     </url>
     <url>
         <loc>
-            http://PogiNate.github.com/blog/2013/03/25/originally-about-scrivener-but-turned-into-something-else/
+            http://natedickson.com/blog/2013/03/25/originally-about-scrivener-but-turned-into-something-else/
         </loc>
         <lastmod>2014-05-02T10:55:48-06:00</lastmod>
     </url>
     <url>
-        <loc>http://PogiNate.github.com/blog/2013/03/29/plex-five-years-later/</loc>
+        <loc>http://natedickson.com/blog/2013/03/29/plex-five-years-later/</loc>
         <lastmod>2014-05-02T10:55:48-06:00</lastmod>
     </url>
     <url>
-        <loc>http://PogiNate.github.com/blog/2013/04/02/scapple-letting-your-mind-wander/</loc>
+        <loc>http://natedickson.com/blog/2013/04/02/scapple-letting-your-mind-wander/</loc>
         <lastmod>2014-05-02T10:55:48-06:00</lastmod>
     </url>
     <url>
-        <loc>http://PogiNate.github.com/blog/2013/04/04/ulysses-iii-a-huge-leap-forward/</loc>
-        <lastmod>2014-05-02T10:55:48-06:00</lastmod>
-    </url>
-    <url>
-        <loc>
-            http://PogiNate.github.com/blog/2013/04/09/mostly-multimarkdown-blogging-in-octopress/
-        </loc>
+        <loc>http://natedickson.com/blog/2013/04/04/ulysses-iii-a-huge-leap-forward/</loc>
         <lastmod>2014-05-02T10:55:48-06:00</lastmod>
     </url>
     <url>
         <loc>
-            http://PogiNate.github.com/blog/2013/04/12/introducing-a-dot-k-a-dot-the-alias-manager/
+            http://natedickson.com/blog/2013/04/09/mostly-multimarkdown-blogging-in-octopress/
         </loc>
         <lastmod>2014-05-02T10:55:48-06:00</lastmod>
     </url>
     <url>
         <loc>
-            http://PogiNate.github.com/blog/2013/04/14/pocket-why-i-stopped-reading-websites/
+            http://natedickson.com/blog/2013/04/12/introducing-a-dot-k-a-dot-the-alias-manager/
         </loc>
         <lastmod>2014-05-02T10:55:48-06:00</lastmod>
     </url>
     <url>
-        <loc>http://PogiNate.github.com/blog/2013/04/20/thoughts-on-introversion/</loc>
+        <loc>http://natedickson.com/blog/2013/04/14/pocket-why-i-stopped-reading-websites/</loc>
         <lastmod>2014-05-02T10:55:48-06:00</lastmod>
     </url>
     <url>
-        <loc>http://PogiNate.github.com/blog/2013/04/30/battery-status-in-tmux/</loc>
+        <loc>http://natedickson.com/blog/2013/04/20/thoughts-on-introversion/</loc>
         <lastmod>2014-05-02T10:55:48-06:00</lastmod>
     </url>
     <url>
-        <loc>http://PogiNate.github.com/blog/2013/05/06/buy-quality/</loc>
+        <loc>http://natedickson.com/blog/2013/04/30/battery-status-in-tmux/</loc>
+        <lastmod>2014-05-02T10:55:48-06:00</lastmod>
+    </url>
+    <url>
+        <loc>http://natedickson.com/blog/2013/05/06/buy-quality/</loc>
         <lastmod>2014-05-02T10:55:48-06:00</lastmod>
     </url>
     <url>
         <loc>
-            http://PogiNate.github.com/blog/2013/05/10/from-the-desk-of-captain-obvious-tmuxinator-vs-scripted-configurations/
+            http://natedickson.com/blog/2013/05/10/from-the-desk-of-captain-obvious-tmuxinator-vs-scripted-configurations/
         </loc>
         <lastmod>2014-05-02T10:55:48-06:00</lastmod>
     </url>
     <url>
         <loc>
-            http://PogiNate.github.com/blog/2013/05/20/terrible-time-travel-concept-for-a-cheesy-sci-fi-movie/
+            http://natedickson.com/blog/2013/05/20/terrible-time-travel-concept-for-a-cheesy-sci-fi-movie/
         </loc>
         <lastmod>2014-05-02T10:55:48-06:00</lastmod>
     </url>
     <url>
-        <loc>http://PogiNate.github.com/blog/2013/05/22/introducing-painless-vim/</loc>
+        <loc>http://natedickson.com/blog/2013/05/22/introducing-painless-vim/</loc>
         <lastmod>2014-05-02T10:55:48-06:00</lastmod>
     </url>
     <url>
-        <loc>
-            http://PogiNate.github.com/blog/2013/05/30/from-scrivener-to-leanpub-in-one-step/
-        </loc>
+        <loc>http://natedickson.com/blog/2013/05/30/from-scrivener-to-leanpub-in-one-step/</loc>
         <lastmod>2014-05-02T10:55:48-06:00</lastmod>
     </url>
     <url>
-        <loc>http://PogiNate.github.com/blog/2013/07/11/free-books/</loc>
+        <loc>http://natedickson.com/blog/2013/07/11/free-books/</loc>
         <lastmod>2014-05-02T10:55:48-06:00</lastmod>
     </url>
     <url>
-        <loc>
-            http://PogiNate.github.com/blog/2013/07/17/using-slicereader-to-be-a-better-writer/
-        </loc>
+        <loc>http://natedickson.com/blog/2013/07/17/using-slicereader-to-be-a-better-writer/</loc>
         <lastmod>2014-05-02T10:55:48-06:00</lastmod>
     </url>
     <url>
-        <loc>http://PogiNate.github.com/blog/2013/07/30/leaving-google/</loc>
+        <loc>http://natedickson.com/blog/2013/07/30/leaving-google/</loc>
         <lastmod>2014-05-02T10:55:48-06:00</lastmod>
     </url>
     <url>
-        <loc>http://PogiNate.github.com/blog/2013/09/03/the-case-for-board-games-on-tablets/</loc>
+        <loc>http://natedickson.com/blog/2013/09/03/the-case-for-board-games-on-tablets/</loc>
         <lastmod>2014-05-02T10:55:48-06:00</lastmod>
     </url>
     <url>
-        <loc>http://PogiNate.github.com/blog/2013/09/12/small-world-on-the-ipad-updated/</loc>
+        <loc>http://natedickson.com/blog/2013/09/12/small-world-on-the-ipad-updated/</loc>
         <lastmod>2014-05-02T10:55:48-06:00</lastmod>
     </url>
     <url>
-        <loc>http://PogiNate.github.com/blog/2013/09/17/using-nvalt-as-a-personal-wiki/</loc>
+        <loc>http://natedickson.com/blog/2013/09/17/using-nvalt-as-a-personal-wiki/</loc>
         <lastmod>2014-05-02T10:55:48-06:00</lastmod>
     </url>
     <url>
-        <loc>http://PogiNate.github.com/blog/2013/10/31/my-nanowrimo-cover-for-this-year/</loc>
+        <loc>http://natedickson.com/blog/2013/10/31/my-nanowrimo-cover-for-this-year/</loc>
         <lastmod>2014-05-02T10:55:48-06:00</lastmod>
     </url>
     <url>
-        <loc>http://PogiNate.github.com/blog/2013/11/11/writing-with-my-head-in-the-sand/</loc>
+        <loc>http://natedickson.com/blog/2013/11/11/writing-with-my-head-in-the-sand/</loc>
         <lastmod>2014-05-02T10:55:48-06:00</lastmod>
     </url>
     <url>
-        <loc>http://PogiNate.github.com/blog/2013/12/01/excerpt-from-pacifica/</loc>
+        <loc>http://natedickson.com/blog/2013/12/01/excerpt-from-pacifica/</loc>
         <lastmod>2014-05-02T10:55:48-06:00</lastmod>
     </url>
     <url>
-        <loc>http://PogiNate.github.com/blog/2013/12/05/not-during-but-due-to-nanowrimo/</loc>
+        <loc>http://natedickson.com/blog/2013/12/05/not-during-but-due-to-nanowrimo/</loc>
         <lastmod>2014-05-02T10:55:48-06:00</lastmod>
     </url>
     <url>
-        <loc>http://PogiNate.github.com/blog/2013/12/30/fluency/</loc>
+        <loc>http://natedickson.com/blog/2013/12/30/fluency/</loc>
         <lastmod>2014-05-02T10:55:48-06:00</lastmod>
     </url>
     <url>
-        <loc>http://PogiNate.github.com/blog/2014/01/13/trusting-voodoopad/</loc>
+        <loc>http://natedickson.com/blog/2014/01/13/trusting-voodoopad/</loc>
         <lastmod>2014-05-02T10:55:48-06:00</lastmod>
     </url>
     <url>
-        <loc>http://PogiNate.github.com/blog/2014/03/03/why-oyster-books-isnt-for-me/</loc>
+        <loc>http://natedickson.com/blog/2014/03/03/why-oyster-books-isnt-for-me/</loc>
         <lastmod>2014-05-02T10:55:48-06:00</lastmod>
     </url>
     <url>
-        <loc>http://PogiNate.github.com/blog/2014/03/07/writing-with-the-alphasmart-neo/</loc>
+        <loc>http://natedickson.com/blog/2014/03/07/writing-with-the-alphasmart-neo/</loc>
         <lastmod>2014-05-02T11:41:35-06:00</lastmod>
     </url>
     <url>
-        <loc>http://PogiNate.github.com/blog/archives/</loc>
+        <loc>http://natedickson.com/blog/archives/</loc>
         <lastmod>2014-05-02T11:41:35-06:00</lastmod>
     </url>
     <url>
-        <loc>http://PogiNate.github.com/</loc>
+        <loc>http://natedickson.com/</loc>
         <lastmod>2014-05-02T11:41:35-06:00</lastmod>
     </url>
     <url>
-        <loc>http://PogiNate.github.com/robots.txt</loc>
+        <loc>http://natedickson.com/robots.txt</loc>
         <lastmod>2014-05-02T10:55:21-06:00</lastmod>
     </url>
 </urlset>

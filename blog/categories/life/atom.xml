@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: life | Nate Dickson]]></title>
-  <link href="http://PogiNate.github.com/blog/categories/life/atom.xml" rel="self"/>
-  <link href="http://PogiNate.github.com/"/>
-  <updated>2014-05-02T11:42:40-06:00</updated>
-  <id>http://PogiNate.github.com/</id>
+  <link href="http://natedickson.com/blog/categories/life/atom.xml" rel="self"/>
+  <link href="http://natedickson.com/"/>
+  <updated>2014-05-02T14:20:41-06:00</updated>
+  <id>http://natedickson.com/</id>
   <author>
     <name><![CDATA[Nate Dickson]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Buy Quality]]></title>
-    <link href="http://PogiNate.github.com/blog/2013/05/06/buy-quality/"/>
+    <link href="http://natedickson.com/blog/2013/05/06/buy-quality/"/>
     <updated>2013-05-06T12:54:00-06:00</updated>
-    <id>http://PogiNate.github.com/blog/2013/05/06/buy-quality</id>
+    <id>http://natedickson.com/blog/2013/05/06/buy-quality</id>
     <content type="html"><![CDATA[<p>I have a <a href="http://www.timbuk2.com/tb2/">Timbuk2</a> bag that I purchased six years ago, when I got my first MacBook. Even though I only had a 13” <a href="http://en.wikipedia.org/wiki/File:MacBook.jpg">black plastic MacBook</a> at the time, I got the 15” messenger bag because I figured the odds were pretty good that <em>someday</em> I would have a 15” MacBook Pro. </p>
 
 <p>Surround your pullquote like this {" text to be quoted "} </p>

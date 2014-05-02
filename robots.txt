@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://PogiNate.github.com/sitemap.xml 
+Sitemap: http://natedickson.com/sitemap.xml 
