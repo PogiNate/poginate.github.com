@@ -1,3 +1,15 @@
+{%if site.twitter_user %}
+  <meta property="twitter:card" content="{% if page.twitter_card.type %}{{ page.twitter_card.type }}{% else %}summary{% endif %}" />
+  <meta property="twitter:site" content="{{ site.twitter_user }}" />
+  <meta property="twitter:url" content="{% if canonical %}{{ canonical }}{% else %}{{ site.url }}{% endif %}" />
+  <meta property="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+  <meta property="twitter:description" content="{% if page.twitter_card.description %}{{ page.twitter_card.description }}{% else %}{{ description | strip_html | condense_spaces | truncate:200 }}{% endif %}" />
+  <meta property="twitter:creator" content="{% if page.twitter_card.creator %}{{ page.twitter_card.creator }}{% else %}{{ site.twitter_user }}{% endif %}" />
+  {% if page.twitter_card.image %}
+    <meta property="twitter:image:src" content="{{ page.twitter_card.image }}" />
+  {% endif %}
+{% endif %}
+
 <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
 <link href="http://fonts.googleapis.com/css?family=Arvo:400,400italic,700,700italic" rel="stylesheet" type="text/css">
 <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">

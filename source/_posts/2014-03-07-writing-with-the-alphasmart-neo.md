@@ -4,6 +4,11 @@ title: "Writing With the Alphasmart NEO"
 date: 2014-03-07 09:55
 comments: true
 categories: [writing, tech, tools]
+twitter_card: 
+  type: summary_large_image
+  description : "The AlphaSmart NEO is an ancient artifact of great power that can increase your writing productivity." 
+  image : http://natedickson.com/assets/images/NEO.jpg
+  creator: PogiNate
 ---
 
 {% img right /assets/images/NEO.jpg 400 400 The Alphasmart Neo in its natural habitat %}
