@@ -4,7 +4,7 @@
   <title><![CDATA[Nate Dickson]]></title>
   <link href="http://natedickson.com/atom.xml" rel="self"/>
   <link href="http://natedickson.com/"/>
-  <updated>2014-05-02T14:20:41-06:00</updated>
+  <updated>2014-05-07T13:31:01-06:00</updated>
   <id>http://natedickson.com/</id>
   <author>
     <name><![CDATA[Nate Dickson]]></name>
@@ -12,6 +12,45 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Walking Home With Chicago Avenue Moon]]></title>
+    <link href="http://natedickson.com/blog/2014/05/07/walking-home-with-chicago-avenue-moon/"/>
+    <updated>2014-05-07T11:06:37-06:00</updated>
+    <id>http://natedickson.com/blog/2014/05/07/walking-home-with-chicago-avenue-moon</id>
+    <content type="html"><![CDATA[<p><img class="right" src="http://natedickson.com/assets/images/Chicago-Avenue-Moon_web.png" title="Chicago Avenue Moon Icon" />
+Heading out, leaving work. It’s about two miles home, an easy half-hour walk. What’s more, it’s all downhill. I decide to let Chicago Avenue Moon do its thing while I walk. Let’s hear some procedurally generated tunes. </p>
+
+<p>The UI doesn’t tell me much; or rather, it <em>does</em>, but not in a way that I can understand. A string of numbers running down one side of the screen slowly starts filling in, going from all <code>0.00</code> to…other numbers. Probably based on my walking speed? A line swings across four circles, highlighting them…and that’s it. But it’s time to put the device away, time to walk. </p>
+
+<p>The sound starts slowly…a quiet susurrous of static is all for a moment, then a gentle swell of strings, maybe?</p>
+
+<p><img class="left" src="http://natedickson.com/assets/images/CAM-Screen.png" title="Screenshot from Chicago Avenue Moon" />
+Slowly the sonic landscape fills in: quiet, layered sounds give way to rising waves of music. It’s like having an audio-only link to some other world. This isn’t music I’ve heard a thousand times before, this is something new and unique, being created by my walk, and it opens my eyes. </p>
+
+<p>I’ve seen everything along this route hundreds of times, but I’m seeing it more clearly this time. Bright, living green grasses under a mottled gray cloudy sky. I’m more aware of colors than I’ve been in a long time, I’m open to the feeling of the wind…and presently the rain.</p>
+
+<p>I pull my umbrella out of my messenger bag and pop it open, imagining what I might look like from above. A drab, office-worker colored stalk, watered by the rain, suddenly bursts into a bright red and white flower fighting the wind. </p>
+
+<p>The sounds of wind and rain fold themselves into the music from Chicago Avenue, and in my quiet and dreamlike state it’s easy to believe that whatever mathematical equations are controlling the sounds are also orchestrating the storm, for as soon as I turn a corner the rain slows, then stops. The music, too, changes gradually, adapting to my new position and heading. The whoosh and hiss of cars driving past in the rain…it’s all one.</p>
+
+<p>At length I turn the corner onto my street, and one by one the layers of music fall away, leaving only a slow, stately tone, rolling in grand waves, and fading slightly, a fitting end to a walk in another world. </p>
+
+<hr />
+
+<p><a href="http://junecloud.com/software/iphone/chicago-avenue-moon.html"> <em>Chicago Avenue Moon</em> </a> is an oddity on the App Store. Created by <a href="http://junecloud.com">JuneCloud</a>, who are best known for their <a href="http://junecloud.com/software/iphone/delivery-status-touch.html"> package tracking app </a>, it’s a pure work of art, and one that succeeds. According to the website, it was originally the vision of <a href="http://quieterrors.com/">Joshua Dumas</a>, a musician who wanted to </p>
+
+<blockquote>
+  <p>…help re-enchant a person’s daily commute, trip to the laundromat, or evening jog. </p>
+</blockquote>
+
+<p>A worthy goal. </p>
+
+<p>The app really does create a soundscape that is throbbing with life, full of strange, alien combinations, and occasionally overlaid with bursts of static, as if you really were channeling this music from somewhere far away.</p>
+
+<p>It may not be the perfect soundtrack for every single day, but if you want to include a little bit of mystery into your daily wanderings it’s definitely worth a try.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Writing With the Alphasmart NEO]]></title>
@@ -710,80 +749,6 @@ The 13” MacBook is gone, one 15” MBP has come and gone and a new one now liv
     </li>
     <li id="fn:2">
       <p>Time or money; learning vim has been a huge investment of time for me, not so much on the financial side.<a href="#fnref:2" rel="reference">&#8617;</a></p>
-    </li>
-  </ol>
-</div>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Battery Status in tmux]]></title>
-    <link href="http://natedickson.com/blog/2013/04/30/battery-status-in-tmux/"/>
-    <updated>2013-04-30T10:25:00-06:00</updated>
-    <id>http://natedickson.com/blog/2013/04/30/battery-status-in-tmux</id>
-    <content type="html"><![CDATA[<p>While I usually work plugged into power and a monitor and all that good stuff, there are times where my MacBook Pro and I need to go off the grid for a while. During those times I’ve found that it’s easiest to have a terminal window fullscreen and do everything via the command line. That way I don’t really need a mouse at all and I can keep my hands on the keyboard doing whatever it is I’m doing that day. If I need any of my GUI apps <a href="http://www.alfredapp.com/">Alfred</a> is always right there to help me out, again, without using the trackpad. </p>
-
-<p><span class="pullquote-right" data-pullquote="let&#8217;s be honest: This entire project came about simply because I wanted to add some graphics to tmux.">
-The one <sup id="fnref:minor"><a href="#fn:minor" rel="footnote">1</a></sup> problem is that when an app is full screen you can’t see your battery percentage, and it’s possible to actually run yourself out of power without really knowing how close you are. Okay, I admit that it’s a minor problem, and highly unlikely. So let’s be honest: This entire project came about simply because I wanted to add some graphics to tmux. Ever since I learned you can use <a href="https://en.wikipedia.org/wiki/Apple_Color_Emoji">Apple’s Color Emoji</a> set in terminal windows I’ve been looking for even a semi-useful way to do so. 
-</span></p>
-
-<p>What inspired me was a little section at the end of <a href="http://pragprog.com/book/bhtmux/tmux">Brian Hogan’s tmux book</a> about adding battery status to your status bar at the bottom of tmux windows. He links to <a href="https://raw.github.com/richoH/dotfiles/master/bin/battery">a script</a> that works cross platform, but that’s not really what I wanted. As Steve Jobs once said, if you’re working cross platform, you’re not getting the most out of your specific platform<sup id="fnref:kinda"><a href="#fn:kinda" rel="footnote">2</a></sup>. So I decided to write my own script.</p>
-
-<p>doing a little bit of searching revealed this lovely command that appears to be OSX specific:</p>
-
-<pre><code>pmset -g batt
-</code></pre>
-
-<p>running this will give you a result like this:</p>
-
-<pre><code>Currently drawing from 'Battery Power'
-  -InternalBattery-0     100%; discharging; 6:44 remaining
-</code></pre>
-
-<p>As you can see, this string is just begging to be pulled apart via regular expressions. So that’s exactly what I did. The first line is super easy to parse; there are only two possible strings (as near as I can tell) that go between the single quotes: </p>
-
-<ul>
-  <li>Battery Power</li>
-  <li>AC Power</li>
-</ul>
-
-<p>So grabbing that string gives us a simple way to know where our energy is coming from. I didn’t want to just <em>say</em> “Battery” or “AC”, though, so I’m using the emoji for battery and lightning respectively<sup id="fnref:plug"><a href="#fn:plug" rel="footnote">3</a></sup>.</p>
-
-<p>On the second line there are three things we want to know: how charged the battery is, if it’s charging or discharging (or charged) and how long until it’s done doing what it’s doing. I decided to represent the charge level of the battery using five stars, because that fits nicely and a 5-star system makes sense to people. I didn’t even need emoji for full or hollow stars, they’re part of UTF-8, so that was even easier. After a little thought I decided (for now) not to represent the charging/discharging/charged state specifically. I’m still capturing it, I’m just not displaying it.</p>
-
-<p>So a few minutes of ruby hacking later and I have a script that gets me all the info I need and displays it using pretty pictures. Now all I need to do is get it into tmux. Fortunately that was also very simple. This line: </p>
-
-<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span>Display Battery Info</span><a href="https://raw.github.com/PogiNate/dots/master/home/.tmux.conf">Link to file on Github </a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
-</pre></td><td class="code"><pre><code class="bash"><span class="line"><span class="nb">set</span> -g status-right <span class="s2">&quot;#[fg=colour155]#(pmset -g batt | ~/bin/battinfo.rb) | #[fg=colour45]%d %b %R&quot;</span>
-</span></code></pre></td></tr></table></div></figure></notextile></div>
-
-<p>runs the <code>pmset</code> command and my script and gives me a nice green row of stars and a cyan-ish date, like so:</p>
-
-<p><img src="http://natedickson.com/assets/images/charged.png" title="Charged tmux status bar" /></p>
-
-<p>And like so:</p>
-
-<p><img src="http://natedickson.com/assets/images/battery.png" title="Battery power tmux status bar" /></p>
-
-<p>It shows one star empty the moment the battery level falls below 100%, because of math, but I’m fine with that.</p>
-
-<p>So: about an hour’s worth of work for something that will technically save me no time at all, ever. According to<a href="http://xkcd.com/1205/"> XKCD’s chart</a>, it wasn’t worth the time, but I’m still perfectly happy with it. I’m considering updating the script to be more tmux-specific, perhaps even coloring the output based on the charging state, but for now this is good and isn’t terribly distracting.</p>
-
-<p>Anyway, the battinfo.rb script is below, my <code>.tmux.conf</code> file is on github with all <a href="https://github.com/PogiNate/dots">my other dot files</a>.</p>
-
-<div><script src="https://gist.github.com/5490603.js"></script>
-<noscript><pre><code /></pre></noscript></div>
-
-<div class="footnotes">
-  <ol>
-    <li id="fn:minor">
-      <p>very <em>very</em> minor<a href="#fnref:minor" rel="reference">&#8617;</a></p>
-    </li>
-    <li id="fn:kinda">
-      <p>or <a href="http://www.apple.com/hotnews/thoughts-on-flash/">words to that effect</a>: “The third party may not adopt enhancements from one platform unless they are available on all of their supported platforms. Hence developers only have access to the lowest common denominator set of features.”<a href="#fnref:kinda" rel="reference">&#8617;</a></p>
-    </li>
-    <li id="fn:plug">
-      <p>There is an emoji power plug symbol, but it doesn’t show up well on a black background.<a href="#fnref:plug" rel="reference">&#8617;</a></p>
     </li>
   </ol>
 </div>
