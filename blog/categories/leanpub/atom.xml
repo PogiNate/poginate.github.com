@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: leanpub | Nate Dickson]]></title>
+  <link href="http://natedickson.com/blog/categories/leanpub/atom.xml" rel="self"/>
+  <link href="http://natedickson.com/"/>
+  <updated>2014-06-09T09:41:48-06:00</updated>
+  <id>http://natedickson.com/</id>
+  <author>
+    <name><![CDATA[Nate Dickson]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Introducing Painless Tmux]]></title>
+    <link href="http://natedickson.com/blog/2014/06/09/introducing-painless-tmux/"/>
+    <updated>2014-06-09T08:58:01-06:00</updated>
+    <id>http://natedickson.com/blog/2014/06/09/introducing-painless-tmux</id>
+    <content type="html"><![CDATA[<p><img class="right" src="/assets/images/pt_cover_web.png" title="Painless Tmux Cover" ></p>
+
+<p>For about the last year I’ve been working on <a href="https://leanpub.com/painless_vim"><em>Painless Vim</em></a>, and really enjoying it. I’ve learned a lot about writing, and of course I’ve learned a lot about vim. But for the last little while it’s been slowing down. I’ve written all the text, and I’ve been through a few rounds of revisions, both from changes made by editors and from changes suggested by readers. And now it’s pretty much done. Sure, there are a few revisions left to make, but they’re nothing compared to the work I’ve been putting into it over the previous months. </p>
+
+<p>So I decided to write <em>another</em> book. You see, I realized that, while I use vim for basically all my programming work, that’s only half the story. Vim is great, but there’s no real reason to use a terminal based text editor if that’s <em>all</em> you’re doing from the terminal. And for the past year or more, while I’ve been learning and writing about vim, I’ve also been using <strong>tmux</strong> to get more out of my terminal, and to compliment and augment vim’s power.</p>
+
+<p>So I’m writing a book to compliment and augment <em>Painless Vim</em>. </p>
+
+<p><a href="https://leanpub.com/painless_tmux"><em>Painless Tmux</em></a> is brand new, and as I write this it’s only 15 pages long. There’s a lot of life ahead of it, and I’m really excited about this one. For one thing, tmux is <em>so much easier</em> to use and to learn than vim. Especially if you’re already using vim. </p>
+
+<p>Together, vim and tmux let you do pretty much everything, all from the keyboard. so, I’m also offering the <a href="https://leanpub.com/b/painless_productivity">two books as a bundle</a>, for significantly less than buying them separately. Basically if you buy the bundle you get <em>Painless Tmux</em> for a dollar. </p>
+
+<p>When I started <em>Painless Vim</em> I didn’t really know what I was getting myself into. I figured it would take a month, tops. Well, this time, I <em>do</em> know what I’m getting myself into and I’m excited to get into it. </p>
+]]></content>
+  </entry>
+  
+</feed>

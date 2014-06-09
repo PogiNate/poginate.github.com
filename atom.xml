@@ -4,7 +4,7 @@
   <title><![CDATA[Nate Dickson]]></title>
   <link href="http://natedickson.com/atom.xml" rel="self"/>
   <link href="http://natedickson.com/"/>
-  <updated>2014-05-07T13:31:01-06:00</updated>
+  <updated>2014-06-09T09:41:48-06:00</updated>
   <id>http://natedickson.com/</id>
   <author>
     <name><![CDATA[Nate Dickson]]></name>
@@ -12,6 +12,27 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Introducing Painless Tmux]]></title>
+    <link href="http://natedickson.com/blog/2014/06/09/introducing-painless-tmux/"/>
+    <updated>2014-06-09T08:58:01-06:00</updated>
+    <id>http://natedickson.com/blog/2014/06/09/introducing-painless-tmux</id>
+    <content type="html"><![CDATA[<p><img class="right" src="http://natedickson.com/assets/images/pt_cover_web.png" title="Painless Tmux Cover" /></p>
+
+<p>For about the last year I&rsquo;ve been working on <a href="https://leanpub.com/painless_vim"><em>Painless Vim</em></a>, and really enjoying it. I&rsquo;ve learned a lot about writing, and of course I&rsquo;ve learned a lot about vim. But for the last little while it&rsquo;s been slowing down. I&rsquo;ve written all the text, and I&rsquo;ve been through a few rounds of revisions, both from changes made by editors and from changes suggested by readers. And now it&rsquo;s pretty much done. Sure, there are a few revisions left to make, but they&rsquo;re nothing compared to the work I&rsquo;ve been putting into it over the previous months. </p>
+
+<p>So I decided to write <em>another</em> book. You see, I realized that, while I use vim for basically all my programming work, that&rsquo;s only half the story. Vim is great, but there&rsquo;s no real reason to use a terminal based text editor if that&rsquo;s <em>all</em> you&rsquo;re doing from the terminal. And for the past year or more, while I&rsquo;ve been learning and writing about vim, I&rsquo;ve also been using <strong>tmux</strong> to get more out of my terminal, and to compliment and augment vim&rsquo;s power.</p>
+
+<p>So I&rsquo;m writing a book to compliment and augment <em>Painless Vim</em>. </p>
+
+<p><a href="https://leanpub.com/painless_tmux"><em>Painless Tmux</em></a> is brand new, and as I write this it&rsquo;s only 15 pages long. There&rsquo;s a lot of life ahead of it, and I&rsquo;m really excited about this one. For one thing, tmux is <em>so much easier</em> to use and to learn than vim. Especially if you&rsquo;re already using vim. </p>
+
+<p>Together, vim and tmux let you do pretty much everything, all from the keyboard. so, I&rsquo;m also offering the <a href="https://leanpub.com/b/painless_productivity">two books as a bundle</a>, for significantly less than buying them separately. Basically if you buy the bundle you get <em>Painless Tmux</em> for a dollar. </p>
+
+<p>When I started <em>Painless Vim</em> I didn&rsquo;t really know what I was getting myself into. I figured it would take a month, tops. Well, this time, I <em>do</em> know what I&rsquo;m getting myself into and I&rsquo;m excited to get into it. </p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Walking Home With Chicago Avenue Moon]]></title>
@@ -726,32 +747,6 @@ bar: 1 windows (created Thu May 9 07:35:02) [160x39]
 <p>Okay, most of you have already gotten here ahead of me. When you run Tmuxinator it’s issuing commands from ruby, not from your user session. The tmux process that ruby uses is a child process of ruby, not of your shell. This is fine if you create all your sessions from Tmuxinator, but if you start standing up impromptu sessions just because, or if you have decided to have tmux start whenever your terminal opens it means that your Tmuxinator sessions and your non-Tmuxinator sessions are on totally different servers, so you can’t use <code>&lt;prefix&gt;)</code> to switch between them.</p>
 
 <p>So I decided to bite the bullet and move my Tmuxinator sessions over to independently executable scripts. It’s more steps, not quite as pretty, but the commands are all sensible, and now sessions I create using my scripts are visible on my “main” tmux server. And I’m free of one more external dependency, which is nice.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Buy Quality]]></title>
-    <link href="http://natedickson.com/blog/2013/05/06/buy-quality/"/>
-    <updated>2013-05-06T12:54:00-06:00</updated>
-    <id>http://natedickson.com/blog/2013/05/06/buy-quality</id>
-    <content type="html"><![CDATA[<p>I have a <a href="http://www.timbuk2.com/tb2/">Timbuk2</a> bag that I purchased six years ago, when I got my first MacBook. Even though I only had a 13” <a href="http://en.wikipedia.org/wiki/File:MacBook.jpg">black plastic MacBook</a> at the time, I got the 15” messenger bag because I figured the odds were pretty good that <em>someday</em> I would have a 15” MacBook Pro. </p>
-
-<p><span class="pullquote-right" data-pullquote="But other than a bit of dirt the bag still looks pretty much as good as it did when I bought it."> 
-The 13” MacBook is gone, one 15” MBP has come and gone and a new one now lives in the same pocket of the same messenger bag I picked up all those years ago. That bag has been through airports, camping trips, freezing terrible outdoor IT jobs in the dead of winter and hot terrible outdoor IT jobs in the dog days of summer. Now it’s pretty much relegated to hauling my computer back and forth to and from the office because I’ve left my IT days behind me.  But other than a bit of dirt the bag still looks pretty much as good as it did when I bought it. The seams are still tight and solid, the velcro still works, the material is still without any frayed or torn spots. The bag cost more than I could afford at the time<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>, but I’ve never regretted the decision.  I got something that was well made, and I’m grateful. 
-</span> </p>
-
-<p>So, not a big post, or a deep important mystery of life this time around, sorry. Not even a cool new tech toy to play with. My only real point is that if you do some research and find something worth investing in<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup> you will be rewarded for it. </p>
-
-<div class="footnotes">
-  <ol>
-    <li id="fn:1">
-      <p>In fact, it cost more than the second-hand MacBook it was purchased to carry<a href="#fnref:1" rel="reference">&#8617;</a></p>
-    </li>
-    <li id="fn:2">
-      <p>Time or money; learning vim has been a huge investment of time for me, not so much on the financial side.<a href="#fnref:2" rel="reference">&#8617;</a></p>
-    </li>
-  </ol>
-</div>
 ]]></content>
   </entry>
   
