@@ -4,7 +4,7 @@
   <title><![CDATA[Nate Dickson]]></title>
   <link href="http://natedickson.com/atom.xml" rel="self"/>
   <link href="http://natedickson.com/"/>
-  <updated>2014-06-09T09:41:48-06:00</updated>
+  <updated>2014-07-02T16:51:32-06:00</updated>
   <id>http://natedickson.com/</id>
   <author>
     <name><![CDATA[Nate Dickson]]></name>
@@ -12,6 +12,71 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Using Vim and Scrivener Together]]></title>
+    <link href="http://natedickson.com/blog/2014/07/02/using-vim-and-scrivener-together/"/>
+    <updated>2014-07-02T15:50:25-06:00</updated>
+    <id>http://natedickson.com/blog/2014/07/02/using-vim-and-scrivener-together</id>
+    <content type="html"><![CDATA[<p>I’ve been working on <a href="http://leanpub.com/painless_tmux">Painless Tmux</a> and trying to apply a lot of what I learned while writing <a href="http://leanpub.com/painless_vim">Painless Vim</a> to make the process easier and more streamlined. </p>
+
+<p>And one of the problems that I’ve been beating my head against is this:</p>
+
+<p>Tables. </p>
+
+<p>Tables in Markdown are a mess. Understandably so, because you’re trying to keep everything nicely lined up in plain text, which just doesn’t happen. Compound that with proportional fonts in Scrivener and you have something that nobody should ever have to look at. There’s a couple of problems here, of course. </p>
+
+<p>The first is that it’s easy for bugs to hide in messy code<sup id="fnref:orText"><a href="#fn:orText" rel="footnote">1</a></sup>, and I’ve had to run my manuscript files through Leanpub’s markdown generator multiple times before I got my tables right. </p>
+
+<p>So: step one: after putting all the data in a table let’s get the table all lined up and looking nice. This is where vim steps in. Specifically, vim with the <a href="https://github.com/godlygeek/tabular">Tabular</a> plugin. </p>
+
+<p>Using Tabular I can turn a table that looks like this:</p>
+
+<pre><code>| Heading 1 | Heading 2 |  
+|  ------ | ------ |  
+| some text | A second bit o' text |   
+| Still more text, this time of a different length | small text	| 
+</code></pre>
+
+<p>into this:</p>
+
+<pre><code>| Heading 1                                        | Heading 2            |
+| ------                                           | ------               |
+| some text                                        | A second bit o' text |
+| Still more text, this time of a different length | small text           |
+</code></pre>
+
+<p>all by typing <code>:Tab /|</code> in vim<sup id="fnref:learnMore"><a href="#fn:learnMore" rel="footnote">2</a></sup>. </p>
+
+<p>So far so good. But when I paste this back into Scrivener it looks terrible again, because Scrivener uses proportional fonts<sup id="fnref:myScriv"><a href="#fn:myScriv" rel="footnote">3</a></sup>:</p>
+
+<p><img src="http://natedickson.com/assets/images/kerned-scriv.png" title="Scrivener with proportional text" /></p>
+
+<p>This was an even easier problem to solve, I just didn’t realize it it until today. Scrivener lets you use all kinds of rich text features while writing, all of which it ignores when exporting or compiling your text for output. This means, of course, that I can style my tables with a monospaced font and suddenly they line up the way they were supposed to all along. </p>
+
+<p><img src="http://natedickson.com/assets/images/monospaced-scriv.png" title="Scrivener with Monospaced text" /></p>
+
+<p>But changing the fonts manually every time I make a table is a drag. Enter the “presets” feature that Scrivener uses. Its basically the Apple “Styles” menu, but enhanced and made more Scrivener-like. All I had to do was highlight the monospaced section, then in the menu go to <code>Format-&gt;Formatting-&gt;New Preset From Selection</code> and now I can make any of my text nicely monospaced with the click of a button. And while I was at it I re-styled the “Body” preset to be the the way I (currently) like it. </p>
+
+<p>So there you have it: a couple of simple, common sense tips for making tables less of a nightmare in your Markdown manuscripts. Enjoy!</p>
+
+<hr />
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:orText">
+      <p>or semantically marked text. Stay with me here.<a href="#fnref:orText" rel="reference">&#8617;</a></p>
+    </li>
+    <li id="fn:learnMore">
+      <p>See <a href="http://vimcasts.org/episodes/aligning-text-with-tabular-vim/">Aligning Text with Tabular.vim</a> for a full explanation of how the plugin works. <a href="#fnref:learnMore" rel="reference">&#8617;</a></p>
+    </li>
+    <li id="fn:myScriv">
+      <p>Sure, you <em>could</em> use monospaced fonts in Scrivener, but not in <em>my</em> Scrivener. Unless I’m writing code I like my fonts properly kerned, thank you. <a href="#fnref:myScriv" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Introducing Painless Tmux]]></title>
@@ -715,38 +780,6 @@ I&rsquo;m excited to announce the availability of <em>Painless Vim</em>, my new 
     </li>
   </ol>
 </div>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[From The Desk of Captain Obvious: Tmuxinator vs. Scripted configurations]]></title>
-    <link href="http://natedickson.com/blog/2013/05/10/from-the-desk-of-captain-obvious-tmuxinator-vs-scripted-configurations/"/>
-    <updated>2013-05-10T10:38:00-06:00</updated>
-    <id>http://natedickson.com/blog/2013/05/10/from-the-desk-of-captain-obvious-tmuxinator-vs-scripted-configurations</id>
-    <content type="html"><![CDATA[<p>I’ve been using <a href="https://github.com/aziz/tmuxinator">Tmuxinator</a> for a while now to put together tmux sessions that I can run quickly and easily from the command line. I’ve even set up an <a href="http://natedickson.com/blog/2013/04/12/introducing-a-dot-k-a-dot-the-alias-manager/">AKA</a> shortcut, abbreviating <code>tmuxinator</code> to <code>tor</code>, making it much easier to create new scripted sessions. But recently I discovered an odd thing when I detached from a session created by tmuxinator: they don’t show up in my list of sessions when I run <code>tmux ls</code>. </p>
-
-<p>So I played with it a bit more. I could run <code>tor config1</code> and get a session laid out according to configuration 1. I’d then detach and create a session by hand, and do the following:</p>
-
-<pre><code>$ tmux new -s bar -d
-$ tmux ls
-bar: 1 windows (created Thu May 9 07:35:02) [160x39]
-</code></pre>
-
-<p>Well that’s odd. So I’d try </p>
-
-<pre><code>tmux attach -t config1
-</code></pre>
-
-<p>and it would say it can’t find the session.  Out of curiosity (did I kill the session instead of just detaching?) I’d run </p>
-
-<pre><code>tor config1
-</code></pre>
-
-<p>again, and I would be back in my already-running session.</p>
-
-<p>Okay, most of you have already gotten here ahead of me. When you run Tmuxinator it’s issuing commands from ruby, not from your user session. The tmux process that ruby uses is a child process of ruby, not of your shell. This is fine if you create all your sessions from Tmuxinator, but if you start standing up impromptu sessions just because, or if you have decided to have tmux start whenever your terminal opens it means that your Tmuxinator sessions and your non-Tmuxinator sessions are on totally different servers, so you can’t use <code>&lt;prefix&gt;)</code> to switch between them.</p>
-
-<p>So I decided to bite the bullet and move my Tmuxinator sessions over to independently executable scripts. It’s more steps, not quite as pretty, but the commands are all sensible, and now sessions I create using my scripts are visible on my “main” tmux server. And I’m free of one more external dependency, which is nice.</p>
 ]]></content>
   </entry>
   

@@ -9,7 +9,7 @@
   <meta name="author" content="Nate Dickson">
 
   
-  <meta name="description" content="I have a Timbuk2 bag that I purchased six years ago, when I got my first MacBook. Even though I only had a 13” black plastic MacBook at the time, I &hellip;">
+  <meta name="description" content="I’ve been using Tmuxinator for a while now to put together tmux sessions that I can run quickly and easily from the command line. I’ve even set up an &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -32,7 +32,7 @@
   <meta property="twitter:site" content="poginate" />
   <meta property="twitter:url" content="http://natedickson.com/blog/page/3/" />
   <meta property="twitter:title" content="Nate Dickson" />
-  <meta property="twitter:description" content="I have a Timbuk2 bag that I purchased six years ago, when I got my first MacBook. Even though I only had a 13” black plastic MacBook at the time, I got the 15” messenger bag because I figured the &hellip;" />
+  <meta property="twitter:description" content="I’ve been using Tmuxinator for a while now to put together tmux sessions that I can run quickly and easily from the command line. I’ve even set up an AKA shortcut, abbreviating tmuxinator to tor, &hellip;" />
   <meta property="twitter:creator" content="poginate" />
   
 
@@ -80,6 +80,65 @@
       <div id="content">
         <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2013/05/10/from-the-desk-of-captain-obvious-tmuxinator-vs-scripted-configurations/">From the Desk of Captain Obvious: Tmuxinator vs. Scripted Configurations</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-05-10T10:38:00-06:00" pubdate data-updated="true">May 10<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I’ve been using <a href="https://github.com/aziz/tmuxinator">Tmuxinator</a> for a while now to put together tmux sessions that I can run quickly and easily from the command line. I’ve even set up an <a href="http://natedickson.com/blog/2013/04/12/introducing-a-dot-k-a-dot-the-alias-manager/">AKA</a> shortcut, abbreviating <code>tmuxinator</code> to <code>tor</code>, making it much easier to create new scripted sessions. But recently I discovered an odd thing when I detached from a session created by tmuxinator: they don’t show up in my list of sessions when I run <code>tmux ls</code>. </p>
+
+<p>So I played with it a bit more. I could run <code>tor config1</code> and get a session laid out according to configuration 1. I’d then detach and create a session by hand, and do the following:</p>
+
+<pre><code>$ tmux new -s bar -d
+$ tmux ls
+bar: 1 windows (created Thu May 9 07:35:02) [160x39]
+</code></pre>
+
+<p>Well that’s odd. So I’d try </p>
+
+<pre><code>tmux attach -t config1
+</code></pre>
+
+<p>and it would say it can’t find the session.  Out of curiosity (did I kill the session instead of just detaching?) I’d run </p>
+
+<pre><code>tor config1
+</code></pre>
+
+<p>again, and I would be back in my already-running session.</p>
+
+<p>Okay, most of you have already gotten here ahead of me. When you run Tmuxinator it’s issuing commands from ruby, not from your user session. The tmux process that ruby uses is a child process of ruby, not of your shell. This is fine if you create all your sessions from Tmuxinator, but if you start standing up impromptu sessions just because, or if you have decided to have tmux start whenever your terminal opens it means that your Tmuxinator sessions and your non-Tmuxinator sessions are on totally different servers, so you can’t use <code>&lt;prefix&gt;)</code> to switch between them.</p>
+
+<p>So I decided to bite the bullet and move my Tmuxinator sessions over to independently executable scripts. It’s more steps, not quite as pretty, but the commands are all sensible, and now sessions I create using my scripts are visible on my “main” tmux server. And I’m free of one more external dependency, which is nice.</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -627,55 +686,6 @@ Another benefit is that <em>your</em> content is now styled <em>my</em> way. No 
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/03/25/originally-about-scrivener-but-turned-into-something-else/">Originally About Scrivener but Turned Into Something Else</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-03-25T12:09:00-06:00" pubdate data-updated="true">Mar 25<span>th</span>, 2013</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>I have been a huge fan of <a href="http://www.literatureandlatte.com/scrivener.php">Scrivener</a> for years. I love the freedom it gives me to organize a story however I want it, to color code, label, sort, search and tag my text.</p>
-
-<p>But all of this, of course, can actually <em>hamper</em> productivity if you start letting it run your workflow. You can spend so much time going through your manuscript updating keywords that you forget to actually do any writing. This trap is especially easy to fall into if you, like me, suffer from a serious mental condition called <em>“Self-inflicted Terminal Unjustified Paranoia of Invisible Detractors”</em>, or <strong>STUPID</strong> for short.</p>
-
-<p>STUPID is a condition where you believe that someone, somewhere is looking over your shoulder and judging what you’re doing to be of no worth, that someone is picking apart your workflow and finds it erratic and inefficient, or that someone will take a look at how you are using  your tool of choice and pick all your decisions apart. </p>
-
-<p>If left untreated, STUPID can cause you to dry up, stop being creative, and spend excessive amounts of time worrying about productivity instead of actually <em>being</em> productive.</p>
-
-<p>STUPID is rampant in people who consider themselves internet denizens; people like bloggers, authors, and creative professionals. But STUPID is older than the internet, and has been affecting similar personality types for years. Early warning signs for the onset of STUPID include dithering around with todo list software, pomodoro spreadsheets, and other such things that are meant to help you be more productive. In its advanced stages the victim may need to be given a management style job. </p>
-
-<p>Once a case of STUPID is self diagnosed (and it can only be <em>self</em>-diagnosed; external diagnoses are worthless. ) the treatment is fortunately inexpensive. In mild cases most practitioners recommend a quiet walk followed by some time spent in a free write scenario, where the victim is forced to <em>just keep producing</em> without listening to their internal critic. A standard therapeutic session should last for at least half an hour. This treatment should be continued for life, as it has also been found to be an effective preventative. </p>
-
-<p>Very little of this has to do with Scrivener, of course. I meant to write an article about using Scrivener to actually do productive work, but I got sidetracked thinking about how to use it more productively. </p>
-
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/4/">&larr; Older</a>
@@ -693,6 +703,10 @@ Another benefit is that <em>your</em> content is now styled <em>my</em> way. No 
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2014/07/02/using-vim-and-scrivener-together/">Using Vim and Scrivener Together</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2014/06/09/introducing-painless-tmux/">Introducing Painless Tmux</a>
       </li>
     
@@ -706,10 +720,6 @@ Another benefit is that <em>your</em> content is now styled <em>my</em> way. No 
     
       <li class="post">
         <a href="/blog/2014/03/03/why-oyster-books-isnt-for-me/">Why Oyster Books Isn&#8217;t For Me</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/01/13/trusting-voodoopad/">Trusting VoodooPad</a>
       </li>
     
   </ul>

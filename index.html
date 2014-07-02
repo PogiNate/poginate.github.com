@@ -9,7 +9,7 @@
   <meta name="author" content="Nate Dickson">
 
   
-  <meta name="description" content="For about the last year I&rsquo;ve been working on Painless Vim, and really enjoying it. I&rsquo;ve learned a lot about writing, and of course I& &hellip;">
+  <meta name="description" content="I’ve been working on Painless Tmux and trying to apply a lot of what I learned while writing Painless Vim to make the process easier and more &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -32,7 +32,7 @@
   <meta property="twitter:site" content="poginate" />
   <meta property="twitter:url" content="http://natedickson.com/" />
   <meta property="twitter:title" content="Nate Dickson" />
-  <meta property="twitter:description" content="For about the last year I&rsquo;ve been working on Painless Vim, and really enjoying it. I&rsquo;ve learned a lot about writing, and of course I&rsquo;ve learned a lot about vim. But for the last &hellip;" />
+  <meta property="twitter:description" content="I’ve been working on Painless Tmux and trying to apply a lot of what I learned while writing Painless Vim to make the process easier and more streamlined. And one of the problems that I’ve been &hellip;" />
   <meta property="twitter:creator" content="poginate" />
   
 
@@ -80,6 +80,98 @@
       <div id="content">
         <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/07/02/using-vim-and-scrivener-together/">Using Vim and Scrivener Together</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-07-02T15:50:25-06:00" pubdate data-updated="true">Jul 2<span>nd</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I’ve been working on <a href="http://leanpub.com/painless_tmux">Painless Tmux</a> and trying to apply a lot of what I learned while writing <a href="http://leanpub.com/painless_vim">Painless Vim</a> to make the process easier and more streamlined. </p>
+
+<p>And one of the problems that I’ve been beating my head against is this:</p>
+
+<p>Tables. </p>
+
+<p>Tables in Markdown are a mess. Understandably so, because you’re trying to keep everything nicely lined up in plain text, which just doesn’t happen. Compound that with proportional fonts in Scrivener and you have something that nobody should ever have to look at. There’s a couple of problems here, of course. </p>
+
+<p>The first is that it’s easy for bugs to hide in messy code<sup id="fnref:orText"><a href="#fn:orText" rel="footnote">1</a></sup>, and I’ve had to run my manuscript files through Leanpub’s markdown generator multiple times before I got my tables right. </p>
+
+<p>So: step one: after putting all the data in a table let’s get the table all lined up and looking nice. This is where vim steps in. Specifically, vim with the <a href="https://github.com/godlygeek/tabular">Tabular</a> plugin. </p>
+
+<p>Using Tabular I can turn a table that looks like this:</p>
+
+<pre><code>| Heading 1 | Heading 2 |  
+|  ------ | ------ |  
+| some text | A second bit o' text |   
+| Still more text, this time of a different length | small text	| 
+</code></pre>
+
+<p>into this:</p>
+
+<pre><code>| Heading 1                                        | Heading 2            |
+| ------                                           | ------               |
+| some text                                        | A second bit o' text |
+| Still more text, this time of a different length | small text           |
+</code></pre>
+
+<p>all by typing <code>:Tab /|</code> in vim<sup id="fnref:learnMore"><a href="#fn:learnMore" rel="footnote">2</a></sup>. </p>
+
+<p>So far so good. But when I paste this back into Scrivener it looks terrible again, because Scrivener uses proportional fonts<sup id="fnref:myScriv"><a href="#fn:myScriv" rel="footnote">3</a></sup>:</p>
+
+<p><img src="/assets/images/kerned-scriv.png" title="Scrivener with proportional text" /></p>
+
+<p>This was an even easier problem to solve, I just didn’t realize it it until today. Scrivener lets you use all kinds of rich text features while writing, all of which it ignores when exporting or compiling your text for output. This means, of course, that I can style my tables with a monospaced font and suddenly they line up the way they were supposed to all along. </p>
+
+<p><img src="/assets/images/monospaced-scriv.png" title="Scrivener with Monospaced text" /></p>
+
+<p>But changing the fonts manually every time I make a table is a drag. Enter the “presets” feature that Scrivener uses. Its basically the Apple “Styles” menu, but enhanced and made more Scrivener-like. All I had to do was highlight the monospaced section, then in the menu go to <code>Format-&gt;Formatting-&gt;New Preset From Selection</code> and now I can make any of my text nicely monospaced with the click of a button. And while I was at it I re-styled the “Body” preset to be the the way I (currently) like it. </p>
+
+<p>So there you have it: a couple of simple, common sense tips for making tables less of a nightmare in your Markdown manuscripts. Enjoy!</p>
+
+<hr />
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:orText">
+      <p>or semantically marked text. Stay with me here.<a href="#fnref:orText" rel="reference">&#8617;</a></p>
+    </li>
+    <li id="fn:learnMore">
+      <p>See <a href="http://vimcasts.org/episodes/aligning-text-with-tabular-vim/">Aligning Text with Tabular.vim</a> for a full explanation of how the plugin works. <a href="#fnref:learnMore" rel="reference">&#8617;</a></p>
+    </li>
+    <li id="fn:myScriv">
+      <p>Sure, you <em>could</em> use monospaced fonts in Scrivener, but not in <em>my</em> Scrivener. Unless I’m writing code I like my fonts properly kerned, thank you. <a href="#fnref:myScriv" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -691,67 +783,6 @@ And then, one night a few months after I landed in Manila I had a thought, just 
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/10/31/my-nanowrimo-cover-for-this-year/">My NaNoWriMo Cover for This Year</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-10-31T11:34:00-06:00" pubdate data-updated="true">Oct 31<span>st</span>, 2013</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p><img class="left" src="/assets/images/pacifica_cover.jpg" width="250" title="Pacifica Cover" />
-This is a super-short post to show off what I&rsquo;m going to be working on for <a href="http://nanowrimo.org">NaNoWriMo</a> this year. </p>
-
-<p>I know that <em><a href="https://leanpub.com/painless_vim/">Painless Vim</a></em> isn&rsquo;t finished yet, although it&rsquo;s very close, and basically all I&rsquo;m doing is a little bit of cleanup and formatting. If you&rsquo;ve been waiting with baited breath for <em>Painless Vim</em> to be finished fear not! I will still be working on the Little Vim Book that Could during the month of November. In fact, my goal is to have it completely finished. By December 1st, even while I&rsquo;m &ldquo;winning&rdquo; NaNoWriMo for the sixth straight year. </p>
-
-<p>In previous years I&rsquo;ve been doing graduate level classes, having babies<sup id="fnref:babies"><a href="#fn:babies" rel="footnote">1</a></sup>, and changing jobs during NaNoWriMo, and I&rsquo;ve always found time to make it work. What&rsquo;s more, the impetus it gives me tends to help me get more done in the rest of my life as well. The saying about giving work to busy people still holds true. If I turn myself into a busy person I tend to be more capable overall. Until I freak out and melt down, of course. So I guess there&rsquo;s still something to be said for balance. </p>
-
-<h2 id="more-about-pacifica">More About Pacifica</h2>
-
-<p>Which is all very nice, but you may possibly be interested in the book cover I&rsquo;m showing off here. You&rsquo;ve got questions, no doubt. Questions like &ldquo;What&rsquo;s it about?&rdquo; &ldquo;Who designed your cover?&rdquo; &ldquo;Would you be willing to let me redesign your cover, because it&rsquo;s pretty bad?&rdquo; </p>
-
-<p>The answers are &ldquo;I&rsquo;ll tell you in a minute&rdquo;, &ldquo;I did in about two hours using Pixelmator&rdquo;, and &ldquo;Yes&rdquo; in that order. I like playing with Pixelmator, but I&rsquo;m not super great with it, and if there&rsquo;s a graphic designer out there who wants to take a second pass at this I&rsquo;d be happy to let you. </p>
-
-<p>The book is my first foray into cyberpunk. It&rsquo;s a near-future look at what&rsquo;s its like to be on the losing side of a war for independence, and how to keep your pride even when you&rsquo;ve got nothing left to be proud of. </p>
-
-<p>If I remember (and have time) I&rsquo;ll probably post excerpts through the month. Wether or not I actually develop <em>Pacifica</em> after November remains to be seen, but if I&rsquo;ve learned anything from five successful NaNo&rsquo;s its that even writing an ultimately wasted story isn&rsquo;t wasted effort. I&rsquo;ve learned something from every book I&rsquo;ve written.</p>
-
-<hr />
-
-<div class="footnotes">
-  <ol>
-    <li id="fn:babies">
-      <p>Well, not me <em>personally</em>. <a href="#fnref:babies" rel="reference">&#8617;</a></p>
-    </li>
-  </ol>
-</div>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/2/">&larr; Older</a>
@@ -767,6 +798,10 @@ This is a super-short post to show off what I&rsquo;m going to be working on for
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2014/07/02/using-vim-and-scrivener-together/">Using Vim and Scrivener Together</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2014/06/09/introducing-painless-tmux/">Introducing Painless Tmux</a>
       </li>
     
@@ -780,10 +815,6 @@ This is a super-short post to show off what I&rsquo;m going to be working on for
     
       <li class="post">
         <a href="/blog/2014/03/03/why-oyster-books-isnt-for-me/">Why Oyster Books Isn&#8217;t For Me</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/01/13/trusting-voodoopad/">Trusting VoodooPad</a>
       </li>
     
   </ul>
