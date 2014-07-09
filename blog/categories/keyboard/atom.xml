@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: keyboard | Nate Dickson]]></title>
+  <link href="http://natedickson.com/blog/categories/keyboard/atom.xml" rel="self"/>
+  <link href="http://natedickson.com/"/>
+  <updated>2014-07-09T16:14:57-06:00</updated>
+  <id>http://natedickson.com/</id>
+  <author>
+    <name><![CDATA[Nate Dickson]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Fully Custom Keyboard]]></title>
+    <link href="http://natedickson.com/blog/2014/07/09/fully-custom-keyboard/"/>
+    <updated>2014-07-09T15:21:07-06:00</updated>
+    <id>http://natedickson.com/blog/2014/07/09/fully-custom-keyboard</id>
+    <content type="html"><![CDATA[<p>Thanks to all the amazing people who bought <a href="https://leanpub.com/painless_vim/"><em>Painless Vim</em></a> I’ve got a little bit of spare cash to put into things that make my job easier. I’ve had my eye on one such convenience for quite some time now: a customized mechanical keyboard.</p>
+
+<p><img src="/assets/images/full_keyboard.png" title="My beautifully custom keyboard." ></p>
+
+<p>For those of you who aren’t insane, mechanical keyboards are a <em>big deal</em> these days, amongst people who think too much about their working setup. If you want to know more about why mechanical is the way to go I suggest reading this <a href="http://lifehacker.com/how-to-choose-the-best-mechanical-keyboard-and-why-you-511140347">excellent article on Lifehacker</a> that covers it nicely. </p>
+
+<p><em>Anyway</em> when my recent royalty check came in from Leanpub I realized I was finally in the position to fulfill an old dream of mine: buy a fully customized, fully mechanical keyboard.</p>
+
+<p>A few years ago I found out about a company called <a href="http://www.wasdkeyboards.com/">WASD Keyboards</a>, and they are delightfully obsessed with making top of the line keyboards that fit <em>you</em>. Not you, the general purpose programmer, not “you” the one-size-fits-all gamer,  <strong>you</strong>, individually. If you want your keys to be in alternate rows of white and  yellow they can do that for you. If you want all your keys totally blank, the <code>HJKL</code> keys red and everything else black, that’s cool, they’re on it. However you want to do it, <a href="http://www.wasdkeyboards.com/index.php/gallery">they will do it</a>. You can design your dream keyboard on their website, choosing from several different key layouts, and the ability to specifically color every single key on the board. If the customization on the site isn’t specific enough you can send them a file with <em>exactly</em> how you want every key printed, and they will do it.</p>
+
+<p><img class="left" src="/assets/images/extra_ctrl.png" title="On my keyboard there is no such thing as “Caps Lock”" ></p>
+
+<p>And it gets better. WASD is in the business of keyboards and keyboards only, and they listen to their customers. The <a href="http://www.wasdkeyboards.com/index.php/products/mechanical-keyboard/wasd-v2-104-key-custom-mechanical-keyboard.html#ad-image-0">V2 models</a> have a series of DIP switches on the bottom that let you customize all the good stuff. Things like “Make <code>Caps Lock</code> into a third <code>Ctrl</code> button” for us vim fans.<sup id="fnref:notice"><a href="#fn:notice" rel="footnote">1</a></sup>  Things like “swap the <code>Alt</code> and <code>OS</code> keys” for us OSX fans. Things like “Switch to Colemak or Dvorak” for people who take their typing seriously<sup id="fnref:notyet"><a href="#fn:notyet" rel="footnote">2</a></sup>. All these switches are handled on the keyboard itself, so you don’t have to mess around with system settings. </p>
+
+<p>If you are crazy like me and care about the details, I got this keyboard with Cherry MX Clear switches, which have a nice tactile bump halfway down, at the actuation point. If you understood that sentence, welcome to the club of people who should sleep more and study keyboards less. Pull up a chair. If you didn’t, it’s nerd speak for saying “I can push the keys halfway down and they register, which is easier on your fingers, and when they register there’s a little bump you can feel letting you know the key registered.”</p>
+
+<p>The build quality is quite high<sup id="fnref:CODEKeyboard"><a href="#fn:CODEKeyboard" rel="footnote">3</a></sup> from what I’ve seen so far, with a nice weight to the keyboard, excellent motion on every single key, and sharp, laser-etched inscriptions on every keycap. </p>
+
+<p>I guess if there is a point to this post it’s twofold: </p>
+
+<ol>
+  <li>Thank you, All of you, who have supported me in my writing.</li>
+  <li>If you’re looking at getting a mechanical keyboard you should seriously consider WASD Keyboards. You won’t be disappointed. </li>
+</ol>
+
+<p>And now, back to work on <a href="https://leanpub.com/painless_tmux/"><em>Painless Tmux</em></a> 😃</p>
+
+<hr />
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:notice">
+      <p>You’ll notice my keyboard has the <code>Ctrl</code> Symbol on the <code>Caps Lock</code> key. My keyboard is now 100% <code>Caps Lock</code> free.<a href="#fnref:notice" rel="reference">&#8617;</a></p>
+    </li>
+    <li id="fn:notyet">
+      <p>I’m not there  yet. I may never get to the point where I try one of the alternate layouts. I used to say “never” about things like that, but after years of saying I’d never learn vim I suddenly changed my mind, so I’m not closing the door entirely.<a href="#fnref:notyet" rel="reference">&#8617;</a></p>
+    </li>
+    <li id="fn:CODEKeyboard">
+      <p>As might be expected of the company that Jeff Atwood chose to make his line of <a href="http://www.codekeyboards.com/">CODE Keyboards</a>. <a href="#fnref:CODEKeyboard" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+]]></content>
+  </entry>
+  
+</feed>
