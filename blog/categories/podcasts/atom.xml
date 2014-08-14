@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: podcasts | Nate Dickson]]></title>
+  <link href="http://natedickson.com/blog/categories/podcasts/atom.xml" rel="self"/>
+  <link href="http://natedickson.com/"/>
+  <updated>2014-08-14T10:17:54-06:00</updated>
+  <id>http://natedickson.com/</id>
+  <author>
+    <name><![CDATA[Nate Dickson]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Getting Back Into Podcasts With Overcast]]></title>
+    <link href="http://natedickson.com/blog/2014/07/22/getting-back-into-podcasts-with-overcast/"/>
+    <updated>2014-07-22T11:05:54-06:00</updated>
+    <id>http://natedickson.com/blog/2014/07/22/getting-back-into-podcasts-with-overcast</id>
+    <content type="html"><![CDATA[<p><img class="right" src="/assets/images/Overcast_iphone.png" width="256" height="256" title="The Overcast App Icon" ></p>
+
+<p>Back when I first got an iPod Touch I was <em>way</em> into podcasts. There were some weirdly terrible ones back then that <em>changed me</em>, man. But for a while my biggest reason for listening to podcasts was because I was commuting, and I needed something brain-stimulating while I was on the road. Ever since I moved closer to my worksite, however, I’ve been doing far less with podcasts, and I realized that I actually miss it. So I decided to get back into it.</p>
+
+<p>My mistake, unfortunately, was that I did some <em>research</em> before trying to get back into podcasts. I should have just downloaded the apple podcasts app and gone on from there. But that’s not my style. Long story short, I didn’t really listen to any podcasts <strong>at all</strong> for a few months while I decided which app I wanted to use. In my wanderings I discovered that Marco Arment of Instapaper fame was making a new podcasting app called <a href="https://overcast.fm/">Overcast</a>, which makes me happy, because I have loved Instapaper for years<sup id="fnref:untilPocket"><a href="#fn:untilPocket" rel="footnote">1</a></sup>, and I respect his appreciation for minimal presentation around the content.</p>
+
+<p>So I waited for Overcast to actually come out, again, putting off my dive back into the world o’ podcasts. I played with <a href="http://downcastapp.com/">Downcast</a> for a while, but wasn’t in love with it. </p>
+
+<p>So, Overcast is finally out, and I wasted no time downloading it and getting back into the world of people talking at their computers, and at some point I’ll probably get into that in another post<sup id="fnref:orNot"><a href="#fn:orNot" rel="footnote">2</a></sup> .</p>
+
+<hr />
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:untilPocket">
+      <p>Until I discovered Pocket. But I wrote about that before. <a href="#fnref:untilPocket" rel="reference">&#8617;</a></p>
+    </li>
+    <li id="fn:orNot">
+      <p>Or not. Short version: Podcasts are quite different than they were eight years ago, mostly quite a bit better. <a href="#fnref:orNot" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+]]></content>
+  </entry>
+  
+</feed>

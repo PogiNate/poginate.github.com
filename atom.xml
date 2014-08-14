@@ -4,7 +4,7 @@
   <title><![CDATA[Nate Dickson]]></title>
   <link href="http://natedickson.com/atom.xml" rel="self"/>
   <link href="http://natedickson.com/"/>
-  <updated>2014-07-09T16:15:47-06:00</updated>
+  <updated>2014-08-14T10:17:54-06:00</updated>
   <id>http://natedickson.com/</id>
   <author>
     <name><![CDATA[Nate Dickson]]></name>
@@ -12,6 +12,76 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Returning to Opera]]></title>
+    <link href="http://natedickson.com/blog/2014/08/14/returning-to-opera/"/>
+    <updated>2014-08-14T10:05:41-06:00</updated>
+    <id>http://natedickson.com/blog/2014/08/14/returning-to-opera</id>
+    <content type="html"><![CDATA[<p><img class="right" src="http://natedickson.com/assets/images/opera_icon.png" title="The Opera Browser" /></p>
+
+<p>I love Opera. I love that they’ve kept the faith, kept making an actual for-profit browser for decades, long after the browser crown has gone to, well,  <em>everyone else</em> over and over. I love that their little team keeps after it, keeps trying, and keeps making the most innovative browsers on the market, and then <em>doesn’t</em> turn around and sue everyone else for copying their best features<sup id="fnref:bestFeatures"><a href="#fn:bestFeatures" rel="footnote">1</a></sup>. Back when IE 6 was still the reigning champion and Firefox was still called Firebird I actually paid for an Opera license, and I would do it again in a heartbeat if they went back to a paid browser model. </p>
+
+<p>Over the years, however, I have used the other darlings of browser-land, like everyone else. Firefox was my browser of choice for years, followed in due course by Chrome, and recently another stint with the ‘Fox, when it became obvious that Chrome was basically just inviting the NSA and advertisers to look over your shoulder the entire time you’re on the internet. </p>
+
+<p>And I’ve loved my time with Firefox. No, it’s not as fast as Chrome. It never will be. But it’s (finally) also not as memory hungry, and is actually a pretty good citizen. And Firebug is a developer’s dream, of course. All in all it’s a very solid browser, and I have no real complaints. </p>
+
+<p>So why leave? What changed my mind? </p>
+
+<p><img class="left" src="http://natedickson.com/assets/images/coast_icon.png" title="The Opera Coast icon" /></p>
+
+<p>There are a couple of things. The first one was Opera Coast, the world’s most interesting browser. Opera once again decided to take a look at what a browser UI should look like and decided that everything that had happened up to this point was wrong and started over. Coast operates under the assumption that either you are going to go to one of the four or five (or ten or twelve…it doesn’t judge) sites you always go to on your mobile device and shows you those. If you are going somewhere new you are going to do a search, right? Okay, pull down to search, and watch the awesome search thingy figure out what you’re looking for and start pre-loading sites while you’re still typing. If you don’t have a specific goal in mind it will show you a list of possibly interesting time killer sites, a feature I’m ashamed to say I’ve used more than a few times. </p>
+
+<p>And once you go to a new site you have the option of adding a chip to the home screen, making it that much easier to come back to. </p>
+
+<p>All the weird hard stuff is gone. You don’t have an address bar. When you are on a page there is zero chrome around the page except a little shortcut back to the home screen. All the interactions are intuitive and fluid. Opera has made a browser that actually makes sense on a phone. </p>
+
+<p>So, having discovered Coast, I decided to see what desktop Opera looks like these days. It’s been a few years since I’ve tried it out, and it deserved another look. And a lot of the end-user consideration that has gone into Coast has gone into the desktop browser as well. Speed Dial, another Opera invention, has had a facelift and now is almost iPad-like in it’s use of tiles and folders. The new “Stash” feature lets you grab pages that you are visiting frequently for a while and keep them organized and visible. I can see this being helpful if you’re following a particular event and want to keep some sites handy while that event is going on, but once it’s over you can clear it out of your Stash and move on. This is definitely a psychological divide (it’s not that hard to delete bookmarks) but it works well. </p>
+
+<p>And, again, if you’re just looking to kill some time you’ve got a Discover tab a la Coast. </p>
+
+<p>Under the hood, Opera is using WebKit, the same engine that powers Chrome and Safari, so it’s sufficiently speedy and does all the typical browser stuff just fine. But the additional thoughtful touches in the UI have made it my current browser of choice. </p>
+
+<hr />
+<div class="footnotes">
+  <ol>
+    <li id="fn:bestFeatures">
+      <p>Tabbed browsing, browser extensions, and a “speed dial” new tab screen are three highlights of Opera’s huge list of firsts. <a href="#fnref:bestFeatures" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Getting Back Into Podcasts With Overcast]]></title>
+    <link href="http://natedickson.com/blog/2014/07/22/getting-back-into-podcasts-with-overcast/"/>
+    <updated>2014-07-22T11:05:54-06:00</updated>
+    <id>http://natedickson.com/blog/2014/07/22/getting-back-into-podcasts-with-overcast</id>
+    <content type="html"><![CDATA[<p><img class="right" src="http://natedickson.com/assets/images/Overcast_iphone.png" width="256" height="256" title="The Overcast App Icon" /></p>
+
+<p>Back when I first got an iPod Touch I was <em>way</em> into podcasts. There were some weirdly terrible ones back then that <em>changed me</em>, man. But for a while my biggest reason for listening to podcasts was because I was commuting, and I needed something brain-stimulating while I was on the road. Ever since I moved closer to my worksite, however, I&rsquo;ve been doing far less with podcasts, and I realized that I actually miss it. So I decided to get back into it.</p>
+
+<p>My mistake, unfortunately, was that I did some <em>research</em> before trying to get back into podcasts. I should have just downloaded the apple podcasts app and gone on from there. But that&rsquo;s not my style. Long story short, I didn&rsquo;t really listen to any podcasts <strong>at all</strong> for a few months while I decided which app I wanted to use. In my wanderings I discovered that Marco Arment of Instapaper fame was making a new podcasting app called <a href="https://overcast.fm/">Overcast</a>, which makes me happy, because I have loved Instapaper for years<sup id="fnref:untilPocket"><a href="#fn:untilPocket" rel="footnote">1</a></sup>, and I respect his appreciation for minimal presentation around the content.</p>
+
+<p>So I waited for Overcast to actually come out, again, putting off my dive back into the world o&rsquo; podcasts. I played with <a href="http://downcastapp.com/">Downcast</a> for a while, but wasn&rsquo;t in love with it. </p>
+
+<p>So, Overcast is finally out, and I wasted no time downloading it and getting back into the world of people talking at their computers, and at some point I&rsquo;ll probably get into that in another post<sup id="fnref:orNot"><a href="#fn:orNot" rel="footnote">2</a></sup> .</p>
+
+<hr />
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:untilPocket">
+      <p>Until I discovered Pocket. But I wrote about that before. <a href="#fnref:untilPocket" rel="reference">&#8617;</a></p>
+    </li>
+    <li id="fn:orNot">
+      <p>Or not. Short version: Podcasts are quite different than they were eight years ago, mostly quite a bit better. <a href="#fnref:orNot" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Fully Custom Keyboard]]></title>
@@ -711,97 +781,6 @@ Working on <a href="http://leanpub.com/painless_vim">Painless Vim</a> has been a
     </li>
   </ol>
 </div>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[From Scrivener to Leanpub in One Step]]></title>
-    <link href="http://natedickson.com/blog/2013/05/30/from-scrivener-to-leanpub-in-one-step/"/>
-    <updated>2013-05-30T00:46:00-06:00</updated>
-    <id>http://natedickson.com/blog/2013/05/30/from-scrivener-to-leanpub-in-one-step</id>
-    <content type="html"><![CDATA[<p>I’m working on <em><a href="https://leanpub.com/painless_vim">Painless Vim</a></em> in <a href="www.literatureandlatte.com/scrivener.php">Scrivener</a>, because I love its organizational capabilities <sup id="fnref:2"><a href="#fn:2" rel="footnote">1</a></sup> …or have I mentioned my love of Scrivener before? (yes)</p>
-
-<p>The problem arises when I want to push my text to <a href="https://leanpub.com">Leanpub</a>. Scrivener has two very good ways to get your text out of Scriv into the world: you can <em>export</em> each text as a file, or you can <em>compile</em> it into a single document ready to send off to a printer. They’ve both got their pros and cons, but to really understand them we need a brief detour into how publishing on Leanpub works:</p>
-
-<h3 id="brief-detour-into-how-publishing-on-leanpub-works">Brief Detour Into How Publishing on Leanpub Works</h3>
-
-<p>to publish your text on Leanpub you put all your chapters or whatever into individual <code>.txt</code> files, which you put into a special Dropbox folder called something like <code>~/Dropbox/name_of_book/manuscript/</code>. then you include a file called <code>Book.txt</code> to tell Leanpub what order the text files should be in when the book is put together. You can also create a <code>Sample.txt</code> file that tells Leanpub which text files to put into a free sample that potential buyers can download, and  a <code>Preview.txt</code> file that lets you just render a specific part of the book to make sure the formatting looks the way you want it. Okay, that’s your brief tutorial on Leanpub.</p>
-
-<p>So, back to getting text out of Scrivener into this folder.</p>
-
-<p>The compile option seems like a great choice at first: it creates a single text file made up of all the text in your document, formatted however you like, and once you’ve created your compile settings it’s a single click operation. </p>
-
-<p>The problem is with the Sample and Preview options. Since your text is all in a single file you can’t pick and choose individual parts of the text to give away for free. You could have two separate compile settings, but that seems very labor intensive.</p>
-
-<p>So, the “export” option is the way to go, right? Every text section in your Scrivener project is exported as a single text file, just like Leanpub wants, you can create <code>Sample.txt</code> and <code>Preview.txt</code> files and everything is good. </p>
-
-<p>Well, one problem. Let’s say  you’ve got your book laid out in Folders instead of as just a list of text files in Scrivener. When it exports your book it creates the full file structure:</p>
-
-<pre><code>Painless Vim
-| 
-+- Part I
-|	|
-|	+- Chapter 1.txt
-|	+- Chapter2.txt
-+- Part II
-	|
-	+- Chapter 3.txt	 
-</code></pre>
-
-<p>And so forth. You get the picture. This is a problem because Leanpub doesn’t do subfolders; you need all the files to be in the root of the <code>manuscript/</code> directory. So, after doing an export from Scrivener I needed a way to flatten out the file system.</p>
-
-<h3 id="enter-automator">Enter Automator</h3>
-
-<p>Here’s the fun part. I could have written a ruby script to go through the exported file and copy all the <code>.txt</code> files to the <code>manuscript</code> folder. But that would have taken <em>minutes</em>. Like, <em>dozens</em> of them. So I decided to once again let Automator have a crack at it.</p>
-
-<p>And it was <strong>easy</strong>. Automator has gotten a lot more useful since last I played with it<sup id="fnref:1"><a href="#fn:1" rel="footnote">2</a></sup>, with things like variables and other things you’d expect from a real scripting environment. What’s more, I was able to set up my workflow as a “folder action”, watching the <code>~/Documents/Painless/</code> folder which I created specifically for this purpose. Now I just tell Scrivener to export into that directory and Automator takes it from there. </p>
-
-<p>The Automator workflow I set up is dead simple:</p>
-
-<ol>
-  <li>Save the name of whatever just appeared in <code>Painless</code> in a variable called <code>New Folder</code> <sup id="fnref:names"><a href="#fn:names" rel="footnote">3</a></sup> .</li>
-  <li>Get everything in the new folder, recursively</li>
-  <li>Filter that list by file extension (in this case, we only want .txt files)</li>
-  <li>Copy all those text files to <code>~/Dropbox/painless_vim/manuscript/</code>, overwriting any existing files.</li>
-  <li>Delete whatever is stored in <code>incoming</code>. </li>
-</ol>
-
-<p>And there you have it. The last step is just to make the export from Scrivener one step shorter, because it doesn’t have to ask if you want to overwrite your last export.</p>
-
-<p>There are a lot of advantages to this setup. I can now export a single text file or folder instead of the entire project, and just that file will get overwritten. For single file exports this is nearly instantaneous, opposed to the <em>three whole seconds</em> it takes to export my entire project.  I  can also have <em>all</em> my files, including my <code>Book.txt, Sample.txt</code> and <code>Preview.txt</code> managed in Scrivener, which I couldn’t do if I were doing the Compile option. </p>
-
-<p>Over all I’m very pleased with this workflow. It’s taken one of the pain points out of writing <em>Painless Vim</em>. </p>
-
-<div class="footnotes">
-  <ol>
-    <li id="fn:2">
-      <p>Okay, I know it seems odd that I’m writing a book called <em>Painless Vim</em> and here I am admitting that I’m using a completely different editor to write it. What’s the deal here? The deal is that it’s really easy to copy and paste text around between editors (especially using Hog Bay’s <a href="http://www.hogbaysoftware.com/products/quickcursor">QuickCursor</a>, but that’s an entirely different footnote), and while I do most of the actual writing in vim, I keep the text files in Scrivener for reasons that will be expounded upon in a future blog post.<a href="#fnref:2" rel="reference">&#8617;</a></p>
-    </li>
-    <li id="fn:1">
-      <p>at least four years ago<a href="#fnref:1" rel="reference">&#8617;</a></p>
-    </li>
-    <li id="fn:names">
-      <p>Let’s not make fun of bad variable names here, Thank you so much.<a href="#fnref:names" rel="reference">&#8617;</a></p>
-    </li>
-  </ol>
-</div>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Introducing Painless Vim]]></title>
-    <link href="http://natedickson.com/blog/2013/05/22/introducing-painless-vim/"/>
-    <updated>2013-05-22T12:47:00-06:00</updated>
-    <id>http://natedickson.com/blog/2013/05/22/introducing-painless-vim</id>
-    <content type="html"><![CDATA[<p><img class="left" src="http://natedickson.com/images/painless_cover.png" title="Painless Vim Cover" />
-I&rsquo;m excited to announce the availability of <em>Painless Vim</em>, my new (indeed, still in progress) book on the ever powerful vim editor! While the book is still in progress, you can pick up a copy at <a href="https://leanpub.com/painless_vim">Leanpub</a> right now and make suggestions to help guide the development of this book. I&rsquo;m very impressed by the Leanpub system, allowing authors to write their books out in the open and get feedback along the way. </p>
-
-<h2 id="why-another-vim-tutorial">Why Another Vim Tutorial?</h2>
-
-<p>I started thinking about writing this book when I realized I <a href="http://yehudakatz.com/2010/07/29/everyone-who-tried-to-convince-me-to-use-vim-was-wrong/">wasn&rsquo;t the only developer</a> who has tried to use vim and was put off by the vast majority of vim training available. Vim is really very developer friendly, but a lot of the teaching resources for vim are anything but. My goal is to take the best of what I have picked up in my journey to vim and present it in a way that helps other people get over the initial hurdle and into the good parts of the editor.</p>
-
-<p>I&rsquo;ll be writing quite a bit about the development process of the book and the workflow involved. Watch this space!</p>
-
 ]]></content>
   </entry>
   

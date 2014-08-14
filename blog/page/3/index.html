@@ -9,7 +9,7 @@
   <meta name="author" content="Nate Dickson">
 
   
-  <meta name="description" content="NOTE: I’m presenting this as a movie plot, not actual science. I’m a programmer, not a physicist. I’m fully aware that I have no idea how physics &hellip;">
+  <meta name="description" content="I’m working on Painless Vim in Scrivener, because I love its organizational capabilities 1 …or have I mentioned my love of Scrivener before? (yes) &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -32,7 +32,7 @@
   <meta property="twitter:site" content="poginate" />
   <meta property="twitter:url" content="http://natedickson.com/blog/page/3/" />
   <meta property="twitter:title" content="Nate Dickson" />
-  <meta property="twitter:description" content="NOTE: I’m presenting this as a movie plot, not actual science. I’m a programmer, not a physicist. I’m fully aware that I have no idea how physics works and that everything below is probably complete &hellip;" />
+  <meta property="twitter:description" content="I’m working on Painless Vim in Scrivener, because I love its organizational capabilities 1 …or have I mentioned my love of Scrivener before? (yes) The problem arises when I want to push my text to &hellip;" />
   <meta property="twitter:creator" content="poginate" />
   
 
@@ -80,6 +80,151 @@
       <div id="content">
         <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2013/05/30/from-scrivener-to-leanpub-in-one-step/">From Scrivener to Leanpub in One Step</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-05-30T00:46:00-06:00" pubdate data-updated="true">May 30<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I’m working on <em><a href="https://leanpub.com/painless_vim">Painless Vim</a></em> in <a href="www.literatureandlatte.com/scrivener.php">Scrivener</a>, because I love its organizational capabilities <sup id="fnref:2"><a href="#fn:2" rel="footnote">1</a></sup> …or have I mentioned my love of Scrivener before? (yes)</p>
+
+<p>The problem arises when I want to push my text to <a href="https://leanpub.com">Leanpub</a>. Scrivener has two very good ways to get your text out of Scriv into the world: you can <em>export</em> each text as a file, or you can <em>compile</em> it into a single document ready to send off to a printer. They’ve both got their pros and cons, but to really understand them we need a brief detour into how publishing on Leanpub works:</p>
+
+<h3 id="brief-detour-into-how-publishing-on-leanpub-works">Brief Detour Into How Publishing on Leanpub Works</h3>
+
+<p>to publish your text on Leanpub you put all your chapters or whatever into individual <code>.txt</code> files, which you put into a special Dropbox folder called something like <code>~/Dropbox/name_of_book/manuscript/</code>. then you include a file called <code>Book.txt</code> to tell Leanpub what order the text files should be in when the book is put together. You can also create a <code>Sample.txt</code> file that tells Leanpub which text files to put into a free sample that potential buyers can download, and  a <code>Preview.txt</code> file that lets you just render a specific part of the book to make sure the formatting looks the way you want it. Okay, that’s your brief tutorial on Leanpub.</p>
+
+<p>So, back to getting text out of Scrivener into this folder.</p>
+
+<p>The compile option seems like a great choice at first: it creates a single text file made up of all the text in your document, formatted however you like, and once you’ve created your compile settings it’s a single click operation. </p>
+
+<p>The problem is with the Sample and Preview options. Since your text is all in a single file you can’t pick and choose individual parts of the text to give away for free. You could have two separate compile settings, but that seems very labor intensive.</p>
+
+<p>So, the “export” option is the way to go, right? Every text section in your Scrivener project is exported as a single text file, just like Leanpub wants, you can create <code>Sample.txt</code> and <code>Preview.txt</code> files and everything is good. </p>
+
+<p>Well, one problem. Let’s say  you’ve got your book laid out in Folders instead of as just a list of text files in Scrivener. When it exports your book it creates the full file structure:</p>
+
+<pre><code>Painless Vim
+| 
++- Part I
+|	|
+|	+- Chapter 1.txt
+|	+- Chapter2.txt
++- Part II
+	|
+	+- Chapter 3.txt	 
+</code></pre>
+
+<p>And so forth. You get the picture. This is a problem because Leanpub doesn’t do subfolders; you need all the files to be in the root of the <code>manuscript/</code> directory. So, after doing an export from Scrivener I needed a way to flatten out the file system.</p>
+
+<h3 id="enter-automator">Enter Automator</h3>
+
+<p>Here’s the fun part. I could have written a ruby script to go through the exported file and copy all the <code>.txt</code> files to the <code>manuscript</code> folder. But that would have taken <em>minutes</em>. Like, <em>dozens</em> of them. So I decided to once again let Automator have a crack at it.</p>
+
+<p>And it was <strong>easy</strong>. Automator has gotten a lot more useful since last I played with it<sup id="fnref:1"><a href="#fn:1" rel="footnote">2</a></sup>, with things like variables and other things you’d expect from a real scripting environment. What’s more, I was able to set up my workflow as a “folder action”, watching the <code>~/Documents/Painless/</code> folder which I created specifically for this purpose. Now I just tell Scrivener to export into that directory and Automator takes it from there. </p>
+
+<p>The Automator workflow I set up is dead simple:</p>
+
+<ol>
+  <li>Save the name of whatever just appeared in <code>Painless</code> in a variable called <code>New Folder</code> <sup id="fnref:names"><a href="#fn:names" rel="footnote">3</a></sup> .</li>
+  <li>Get everything in the new folder, recursively</li>
+  <li>Filter that list by file extension (in this case, we only want .txt files)</li>
+  <li>Copy all those text files to <code>~/Dropbox/painless_vim/manuscript/</code>, overwriting any existing files.</li>
+  <li>Delete whatever is stored in <code>incoming</code>. </li>
+</ol>
+
+<p>And there you have it. The last step is just to make the export from Scrivener one step shorter, because it doesn’t have to ask if you want to overwrite your last export.</p>
+
+<p>There are a lot of advantages to this setup. I can now export a single text file or folder instead of the entire project, and just that file will get overwritten. For single file exports this is nearly instantaneous, opposed to the <em>three whole seconds</em> it takes to export my entire project.  I  can also have <em>all</em> my files, including my <code>Book.txt, Sample.txt</code> and <code>Preview.txt</code> managed in Scrivener, which I couldn’t do if I were doing the Compile option. </p>
+
+<p>Over all I’m very pleased with this workflow. It’s taken one of the pain points out of writing <em>Painless Vim</em>. </p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:2">
+      <p>Okay, I know it seems odd that I’m writing a book called <em>Painless Vim</em> and here I am admitting that I’m using a completely different editor to write it. What’s the deal here? The deal is that it’s really easy to copy and paste text around between editors (especially using Hog Bay’s <a href="http://www.hogbaysoftware.com/products/quickcursor">QuickCursor</a>, but that’s an entirely different footnote), and while I do most of the actual writing in vim, I keep the text files in Scrivener for reasons that will be expounded upon in a future blog post.<a href="#fnref:2" rel="reference">&#8617;</a></p>
+    </li>
+    <li id="fn:1">
+      <p>at least four years ago<a href="#fnref:1" rel="reference">&#8617;</a></p>
+    </li>
+    <li id="fn:names">
+      <p>Let’s not make fun of bad variable names here, Thank you so much.<a href="#fnref:names" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2013/05/22/introducing-painless-vim/">Introducing Painless Vim</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-05-22T12:47:00-06:00" pubdate data-updated="true">May 22<span>nd</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><img class="left" src="/images/painless_cover.png" title="Painless Vim Cover" />
+I&rsquo;m excited to announce the availability of <em>Painless Vim</em>, my new (indeed, still in progress) book on the ever powerful vim editor! While the book is still in progress, you can pick up a copy at <a href="https://leanpub.com/painless_vim">Leanpub</a> right now and make suggestions to help guide the development of this book. I&rsquo;m very impressed by the Leanpub system, allowing authors to write their books out in the open and get feedback along the way. </p>
+
+<h2 id="why-another-vim-tutorial">Why Another Vim Tutorial?</h2>
+
+<p>I started thinking about writing this book when I realized I <a href="http://yehudakatz.com/2010/07/29/everyone-who-tried-to-convince-me-to-use-vim-was-wrong/">wasn&rsquo;t the only developer</a> who has tried to use vim and was put off by the vast majority of vim training available. Vim is really very developer friendly, but a lot of the teaching resources for vim are anything but. My goal is to take the best of what I have picked up in my journey to vim and present it in a way that helps other people get over the initial hurdle and into the good parts of the editor.</p>
+
+<p>I&rsquo;ll be writing quite a bit about the development process of the book and the workflow involved. Watch this space!</p>
+
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -595,101 +740,6 @@ Another benefit is that <em>your</em> content is now styled <em>my</em> way. No 
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/04/04/ulysses-iii-a-huge-leap-forward/">Ulysses III: A Huge Leap Forward</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-04-04T15:45:00-06:00" pubdate data-updated="true">Apr 4<span>th</span>, 2013</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>I’ll admit it, I’ve had a sick love/hate relationship with <a href="http://www.ulyssesapp.com/">Ulysses</a> for years. I first heard of it by way of <a href="http://www.literatureandlatte.com/scrivener.php">Scrivener</a>, my beloved freeform creative writing app. And the Ulysses of then just was not a thing of beauty. The interface had a lot of holdovers from early- or pre-OSX days, and was pretty cluttered (which is quite a statement, given <a href="http://www.literatureandlatte.com/gfx/ScrivShots/write_structure_revise.jpg">Scrivener’s interface</a>. I love Scrivener, but it’s clearly a <em>tool</em>…look, I’m off topic again.) and unfriendly. I could see some of the power that was inherent in the product, but it just wasn’t for me.</p>
-
-<p>Well, A few days ago Ulysses III released a brand new version, and they <strong>nailed</strong> it. They took the bold step of abandoning everything they’d done before, threw out the interface entirely, and started over. They took a look at what the OSX world is doing now, in terms of interface, and did that. A very finder-like sidebar gives you access to all your text, organized based on where it lives. (iCloud, on your mac, or, if you have the <a href="http://daedalusapp.com/">Daedalus app</a> for iOS, in your Daedalus iCloud folder) Inside each folder you have your texts, (called “sheets”, as in “sheets of paper”) all of which are auto-saved at all times, so you don’t have to worry about hitting <code>⌘S</code> all the time. It’s a surprisingly slick and easy way to just sit down and <em>write</em> without worrying about filenames or sync options of any such things. You just start writing and worry about organization later, once you’ve got something out there. </p>
-
-<h2 id="the-cons">The Cons</h2>
-<p>It’s not all peaches and light, of course. The developers have pointed out that this is a 1.0 release, even if it <em>is</em> called Ulysses III. The app stores its files in <code>.ulysses</code> format, which isn’t interoperable with tools like Marked, which means its a little harder to get previews of your text post-Markdown-rendering. (It’s still quite possible, but not quite easy). It doesn’t natively handle <a href="http://fletcherpenney.net/multimarkdown/">MultiMarkdown</a>, but it exports multimarkdown-compatible footnotes. I’m guessing that the <code>.ulysses</code> file format is a bundle that wraps up all the images and keywords and notes and whatnot, but it does make interoperability with other apps a little harder. </p>
-
-<p>But this is a minor gripe, and isn’t a flaw so much as a design decision that was clearly made with forethought. They decided that Ulysses was written as a creation app. You can share later, but create your text <em>first</em>. </p>
-
-<p>All in all, I’m deeply impressed with the level of polish and attention that went into the latest version, and I’d recommend you pick it up.</p>
-
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/04/02/scapple-letting-your-mind-wander/">Scapple: Letting Your Mind Wander</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-04-02T11:32:00-06:00" pubdate data-updated="true">Apr 2<span>nd</span>, 2013</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p><a href="http://www.literatureandlatte.com/forum/viewforum.php?f=42&amp;sid=2665c0358883722ee7431c87c46199a2">Scapple</a> is a still-in-beta project from <a href="http://literatureandlatte.com">Literature &amp; Latte</a>, the amazing developers who brought the blessed <a href="http://www.literatureandlatte.com/scrivener.php">Scrivener</a> into the world.</p>
-
-<p>I’ve enthused about Scrivener <a href="http://www.favoritethingever.com/2010/10/scrivener/">before</a>, so I’ll refrain for now. But the folks at L&amp;L have an amazing focus on writing and the tools of the trade, and have given us one more tool to make the whole process easier. </p>
-
-<p>Scrivener is a great tool for the actual <em>writing</em> part of writing. You can layout the sections you <strong>want</strong> to write, get a general idea of the shape of the document you’re putting together, and then fill in the blanks as the mood moves you to write a specific section or chapter or however you’ve split up your text. But Scriv isn’t quite as great at the brainstorming part. All your notes have to be in folders or Drafts or anywhere <em>but</em> drafts or whatever, and you don’t quite feel as free to just throw things out there. That’s where Scapple comes in.</p>
-
-<p>Scapple is a brainstorming app, if you have to give it a name. It’s not quite a mind mapping app, because it doesn’t follow “the rules” of mind mapping. Your notes can be thrown willy-nilly onto the sheet, with our without any relation to any other note anywhere. As you scribble down ideas you can link them all up as the linkages become obvious, letting the pattern of what you’re thinking emerge organically. </p>
-
-<p>In addition, all the little bells and whistles you want are there, not cluttering up the plain paper aesthetics of the app, but available if you want them. In true OSX style most of them can be accessed via a free-floating inspector window, and with just a few steps you can color or style individual notes (or groups of notes, for that matter.) No meaning is imposed on anything, so you can use link styles, colors and text sizes to mean whatever you want them to mean. </p>
-
-<p>In general this is a tool that is extremely adept at getting out of your way and letting you think, then popping back into view when you want to tinker a little bit. I found that after throwing a few notes on there about a writing project I wanted to line a few things up to show that they’re equal, if not connected. This was exactly as easy as you would expect: I command-clicked the notes I wanted to line up, right clicked, and there was the align menu. No extra steps, no fuss. </p>
-
-<p>To sum up, this is a great little app that can be a major addition to any creative professional’s workflow. I strongly recommend checking it out. The final retail version should be out soonish, but the beta is free through the end of April. Give it a try.</p>
-
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/4/">&larr; Older</a>
@@ -707,6 +757,14 @@ Another benefit is that <em>your</em> content is now styled <em>my</em> way. No 
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2014/08/14/returning-to-opera/">Returning to Opera</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/07/22/getting-back-into-podcasts-with-overcast/">Getting Back Into Podcasts With Overcast</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2014/07/09/fully-custom-keyboard/">Fully Custom Keyboard</a>
       </li>
     
@@ -716,14 +774,6 @@ Another benefit is that <em>your</em> content is now styled <em>my</em> way. No 
     
       <li class="post">
         <a href="/blog/2014/06/09/introducing-painless-tmux/">Introducing Painless Tmux</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/05/07/walking-home-with-chicago-avenue-moon/">Walking Home With Chicago Avenue Moon</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/03/07/writing-with-the-alphasmart-neo/">Writing With the Alphasmart NEO</a>
       </li>
     
   </ul>
