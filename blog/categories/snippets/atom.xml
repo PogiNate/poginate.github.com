@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: snippets | Nate Dickson]]></title>
+  <link href="http://natedickson.com/blog/categories/snippets/atom.xml" rel="self"/>
+  <link href="http://natedickson.com/"/>
+  <updated>2014-08-29T11:49:13-06:00</updated>
+  <id>http://natedickson.com/</id>
+  <author>
+    <name><![CDATA[Nate Dickson]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Possible Titles For Painless Vim]]></title>
+    <link href="http://natedickson.com/blog/2014/08/29/possible-titles-for-painless-vim/"/>
+    <updated>2014-08-29T11:41:59-06:00</updated>
+    <id>http://natedickson.com/blog/2014/08/29/possible-titles-for-painless-vim</id>
+    <content type="html"><![CDATA[<p>I was going through some old scraps of things I’ve written and found this brainstorming list of possible titles for my  <a href="https://leanpub.com/painless_vim">then-upcoming book on vim.</a> before I settled on the current title. I kind of like some of these, but overall I think I went for the best one. </p>
+
+<h2 id="vim-book-titles">Vim Book Titles</h2>
+
+<ul>
+  <li>Vim in One (Long) Day</li>
+  <li>Long Day’s Journey into Vim</li>
+  <li>Gradual Vim</li>
+  <li>Vim for Smart People Who Could Use a Little Help</li>
+  <li>Vim for the Wise</li>
+  <li>Growing into Vim</li>
+  <li>Reluctant Vim</li>
+  <li>Painless Vim</li>
+  <li>The Sane Person’s Guide to Vim</li>
+  <li>Vim for the Sane</li>
+</ul>
+
+<hr />
+
+<p>I really liked <em>Long Day’s Journey into Vim</em>, but that cover would have been <em>hideous</em> and it didn’t really have the “friendly and breezy” vibe I was going for. Ditto <em>Reluctant Vim</em>. </p>
+]]></content>
+  </entry>
+  
+</feed>

@@ -4,7 +4,7 @@
   <title><![CDATA[Nate Dickson]]></title>
   <link href="http://natedickson.com/atom.xml" rel="self"/>
   <link href="http://natedickson.com/"/>
-  <updated>2014-08-14T12:49:53-06:00</updated>
+  <updated>2014-08-29T11:49:13-06:00</updated>
   <id>http://natedickson.com/</id>
   <author>
     <name><![CDATA[Nate Dickson]]></name>
@@ -12,6 +12,34 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Possible Titles For Painless Vim]]></title>
+    <link href="http://natedickson.com/blog/2014/08/29/possible-titles-for-painless-vim/"/>
+    <updated>2014-08-29T11:41:59-06:00</updated>
+    <id>http://natedickson.com/blog/2014/08/29/possible-titles-for-painless-vim</id>
+    <content type="html"><![CDATA[<p>I was going through some old scraps of things I’ve written and found this brainstorming list of possible titles for my  <a href="https://leanpub.com/painless_vim">then-upcoming book on vim.</a> before I settled on the current title. I kind of like some of these, but overall I think I went for the best one. </p>
+
+<h2 id="vim-book-titles">Vim Book Titles</h2>
+
+<ul>
+  <li>Vim in One (Long) Day</li>
+  <li>Long Day’s Journey into Vim</li>
+  <li>Gradual Vim</li>
+  <li>Vim for Smart People Who Could Use a Little Help</li>
+  <li>Vim for the Wise</li>
+  <li>Growing into Vim</li>
+  <li>Reluctant Vim</li>
+  <li>Painless Vim</li>
+  <li>The Sane Person’s Guide to Vim</li>
+  <li>Vim for the Sane</li>
+</ul>
+
+<hr />
+
+<p>I really liked <em>Long Day’s Journey into Vim</em>, but that cover would have been <em>hideous</em> and it didn’t really have the “friendly and breezy” vibe I was going for. Ditto <em>Reluctant Vim</em>. </p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Returning to Opera]]></title>
@@ -767,35 +795,6 @@ Working on <a href="http://leanpub.com/painless_vim">Painless Vim</a> has been a
   <ol>
     <li id="fn:mostly">
       <p>Mostly. It only handles Gruber markdown, meaning no footnotes, etc.<a href="#fnref:mostly" rel="reference">&#8617;</a></p>
-    </li>
-  </ol>
-</div>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Free Books!]]></title>
-    <link href="http://natedickson.com/blog/2013/07/11/free-books/"/>
-    <updated>2013-07-11T09:11:00-06:00</updated>
-    <id>http://natedickson.com/blog/2013/07/11/free-books</id>
-    <content type="html"><![CDATA[<p>So, I recently put a coupon up on <a href="https://twitter.com/poginate">Twitter</a> and <a href="https://alpha.app.net/poginate">App.net</a> offering ten people the opportunity to get a free copy of my book <em><a href="https://leanpub.com/painless_vim">Painless Vim</a></em>, which is still very much in <strong>alpha</strong>. But I figured attracting a few extra readers couldn’t do anything but help. </p>
-
-<p>And in next to no time all ten free copies were gone, which is awesome. I’m not so much about the money on this one, I’m just enjoying writing it and really want to see it published and hopefully help a few people. </p>
-
-<p>Anyway, it occurred to me that I hadn’t offered free copies to any of my faithful blog followers! So, here’s the deal: here’s another coupon code, also good for the first 10, nah, let’s say 20 people, but the condition is that I <em>really</em> would like any feedback you have about the book, even in this early state. Okay, ready? Here’s the skinny:</p>
-
-<ol>
-  <li>Go to <a href="https://leanpub.com/painless_vim">https://leanpub.com/painless_vim</a></li>
-  <li>buy the book using the coupon code <strong>Blog20</strong>. <sup id="fnref:paymor"><a href="#fn:paymor" rel="footnote">1</a></sup></li>
-  <li>Give me some awesome and useful feedback on the book either through the Leanpub site, as a comment on this site. Or ping me on <a href="https://twitter.com/poginate">Twitter</a>/<a href="https://alpha.app.net/poginate">App.net</a> with the hashtag #PainlessVim. However you get the feedback to me I will definitely take it into consideration and use it to improve the book.</li>
-</ol>
-
-<hr />
-
-<div class="footnotes">
-  <ol>
-    <li id="fn:paymor">
-      <p>And if you <em>want</em> to pay more than nothing I won’t stop you! Seriously! I’d be fine with it!<a href="#fnref:paymor" rel="reference">&#8617;</a></p>
     </li>
   </ol>
 </div>
