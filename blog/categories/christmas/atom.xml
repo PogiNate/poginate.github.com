@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: christmas | Nate Dickson]]></title>
+  <link href="http://natedickson.com/blog/categories/christmas/atom.xml" rel="self"/>
+  <link href="http://natedickson.com/"/>
+  <updated>2014-09-15T13:54:42-06:00</updated>
+  <id>http://natedickson.com/</id>
+  <author>
+    <name><![CDATA[Nate Dickson]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[PSA: Deleting Songs of Innocence Will Cancel Christmas]]></title>
+    <link href="http://natedickson.com/blog/2014/09/15/psa-deleting-songs-of-innocence-will-cancel-christmas/"/>
+    <updated>2014-09-15T13:10:00-06:00</updated>
+    <id>http://natedickson.com/blog/2014/09/15/psa-deleting-songs-of-innocence-will-cancel-christmas</id>
+    <content type="html"><![CDATA[<p><img class="right" src="/assets/images/U2_Songs_of_Innocence_cover.jpg" title="Songs of Innocence Cover Image" ></p>
+
+<p>News of the <a href="http://arstechnica.com/apple/2014/09/apple-puts-up-support-page-to-get-u2-album-out-of-your-itunes/">backlash</a> against U2’s <em>Songs of Innocence</em> has reached the North Pole. Santa Claus today has released a statement:</p>
+
+<blockquote>
+  <p>There was a time when people enjoyed having an old guy sneak into their house and give them free stuff. As my good friends Paul [Hewson] and Tim [Cook] have seen, that time has passed. So I am warning anyone who decides to use the “<a href="http://itunes.com/soi-remove">remove <em>Songs of Innocence</em></a>” tool. I wanted to announce that I will also be removing your name from my list of annual visits. Thank you.</p>
+</blockquote>
+
+<h2 id="we-were-young-not-dumb">We Were Young, Not Dumb</h2>
+
+<p>I like U2, although their last couple of albums have been a long downhill slide and it’s unlikely that I would have purchased this one. So in one sense, I’m okay with Apple buying the new album and giving it to me <em>gratis</em>. </p>
+
+<p>And I suspect that for a lot of people the album itself isn’t the problem. As one of my friends put it:</p>
+
+<blockquote>
+  <p>…for me, it’s a weird boundary issue. Like, I’m fine with someone sending me a free CD in the mail, I’m less fine with a CD randomly appearing on my coffee table while I’m at work. </p>
+</blockquote>
+
+<p>None of us like reminders that our devices are only “ours” on the surface. We try not to acknowledge that Apple<sup id="fnref:android"><a href="#fn:android" rel="footnote">1</a></sup> reigns supreme on the device. We like the illusion of security and privacy, and anything that erodes that illusion creeps us out. </p>
+
+<p>For others, of course, the album <em>is</em> the problem. I trust Apple to allow me to buy whatever music, books, movies, and apps I want without censorship or oversight<sup id="fnref:with"><a href="#fn:with" rel="footnote">2</a></sup>. I want them to keep my music library safe, and keep it <em>mine</em>. I don’t want them dictating what constitutes “good music” to me. I like U2, so I’m not bothered by this particular album. But if Apple had shoved a John Meyer or Beyoncé or (more plausibly) Dr. Dré album into my iTunes library I would have been incensed. </p>
+
+<p>So, Bono Claus, if you’re reading this<sup id="fnref:nope"><a href="#fn:nope" rel="footnote">3</a></sup>: next time you want to give us something for free please just <em>knock</em> instead of coming down the chimney. </p>
+
+<hr />
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:android">
+      <p>Or Google, if you’re using Android<a href="#fnref:android" rel="reference">&#8617;</a></p>
+    </li>
+    <li id="fn:with">
+      <p>okay, with some censorship and oversight. Quite a bit, actually. But you know what I mean.<a href="#fnref:with" rel="reference">&#8617;</a></p>
+    </li>
+    <li id="fn:nope">
+      <p>he’s not. <a href="#fnref:nope" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+]]></content>
+  </entry>
+  
+</feed>

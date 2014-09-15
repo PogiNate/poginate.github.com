@@ -4,7 +4,7 @@
   <title><![CDATA[Nate Dickson]]></title>
   <link href="http://natedickson.com/atom.xml" rel="self"/>
   <link href="http://natedickson.com/"/>
-  <updated>2014-08-29T11:49:13-06:00</updated>
+  <updated>2014-09-15T13:54:42-06:00</updated>
   <id>http://natedickson.com/</id>
   <author>
     <name><![CDATA[Nate Dickson]]></name>
@@ -12,6 +12,53 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[PSA: Deleting Songs of Innocence Will Cancel Christmas]]></title>
+    <link href="http://natedickson.com/blog/2014/09/15/psa-deleting-songs-of-innocence-will-cancel-christmas/"/>
+    <updated>2014-09-15T13:10:00-06:00</updated>
+    <id>http://natedickson.com/blog/2014/09/15/psa-deleting-songs-of-innocence-will-cancel-christmas</id>
+    <content type="html"><![CDATA[<p><img class="right" src="http://natedickson.com/assets/images/U2_Songs_of_Innocence_cover.jpg" title="Songs of Innocence Cover Image" /></p>
+
+<p>News of the <a href="http://arstechnica.com/apple/2014/09/apple-puts-up-support-page-to-get-u2-album-out-of-your-itunes/">backlash</a> against U2’s <em>Songs of Innocence</em> has reached the North Pole. Santa Claus today has released a statement:</p>
+
+<blockquote>
+  <p>There was a time when people enjoyed having an old guy sneak into their house and give them free stuff. As my good friends Paul [Hewson] and Tim [Cook] have seen, that time has passed. So I am warning anyone who decides to use the “<a href="http://itunes.com/soi-remove">remove <em>Songs of Innocence</em></a>” tool. I wanted to announce that I will also be removing your name from my list of annual visits. Thank you.</p>
+</blockquote>
+
+<h2 id="we-were-young-not-dumb">We Were Young, Not Dumb</h2>
+
+<p>I like U2, although their last couple of albums have been a long downhill slide and it’s unlikely that I would have purchased this one. So in one sense, I’m okay with Apple buying the new album and giving it to me <em>gratis</em>. </p>
+
+<p>And I suspect that for a lot of people the album itself isn’t the problem. As one of my friends put it:</p>
+
+<blockquote>
+  <p>…for me, it’s a weird boundary issue. Like, I’m fine with someone sending me a free CD in the mail, I’m less fine with a CD randomly appearing on my coffee table while I’m at work. </p>
+</blockquote>
+
+<p>None of us like reminders that our devices are only “ours” on the surface. We try not to acknowledge that Apple<sup id="fnref:android"><a href="#fn:android" rel="footnote">1</a></sup> reigns supreme on the device. We like the illusion of security and privacy, and anything that erodes that illusion creeps us out. </p>
+
+<p>For others, of course, the album <em>is</em> the problem. I trust Apple to allow me to buy whatever music, books, movies, and apps I want without censorship or oversight<sup id="fnref:with"><a href="#fn:with" rel="footnote">2</a></sup>. I want them to keep my music library safe, and keep it <em>mine</em>. I don’t want them dictating what constitutes “good music” to me. I like U2, so I’m not bothered by this particular album. But if Apple had shoved a John Meyer or Beyoncé or (more plausibly) Dr. Dré album into my iTunes library I would have been incensed. </p>
+
+<p>So, Bono Claus, if you’re reading this<sup id="fnref:nope"><a href="#fn:nope" rel="footnote">3</a></sup>: next time you want to give us something for free please just <em>knock</em> instead of coming down the chimney. </p>
+
+<hr />
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:android">
+      <p>Or Google, if you’re using Android<a href="#fnref:android" rel="reference">&#8617;</a></p>
+    </li>
+    <li id="fn:with">
+      <p>okay, with some censorship and oversight. Quite a bit, actually. But you know what I mean.<a href="#fnref:with" rel="reference">&#8617;</a></p>
+    </li>
+    <li id="fn:nope">
+      <p>he’s not. <a href="#fnref:nope" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Possible Titles For Painless Vim]]></title>
@@ -767,34 +814,6 @@ Just a quick post to happily note that <a href="http://www.daysofwonder.com">Day
     </li>
     <li id="fn:upgrade">
       <p>Upgradable to 8GB for $16/year<a href="#fnref:upgrade" rel="reference">&#8617;</a></p>
-    </li>
-  </ol>
-</div>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Using Slicereader to be a Better Writer]]></title>
-    <link href="http://natedickson.com/blog/2013/07/17/using-slicereader-to-be-a-better-writer/"/>
-    <updated>2013-07-17T15:02:00-06:00</updated>
-    <id>http://natedickson.com/blog/2013/07/17/using-slicereader-to-be-a-better-writer</id>
-    <content type="html"><![CDATA[<p><img class="right" src="http://natedickson.com/assets/images/Slicereader.jpg" title="&#34;The Slicereader Icon&#34;" alt="&#34;The Slicereader Icon&#34;" />
-Working on <a href="http://leanpub.com/painless_vim">Painless Vim</a> has been an education for me, and not just about vim. I&rsquo;ve  been working on developing a writing/editing loop that is more sustainable than <a href="http://nanowrimo.org">NaNoWriMo</a>&rsquo;s joyous abandon, so that I&rsquo;ll actually do some editing. While I enjoy working quickly and just getting things out there in front of people, there&rsquo;s a problem with that model: not only am I terrible typist, I also write some terrible first drafts.</p>
-
-<p><a href="http://www.amazon.com/gp/product/0385480016/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0385480016&amp;linkCode=as2&amp;tag=httpnatedicco-20">Anne Lamott</a> would say that&rsquo;s okay; and I agree with her. But the problem is that I&rsquo;m also <em>really bad</em> at revising. Part of my problem is that I&rsquo;m a very good speed reader, which really just means that I&rsquo;m good at skimming over what I consider to be fluff and finding what I consider to be the point of the text in front of me. Good for getting through things quickly, bad for finding mistakes in my own text. </p>
-
-<p>So I needed a way to force myself to slow down and actually look at the words. Not surprisingly it was <a href="http://brettterpstra.com/2013/06/30/mac-app-review-slicereader/">Brett Terpstra</a> that clued me into this simple little &ldquo;one thing well&rdquo; app. With <a href="http://mthr.me/slicereader/">Slicereader</a> I just paste whatever chapter I&rsquo;m working on into the app, and it converts all of my Markdown into nicely formatted text<sup id="fnref:mostly"><a href="#fn:mostly" rel="footnote">1</a></sup> and only shows me one paragraph at a time. Meaning I have to actually <em>read</em> that paragraph all by itself. Meaning I have to view it as a single entity, without resting on what came before or after it. Meaning I end up editing <em>every</em> paragraph instantly and repeatedly, reloading the text and seeing how my new changes stand up. </p>
-
-<p>Slicereader is almost disturbingly focused on what it sets out to do: there are no fancy options to twiddle, no settings, no font pickers. You can choose daytime or nighttime mode. But when I need some  help focusing on my editing, having all those choices taken from me is definitely a good thing.</p>
-
-<p>And yes, I&rsquo;ve run this article through Slicereader as well. </p>
-
-<hr />
-
-<div class="footnotes">
-  <ol>
-    <li id="fn:mostly">
-      <p>Mostly. It only handles Gruber markdown, meaning no footnotes, etc.<a href="#fnref:mostly" rel="reference">&#8617;</a></p>
     </li>
   </ol>
 </div>
