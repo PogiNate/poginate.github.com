@@ -9,7 +9,7 @@
   <meta name="author" content="Nate Dickson">
 
   
-  <meta name="description" content="News of the backlash against U2’s Songs of Innocence has reached the North Pole. Santa Claus today has released a statement: There was a time when &hellip;">
+  <meta name="description" content="I was brushing up on some JavaScript for work and came across a problem that has bugged me before: testing for NaN1. I’ve never dug too deeply into &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -32,7 +32,7 @@
   <meta property="twitter:site" content="poginate" />
   <meta property="twitter:url" content="http://natedickson.com/" />
   <meta property="twitter:title" content="Nate Dickson" />
-  <meta property="twitter:description" content="News of the backlash against U2’s Songs of Innocence has reached the North Pole. Santa Claus today has released a statement: There was a time when people enjoyed having an old guy sneak into their &hellip;" />
+  <meta property="twitter:description" content="I was brushing up on some JavaScript for work and came across a problem that has bugged me before: testing for NaN1. I’ve never dug too deeply into this one, I’ve just known that if you try something &hellip;" />
   <meta property="twitter:creator" content="poginate" />
   
 
@@ -80,6 +80,102 @@
       <div id="content">
         <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/10/06/douglas-adams-and-javascript/">Douglas Adams and JavaScript</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-10-06T15:20:18-06:00" pubdate data-updated="true">Oct 6<span>th</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I was brushing up on some JavaScript for work and came across a problem that has bugged me before: testing for <code>NaN</code><sup id="fnref:notANumber"><a href="#fn:notANumber" rel="footnote">1</a></sup>. I’ve never dug too deeply into this one, I’ve just known that if you try something like this:</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+<span class="line-number">4</span>
+<span class="line-number">5</span>
+<span class="line-number">6</span>
+<span class="line-number">7</span>
+</pre></td><td class="code"><pre><code class="javascript"><span class="line"><span class="kd">var</span> <span class="nx">a</span> <span class="o">=</span> <span class="kc">NaN</span>
+</span><span class="line"><span class="k">if</span> <span class="p">(</span><span class="nx">a</span> <span class="o">==</span> <span class="kc">NaN</span><span class="p">){</span>
+</span><span class="line">   <span class="c1">//a is NaN, do something</span>
+</span><span class="line"><span class="p">}</span>
+</span><span class="line"><span class="k">else</span><span class="p">{</span>
+</span><span class="line">   <span class="c1">//a is a number, do something else</span>
+</span><span class="line"><span class="p">}</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div>
+
+<p>The code would always do something else. so I usually found a different way to solve the problem. </p>
+
+<p>Today I actually dug into it and found that in JavaScript the value <code>NaN</code> has some odd properties:</p>
+
+<ol>
+  <li>It’s a number.</li>
+  <li>It is the one value in JavaScript that can never equal itself. </li>
+</ol>
+
+<p>So that’s annoying, but actually lends itself to a very easy solution: if you want to test if a variable is <code>NaN</code> you can test it like this:</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+<span class="line-number">4</span>
+<span class="line-number">5</span>
+</pre></td><td class="code"><pre><code class="javascript"><span class="line"><span class="k">if</span> <span class="p">(</span><span class="nx">a</span> <span class="o">!==</span> <span class="nx">a</span><span class="p">){</span>
+</span><span class="line">	<span class="c1">// a is NaN</span>
+</span><span class="line"><span class="p">}</span><span class="k">else</span><span class="p">{</span>
+</span><span class="line">	<span class="c1">// a is a number</span>
+</span><span class="line"><span class="p">}</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div>
+
+<p>But people who are good at JavaScript already know this. This is not news. </p>
+
+<p>What struck me about this is that Douglas Adams invented a word for this kind of value: </p>
+
+<blockquote>
+  <p>… a recipriversexcluson, a number whose existence can only be defined as being anything other than itself. 
+Douglas Adams, *The Ultimate Hitchhiker’s Guide to the Galaxy (p. 345). Random House Publishing Group. Kindle Edition. *</p>
+</blockquote>
+
+<p>Somehow this made me actually like JavaScript more. </p>
+
+<hr />
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:notANumber">
+      <p>If you don’t know, <code>NaN</code> is a special value meaning “Not a Number” and is used to check if the variable you’re working with actually has numerical data.<a href="#fnref:notANumber" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -718,87 +814,6 @@ A thing I once thought would never happen has happened twice: I have been paid f
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/03/03/why-oyster-books-isnt-for-me/">Why Oyster Books Isn&#8217;t for Me</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-03-03T09:00:00-07:00" pubdate data-updated="true">Mar 3<span>rd</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>…yet. </p>
-
-<p>Last Saturday I opened an account. The next day I closed it.</p>
-
-<p>On the surface <a href="https://www.oysterbooks.com/">Oyster Books</a> looks like a great thing: pay $10 every month and get access to a growing library of books. This, you would think, is basically playing right to my wheelhouse. I love books, I love reading, and I love eBooks on my mobile devices. </p>
-
-<p>But it’s not for me. Why is that?</p>
-
-<p>I mean, $9.95 isn’t bad; it’s kinda-sorta the same price as Netflix, and I read far more than I watch in a given month. I could easily read four or five books every month and it would probably be a good thing, right?</p>
-
-<p>Except…</p>
-
-<p>Except what <em>kind</em> of books are on the service? I have a hard enough time finding books I consider “worth reading” on iBooks or Kindle. Anything that is older than the digital age and not über mainstream tends to get forgotten. Anything that has slipped into the public domain is spammed out on the store, thousands of copies, most of them terrible OCR transfers that were never read or reviewed before being shoved onto the store to make a few bucks. </p>
-
-<p>And from what I’ve seen Oyster hasn’t really drawn a different crowd. They have a number of recent best sellers, but a much shallower back bench than the other services, once you remove the <a href="http://www.gutenberg.org/wiki/Main_Page">Project Gutenburg</a> rips that everyone has. Oyster has a single Bill Bryson book, the other services have most of his catalog. I could keep going, but the odds are my numbers will all be wrong in a day or two. The <em>point</em> is that I spent a few hours searching Oyster’s catalog for things I really <em>wanted</em> to read and came up with a single book.</p>
-
-<p>But “worth reading” can be a dangerous phrase, and it’s one that doesn’t really sound like <em>me</em> to me. I have spent my life reading just about everything I come across. I’m an author myself, and I should therefore want to stoke the fires of my own literary career by pulling in the best of everyone else’s, right?</p>
-
-<p>Well, yeah. But my time is limited. I work eight hours a day and spend six hours trying to build and maintain a relationship with my wife and kiddos. I squeeze in exercise, games and writing around the edges of this by sleeping between five and seven hours a night. So if I’m going to read a book it needs to be worth the precious minutes I give it. And here’s where a lesson I learned years ago comes back into play.</p>
-
-<p>When I was a teenager I got hired by Bookstar, a small bookstore that was a subsidiary of Barnes and Noble. Shortly after I started at Bookstar we moved into a full-fledged Barnes and Noble superstore. It was a flagship store for the region, and was bigger than any two libraries I had ever visited in my young life. During the early days I would walk through the store in sheer wonder, feeling the immensity of the world’s wisdom, collected around me. I was in heaven. I was surrounded by all that was best and brightest in the world of words.</p>
-
-<p>Except…I wasn’t. The world’s greatest books <em>were</em> in there; we had the entire Loeb Classical Library, both Greek and Latin; the works of Proust and cummings Chesterton and Wodehouse and Feynman and Hawking and Picasso and Miles Davis (in our music department, of course) and the upcoming geniuses as well. But they were thin on the ground compared to the romance novels, serial mysteries, spin-off sci-fi, brainless self-help books<sup id="fnref:disclaimer"><a href="#fn:disclaimer" rel="footnote">1</a></sup>…all the books that look very impressive until you realize that they weren’t written to increase the sum total of human knowledge, they were written to increase the publisher’s bottom line. For every masterpiece that was turned out because the author had a story that <em>must be told</em> there were thirty books that were trying to capitalize on the latest blockbuster. </p>
-
-<p>And I read them. As an employee I was allowed to check books out from the shelves with the understanding that if I bent it I bought it<sup id="fnref:noBend"><a href="#fn:noBend" rel="footnote">2</a></sup>. I picked things up joyfully from just about every shelf and read and read and read…and realized that a lot of what I read wasn’t making my life better. I wasn’t any happier, I wasn’t any smarter or any more connected to my fellow human beings. I was just…older. But reading is addictive; even if you’re not in love with the book you’re reading you can still enjoy the experience. So I kept just reading anything, working my way through series after series of 300-page fantasy titles that had all the intelligence of a sitcom, but slower, or through 1,100 page epics that were anything but.</p>
-
-<p>Finally I told myself that my time was worth more, and I needed to read things that were “worth reading”. I got myself a list of “great books” and started into it. Some resonated with me, some didn’t. Some were amazing and some had aged poorly enough that I couldn’t really follow them and lost interest. I still picked up light fantasy titles now and again, but I was determined to change.</p>
-
-<p>So now I generally only read things that I feel have a real point or enough artistry to be worth the time. I say generally, but it’s easy to relapse. I fully recognize that some of my favorite books in recent years are entirely devoid of anything resembling substance or style. And that’s where I get back around to why I probably shouldn’t sign (back) up for Oyster, at least not yet:</p>
-
-<p>I would start reading crap again. </p>
-
-<p>If I was paying ten bucks for a service I would make sure I was getting “my money’s worth” out of the service by ploughing through at least two or three books each month. And I would <em>love</em> it. But I don’t think it would be good for me. </p>
-
-<p>Instead, I’ll just set aside $10 a month for new books. Buying one every a month is about right, and gives me time to catch up on my huge library at home. </p>
-
-<div class="footnotes">
-  <ol>
-    <li id="fn:disclaimer">
-      <p>There are many excellent mystery novels and good sci-fi and good self-help books, I know. But for every good one there are two dozen mindless filler titles that were written by committee. <a href="#fnref:disclaimer" rel="reference">&#8617;</a></p>
-    </li>
-    <li id="fn:noBend">
-      <p>Never a problem for me or most of my coworkers. By and large booksellers are a self-selected group made up of people who would gnaw their own arm off rather than dog-ear a page to mark their place. <a href="#fnref:noBend" rel="reference">&#8617;</a></p>
-    </li>
-  </ol>
-</div>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/2/">&larr; Older</a>
@@ -814,6 +829,10 @@ A thing I once thought would never happen has happened twice: I have been paid f
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2014/10/06/douglas-adams-and-javascript/">Douglas Adams and JavaScript</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2014/09/15/psa-deleting-songs-of-innocence-will-cancel-christmas/">PSA: Deleting Songs of Innocence Will Cancel Christmas</a>
       </li>
     
@@ -827,10 +846,6 @@ A thing I once thought would never happen has happened twice: I have been paid f
     
       <li class="post">
         <a href="/blog/2014/07/22/getting-back-into-podcasts-with-overcast/">Getting Back Into Podcasts With Overcast</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/07/09/fully-custom-keyboard/">Fully Custom Keyboard</a>
       </li>
     
   </ul>

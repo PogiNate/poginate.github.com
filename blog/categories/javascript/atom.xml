@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: JavaScript | Nate Dickson]]></title>
+  <link href="http://natedickson.com/blog/categories/javascript/atom.xml" rel="self"/>
+  <link href="http://natedickson.com/"/>
+  <updated>2014-10-06T15:33:42-06:00</updated>
+  <id>http://natedickson.com/</id>
+  <author>
+    <name><![CDATA[Nate Dickson]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Douglas Adams and JavaScript]]></title>
+    <link href="http://natedickson.com/blog/2014/10/06/douglas-adams-and-javascript/"/>
+    <updated>2014-10-06T15:20:18-06:00</updated>
+    <id>http://natedickson.com/blog/2014/10/06/douglas-adams-and-javascript</id>
+    <content type="html"><![CDATA[<p>I was brushing up on some JavaScript for work and came across a problem that has bugged me before: testing for <code>NaN</code><sup id="fnref:notANumber"><a href="#fn:notANumber" rel="footnote">1</a></sup>. I’ve never dug too deeply into this one, I’ve just known that if you try something like this:</p>
+
+<p><code>javascript
+	var a = NaN
+	if (a == NaN){
+	   //a is NaN, do something
+	}
+	else{
+	   //a is a number, do something else
+	}
+</code></p>
+
+<p>The code would always do something else. so I usually found a different way to solve the problem. </p>
+
+<p>Today I actually dug into it and found that in JavaScript the value <code>NaN</code> has some odd properties:</p>
+
+<ol>
+  <li>It’s a number.</li>
+  <li>It is the one value in JavaScript that can never equal itself. </li>
+</ol>
+
+<p>So that’s annoying, but actually lends itself to a very easy solution: if you want to test if a variable is <code>NaN</code> you can test it like this:</p>
+
+<p><code>javascript
+	if (a !== a){
+		// a is NaN
+	}else{
+		// a is a number
+	}
+</code></p>
+
+<p>But people who are good at JavaScript already know this. This is not news. </p>
+
+<p>What struck me about this is that Douglas Adams invented a word for this kind of value: </p>
+
+<blockquote>
+  <p>… a recipriversexcluson, a number whose existence can only be defined as being anything other than itself. 
+Douglas Adams, *The Ultimate Hitchhiker’s Guide to the Galaxy (p. 345). Random House Publishing Group. Kindle Edition. *</p>
+</blockquote>
+
+<p>Somehow this made me actually like JavaScript more. </p>
+
+<hr />
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:notANumber">
+      <p>If you don’t know, <code>NaN</code> is a special value meaning “Not a Number” and is used to check if the variable you’re working with actually has numerical data.<a href="#fnref:notANumber" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+]]></content>
+  </entry>
+  
+</feed>
