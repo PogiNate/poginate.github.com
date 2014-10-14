@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Podcast | Nate Dickson]]></title>
+  <link href="http://natedickson.com/blog/categories/podcast/atom.xml" rel="self"/>
+  <link href="http://natedickson.com/"/>
+  <updated>2014-10-14T10:13:12-06:00</updated>
+  <id>http://natedickson.com/</id>
+  <author>
+    <name><![CDATA[Nate Dickson]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Announcing Five A.M. Radio]]></title>
+    <link href="http://natedickson.com/blog/2014/10/14/announcing-five-a-m-radio/"/>
+    <updated>2014-10-14T09:59:56-06:00</updated>
+    <id>http://natedickson.com/blog/2014/10/14/announcing-five-a-m-radio</id>
+    <content type="html"><![CDATA[<p><img class="right" src="assets/images/FAR_Logo.png" title="The Five A.M. Radio Logo" ></p>
+
+<p>So, between a full time job, continuing work on <em>Painless Tmux</em> and home stuff I decided I don’t have enough to do. And a good friend of mine decided the same thing. Together we took these decisions and turned them into a new podcast, which I’m excited to share with you. This new podcast is called <em>Five A.M. Radio</em>. </p>
+
+<h2 id="why-is-it-called-that">Why Is It Called That?</h2>
+
+<p>Five A.M. Radio was born out of Michael Boyle and I talking and playing games at right around Five A.M. every morning. We’ve been friends for years, and recently through Steam we’ve noticed that we both get up a lot earlier than we need to if all we wanted to do was get to work on time. And we started talking about the sort of things we do in that early morning free time. Sometimes we play games, sometimes we work on projects (like writing books), sometimes we just watch movies or TV shows, but basically it’s all just “whatever is exciting enough or interesting enough to get us out of bed early.”</p>
+
+<p>So Five A.M. Radio is an eclectic mix. We have five episodes up already, and more in the pipeline. It’s a weekly show, giving you a little half-hour dose of our commentary on such fascinating things as keyboards, Magic the Gathering, Kickstarter, and, like I said, pretty much anything that catches our attention. </p>
+
+<p>I hope you’ll check it out. The website is <fiveamradio.com>, where you can listen to each episode, and it has links where you can subscribe to the podcast in your favorite podcast manager. If you have any feedback you can hit us on twitter as @fiveamradio, or email us at `hello` at the domain of the show, listed above. I'd love to know if there are any shows you'd like us to do. </fiveamradio.com></p>
+]]></content>
+  </entry>
+  
+</feed>
